@@ -964,6 +964,9 @@
     "char_248_mgllan": [
       "char_248_mgllan"
     ],
+    "char_4195_radian": [
+      "char_4195_radian"
+    ],
     "char_4134_cetsyr": [
       "char_4134_cetsyr"
     ],
@@ -2600,6 +2603,154 @@
     "char_1026_gvial2": 1673593200,
     "char_1028_texas2": 1684825200
   },
-  "charIdMasterListMap": {},
-  "charMasterDataMap": {}
+  "charIdMasterListMap": {
+    "char_4195_radian": [
+      "master_radian_1",
+      "master_radian_2",
+      "master_radian_3",
+      "master_radian_4",
+      "master_radian_5",
+      "master_radian_6"
+    ]
+  },
+  "charMasterDataMap": {
+    "master_radian_1": {
+      "charId": "char_4195_radian",
+      "masterId": "master_radian_1",
+      "sortId": 1,
+      "masterType": "SYSTEM",
+      "levelList": [
+        {
+          "level": 1,
+          "name": "支援技巧 I",
+          "description": "【思わぬ遭遇】のイベント「球中天」の「レイディアンに道を探らせる」選択肢が解放される",
+          "conditionDesc": "招集不要で、昇進段階1まで育成すると効果発動"
+        },
+        {
+          "level": 2,
+          "name": "支援技巧 I",
+          "description": "【思わぬ遭遇】のイベント「球中天」の「レイディアンに道を探らせる」選択肢と、【伝説】のイベント「球中天」の「レイディアンを中に入れる」選択肢が解放される",
+          "conditionDesc": "招集不要で、昇進段階2まで育成すると効果発動"
+        }
+      ]
+    },
+    "master_radian_2": {
+      "charId": "char_4195_radian",
+      "masterId": "master_radian_2",
+      "sortId": 2,
+      "masterType": "SYSTEM",
+      "levelList": [
+        {
+          "level": 1,
+          "name": "支援技巧 II",
+          "description": "特別行動分隊の効果上昇",
+          "conditionDesc": "招集不要で、昇進段階2まで育成すると効果発動"
+        }
+      ]
+    },
+    "master_radian_3": {
+      "charId": "char_4195_radian",
+      "masterId": "master_radian_3",
+      "sortId": 3,
+      "masterType": "SYSTEM",
+      "levelList": [
+        {
+          "level": 1,
+          "name": "招集技巧 I",
+          "description": "【歳の界園志異】で招集される際の希望消費-2",
+          "conditionDesc": "統合戦略：歳の界園志異での招集時に効果発動"
+        },
+        {
+          "level": 2,
+          "name": "招集技巧 I",
+          "description": "【歳の界園志異】で招集される際の希望消費-4",
+          "conditionDesc": "統合戦略：歳の界園志異での招集時に効果発動"
+        },
+        {
+          "level": 3,
+          "name": "招集技巧 I",
+          "description": "【歳の界園志異】で招集される際の希望消費-4、昇進させられる際の希望消費-2",
+          "conditionDesc": "統合戦略：歳の界園志異での招集時に効果発動"
+        }
+      ]
+    },
+    "master_radian_4": {
+      "charId": "char_4195_radian",
+      "masterId": "master_radian_4",
+      "sortId": 4,
+      "masterType": "SYSTEM",
+      "levelList": [
+        {
+          "level": 1,
+          "name": "招集技巧 II",
+          "description": "【歳の界園志異】で招集されると、チームの招集券保留上限+1",
+          "conditionDesc": "統合戦略：歳の界園志異での招集後に効果発動"
+        },
+        {
+          "level": 2,
+          "name": "招集技巧 II",
+          "description": "【歳の界園志異】で招集されると、チームの招集券保留上限+1、次に歳獣の残識に入る際の燭火+1",
+          "conditionDesc": "統合戦略：歳の界園志異での招集後に効果発動"
+        },
+        {
+          "level": 3,
+          "name": "招集技巧 II",
+          "description": "【歳の界園志異】で招集されると、チームの招集券保留上限+1、シールド値+2、次に歳獣の残識に入る際の燭火+1、さらに歳獣の残識のスポットがランダムで1つ探索可能となる",
+          "conditionDesc": "統合戦略：歳の界園志異での招集後に効果発動"
+        }
+      ]
+    },
+    "master_radian_5": {
+      "charId": "char_4195_radian",
+      "masterId": "master_radian_5",
+      "sortId": 5,
+      "masterType": "SYSTEM",
+      "levelList": [
+        {
+          "level": 1,
+          "name": "戦闘技巧 I",
+          "description": "【歳の界園志異】で新エリアに入るたび、レイディアンが以下の効果を順に獲得：召喚物の配置コスト-9、召喚物の同時配置可能数+1",
+          "conditionDesc": "統合戦略：歳の界園志異での招集後に効果発動"
+        },
+        {
+          "level": 2,
+          "name": "戦闘技巧 I",
+          "description": "【歳の界園志異】で新エリアに入るたび、レイディアンが以下の効果を順に獲得：召喚物の配置コスト-9、召喚物の同時配置可能数+2、召喚物の攻撃速度+20",
+          "conditionDesc": "統合戦略：歳の界園志異での招集後に効果発動"
+        },
+        {
+          "level": 3,
+          "name": "戦闘技巧 I",
+          "description": "【歳の界園志異】で新エリアに入るたび、レイディアンが以下の効果を順に獲得：召喚物の配置コスト-9、召喚物の同時配置可能数+2、召喚物の攻撃速度+35、召喚物が残り配置可能数を消費しない",
+          "conditionDesc": "統合戦略：歳の界園志異での招集後に効果発動"
+        }
+      ]
+    },
+    "master_radian_6": {
+      "charId": "char_4195_radian",
+      "masterId": "master_radian_6",
+      "sortId": 6,
+      "masterType": "BATTLE",
+      "levelList": [
+        {
+          "level": 1,
+          "name": "戦闘技巧 II",
+          "description": "【歳の界園志異】において、レイディアンとその召喚物の最大HP+20%",
+          "conditionDesc": "統合戦略：歳の界園志異での招集後に効果発動"
+        },
+        {
+          "level": 2,
+          "name": "戦闘技巧 II",
+          "description": "【歳の界園志異】において、レイディアンとその召喚物の最大HP・防御力+25%",
+          "conditionDesc": "統合戦略：歳の界園志異での招集後に効果発動"
+        },
+        {
+          "level": 3,
+          "name": "戦闘技巧 II",
+          "description": "【歳の界園志異】において、レイディアンとその召喚物の最大HP・防御力+30%、術耐性+15",
+          "conditionDesc": "統合戦略：歳の界園志異での招集後に効果発動"
+        }
+      ]
+    }
+  }
 }
