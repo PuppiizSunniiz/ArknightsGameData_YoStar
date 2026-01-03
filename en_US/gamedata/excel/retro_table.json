@@ -83,7 +83,10 @@
     "permanent_sidestory_25_zone2": "permanent_sidestory_25_Here_A_People_Sows",
     "permanent_sidestory_25_zone3": "permanent_sidestory_25_Here_A_People_Sows",
     "permanent_sidestory_26_zone1": "permanent_sidestory_26_Path_Of_Life",
-    "permanent_sidestory_26_zone2": "permanent_sidestory_26_Path_Of_Life"
+    "permanent_sidestory_26_zone2": "permanent_sidestory_26_Path_Of_Life",
+    "permanent_sidestory_27_zone1": "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun",
+    "permanent_sidestory_27_zone2": "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun",
+    "permanent_sidestory_27_zone3": "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun"
   },
   "stageValidInfo": {
     "act9d0_01": {
@@ -4473,6 +4476,158 @@
     "act34side_ex08#f#": {
       "startTs": 1765450800,
       "endTs": -1
+    },
+    "act35side_st01": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_01": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_tr01": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_02": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_03": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_04": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_05": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_st02": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_06": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_07": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_08": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_09": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_st03": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex01": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex01#f#": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex02": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex02#f#": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex03": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex03#f#": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex04": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex04#f#": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex05": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex05#f#": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex06": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex06#f#": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex07": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex07#f#": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex08": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_ex08#f#": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_s01": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_s01#f#": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_s02": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_s02#f#": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_s03": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_s03#f#": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_s04": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_s04#f#": {
+      "startTs": 1768906800,
+      "endTs": -1
+    },
+    "act35side_mo01": {
+      "startTs": 1768906800,
+      "endTs": -1
     }
   },
   "stages": null,
@@ -4981,6 +5136,21 @@
       "trailStartTime": -1,
       "index": 26,
       "name": "Path of Life",
+      "haveTrail": false,
+      "customActId": null,
+      "customActType": "DEFAULT"
+    },
+    "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun": {
+      "retroId": "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun",
+      "type": "SIDESTORY",
+      "linkedActId": [
+        "act35side",
+        "act35sre"
+      ],
+      "startTime": 1768906800,
+      "trailStartTime": -1,
+      "index": 27,
+      "name": "Adventure That Cannot Wait for the Sun",
       "haveTrail": false,
       "customActId": null,
       "customActType": "DEFAULT"
@@ -123757,7 +123927,7 @@
       "description": "Our new friends have made some strange requests.\n<@lv.item><Pure Crystal> </>Connects surrounding Crystal areas.",
       "hardStagedId": null,
       "sixStarStageId": null,
-      "dangerLevel": "Elite 1 Lv.1",
+      "dangerLevel": "Elite 1 Lv. 1",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_AS_sgTown",
       "canPractice": true,
@@ -123897,7 +124067,7 @@
       "description": "Show things off just right, and get exactly what you need.",
       "hardStagedId": null,
       "sixStarStageId": null,
-      "dangerLevel": "Elite 1 Lv.20",
+      "dangerLevel": "Elite 1 Lv. 20",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_AS_sgTown",
       "canPractice": true,
@@ -124037,7 +124207,7 @@
       "description": "Even the museum's collection has to go to work. Do they get days off too?\n<@lv.item><Decrystallizing Totem> </>Removes all Crystal in a line.",
       "hardStagedId": null,
       "sixStarStageId": null,
-      "dangerLevel": "Elite 1 Lv.30",
+      "dangerLevel": "Elite 1 Lv. 30",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_AS_sgTown",
       "canPractice": true,
@@ -124270,7 +124440,7 @@
       "description": "Some are willing to live with fleeting regret forever.\n<@lv.item><Decrystallizing Totem> </>Removes all Crystal in a line.",
       "hardStagedId": null,
       "sixStarStageId": null,
-      "dangerLevel": "Elite 1 Lv.50",
+      "dangerLevel": "Elite 1 Lv. 50",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_AS_sgTown",
       "canPractice": true,
@@ -124416,7 +124586,7 @@
       "description": "Do you think you're a pet?",
       "hardStagedId": null,
       "sixStarStageId": null,
-      "dangerLevel": "Elite 1 Lv.60",
+      "dangerLevel": "Elite 1 Lv. 60",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_AS_sgTown",
       "canPractice": true,
@@ -124585,7 +124755,7 @@
       "description": "Bloodline and spirit do not erode, even after millennia. The heir must face them.",
       "hardStagedId": null,
       "sixStarStageId": null,
-      "dangerLevel": "Elite 2 Lv.10",
+      "dangerLevel": "Elite 2 Lv. 10",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_AS_sgMuseum",
       "canPractice": true,
@@ -124766,7 +124936,7 @@
       "description": "The goal they had dreamed of lies before them, but they chose to cross over it.\n<@lv.item><Pure Crystal> </>Connects surrounding Crystal areas.\n<@lv.item><Decrystallizing Totem> </>Removes all Crystal in a line.",
       "hardStagedId": null,
       "sixStarStageId": null,
-      "dangerLevel": "Elite 2 Lv.20",
+      "dangerLevel": "Elite 2 Lv. 20",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_AS_sgMuseum",
       "canPractice": true,
@@ -125022,7 +125192,7 @@
       "description": "An ordinary citizen should not get on the wrong side of a thief OR a creditor.\n<@lv.item><Roadblock> </>Deploy to block the enemy's route\n<@lv.rem>Ranged Operators can be deployed on Melee tiles in this stage.</>",
       "hardStagedId": "act35side_ex01#f#",
       "sixStarStageId": null,
-      "dangerLevel": "Elite 1 Lv.50",
+      "dangerLevel": "Elite 1 Lv. 50",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_AS_sgTown",
       "canPractice": true,
@@ -125200,7 +125370,7 @@
       "description": "Great river, let not the wind push you.\n<@lv.item><Decrystallizing Totem> </>Removes all Crystal in a line.",
       "hardStagedId": "act35side_ex02#f#",
       "sixStarStageId": null,
-      "dangerLevel": "Elite 1 Lv.60",
+      "dangerLevel": "Elite 1 Lv. 60",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_AS_sgTown",
       "canPractice": true,
@@ -125378,7 +125548,7 @@
       "description": "Want everything, lose everything.\n<@lv.item><Pure Crystal> </>Connects surrounding Crystal areas.",
       "hardStagedId": "act35side_ex03#f#",
       "sixStarStageId": null,
-      "dangerLevel": "Elite 2 Lv.1",
+      "dangerLevel": "Elite 2 Lv. 1",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_AS_sgTown",
       "canPractice": true,
@@ -125556,7 +125726,7 @@
       "description": "Ask your wallet what you should buy.\n<@lv.item><Pure Crystal> </>Connects surrounding Crystal areas.",
       "hardStagedId": "act35side_ex04#f#",
       "sixStarStageId": null,
-      "dangerLevel": "Elite 2 Lv.1",
+      "dangerLevel": "Elite 2 Lv. 1",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_AS_sgTown",
       "canPractice": true,
@@ -125734,7 +125904,7 @@
       "description": "Better to be alone than with a companion of ill-repute.",
       "hardStagedId": "act35side_ex05#f#",
       "sixStarStageId": null,
-      "dangerLevel": "Elite 2 Lv.10",
+      "dangerLevel": "Elite 2 Lv. 10",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_AS_sgTown",
       "canPractice": true,
@@ -125912,7 +126082,7 @@
       "description": "Lying is a disease, and the truth its cure.",
       "hardStagedId": "act35side_ex06#f#",
       "sixStarStageId": null,
-      "dangerLevel": "Elite 2 Lv.20",
+      "dangerLevel": "Elite 2 Lv. 20",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_AS_sgTown",
       "canPractice": true,
@@ -126090,7 +126260,7 @@
       "description": "Anger begins with madness and ends in regret.",
       "hardStagedId": "act35side_ex07#f#",
       "sixStarStageId": null,
-      "dangerLevel": "Elite 2 Lv.35",
+      "dangerLevel": "Elite 2 Lv. 35",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_AS_sgMuseum",
       "canPractice": true,
@@ -126268,7 +126438,7 @@
       "description": "The wind refuses to blow where the boat wants to go.\n<@lv.item><Pure Crystal> </>Connects surrounding Crystal areas.\n<@lv.item><Decrystallizing Totem> </>Removes all Crystal in a line.",
       "hardStagedId": "act35side_ex08#f#",
       "sixStarStageId": null,
-      "dangerLevel": "Elite 2 Lv.40",
+      "dangerLevel": "Elite 2 Lv. 40",
       "dangerPoint": -1.0,
       "loadingPicId": "loading_AS_sgMuseum",
       "canPractice": true,
@@ -126356,7 +126526,7 @@
       "zoneId": "permanent_sidestory_27_zone2",
       "code": "AS-EX-8",
       "name": "The Uncrowned King and the Pilgrim",
-      "description": "<@lv.fs>Condition:</>\nSpecialist Operators cannot be deployed",
+      "description": "<@lv.fs>Condition: </>\nSpecialist Operators cannot be deployed",
       "hardStagedId": null,
       "sixStarStageId": null,
       "dangerLevel": "-",
