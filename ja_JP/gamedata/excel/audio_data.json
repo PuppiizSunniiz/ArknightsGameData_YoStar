@@ -4150,6 +4150,24 @@
       "name": "battle.ON_GAME_READY.bat_ymgscm"
     },
     {
+      "intro": null,
+      "loop": "Audio/Sound_Beta_2/Music/act1crisisv2_4/m_sys_ccs_v2_4_loop",
+      "volume": 1.0,
+      "crossfade": 1.0,
+      "delay": 0.0,
+      "fadeStyleId": null,
+      "name": "sys.ON_CRISIS_V2_SEASON_LOADED.crisis_v2_season_4_1"
+    },
+    {
+      "intro": "Audio/Sound_Beta_2/Music/act1crisisv2_4/m_bat_ccs_v2_4_intro",
+      "loop": "Audio/Sound_Beta_2/Music/act1crisisv2_4/m_bat_ccs_v2_4_loop",
+      "volume": 0.8,
+      "crossfade": 1.0,
+      "delay": 0.0,
+      "fadeStyleId": null,
+      "name": "battle.ON_GAME_READY.crisis_v2_season_4_1_main"
+    },
+    {
       "intro": "Audio/Sound_Beta_2/Music/act14d0d0/m_bat_lullaby_intro",
       "loop": "Audio/Sound_Beta_2/Music/act14d0d0/m_bat_lullaby_loop",
       "volume": 1.0,
@@ -222090,6 +222108,16 @@
       "bank": "sys.ON_ACTIVITY_LOADED.act31side"
     },
     {
+      "id": "music_bg_volcano_day",
+      "name": "Misty Memory (Day Version)",
+      "bank": "sys.ON_ACTIVITY_LOADED.act27side.day"
+    },
+    {
+      "id": "music_bg_volcano_night",
+      "name": "Misty Memory (Night Version)",
+      "bank": "sys.ON_ACTIVITY_LOADED.act27side.night"
+    },
+    {
       "id": "music_act13side_0",
       "name": "大騎士領",
       "bank": "sys.ON_ACTIVITY_LOADED.act13side"
@@ -223318,6 +223346,7 @@
     "sys.ON_ACTIVITY_LOADED.act5bossrush": "sys.ON_ACTIVITY_LOADED.act1bossrush",
     "sys.ON_ROGUELIKE_SHOP.rogue_5": "sys.ON_ROGUELIKE_SHOP.rogue_1",
     "sys.ON_ROGUELIKE_LOADED.rogue_5": "sys.ON_ROGUELIKE_MAPLOW.rogue_5",
+    "battle.ON_GAME_READY.crisis_v2_season_4_1_main_challenge": "battle.ON_GAME_READY.crisis_v2_season_4_1_main",
     "battle.ON_GAME_READY.enemydue2": "battle.ON_GAME_READY.enemyduel"
   }
 }
