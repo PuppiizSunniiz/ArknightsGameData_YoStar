@@ -14220,6 +14220,153 @@
           ]
         }
       ]
+    },
+    "char_4182_oblvns": {
+      "charId": "char_4182_oblvns",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_prod_bd_spd[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            },
+            {
+              "buffId": "control_prod_bd_spd[010]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "control_mp_cost&bd3[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_4183_mortis": {
+      "charId": "char_4183_mortis",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_mp_bd&trade[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "control_mp_cost_reset[000]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_4185_amoris": {
+      "charId": "char_4185_amoris",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_meeting_spd&bd[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "control_mp&meet_spd[000]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_4184_dolris": {
+      "charId": "char_4184_dolris",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_dorm_bd[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "control_dorm_rec2[000]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_4186_tmoris": {
+      "charId": "char_4186_tmoris",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_hire_spd&bd[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "control_tra_limit&spd2[000]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "buffs": {
@@ -14264,6 +14411,36 @@
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
       "description": "제어 센터에 배치 시, 제조소에 배치된 <$cc.tag.knight><@cc.kw>기사</></> 오퍼레이터 1명당 생산력 <@cc.vup>+7%</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_prod_bd_spd[000]": {
+      "buffId": "control_prod_bd_spd[000]",
+      "buffName": "풍부한 업무 경험",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_p_oblvns",
+      "sortId": 1617,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "제어 센터에 배치 시, 모든 <@cc.kw>귀금속</>류에 대한 제조소 생산력 <@cc.vup>+0.5%</>, 보유한 <$cc.bd_mujica><@cc.rem>열정</></> <@cc.vup>20</>마다 모든 <@cc.kw>귀금속</>류에 대한 제조소 생산력 <@cc.vup>+0.5%</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_prod_bd_spd[010]": {
+      "buffId": "control_prod_bd_spd[010]",
+      "buffName": "풍부한 업무 경험",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_p_oblvns",
+      "sortId": 1617,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "제어 센터에 배치 시, 모든 <@cc.kw>귀금속</>류에 대한 제조소 생산력 <@cc.vup>+1%</>, 보유한 <$cc.bd_mujica><@cc.rem>열정</></> <@cc.vup>20</>마다 모든 <@cc.kw>귀금속</>류에 대한 제조소 생산력 <@cc.vup>+1%</>",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -14429,6 +14606,21 @@
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
       "description": "제어 센터에 배치 시, 무역소 내 <$cc.g.karlan><@cc.kw>카란 무역회사</></> 오퍼레이터가 1명 증가할 때마다 오더 수주 효율 <@cc.vdown>-15%</>, 오더 상한 <@cc.vup>+6</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_tra_limit&spd2[000]": {
+      "buffId": "control_tra_limit&spd2[000]",
+      "buffName": "패밀리의 인정",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_t_limit&spd_tmoris",
+      "sortId": 1616,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "제어 센터에 배치 시, 무역소 내 <$cc.g.siracusa><@cc.kw>시라쿠사</></> 오퍼레이터가 1명 증가할 때마다 오더 수주 효율 <@cc.vup>+5%</>",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -14958,6 +15150,21 @@
       "targetGroupSortId": 0,
       "targets": []
     },
+    "control_mp_cost&bd3[000]": {
+      "buffId": "control_mp_cost&bd3[000]",
+      "buffName": "씩씩한 아가씨",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_mp_oblvns",
+      "sortId": 1617,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "제어 센터에 배치 시, 열정이 <@cc.kw>40</> 이상인 경우 자신의 시간당 컨디션 소모 <@cc.vdown>+0.05</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
     "control_mp_cost&bd_up[000]": {
       "buffId": "control_mp_cost&bd_up[000]",
       "buffName": "자신을 아는 자",
@@ -15014,6 +15221,36 @@
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
       "description": "제어 센터에 배치 시, 자신의 시간당 컨디션 소모 <@cc.vdown>+0.5</>, <$cc.bd_felyne><@cc.rem>아이룰루</></> <@cc.vup>+8</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_mp_cost_reset[000]": {
+      "buffId": "control_mp_cost_reset[000]",
+      "buffName": "서로의 반쪽",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_mp_mortis",
+      "sortId": 1613,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "<@cc.kw>토가와 사키코</>와 함께 제어 센터에 배치 시, 자신의 컨디션 소모로 인해 받는 영향 제거",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_mp&meet_spd[000]": {
+      "buffId": "control_mp&meet_spd[000]",
+      "buffName": "성과주의",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_meet_amoris2",
+      "sortId": 1614,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "<@cc.kw>토가와 사키코</>와 같이 제어 센터에 배치 시 <@cc.kw>토가와 사키코</>의 시간당 컨디션 소모량 <@cc.vdown>+0.05</>, 응접실의 단서 수집 속도 추가로 <@cc.vup>+5%</> (동종 효과 중 가장 높은 수치만 적용)",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -15228,6 +15465,21 @@
       "targetGroupSortId": 0,
       "targets": []
     },
+    "control_dorm_rec2[000]": {
+      "buffId": "control_dorm_rec2[000]",
+      "buffName": "공명하는 유대",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_dorm_uika2",
+      "sortId": 1615,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "제어 센터에 배치 시, 모든 숙소 안에 배치된 모든 오퍼레이터의 시간당 컨디션 회복 <@cc.vup>+0.05</>(동종 효과 중 가장 높은 수치만 적용). <@cc.kw>토가와 사키코</>와 함께 제어 센터에 배치 시, <@cc.kw>토가와 사키코</>의 시간당 컨디션 회복 <@cc.vup>+0.1</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
     "control_train_spd[010]": {
       "buffId": "control_train_spd[010]",
       "buffName": "S.W.E.E.P. 리더",
@@ -15284,6 +15536,66 @@
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
       "description": "제어 센터에 배치 시, 같은 무역소에 배치된 <$cc.g.glasgow><@cc.kw>글래스고</></> 오퍼레이터 <@cc.vup>1</>명당 오더 수주 효율 <@cc.vup>+10%</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_mp_bd&trade[000]": {
+      "buffId": "control_mp_bd&trade[000]",
+      "buffName": "연기의 괴물",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_trade_mortis",
+      "sortId": 1613,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "제어 센터에 배치 시, <$cc.bd_mujica><@cc.rem>열정</></> <@cc.vup>+20</>, 보유한 <$cc.bd_mujica><@cc.rem>열정</></> <@cc.vup>8</>마다 자신의 시간당 컨디션 소모 <@cc.vdown>+0.01</>, 모든 무역소의 오더 수주 효율 <@cc.vup>+1%</> (동종 효과 중 가장 높은 수치만 적용)",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_meeting_spd&bd[000]": {
+      "buffId": "control_meeting_spd&bd[000]",
+      "buffName": "노력가",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_meet_amoris1",
+      "sortId": 1614,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "제어 센터에 배치 시 <$cc.bd_mujica><@cc.rem>열정</> </><@cc.vup>+10</>, 응접실의 단서 수집 속도 +<@cc.vup>+5%</> (동종 효과 중 가장 높은 수치만 적용)",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_dorm_bd[000]": {
+      "buffId": "control_dorm_bd[000]",
+      "buffName": "아이돌 아우라",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_dorm_uika1",
+      "sortId": 1615,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "제어 센터에 배치 시, 숙소 내 오퍼레이터 <@cc.vup>1</>명당 <$cc.bd_mujica><@cc.rem>열정</></> <@cc.vup>+1</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_hire_spd&bd[000]": {
+      "buffId": "control_hire_spd&bd[000]",
+      "buffName": "믿음직한 동료",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_hire_tmoris",
+      "sortId": 1616,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "제어 센터에 배치 시, <$cc.bd_mujica><@cc.rem>열정</></> <@cc.vup>+10</>, 사무실의 인맥 레퍼런스 누적 속도 <@cc.vup>+10%</> (동종 효과 중 가장 높은 수치만 적용)",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -90617,6 +90929,550 @@
         "enableRoomType": 4112,
         "quantity": 1
       },
+      "furni_dreamCastle_Column_01": {
+        "id": "furni_dreamCastle_Column_01",
+        "sortId": 2056,
+        "name": "'막을 여는' 기둥",
+        "iconId": "furni_dreamCastle_Column_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "COLUMN",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_1",
+        "width": 4,
+        "depth": 4,
+        "height": 10,
+        "comfort": 325,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "무늬 장식이 조각된 대형 돌기둥, 위쪽 레일엔 선홍색 커튼이 걸려 있다.\n이 막을 걷어 열면, 방문객은 깊은 꿈속으로 들어가 사람의 마음을 매혹시키는 슬픔과 기쁨을 맛보게 된다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_ceilingLight_01": {
+        "id": "furni_dreamCastle_ceilingLight_01",
+        "sortId": 2057,
+        "name": "순금 샹들리에",
+        "iconId": "furni_dreamCastle_ceilingLight_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILINGLAMP",
+        "subType": "NONE",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_1",
+        "width": 5,
+        "depth": 4,
+        "height": 4,
+        "comfort": 115,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "어두운 구릿빛 꽃 덩굴 천장 등, 전구는 촛불의 모양을 흉내 냈다.\n천장등의 밝기만으로 홀 전체를 밝히기에는 부족하기에, 항상 누군가는 어둠의 유혹을 받게 되어 있다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 2,
+        "enableRoomType": 4112,
+        "quantity": 2
+      },
+      "furni_dreamCastle_piano_01": {
+        "id": "furni_dreamCastle_piano_01",
+        "sortId": 2058,
+        "name": "'촛불 예배당' 파이프 오르간",
+        "iconId": "furni_dreamCastle_piano_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "INSTRUMENT_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_1",
+        "width": 7,
+        "depth": 3,
+        "height": 8,
+        "comfort": 350,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "두꺼운 파이프 오르간, 파이프 부위는 뾰족한 형태로 장식되어 있다.\n어둠에 겹겹이 둘러싸인 상태에서는 굳센 사람만이 오르간으로 사람의 마음을 깨우는 선율을 연주할 수 있다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_chair_01": {
+        "id": "furni_dreamCastle_chair_01",
+        "sortId": 2059,
+        "name": "암홍색 오르간 의자",
+        "iconId": "furni_dreamCastle_chair_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "SEATING",
+        "subType": "CHAIR",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_1",
+        "width": 2,
+        "depth": 2,
+        "height": 2,
+        "comfort": 115,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "십자형 받침대가 있는 오르간 의자, 방석은 검붉은색 실크로 덮여있다.\n건반을 향해 앉아 때, 연주자는 마음속으로 어떻게 몸부림치고 있을까?",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_candle_01": {
+        "id": "furni_dreamCastle_candle_01",
+        "sortId": 2060,
+        "name": "'떨어지는 피눈물'",
+        "iconId": "furni_dreamCastle_candle_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "FLOORLAMP",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_1",
+        "width": 2,
+        "depth": 2,
+        "height": 4,
+        "comfort": 145,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "어두운 색으로 칠한 금속 입식 촛대, 고풍스럽고 우아하다.\n사람들은 꿈의 성에서 가면을 쓰지만, 이 촛대는 춤추는 가면의 아래에 맺힌 눈물을 볼 수 있게 비춘다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_chair_02": {
+        "id": "furni_dreamCastle_chair_02",
+        "sortId": 2061,
+        "name": "꿈을 좇는 자의 의자",
+        "iconId": "furni_dreamCastle_chair_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "SEATING",
+        "subType": "CHAIR",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_2",
+        "width": 2,
+        "depth": 2,
+        "height": 6,
+        "comfort": 115,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "등받이와 방석이 선홍색으로 칠해진 높은 등받이 의자, 상단에는 촛대 무늬가 조각되어 있다.\n소녀들은 여기서 끝없는 환상에 빠졌다. 이 의자들은 그녀들이 자신을 이겨냈다는 증거다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 5,
+        "enableRoomType": 4112,
+        "quantity": 5
+      },
+      "furni_dreamCastle_table_01": {
+        "id": "furni_dreamCastle_table_01",
+        "sortId": 2062,
+        "name": "고성의 작은 탁자",
+        "iconId": "furni_dreamCastle_table_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "TABLE",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_2",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 130,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "어두운 보라색 실크 테이블보가 깔린 작은 원탁, 그 위에는 스테인드글라스 양식의 탁상 등이 놓여있다.\n소녀는 자신의 나약한 마음을 꿈속에서만 썼던 가면과 함께 과거에 남겨두었다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_drawing_01": {
+        "id": "furni_dreamCastle_drawing_01",
+        "sortId": 2063,
+        "name": "'달밤의 새장'",
+        "iconId": "furni_dreamCastle_drawing_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLDECO",
+        "subType": "ART_WD",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_4",
+        "width": 2,
+        "depth": 1,
+        "height": 3,
+        "comfort": 60,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "꽃무늬의 목제 액자에 들어있는 인테리어 그림, 그려져 있는 것은 쇠사슬에 묶인 달밤이다.\n각 방문객은 마음의 족쇄를 갖고 있는데, 오직 의지가 굳건한 사람만이 그 족쇄를 풀 수 있다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_table_02": {
+        "id": "furni_dreamCastle_table_02",
+        "sortId": 2064,
+        "name": "음울한 테이블",
+        "iconId": "furni_dreamCastle_table_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "TABLE",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_2",
+        "width": 16,
+        "depth": 3,
+        "height": 5,
+        "comfort": 540,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "촛대가 놓인 긴 탁자, 어수선하게 늘어져 있는 날카로운 송곳과 딸려 온 기이한 장식물이 음울한 스타일을 더욱 부각시킨다.\n이변을 겪은 꿈의 성은 도피하려는 사람들로 하여금 의식을 바쳐 헤어 나올 수 없는 꿈에 들어가도록 유혹한다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_carpet_01": {
+        "id": "furni_dreamCastle_carpet_01",
+        "sortId": 2065,
+        "name": "암홍색 밤하늘 무늬 카펫",
+        "iconId": "furni_dreamCastle_carpet_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CARPET",
+        "subType": "NONE",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_2",
+        "width": 18,
+        "depth": 10,
+        "height": 1,
+        "comfort": 190,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "검붉은색의 꽃무늬 카펫, 그 위에는 불안함을 상징하는 그믐달밤이 수놓아져 있다.\n핏빛 배경 속 카펫 위에서 흔들리는 그림자는, 과연 꿈을 좇는 사람이 보고자 하는 자신의 모습일까?",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_curtainPlatform_01": {
+        "id": "furni_dreamCastle_curtainPlatform_01",
+        "sortId": 2066,
+        "name": "'폐막' 무대",
+        "iconId": "furni_dreamCastle_curtainPlatform_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ORTHER_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_3",
+        "width": 4,
+        "depth": 2,
+        "height": 10,
+        "comfort": 240,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "선홍빛 커튼이 쳐져 있는 소형 목제 무대, 울타리 옆쪽이 많이 손상되어 있다.\n이곳에서 상연된 희비극은 이미 끝났다. 저 손상된 울타리는 참가자를 기념하는 것이다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_wall_01": {
+        "id": "furni_dreamCastle_wall_01",
+        "sortId": 2067,
+        "name": "조각 기둥 파티션",
+        "iconId": "furni_dreamCastle_wall_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "PARTITION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_3",
+        "width": 6,
+        "depth": 1,
+        "height": 10,
+        "comfort": 245,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "공간을 분리하는 데 사용되는 석제 파티션, 조각된 기둥을 중심으로 구멍이 뚫려있는 벽에서 유독 우울함이 느껴진다.\n파티션이 만들어내는 기이한 분위기는 마치 새장에 갇힌 듯한 착각을 불러일으킨다. 바로 그것이 설계자의 의도다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_carpet_02": {
+        "id": "furni_dreamCastle_carpet_02",
+        "sortId": 2068,
+        "name": "다섯 꽃잎 소형 카펫",
+        "iconId": "furni_dreamCastle_carpet_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CARPET",
+        "subType": "NONE",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_4",
+        "width": 3,
+        "depth": 3,
+        "height": 1,
+        "comfort": 30,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "어두운 꽃 모양의 작은 카펫, 옅은 색의 꽃술이 수놓여있다.\n꽃잎 5장은 꿈의 성의 속박을 돌파했던 다섯 소녀와 환상에 굴하지 않는 소녀들의 굳건한 마음을 나타낸다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_table_03": {
+        "id": "furni_dreamCastle_table_03",
+        "sortId": 2069,
+        "name": "'가시 비석'",
+        "iconId": "furni_dreamCastle_table_03",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "TABLE",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_3",
+        "width": 6,
+        "depth": 3,
+        "height": 5,
+        "comfort": 245,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "음산한 돌비석을 본떠 만든 받침대, 촛불과 장미, 그리고 가시로 장식되어 있다.\n꿈에서 깨는 것은 가시덤불을 헤쳐나가는 것과 같아, 현실의 아픔을 견뎌내야 한다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_bookcase_02": {
+        "id": "furni_dreamCastle_bookcase_02",
+        "sortId": 2070,
+        "name": "날카로운 모서리 책장",
+        "iconId": "furni_dreamCastle_bookcase_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CABINET",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_3",
+        "width": 2,
+        "depth": 2,
+        "height": 5,
+        "comfort": 160,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "꿈의 성 지붕을 본떠 디자인한 작은 책장, 책장 뒤편에는 심오한 별하늘이 그려져 있다.\n봉인되어 이곳에 보관된 악보는 꿈을 좇는 자들이 용감하게 현실과 맞서려는 결심을 나타낸다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_wallpaper_01": {
+        "id": "furni_dreamCastle_wallpaper_01",
+        "sortId": 2071,
+        "name": "'매혹적인 밤하늘'",
+        "iconId": "furni_dreamCastle_wallpaper_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLPAPER",
+        "subType": "NONE",
+        "location": "NONE",
+        "category": "WALL",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_4",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "꿈의 성의 공연 환경을 담은 파노라마 디스플레이, 금속 창살 밖으로 영원히 변하지 않는 어두운 밤이 보인다.\n긴 밤에는 끝이 없으니, 꿈도 영원히 끝나지 않는다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_floor_01": {
+        "id": "furni_dreamCastle_floor_01",
+        "sortId": 2072,
+        "name": "'어두운 땅'",
+        "iconId": "furni_dreamCastle_floor_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "FLOOR",
+        "subType": "NONE",
+        "location": "NONE",
+        "category": "FLOOR",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_4",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "꿈의 성 특유의 바닥. 어두운 벽돌 위에 새겨진 금색 꽃무늬가 유난히 돋보인다.\n꿈을 좇는 자들이 떠나는 순간에 내디뎠던 발걸음은 이곳에 올 때보다 더 확고했다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
       "furni_oct1st_deckChair_01": {
         "id": "furni_oct1st_deckChair_01",
         "sortId": 9998,
@@ -90965,7 +91821,7 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false,
-        "isOnly": 1,
+        "isOnly": 2,
         "enableRoomType": 4112,
         "quantity": 0
       },
@@ -93493,7 +94349,7 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false,
-        "isOnly": 1,
+        "isOnly": 2,
         "enableRoomType": 4112,
         "quantity": 0
       },
@@ -93525,7 +94381,7 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false,
-        "isOnly": 1,
+        "isOnly": 2,
         "enableRoomType": 4112,
         "quantity": 0
       },
@@ -93717,7 +94573,7 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false,
-        "isOnly": 1,
+        "isOnly": 2,
         "enableRoomType": 4112,
         "quantity": 0
       },
@@ -99152,6 +100008,38 @@
         "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
         "description": "언제 여기에 나타났는지 알 수 없는 캐릭터 인형, 어두운 밤처럼 차갑다.\n'그녀'의 기분이 별로인 것 같다. '그녀'와 친구가 되기 위해 시도해보는 것은 어떨까?",
         "obtainApproach": "엑스 아스트리스 콜라보",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 0
+      },
+      "furni_7eleven_store_01": {
+        "id": "furni_7eleven_store_01",
+        "sortId": 14017,
+        "name": "콜라보 가구",
+        "iconId": "furni_7eleven_store_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ORTHER_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 3,
+        "themeId": "",
+        "groupId": "",
+        "width": 12,
+        "depth": 8,
+        "height": 8,
+        "comfort": 120,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "콜라보 가구",
+        "obtainApproach": "콜라보 가구",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
@@ -120022,6 +120910,173 @@
           "furni_teaCanteen_floor_01"
         ]
       },
+      "furni_set_dreamCastle": {
+        "id": "furni_set_dreamCastle",
+        "enableRoomType": 4112,
+        "sortId": 117,
+        "name": "악몽의 성 연회장",
+        "themeType": "EVENT",
+        "desc": "이변을 겪었던 꿈의 성에 있는 홀을 복원한 방. 꿈의 성에 들어가는 사람들이 보는 모습은 제각기 다르지만, 꿈을 좇는 사람들이 남긴 흔적은 이 정성스럽게 꾸며놓은 장소에 영원히 남게 될 것이다.",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_dreamCastle_Column_01",
+            "pos0": 3,
+            "pos1": 5,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_ceilingLight_01",
+            "pos0": 9,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_ceilingLight_01",
+            "pos0": 20,
+            "pos1": 4,
+            "dir": 2
+          },
+          {
+            "furnitureId": "furni_dreamCastle_piano_01",
+            "pos0": 1,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_chair_01",
+            "pos0": 4,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_candle_01",
+            "pos0": 7,
+            "pos1": 6,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_chair_02",
+            "pos0": 8,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_chair_02",
+            "pos0": 12,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_chair_02",
+            "pos0": 16,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_chair_02",
+            "pos0": 20,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_chair_02",
+            "pos0": 24,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_table_01",
+            "pos0": 19,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_drawing_01",
+            "pos0": 27,
+            "pos1": 5,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_table_02",
+            "pos0": 9,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_carpet_01",
+            "pos0": 8,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_curtainPlatform_01",
+            "pos0": 25,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_wall_01",
+            "pos0": 28,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_carpet_02",
+            "pos0": 31,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_table_03",
+            "pos0": 28,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_bookcase_02",
+            "pos0": 32,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_floor_01",
+            "pos0": 0,
+            "pos1": 10,
+            "dir": 0
+          }
+        ],
+        "groups": [
+          "furni_set_dreamCastle_1",
+          "furni_set_dreamCastle_2",
+          "furni_set_dreamCastle_3",
+          "furni_set_dreamCastle_4"
+        ],
+        "furnitures": [
+          "furni_dreamCastle_Column_01",
+          "furni_dreamCastle_ceilingLight_01",
+          "furni_dreamCastle_piano_01",
+          "furni_dreamCastle_chair_01",
+          "furni_dreamCastle_candle_01",
+          "furni_dreamCastle_chair_02",
+          "furni_dreamCastle_table_01",
+          "furni_dreamCastle_drawing_01",
+          "furni_dreamCastle_table_02",
+          "furni_dreamCastle_carpet_01",
+          "furni_dreamCastle_curtainPlatform_01",
+          "furni_dreamCastle_wall_01",
+          "furni_dreamCastle_carpet_02",
+          "furni_dreamCastle_table_03",
+          "furni_dreamCastle_bookcase_02",
+          "furni_dreamCastle_wallpaper_01",
+          "furni_dreamCastle_floor_01"
+        ]
+      },
       "furniM_set_basicRoom": {
         "id": "furniM_set_basicRoom",
         "enableRoomType": 32,
@@ -127294,6 +128349,63 @@
           "furni_gardenFantasy_plantColumn_01",
           "furni_gardenFantasy_bridge_01",
           "furni_gardenFantasy_floor_01"
+        ]
+      },
+      "furni_set_dreamCastle_1": {
+        "id": "furni_set_dreamCastle_1",
+        "sortId": 1,
+        "name": "'환상적인 꿈'의 연주 구역",
+        "themeId": "furni_set_dreamCastle",
+        "comfort": 280,
+        "count": 5,
+        "furniture": [
+          "furni_dreamCastle_Column_01",
+          "furni_dreamCastle_ceilingLight_01",
+          "furni_dreamCastle_piano_01",
+          "furni_dreamCastle_chair_01",
+          "furni_dreamCastle_candle_01"
+        ]
+      },
+      "furni_set_dreamCastle_2": {
+        "id": "furni_set_dreamCastle_2",
+        "sortId": 2,
+        "name": "'꿈에 드는' 기도 구역",
+        "themeId": "furni_set_dreamCastle",
+        "comfort": 355,
+        "count": 4,
+        "furniture": [
+          "furni_dreamCastle_chair_02",
+          "furni_dreamCastle_table_01",
+          "furni_dreamCastle_table_02",
+          "furni_dreamCastle_carpet_01"
+        ]
+      },
+      "furni_set_dreamCastle_3": {
+        "id": "furni_set_dreamCastle_3",
+        "sortId": 3,
+        "name": "'꿈을 좇는' 수납 구역",
+        "themeId": "furni_set_dreamCastle",
+        "comfort": 205,
+        "count": 4,
+        "furniture": [
+          "furni_dreamCastle_curtainPlatform_01",
+          "furni_dreamCastle_wall_01",
+          "furni_dreamCastle_table_03",
+          "furni_dreamCastle_bookcase_02"
+        ]
+      },
+      "furni_set_dreamCastle_4": {
+        "id": "furni_set_dreamCastle_4",
+        "sortId": 4,
+        "name": "'꿈을 깨는' 기념 구역",
+        "themeId": "furni_set_dreamCastle",
+        "comfort": 100,
+        "count": 4,
+        "furniture": [
+          "furni_dreamCastle_drawing_01",
+          "furni_dreamCastle_carpet_02",
+          "furni_dreamCastle_wallpaper_01",
+          "furni_dreamCastle_floor_01"
         ]
       },
       "furniM_set_amiya_1": {
@@ -135168,10 +136280,10 @@
       "bgm_bg_ghosthunter": {
         "bgmId": "bgm_bg_ghosthunter",
         "bgmSortId": 4,
-        "bgmStartTime": 1635735600,
+        "bgmStartTime": 1651111200,
         "bgmName": "흐림 - Ghost Hunter",
         "gameMusicId": "music_bg_ghosthunter",
-        "obtainApproach": "3★ 평가로 메인 스토리의 9-19 스테이지 클리어",
+        "obtainApproach": "3★ 평가로 메인 스토리 9-19 클리어",
         "bgmDescUnlocked": "배경에 동봉된 음원",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -135181,10 +136293,10 @@
       "bgm_bg_ddd": {
         "bgmId": "bgm_bg_ddd",
         "bgmSortId": 5,
-        "bgmStartTime": 1635735600,
+        "bgmStartTime": 1651111200,
         "bgmName": "휴일 - Ready?",
         "gameMusicId": "music_bg_ddd",
-        "obtainApproach": "[에피소드] 또는 [사이드] 중 임의 3종 이벤트의 첫 번째 섹션 클리어",
+        "obtainApproach": "[에피소드]에서 임의 3개 이벤트의 첫 번째 섹션 클리어",
         "bgmDescUnlocked": "배경에 동봉된 음원",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -135194,10 +136306,10 @@
       "bgm_bg_street": {
         "bgmId": "bgm_bg_street",
         "bgmSortId": 6,
-        "bgmStartTime": 1635735600,
+        "bgmStartTime": 1651111200,
         "bgmName": "상업 - City",
         "gameMusicId": "music_bg_street",
-        "obtainApproach": "[에피소드] 또는 [사이드] 중 임의 6종 이벤트의 첫 번째 섹션 클리어",
+        "obtainApproach": "[에피소드]에서 임의 6개 이벤트의 첫 번째 섹션 클리어",
         "bgmDescUnlocked": "배경에 동봉된 음원",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -135207,10 +136319,10 @@
       "bgm_bg_loneliness": {
         "bgmId": "bgm_bg_loneliness",
         "bgmSortId": 7,
-        "bgmStartTime": 1635735600,
+        "bgmStartTime": 1651111200,
         "bgmName": "엄동 - Loneliness",
         "gameMusicId": "music_bg_loneliness",
-        "obtainApproach": "[에피소드] 또는 [사이드] 중 임의 9종 이벤트의 첫 번째 섹션 클리어",
+        "obtainApproach": "[에피소드]에서 임의 9개 이벤트의 첫 번째 섹션 클리어",
         "bgmDescUnlocked": "배경에 동봉된 음원",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -135220,10 +136332,10 @@
       "bgm_bg_yan": {
         "bgmId": "bgm_bg_yan",
         "bgmSortId": 8,
-        "bgmStartTime": 1651384800,
+        "bgmStartTime": 1667449800,
         "bgmName": "산악 - A Toast to Spring Mounts",
         "gameMusicId": "music_bg_yan",
-        "obtainApproach": "[에피소드] 또는 [사이드 스토리] 중 임의 11종 이벤트의 첫 번째 섹션 클리어",
+        "obtainApproach": "[에피소드]에서 임의 11개 이벤트의 첫 번째 섹션 클리어",
         "bgmDescUnlocked": "배경에 동봉된 음원",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -135233,10 +136345,10 @@
       "bgm_bg_iberia": {
         "bgmId": "bgm_bg_iberia",
         "bgmSortId": 9,
-        "bgmStartTime": 1651384800,
+        "bgmStartTime": 1667449800,
         "bgmName": "바다 - Undertide",
         "gameMusicId": "music_bg_iberia",
-        "obtainApproach": "3★ 평가로 '언더 타이즈' SV-9, '스툴티페라 나비스' SN-10 클리어",
+        "obtainApproach": "3★ 평가로 언더 타이즈 SV-9 클리어",
         "bgmDescUnlocked": "배경에 동봉된 음원",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -135246,7 +136358,7 @@
       "bgm_bg_anniversary": {
         "bgmId": "bgm_bg_anniversary",
         "bgmSortId": 10,
-        "bgmStartTime": 1651384800,
+        "bgmStartTime": 1673575200,
         "bgmName": "축제 - Tai Pak Market",
         "gameMusicId": "music_bg_anniversary",
         "obtainApproach": "애니버서리, 감사 축제 기간 로그인",
@@ -135259,7 +136371,7 @@
       "bgm_bg_rogue_1": {
         "bgmId": "bgm_bg_rogue_1",
         "bgmSortId": 11,
-        "bgmStartTime": 1656615600,
+        "bgmStartTime": 1672513200,
         "bgmName": "무너진 벽 - Omen",
         "gameMusicId": "music_rogue_1_8",
         "obtainApproach": "[통합 전략] 팬텀 & 크림슨 솔리테어 보상",
@@ -135272,7 +136384,7 @@
       "bgm_bg_rogue_2": {
         "bgmId": "bgm_bg_rogue_2",
         "bgmSortId": 12,
-        "bgmStartTime": 1680289200,
+        "bgmStartTime": 1701370800,
         "bgmName": "저편 - Seawishes",
         "gameMusicId": "music_rogue_2_12",
         "obtainApproach": "[통합 전략] 미즈키 & 카이룰라 아버 보상",
@@ -135285,10 +136397,10 @@
       "bgm_bg_laterano": {
         "bgmId": "bgm_bg_laterano",
         "bgmSortId": 13,
-        "bgmStartTime": 1682910000,
+        "bgmStartTime": 1699340400,
         "bgmName": "맑음 - Everyday Life in the Holy City",
         "gameMusicId": "music_bg_laterano",
-        "obtainApproach": "[에피소드] 또는 [사이드] 중 임의 13종 이벤트의 첫 번째 섹션 클리어",
+        "obtainApproach": "[에피소드]에서 임의 13개 이벤트의 첫 번째 섹션 클리어",
         "bgmDescUnlocked": "배경에 동봉된 음원",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -135298,10 +136410,10 @@
       "bgm_bg_rhine": {
         "bgmId": "bgm_bg_rhine",
         "bgmSortId": 14,
-        "bgmStartTime": 1682910000,
+        "bgmStartTime": 1699340400,
         "bgmName": "수풀 - Journey",
         "gameMusicId": "music_bg_rhine",
-        "obtainApproach": "3★ 평가로 '도로시의 비전' DV-8, '론 트레일' CW-10 클리어",
+        "obtainApproach": "3★ 평가로 도로시의 비전 DV-8 클리어",
         "bgmDescUnlocked": "배경에 동봉된 음원",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -135311,7 +136423,7 @@
       "bgm_bg_office": {
         "bgmId": "bgm_bg_office",
         "bgmSortId": 15,
-        "bgmStartTime": 1698807600,
+        "bgmStartTime": 1760407200,
         "bgmName": "발자국 - Through the great expanses of space and time",
         "gameMusicId": "music_bg_office",
         "obtainApproach": "명일방주 공식 세계관 설정집",
@@ -135324,7 +136436,7 @@
       "bgm_bg_rogue_3": {
         "bgmId": "bgm_bg_rogue_3",
         "bgmSortId": 16,
-        "bgmStartTime": 1706727600,
+        "bgmStartTime": 1727722800,
         "bgmName": "시작 - Sovereign",
         "gameMusicId": "music_rogue_3_12",
         "obtainApproach": "[통합 전략] 탐험가의 은빛 서리 끝자락 보상",
@@ -135337,7 +136449,7 @@
       "bgm_bg_rainbowsix": {
         "bgmId": "bgm_bg_rainbowsix",
         "bgmSortId": 17,
-        "bgmStartTime": 1709780400,
+        "bgmStartTime": 1725519600,
         "bgmName": "명성 - Translucent",
         "gameMusicId": "music_bg_rainbowsix",
         "obtainApproach": "[구매센터]에서 보안 훈련 기념 패키지 구매 시 획득",
@@ -135350,7 +136462,7 @@
       "bgm_bg_act16mini": {
         "bgmId": "bgm_bg_act16mini",
         "bgmSortId": 18,
-        "bgmStartTime": 1714532400,
+        "bgmStartTime": 1730358000,
         "bgmName": "꽃밭 - In Vastness",
         "gameMusicId": "music_bg_act16mini",
         "obtainApproach": "셀레브레이션 출석 이벤트 획득",
@@ -135363,7 +136475,7 @@
       "bgm_bg_sanrio": {
         "bgmId": "bgm_bg_sanrio",
         "bgmSortId": 19,
-        "bgmStartTime": 1718866800,
+        "bgmStartTime": 1734678000,
         "bgmName": "당도 - Our Life",
         "gameMusicId": "music_bg_sanrio",
         "obtainApproach": "[구매센터]에서 디저트 파티 팩 구매 시 획득",
@@ -135376,7 +136488,7 @@
       "bgm_bg_sandboxv2_1": {
         "bgmId": "bgm_bg_sandboxv2_1",
         "bgmSortId": 20,
-        "bgmStartTime": 1725130800,
+        "bgmStartTime": 1740769200,
         "bgmName": "광야 - Fine Sand",
         "gameMusicId": "music_sandbox_v2_2",
         "obtainApproach": "[생존 연산] 사막 이야기 보상",
@@ -135389,7 +136501,7 @@
       "bgm_bg_dungeon": {
         "bgmId": "bgm_bg_dungeon",
         "bgmSortId": 21,
-        "bgmStartTime": 1725246000,
+        "bgmStartTime": 1741590000,
         "bgmName": "던전 - Leaping Flames",
         "gameMusicId": "music_bg_dungeon",
         "obtainApproach": "[구매센터]에서 던전 기담 패키지 구매 시 획득",
@@ -135402,7 +136514,7 @@
       "bgm_bg_sui_1": {
         "bgmId": "bgm_bg_sui_1",
         "bgmSortId": 22,
-        "bgmStartTime": 1735455600,
+        "bgmStartTime": 1750402800,
         "bgmName": "푸름 - Journey to Dahuang",
         "gameMusicId": "music_bg_sui",
         "obtainApproach": "[구매센터]에서 대황성의 푸름 팩 구매 시 획득",
@@ -135415,7 +136527,7 @@
       "bgm_bg_rogue_4": {
         "bgmId": "bgm_bg_rogue_4",
         "bgmSortId": 23,
-        "bgmStartTime": 1735671600,
+        "bgmStartTime": 1753988400,
         "bgmName": "의식의 형성 - Resolutely Burns the Fire of Lives",
         "gameMusicId": "music_rogue_4_1",
         "obtainApproach": "[통합 전략] 살카즈의 영겁 기담 보상",
@@ -135462,6 +136574,19 @@
         "unlockType": "MainBG",
         "unlockParams": [
           "bg_recalrune_1"
+        ]
+      },
+      "bgm_bg_avemujica": {
+        "bgmId": "bgm_bg_avemujica",
+        "bgmSortId": 27,
+        "bgmStartTime": 1770688800,
+        "bgmName": "스포트라이트 - Georgette Me, Georgette You (Arknights Piano Arrangement)",
+        "gameMusicId": "music_bg_avemujica",
+        "obtainApproach": "[구매센터]에서 인형의 잠꼬대 팩 구매 시 획득",
+        "bgmDescUnlocked": "배경에 동봉된 음원",
+        "unlockType": "MainBG",
+        "unlockParams": [
+          "bg_avemujica_1"
         ]
       }
     }
