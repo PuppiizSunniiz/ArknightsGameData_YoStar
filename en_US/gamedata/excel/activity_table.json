@@ -1,5 +1,96 @@
 {
   "basicInfo": {
+    "act6collection": {
+      "id": "act6collection",
+      "type": "COLLECTION",
+      "displayType": "NONE",
+      "name": "Castle of Dreams Training Drill",
+      "startTime": 1770724800,
+      "endTime": 1772535599,
+      "rewardEndTime": 1772535599,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act37sre": {
+      "id": "act37sre",
+      "type": "TYPE_ACT9D0",
+      "displayType": "SIDESTORY",
+      "name": "Ending a Grand Overture - Rerun",
+      "startTime": 1771930800,
+      "endTime": 1772794799,
+      "rewardEndTime": 1773140399,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act37sre",
+      "medalGroupId": "medalGroupActivity37side",
+      "ungroupedMedalIds": null,
+      "isReplicate": true,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act51sign": {
+      "id": "act51sign",
+      "type": "CHECKIN_ONLY",
+      "displayType": "NONE",
+      "name": "Greeting Ceremony of the Marionettes Sign-In Event",
+      "startTime": 1770724800,
+      "endTime": 1771930799,
+      "rewardEndTime": 1771930799,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act45side": {
+      "id": "act45side",
+      "type": "TYPE_ACT45SIDE",
+      "displayType": "NONE",
+      "name": "Somniloquium Serenum",
+      "startTime": 1770724800,
+      "endTime": 1771930799,
+      "rewardEndTime": 1772535599,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act45side",
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_hidden_45side_01",
+        "medal_hidden_45side_02"
+      ],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act2enemyduel": {
       "id": "act2enemyduel",
       "type": "ENEMY_DUEL",
@@ -5416,6 +5507,20 @@
     }
   },
   "homeActConfig": {
+    "act6collection": {
+      "actId": "act6collection",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "d2034d",
+      "actTopBarText": "Special Training Drill"
+    },
+    "act51sign": {
+      "actId": "act51sign",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "e92266",
+      "actTopBarText": "Greeting Ceremony of the Marionettes"
+    },
     "act50sign": {
       "actId": "act50sign",
       "isPopupAfterCheckin": false,
@@ -6258,6 +6363,10 @@
     }
   },
   "zoneToActivity": {
+    "act37sre_zone1": "act37sre",
+    "act37sre_zone2": "act37sre",
+    "act45side_zone1": "act45side",
+    "act45side_zone2": "act45side",
     "act2enemyduel_zone1": "act2enemyduel",
     "act35sre_zone1": "act35sre",
     "act35sre_zone2": "act35sre",
@@ -6499,6 +6608,1598 @@
   },
   "actTimeTrackPoint": {},
   "missionData": [
+    {
+      "id": "37sreActivity_1",
+      "sortId": 1,
+      "description": "Clear GO-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_2",
+      "sortId": 2,
+      "description": "Clear GO-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_3",
+      "sortId": 3,
+      "description": "Clear GO-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_4",
+      "sortId": 4,
+      "description": "Clear GO-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 50
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4162_cathy",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_5",
+      "sortId": 5,
+      "description": "Clear GO-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_05",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 50
+        },
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_plants_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_6",
+      "sortId": 6,
+      "description": "Clear GO-5 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_05",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_7",
+      "sortId": 7,
+      "description": "Clear GO-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 60
+        },
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_chandelier_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_8",
+      "sortId": 8,
+      "description": "Clear GO-6 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_06",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_pillar_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_9",
+      "sortId": 9,
+      "description": "Clear GO-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 60
+        },
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_boxshelf_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_10",
+      "sortId": 10,
+      "description": "Clear GO-7 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_07",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_ticketOffice_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_11",
+      "sortId": 11,
+      "description": "Clear GO-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_08",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 60
+        },
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_clock_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_12",
+      "sortId": 12,
+      "description": "Clear GO-8 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_08",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_Mailbox_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_13",
+      "sortId": 13,
+      "description": "Clear GO-9",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_09",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 80
+        },
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_14",
+      "sortId": 14,
+      "description": "Clear GO-9 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_09",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_15",
+      "sortId": 15,
+      "description": "Clear GO-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_16",
+      "sortId": 16,
+      "description": "Clear GO-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_17",
+      "sortId": 17,
+      "description": "Clear GO-EX-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_18",
+      "sortId": 18,
+      "description": "Clear GO-EX-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_19",
+      "sortId": 19,
+      "description": "Clear GO-EX-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex05",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_20",
+      "sortId": 20,
+      "description": "Clear GO-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_21",
+      "sortId": 21,
+      "description": "Clear GO-EX-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_22",
+      "sortId": 22,
+      "description": "Clear GO-EX-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex08",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_23",
+      "sortId": 23,
+      "description": "Clear GO-EX-8 Challenge Mode",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex08#f#",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_terratimes_Glasgow_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_24",
+      "sortId": 24,
+      "description": "Clear event stages 10 times, not including tutorial stages.",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act37side_01^act37side_02^act37side_03^act37side_04^act37side_05^act37side_06^act37side_07^act37side_08^act37side_09^act37side_ex01^act37side_ex01#f#^act37side_ex02^act37side_ex02#f#^act37side_ex03^act37side_ex03#f#^act37side_ex04^act37side_ex04#f#^act37side_ex05^act37side_ex05#f#^act37side_ex06^act37side_ex06#f#^act37side_ex07^act37side_ex07#f#^act37side_ex08^act37side_ex08#f#",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_25",
+      "sortId": 25,
+      "description": "Clear event stages 25 times, not including tutorial stages.",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act37side_01^act37side_02^act37side_03^act37side_04^act37side_05^act37side_06^act37side_07^act37side_08^act37side_09^act37side_ex01^act37side_ex01#f#^act37side_ex02^act37side_ex02#f#^act37side_ex03^act37side_ex03#f#^act37side_ex04^act37side_ex04#f#^act37side_ex05^act37side_ex05#f#^act37side_ex06^act37side_ex06#f#^act37side_ex07^act37side_ex07#f#^act37side_ex08^act37side_ex08#f#",
+        "25"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_26",
+      "sortId": 26,
+      "description": "Clear event stages 40 times, not including tutorial stages.",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act37side_01^act37side_02^act37side_03^act37side_04^act37side_05^act37side_06^act37side_07^act37side_08^act37side_09^act37side_ex01^act37side_ex01#f#^act37side_ex02^act37side_ex02#f#^act37side_ex03^act37side_ex03#f#^act37side_ex04^act37side_ex04#f#^act37side_ex05^act37side_ex05#f#^act37side_ex06^act37side_ex06#f#^act37side_ex07^act37side_ex07#f#^act37side_ex08^act37side_ex08#f#",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_1",
+      "sortId": 1,
+      "description": "Clear SS-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_2",
+      "sortId": 2,
+      "description": "Clear SS-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_3",
+      "sortId": 3,
+      "description": "Clear SS-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 70
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_4",
+      "sortId": 4,
+      "description": "Clear SS-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 70
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4185_amoris",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_5",
+      "sortId": 5,
+      "description": "Clear SS-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 70
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4186_tmoris",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_6",
+      "sortId": 6,
+      "description": "Clear SS-5 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_05",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_7",
+      "sortId": 7,
+      "description": "Clear SS-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_8",
+      "sortId": 8,
+      "description": "Clear SS-6 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_06",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_dreamCastle_carpet_02",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_9",
+      "sortId": 9,
+      "description": "Clear SS-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_dreamCastle_drawing_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_10",
+      "sortId": 10,
+      "description": "Clear SS-7 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_07",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_dreamCastle_wallpaper_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_11",
+      "sortId": 11,
+      "description": "Clear SS-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_dreamCastle_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_12",
+      "sortId": 12,
+      "description": "Clear SS-8 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_08",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_13",
+      "sortId": 13,
+      "description": "Clear SS-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_14",
+      "sortId": 14,
+      "description": "Clear SS-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_15",
+      "sortId": 15,
+      "description": "Clear SS-EX-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_16",
+      "sortId": 16,
+      "description": "Clear SS-EX-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_17",
+      "sortId": 17,
+      "description": "Clear SS-EX-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_18",
+      "sortId": 18,
+      "description": "Clear SS-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_19",
+      "sortId": 19,
+      "description": "Clear SS-EX-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_20",
+      "sortId": 20,
+      "description": "Clear SS-EX-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_21",
+      "sortId": 21,
+      "description": "Clear event stages 15 times, not including tutorial stages",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_01^act45side_02^act45side_03^act45side_04^act45side_05^act45side_06^act45side_07^act45side_08^act45side_ex01^act45side_ex01#f#^act45side_ex02^act45side_ex02#f#^act45side_ex03^act45side_ex03#f#^act45side_ex04^act45side_ex04#f#^act45side_ex05^act45side_ex05#f#^act45side_ex06^act45side_ex06#f#^act45side_ex07^act45side_ex07#f#^act45side_ex08^act45side_ex08#f#",
+        "15"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_22",
+      "sortId": 22,
+      "description": "Clear event stages 45 times, not including tutorial stages",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_01^act45side_02^act45side_03^act45side_04^act45side_05^act45side_06^act45side_07^act45side_08^act45side_ex01^act45side_ex01#f#^act45side_ex02^act45side_ex02#f#^act45side_ex03^act45side_ex03#f#^act45side_ex04^act45side_ex04#f#^act45side_ex05^act45side_ex05#f#^act45side_ex06^act45side_ex06#f#^act45side_ex07^act45side_ex07#f#^act45side_ex08^act45side_ex08#f#",
+        "45"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_23",
+      "sortId": 23,
+      "description": "Clear event stages 85 times, not including tutorial stages",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_01^act45side_02^act45side_03^act45side_04^act45side_05^act45side_06^act45side_07^act45side_08^act45side_ex01^act45side_ex01#f#^act45side_ex02^act45side_ex02#f#^act45side_ex03^act45side_ex03#f#^act45side_ex04^act45side_ex04#f#^act45side_ex05^act45side_ex05#f#^act45side_ex06^act45side_ex06#f#^act45side_ex07^act45side_ex07#f#^act45side_ex08^act45side_ex08#f#",
+        "85"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
     {
       "id": "35sreActivity_1",
       "sortId": 1,
@@ -84627,6 +86328,806 @@
       "countEndTs": -1
     },
     {
+      "id": "6clloctionActivity_1",
+      "sortId": 1,
+      "description": "Promote 1 5-star Operator to Elite 1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "1",
+        "5",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_2",
+      "sortId": 2,
+      "description": "Promote 2 5-star Operators to Elite 1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "2",
+        "5",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_3",
+      "sortId": 3,
+      "description": "Promote 3 5-star Operators to Elite 1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "3",
+        "5",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_4",
+      "sortId": 4,
+      "description": "Promote 4 5-star Operators to Elite 1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "4",
+        "5",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_5",
+      "sortId": 9,
+      "description": "Promote 1 5-star Operator to Elite 2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "1",
+        "5",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 400
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_6",
+      "sortId": 10,
+      "description": "Promote 2 5-star Operators to Elite 2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "2",
+        "5",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 400
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_7",
+      "sortId": 11,
+      "description": "Promote 3 5-star Operators to Elite 2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "3",
+        "5",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 400
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_8",
+      "sortId": 12,
+      "description": "Promote 4 5-star Operators to Elite 2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "4",
+        "5",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 400
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_9",
+      "sortId": 5,
+      "description": "Have any 1 5-star Operator reach Elite 1 Lv.40 during the event",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "1",
+        "5",
+        "1",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_10",
+      "sortId": 6,
+      "description": "Have any 2 5-star Operators reach Elite 1 Lv.40 during the event",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "2",
+        "5",
+        "1",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_11",
+      "sortId": 7,
+      "description": "Have any 3 5-star Operators reach Elite 1 Lv.40 during the event",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "3",
+        "5",
+        "1",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_12",
+      "sortId": 8,
+      "description": "Have any 4 5-star Operators reach Elite 1 Lv.40 during the event",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "4",
+        "5",
+        "1",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_13",
+      "sortId": 13,
+      "description": "Have any 1 5-star Operator reach Elite 2 Lv.50 during the event",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "1",
+        "5",
+        "2",
+        "50"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 300
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_14",
+      "sortId": 14,
+      "description": "Have any 2 5-star Operators reach Elite 2 Lv.50 during the event",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "2",
+        "5",
+        "2",
+        "50"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 300
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_15",
+      "sortId": 15,
+      "description": "Have any 3 5-star Operators reach Elite 2 Lv.50 during the event",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "3",
+        "5",
+        "2",
+        "50"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 300
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_16",
+      "sortId": 16,
+      "description": "Have any 4 5-star Operators reach Elite 2 Lv.50 during the event",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "4",
+        "5",
+        "2",
+        "50"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 300
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_17",
+      "sortId": 17,
+      "description": "Upgrade any 1 5-star Operator's skills to Rank 4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "1",
+        "5",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_18",
+      "sortId": 18,
+      "description": "Upgrade any 2 5-star Operators' skills to Rank 4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "2",
+        "5",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_19",
+      "sortId": 19,
+      "description": "Upgrade any 3 5-star Operators' skills to Rank 4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "3",
+        "5",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_20",
+      "sortId": 20,
+      "description": "Upgrade any 4 5-star Operators' skills to Rank 4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "4",
+        "5",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_21",
+      "sortId": 21,
+      "description": "Upgrade any 1 5-star Operator's skills to Rank 7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "1",
+        "5",
+        "7"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 250
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_22",
+      "sortId": 22,
+      "description": "Upgrade any 2 5-star Operators' skills to Rank 7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "2",
+        "5",
+        "7"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 250
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_23",
+      "sortId": 23,
+      "description": "Upgrade any 3 5-star Operators' skills to Rank 7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "3",
+        "5",
+        "7"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 250
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_24",
+      "sortId": 24,
+      "description": "Upgrade any 4 5-star Operators' skills to Rank 7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "4",
+        "5",
+        "7"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 250
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
       "id": "5clloctionActivity_1",
       "sortId": 1,
       "description": "Complete 5 Score, Supplies or Integrated Strategies stages using Special Operator Raidian",
@@ -95124,6 +97625,79 @@
   ],
   "missionGroup": [
     {
+      "id": "act37sre",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "37sreActivity_1",
+        "37sreActivity_2",
+        "37sreActivity_3",
+        "37sreActivity_4",
+        "37sreActivity_5",
+        "37sreActivity_6",
+        "37sreActivity_7",
+        "37sreActivity_8",
+        "37sreActivity_9",
+        "37sreActivity_10",
+        "37sreActivity_11",
+        "37sreActivity_12",
+        "37sreActivity_13",
+        "37sreActivity_14",
+        "37sreActivity_15",
+        "37sreActivity_16",
+        "37sreActivity_17",
+        "37sreActivity_18",
+        "37sreActivity_19",
+        "37sreActivity_20",
+        "37sreActivity_21",
+        "37sreActivity_22",
+        "37sreActivity_23",
+        "37sreActivity_24",
+        "37sreActivity_25",
+        "37sreActivity_26"
+      ],
+      "startTs": 1771930800,
+      "endTs": 1773140399
+    },
+    {
+      "id": "act45side",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "45sideActivity_1",
+        "45sideActivity_2",
+        "45sideActivity_3",
+        "45sideActivity_4",
+        "45sideActivity_5",
+        "45sideActivity_6",
+        "45sideActivity_7",
+        "45sideActivity_8",
+        "45sideActivity_9",
+        "45sideActivity_10",
+        "45sideActivity_11",
+        "45sideActivity_12",
+        "45sideActivity_13",
+        "45sideActivity_14",
+        "45sideActivity_15",
+        "45sideActivity_16",
+        "45sideActivity_17",
+        "45sideActivity_18",
+        "45sideActivity_19",
+        "45sideActivity_20",
+        "45sideActivity_21",
+        "45sideActivity_22",
+        "45sideActivity_23"
+      ],
+      "startTs": 1770724800,
+      "endTs": 1772535599
+    },
+    {
       "id": "act35sre",
       "title": null,
       "type": "ACTIVITY",
@@ -98648,6 +101222,42 @@
       "endTs": 1592391599
     },
     {
+      "id": "act6collection",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": null,
+      "missionIds": [
+        "6clloctionActivity_1",
+        "6clloctionActivity_2",
+        "6clloctionActivity_3",
+        "6clloctionActivity_4",
+        "6clloctionActivity_5",
+        "6clloctionActivity_6",
+        "6clloctionActivity_7",
+        "6clloctionActivity_8",
+        "6clloctionActivity_9",
+        "6clloctionActivity_10",
+        "6clloctionActivity_11",
+        "6clloctionActivity_12",
+        "6clloctionActivity_13",
+        "6clloctionActivity_14",
+        "6clloctionActivity_15",
+        "6clloctionActivity_16",
+        "6clloctionActivity_17",
+        "6clloctionActivity_18",
+        "6clloctionActivity_19",
+        "6clloctionActivity_20",
+        "6clloctionActivity_21",
+        "6clloctionActivity_22",
+        "6clloctionActivity_23",
+        "6clloctionActivity_24"
+      ],
+      "startTs": 1770724800,
+      "endTs": 1772535599
+    },
+    {
       "id": "act5collection",
       "title": null,
       "type": "ACTIVITY",
@@ -99118,6 +101728,205 @@
       }
     },
     "CHECKIN_ONLY": {
+      "act51sign": {
+        "checkInList": {
+          "0": {
+            "itemList": [
+              {
+                "id": "LINKAGE_TKT_GACHA_10_6501",
+                "count": 1,
+                "type": "LINKAGE_TKT_GACHA_10"
+              },
+              {
+                "id": "ap_supply_lt_120",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              }
+            ],
+            "order": 1,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 1,
+            "isDynItem": false
+          },
+          "1": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "mod_update_token_1",
+                "count": 10,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 2,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "2": {
+            "itemList": [
+              {
+                "id": "2003",
+                "count": 20,
+                "type": "CARD_EXP"
+              },
+              {
+                "id": "7002",
+                "count": 5,
+                "type": "TKT_INST_FIN"
+              }
+            ],
+            "order": 3,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "3": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "3401",
+                "count": 300,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 4,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "4": {
+            "itemList": [
+              {
+                "id": "avatar_activity_mujica",
+                "count": 1,
+                "type": "PLAYER_AVATAR"
+              },
+              {
+                "id": "3003",
+                "count": 20,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 5,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 2,
+            "isDynItem": false
+          },
+          "5": {
+            "itemList": [
+              {
+                "id": "3302",
+                "count": 20,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "2004",
+                "count": 10,
+                "type": "CARD_EXP"
+              }
+            ],
+            "order": 6,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "6": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "4001",
+                "count": 30000,
+                "type": "GOLD"
+              }
+            ],
+            "order": 7,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "7": {
+            "itemList": [
+              {
+                "id": "LINKAGE_TKT_GACHA_10_6501",
+                "count": 1,
+                "type": "LINKAGE_TKT_GACHA_10"
+              },
+              {
+                "id": "mod_update_token_2",
+                "count": 3,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 8,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 3,
+            "isDynItem": false
+          },
+          "8": {
+            "itemList": [
+              {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "7001",
+                "count": 5,
+                "type": "TKT_RECRUIT"
+              }
+            ],
+            "order": 9,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "9": {
+            "itemList": [
+              {
+                "id": "mod_unlock_token",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 10,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          }
+        },
+        "apSupplyOutOfDateDict": {
+          "ap_supply_lt_120": 1773053999
+        },
+        "dynCheckInData": null,
+        "extraCheckinList": null
+      },
       "act50sign": {
         "checkInList": {
           "0": {
@@ -121273,6 +124082,320 @@
     },
     "TYPE_ACT5D1": {},
     "COLLECTION": {
+      "act6collection": {
+        "collections": [
+          {
+            "id": 1,
+            "itemType": "GOLD",
+            "itemId": "4001",
+            "itemCnt": 10000,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 100,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 2,
+            "itemType": "MATERIAL",
+            "itemId": "30013",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 200,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 3,
+            "itemType": "CARD_EXP",
+            "itemId": "2003",
+            "itemCnt": 15,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 300,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 4,
+            "itemType": "MATERIAL",
+            "itemId": "31013",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 400,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 5,
+            "itemType": "VOUCHER_ELITE_II_4",
+            "itemId": "voucher_elite_II_4",
+            "itemCnt": 1,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 600,
+            "isBonus": true,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 6,
+            "itemType": "MATERIAL",
+            "itemId": "3302",
+            "itemCnt": 10,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 800,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 7,
+            "itemType": "MATERIAL",
+            "itemId": "31033",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 1000,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 8,
+            "itemType": "GOLD",
+            "itemId": "4001",
+            "itemCnt": 10000,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 1200,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 9,
+            "itemType": "MATERIAL",
+            "itemId": "30013",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 1400,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 10,
+            "itemType": "VOUCHER_LEVELMAX_4",
+            "itemId": "voucher_levelmax_4",
+            "itemCnt": 1,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 1650,
+            "isBonus": true,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 11,
+            "itemType": "CARD_EXP",
+            "itemId": "2003",
+            "itemCnt": 15,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 1900,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 12,
+            "itemType": "MATERIAL",
+            "itemId": "31013",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 2150,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 13,
+            "itemType": "MATERIAL",
+            "itemId": "3302",
+            "itemCnt": 10,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 2400,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 14,
+            "itemType": "MATERIAL",
+            "itemId": "31033",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 2650,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 15,
+            "itemType": "VOUCHER_ELITE_II_5",
+            "itemId": "voucher_elite_II_5",
+            "itemCnt": 1,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 2950,
+            "isBonus": true,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 16,
+            "itemType": "GOLD",
+            "itemId": "4001",
+            "itemCnt": 10000,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 3250,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 17,
+            "itemType": "MATERIAL",
+            "itemId": "30013",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 3550,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 18,
+            "itemType": "CARD_EXP",
+            "itemId": "2003",
+            "itemCnt": 15,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 3850,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 19,
+            "itemType": "MATERIAL",
+            "itemId": "31013",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 4150,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 20,
+            "itemType": "VOUCHER_LEVELMAX_5",
+            "itemId": "voucher_levelmax_5",
+            "itemCnt": 1,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 4500,
+            "isBonus": true,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          }
+        ],
+        "apSupplyOutOfDateDict": {},
+        "consts": {
+          "showJumpBtn": true,
+          "jumpBtnType": "CHAR_REPO",
+          "jumpBtnParam1": null,
+          "jumpBtnParam2": null,
+          "dailyTaskDisabled": true,
+          "dailyTaskStartTime": 0,
+          "isSimpleMode": false
+        }
+      },
       "act5collection": {
         "collections": [
           {
@@ -121462,6 +124585,7 @@
           "jumpBtnType": "NONE",
           "jumpBtnParam1": null,
           "jumpBtnParam2": null,
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 1766142000,
           "isSimpleMode": false
         }
@@ -122000,6 +125124,7 @@
           "jumpBtnType": "ROGUE",
           "jumpBtnParam1": "rogue_1",
           "jumpBtnParam2": "main_03-08",
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 0,
           "isSimpleMode": true
         }
@@ -122193,6 +125318,7 @@
           "jumpBtnType": "ROGUE",
           "jumpBtnParam1": "rogue_2",
           "jumpBtnParam2": "main_03-08",
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 1754650800,
           "isSimpleMode": false
         }
@@ -122508,6 +125634,7 @@
           "jumpBtnType": "ROGUE",
           "jumpBtnParam1": "rogue_4",
           "jumpBtnParam2": "main_03-08",
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 1750503600,
           "isSimpleMode": false
         }
@@ -122823,6 +125950,7 @@
           "jumpBtnType": "NONE",
           "jumpBtnParam1": null,
           "jumpBtnParam2": null,
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 0,
           "isSimpleMode": false
         }
@@ -123138,6 +126266,7 @@
           "jumpBtnType": "NONE",
           "jumpBtnParam1": null,
           "jumpBtnParam2": null,
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 0,
           "isSimpleMode": false
         }
@@ -123453,6 +126582,7 @@
           "jumpBtnType": "NONE",
           "jumpBtnParam1": null,
           "jumpBtnParam2": null,
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 0,
           "isSimpleMode": false
         }
@@ -123693,12 +126823,39 @@
           "jumpBtnType": "NONE",
           "jumpBtnParam1": null,
           "jumpBtnParam2": null,
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 0,
           "isSimpleMode": false
         }
       }
     },
     "TYPE_ACT9D0": {
+      "act37sre": {
+        "tokenItemId": "act37side_token_nay_rep_1",
+        "zoneDescList": {
+          "act37sre_zone1": {
+            "zoneId": "act37sre_zone1",
+            "unlockText": "Locked",
+            "displayStartTime": 1771930800
+          },
+          "act37sre_zone2": {
+            "zoneId": "act37sre_zone2",
+            "unlockText": "Unlocks after completing 'Die a Hero Or a Villain'",
+            "displayStartTime": 1771930800
+          }
+        },
+        "favorUpList": {},
+        "subMissionInfo": null,
+        "hasSubMission": false,
+        "apSupplyOutOfDateDict": {},
+        "newsInfoList": null,
+        "newsServerInfoList": null,
+        "miscHub": {},
+        "constData": {
+          "campaignEnemyCnt": 0,
+          "campaignStageId": null
+        }
+      },
       "act43side": {
         "tokenItemId": "act43side_token_phantom",
         "zoneDescList": {
@@ -157493,11 +160650,91 @@
             }
           ]
         },
-        "apSupplyOutOfDateDict": {},
-        "rewardsTitle": {
-          "act2switch_reward_50W": "1",
-          "act2switch_reward_200W": "2"
+        "rewardShowDatas": {
+          "act2switch_reward_50W": {
+            "checkinId": "act2switch_reward_50W",
+            "rewardsTitle": "1",
+            "rewardShowItemDatas": [
+              {
+                "itemBundle": {
+                  "id": "furni_sanrio_melody_01",
+                  "count": 1,
+                  "type": "FURN"
+                },
+                "isMainReward": true
+              },
+              {
+                "itemBundle": {
+                  "id": "3401",
+                  "count": 500,
+                  "type": "MATERIAL"
+                },
+                "isMainReward": false
+              },
+              {
+                "itemBundle": {
+                  "id": "2003",
+                  "count": 20,
+                  "type": "CARD_EXP"
+                },
+                "isMainReward": false
+              }
+            ],
+            "mainRewardShowData": {
+              "mainRewardPicId": "furni_sanrio_melody_01",
+              "mainRewardName": "Pastoral Sofa",
+              "mainRewardCount": 1,
+              "hasTip": true,
+              "tipItemBundle": {
+                "id": "furni_sanrio_melody_01",
+                "count": 1,
+                "type": "FURN"
+              }
+            }
+          },
+          "act2switch_reward_200W": {
+            "checkinId": "act2switch_reward_200W",
+            "rewardsTitle": "2",
+            "rewardShowItemDatas": [
+              {
+                "itemBundle": {
+                  "id": "furni_sanrio_cinnamoroll_01",
+                  "count": 1,
+                  "type": "FURN"
+                },
+                "isMainReward": true
+              },
+              {
+                "itemBundle": {
+                  "id": "4001",
+                  "count": 50000,
+                  "type": "GOLD"
+                },
+                "isMainReward": false
+              },
+              {
+                "itemBundle": {
+                  "id": "2004",
+                  "count": 30,
+                  "type": "CARD_EXP"
+                },
+                "isMainReward": false
+              }
+            ],
+            "mainRewardShowData": {
+              "mainRewardPicId": "furni_sanrio_cinnamoroll_01",
+              "mainRewardName": "Flying Cinnamon Ring",
+              "mainRewardCount": 1,
+              "hasTip": true,
+              "tipItemBundle": {
+                "id": "furni_sanrio_cinnamoroll_01",
+                "count": 1,
+                "type": "FURN"
+              }
+            }
+          }
         },
+        "apSupplyOutOfDateDict": {},
         "sortIdDict": {
           "act2switch_reward_50W": 0,
           "act2switch_reward_200W": 1
@@ -157544,11 +160781,91 @@
             }
           ]
         },
-        "apSupplyOutOfDateDict": {},
-        "rewardsTitle": {
-          "act2switch_reward_50W": "1",
-          "act2switch_reward_200W": "2"
+        "rewardShowDatas": {
+          "act2switch_reward_50W": {
+            "checkinId": "act2switch_reward_50W",
+            "rewardsTitle": "1",
+            "rewardShowItemDatas": [
+              {
+                "itemBundle": {
+                  "id": "furni_act42d0_books_01",
+                  "count": 1,
+                  "type": "FURN"
+                },
+                "isMainReward": true
+              },
+              {
+                "itemBundle": {
+                  "id": "3401",
+                  "count": 500,
+                  "type": "MATERIAL"
+                },
+                "isMainReward": false
+              },
+              {
+                "itemBundle": {
+                  "id": "2003",
+                  "count": 20,
+                  "type": "CARD_EXP"
+                },
+                "isMainReward": false
+              }
+            ],
+            "mainRewardShowData": {
+              "mainRewardPicId": "furni_act42d0_books_01",
+              "mainRewardName": "Stone Beach Pop-Up Book Pile",
+              "mainRewardCount": 1,
+              "hasTip": true,
+              "tipItemBundle": {
+                "id": "furni_act42d0_books_01",
+                "count": 1,
+                "type": "FURN"
+              }
+            }
+          },
+          "act2switch_reward_200W": {
+            "checkinId": "act2switch_reward_200W",
+            "rewardsTitle": "2",
+            "rewardShowItemDatas": [
+              {
+                "itemBundle": {
+                  "id": "furni_act42d0_window_01",
+                  "count": 1,
+                  "type": "FURN"
+                },
+                "isMainReward": true
+              },
+              {
+                "itemBundle": {
+                  "id": "4001",
+                  "count": 50000,
+                  "type": "GOLD"
+                },
+                "isMainReward": false
+              },
+              {
+                "itemBundle": {
+                  "id": "2004",
+                  "count": 30,
+                  "type": "CARD_EXP"
+                },
+                "isMainReward": false
+              }
+            ],
+            "mainRewardShowData": {
+              "mainRewardPicId": "furni_act42d0_window_01",
+              "mainRewardName": "Poplar on the Sands Windowsill",
+              "mainRewardCount": 1,
+              "hasTip": true,
+              "tipItemBundle": {
+                "id": "furni_act42d0_window_01",
+                "count": 1,
+                "type": "FURN"
+              }
+            }
+          }
         },
+        "apSupplyOutOfDateDict": {},
         "sortIdDict": {
           "act2switch_reward_50W": 0,
           "act2switch_reward_200W": 1
@@ -219409,7 +222726,6 @@
               "desc": "After deployment, both players' Operators temporarily gain <@multiv3.teamBuff>+20%</> ATK",
               "iconId": "skill_icon_sktok_muulco"
             },
-            "unlockKeyNum": 0,
             "runeData": {
               "id": "multi_rune_basic",
               "points": 0.0,
@@ -219495,7 +222811,8 @@
                   ]
                 }
               ]
-            }
+            },
+            "isInitial": true
           },
           {
             "id": "buff_2",
@@ -219510,7 +222827,6 @@
               "desc": "After deployment, both players' Operators on the field temporarily gain <@multiv3.teamBuff>6000</> Barrier",
               "iconId": "skill_icon_sktok_muulwr"
             },
-            "unlockKeyNum": 1,
             "runeData": {
               "id": "multi_rune_anchoring",
               "points": 0.0,
@@ -219645,7 +222961,8 @@
                   ]
                 }
               ]
-            }
+            },
+            "isInitial": false
           },
           {
             "id": "buff_3",
@@ -219660,7 +222977,6 @@
               "desc": "Deals damage to all enemies after deployment and reduces both players' Operators Redeployment Time to <@multiv3.teamBuff>0</>",
               "iconId": "skill_icon_sktok_muulas"
             },
-            "unlockKeyNum": 1,
             "runeData": {
               "id": "multi_rune_roaming",
               "points": 0.0,
@@ -219843,7 +223159,8 @@
                   ]
                 }
               ]
-            }
+            },
+            "isInitial": false
           },
           {
             "id": "buff_4",
@@ -219858,7 +223175,6 @@
               "desc": "After deployment, both players' Operators temporarily gain greatly increased ASPD, but have DEF and RES reduced to <@multiv3.teamBuff>0</>",
               "iconId": "skill_icon_sktok_muulrg"
             },
-            "unlockKeyNum": 1,
             "runeData": {
               "id": "multi_rune_offensive",
               "points": 0.0,
@@ -220046,7 +223362,8 @@
                   ]
                 }
               ]
-            }
+            },
+            "isInitial": false
           },
           {
             "id": "buff_5",
@@ -220061,7 +223378,6 @@
               "desc": "After deployment, randomly throws soda bottles at both players' Operators; struck Operators gain <@multiv3.teamBuff>+3</> SP",
               "iconId": "skill_icon_sktok_muulcl"
             },
-            "unlockKeyNum": 1,
             "runeData": {
               "id": "multi_rune_supportive",
               "points": 0.0,
@@ -220225,7 +223541,8 @@
                   ]
                 }
               ]
-            }
+            },
+            "isInitial": false
           }
         ],
         "targetMissionDataDict": {
@@ -223402,7 +226719,7 @@
           "stageListViewTimeLockToast": "Event begins after countdown completes"
         },
         "constData": {
-          "milestoneId": "act1multi_token_cap",
+          "milestoneId": "act2multi_token_cap",
           "roomNumCopyDesc": "Room ID [{0}], Dr. {1}#{2} invites you to join {3}: {4} on {5}. (Paste the code into input box for automatic recognition)",
           "noMapRoomNumCopyDesc": "Room number [{0}], Dr. {1}#{2} invites you to join in an event. (Paste the code into input box for automatic recognition)",
           "randomMapRoomNumCopyDesc": "Room number [{0}], Dr. {1}#{2} invites you to join a random event on {3}. (Paste the code into input box for automatic recognition)",
@@ -223413,22 +226730,22 @@
           "defenseOrdMax": 7,
           "defenseDifMax": 7,
           "stageChooseAnimRandomStageIdList": [
-            "act1multi_01",
-            "act1multi_02",
-            "act1multi_03"
+            "act2multi_01",
+            "act2multi_02",
+            "act2multi_03"
           ],
           "requireStarsPerBuffKey": 10,
           "maxUnlockNum": 20,
           "mapUnlockDesc1": "Achieve a score in any mode to choose events to participate in team mode",
           "mapUnlockDesc2": "Unlock events selection",
           "mapUnlockDesc3": "Obtain <@map.normal>3</> Merit Medals for an event to unlock its selection",
-          "mapUnlockDesc4": "Win by more than <@map.football>4</> goals to unlock event selection",
+          "mapUnlockDesc4": "Reach <@map.raft>4000</> points in Drift to unlock event selection",
           "mapUnlockDesc5": "Win by defending more than <@map.defence>7</> waves to unlock event selection",
           "mapUnlockDesc6": "Unlock selection for all events",
           "mapUnlockDesc7": "Obtain a total of <@map.normal>9</> Merit Medals for a regular event of any difficulty to unlock selection of all events in that difficulty",
           "difUnlockCond": 9,
-          "ordRewardStageId": "act1multi_01",
-          "difRewardStageId": "act1multi_ex01",
+          "ordRewardStageId": "act2multi_01",
+          "difRewardStageId": "act2multi_ex01",
           "maxMatchTime": 120,
           "tipsSwitchTime": 5,
           "pingConds": [
@@ -223456,7 +226773,7 @@
           "dailyMissionRule": "After obtaining <@dm.award>150</> [Participation Certificate] by participating in the events, you can collect a bonus <@dm.award>200</> [Participation Certificate] at the completion screen.\n(Rewards refresh daily at 04:00)\n\n<@dm.condition>Event range</>: All events other than Training Grounds",
           "missionDesc": "Fancy yourself faster than a Kuranta or stronger than a Forte? If you're yearning to prove your athletic prowess, then we have just the stage!",
           "dailyMissionRewardItem": {
-            "id": "act1multi_token_cap",
+            "id": "act2multi_token_cap",
             "count": 200,
             "type": "ACTIVITY_ITEM"
           },
@@ -223465,9 +226782,9 @@
           "defenceGreatVoiceWave": 5,
           "reportMaxNum": 3,
           "reportText": "Please select up to three behaviors to report",
-          "reward1Id": "emoticon_originium_slug",
+          "reward1Id": "avatar_activity_MULTI2",
           "reward1Text": "*Claimable when Hype reaches <@milestone>Lv. {0}</>",
-          "reward2Id": "char_190_clour@epoque#43",
+          "reward2Id": "char_349_chiave@race#2",
           "reward2Text": "*Claimable when Hype reaches <@milestone>Lv. {0}</>",
           "maxRetryTimeInTeamRoom": 30,
           "maxRetryTimeInMatchRoom": 30,
@@ -223483,7 +226800,7 @@
             "requireStarCnt": 18
           },
           "inverseModeHint": "*Lineup Exchange lets you swap Squads and Playing Styles with your teammate after the match begins.",
-          "teamUnlockStageId": "act1multi_tr01",
+          "teamUnlockStageId": "act2multi_tr01",
           "teamUnlockParam": 1,
           "trainPartnerCharId": "char_002_amiya",
           "trainPartnerCharSkinId": "char_002_amiya#1",
@@ -223502,15 +226819,33 @@
           "checkFriendStateTime": 60,
           "photoCharacterDefaultAct": "Default",
           "trainingStageConfirmDesc": "You will begin with a fixed team. Complete to unlock matchmaking\nBegin <@multiv3.unlockToast>[{0} (Tutorial)] </>?",
-          "joinRoomLongTimeThreshold": 30.0
-        }
+          "joinRoomLongTimeThreshold": 30.0,
+          "invitationSendCd": 60,
+          "boatMapReachableSize": 26,
+          "boatMapSizeMax": 40,
+          "boatExitMapOffset": 0,
+          "boatEnterTranOffset": 4,
+          "boatCollisionLossSpeedFactor": 0.5,
+          "boatAirFactor": 0.15,
+          "boatFrictionFactor": 0.01,
+          "boatForceInterval": 0.1,
+          "boatExchangeDamageMax": 5000,
+          "boatExchangeDamageMin": 100,
+          "boatExchangeForceMax": 20,
+          "boatExchangeForceMin": 4,
+          "waterSpeedFactor": 0.004
+        },
+        "sailBoatLevelPoolDict": {},
+        "sailBoatBlockPoolDict": {},
+        "sailBoatBlockInfoList": {}
       }
     },
     "TYPE_MAINSS": {
       "act2mainss": {
         "zoneAdditionDataMap": {
           "act2mainss_zone1": {
-            "unlockTip": "Reach <color=#d51c47>3-8</color> to continue playing"
+            "unlockTip": "Reach <color=#d51c47>3-8</color> to continue playing",
+            "unlockTipAfterRetro": "Reach <color=#d51c47>3-8</color> to continue playing"
           }
         }
       }
@@ -224076,7 +227411,8 @@
             "isRoom": false,
             "modeType": "OPERATION",
             "stageIds": [
-              "act2enemyduel_01a"
+              "act2enemyduel_01a",
+              "act2enemyduel_01b"
             ],
             "pageId": 1,
             "innerSortId": 3,
@@ -224108,7 +227444,8 @@
             "isRoom": false,
             "modeType": "OPERATION",
             "stageIds": [
-              "act2enemyduel_01a"
+              "act2enemyduel_01a",
+              "act2enemyduel_01b"
             ],
             "pageId": 1,
             "innerSortId": 2,
@@ -224140,7 +227477,8 @@
             "isRoom": false,
             "modeType": "STAND",
             "stageIds": [
-              "act2enemyduel_01a"
+              "act2enemyduel_01a",
+              "act2enemyduel_01b"
             ],
             "pageId": 1,
             "innerSortId": 1,
@@ -224172,7 +227510,8 @@
             "isRoom": true,
             "modeType": "OPERATION",
             "stageIds": [
-              "act2enemyduel_01a"
+              "act2enemyduel_01a",
+              "act2enemyduel_01b"
             ],
             "pageId": 2,
             "innerSortId": 2,
@@ -224204,7 +227543,8 @@
             "isRoom": true,
             "modeType": "STAND",
             "stageIds": [
-              "act2enemyduel_01a"
+              "act2enemyduel_01a",
+              "act2enemyduel_01b"
             ],
             "pageId": 2,
             "innerSortId": 1,
@@ -226096,12 +229436,20 @@
                 "score": 4.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": 2.0
+              },
+              {
                 "enemyId": "enemy_15037_dqhtms",
                 "score": 18.0
               },
               {
                 "enemyId": "enemy_15038_dqhtbw",
                 "score": 7.0
+              },
+              {
+                "enemyId": "enemy_15039_dqrgrd",
+                "score": 12.0
               },
               {
                 "enemyId": "enemy_15040_dqrdmn",
@@ -226120,6 +229468,10 @@
                 "score": 25.0
               },
               {
+                "enemyId": "enemy_15045_dqrbty",
+                "score": 18.0
+              },
+              {
                 "enemyId": "enemy_15046_dqxts",
                 "score": 1.0
               },
@@ -226132,6 +229484,14 @@
                 "score": 7.0
               },
               {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 18.0
+              },
+              {
+                "enemyId": "enemy_15051_dqxjl",
+                "score": 14.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 6.0
               },
@@ -226140,8 +229500,20 @@
                 "score": 7.0
               },
               {
+                "enemyId": "enemy_15054_dqprpn",
+                "score": 9.0
+              },
+              {
                 "enemyId": "enemy_15055_dqrhcr",
                 "score": 20.0
+              },
+              {
+                "enemyId": "enemy_15057_dqmram",
+                "score": 11.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
+                "score": 14.0
               },
               {
                 "enemyId": "enemy_15059_dqhmmr",
@@ -226401,12 +229773,20 @@
                 "score": -2.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": -2.0
+              },
+              {
                 "enemyId": "enemy_15037_dqhtms",
                 "score": 8.0
               },
               {
                 "enemyId": "enemy_15038_dqhtbw",
                 "score": 6.0
+              },
+              {
+                "enemyId": "enemy_15039_dqrgrd",
+                "score": 2.0
               },
               {
                 "enemyId": "enemy_15040_dqrdmn",
@@ -226425,6 +229805,10 @@
                 "score": 10.0
               },
               {
+                "enemyId": "enemy_15045_dqrbty",
+                "score": 8.0
+              },
+              {
                 "enemyId": "enemy_15046_dqxts",
                 "score": -2.0
               },
@@ -226437,6 +229821,14 @@
                 "score": -1.0
               },
               {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 5.0
+              },
+              {
+                "enemyId": "enemy_15051_dqxjl",
+                "score": 2.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 5.0
               },
@@ -226445,8 +229837,20 @@
                 "score": 1.0
               },
               {
+                "enemyId": "enemy_15054_dqprpn",
+                "score": 2.0
+              },
+              {
                 "enemyId": "enemy_15055_dqrhcr",
                 "score": 4.0
+              },
+              {
+                "enemyId": "enemy_15057_dqmram",
+                "score": 6.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
+                "score": 3.0
               },
               {
                 "enemyId": "enemy_15059_dqhmmr",
@@ -226618,7 +230022,15 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15037_dqhtms",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15039_dqrgrd",
                 "score": 100.0
               },
               {
@@ -226638,6 +230050,10 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15051_dqxjl",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 100.0
               },
@@ -226646,7 +230062,15 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15054_dqprpn",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15055_dqrhcr",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15057_dqmram",
                 "score": 100.0
               },
               {
@@ -226759,7 +230183,19 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15045_dqrbty",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15048_dqdivi",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
                 "score": 100.0
               },
               {
@@ -226844,6 +230280,10 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15043_dqrckm",
                 "score": 100.0
               },
@@ -226860,11 +230300,23 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15051_dqxjl",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 100.0
               },
               {
                 "enemyId": "enemy_15053_dqtrtl",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15054_dqprpn",
                 "score": 100.0
               },
               {
@@ -227043,6 +230495,14 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15039_dqrgrd",
+                "score": 300.0
+              },
+              {
                 "enemyId": "enemy_15044_dqtisd",
                 "score": 300.0
               },
@@ -227055,6 +230515,10 @@
                 "score": 300.0
               },
               {
+                "enemyId": "enemy_15051_dqxjl",
+                "score": 300.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 300.0
               },
@@ -227063,7 +230527,15 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15054_dqprpn",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15055_dqrhcr",
+                "score": 300.0
+              },
+              {
+                "enemyId": "enemy_15057_dqmram",
                 "score": 300.0
               },
               {
@@ -227130,6 +230602,18 @@
               {
                 "enemyId": "enemy_15043_dqrckm",
                 "score": 300.0
+              },
+              {
+                "enemyId": "enemy_15045_dqrbty",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 300.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
+                "score": 300.0
               }
             ]
           },
@@ -227181,6 +230665,10 @@
                 "score": 300.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": 300.0
+              },
+              {
                 "enemyId": "enemy_15046_dqxts",
                 "score": 300.0
               },
@@ -227189,11 +230677,19 @@
                 "score": 300.0
               },
               {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 300.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 300.0
               },
               {
                 "enemyId": "enemy_15053_dqtrtl",
+                "score": 300.0
+              },
+              {
+                "enemyId": "enemy_15054_dqprpn",
                 "score": 300.0
               },
               {
@@ -227451,11 +230947,19 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15037_dqhtms",
                 "score": 100.0
               },
               {
                 "enemyId": "enemy_15038_dqhtbw",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15039_dqrgrd",
                 "score": 100.0
               },
               {
@@ -227475,6 +230979,10 @@
                 "score": -100.0
               },
               {
+                "enemyId": "enemy_15045_dqrbty",
+                "score": 0.0
+              },
+              {
                 "enemyId": "enemy_15046_dqxts",
                 "score": 100.0
               },
@@ -227487,6 +230995,14 @@
                 "score": 0.0
               },
               {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 0.0
+              },
+              {
+                "enemyId": "enemy_15051_dqxjl",
+                "score": 0.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 100.0
               },
@@ -227495,8 +231011,20 @@
                 "score": -100.0
               },
               {
+                "enemyId": "enemy_15054_dqprpn",
+                "score": 0.0
+              },
+              {
                 "enemyId": "enemy_15055_dqrhcr",
                 "score": -100.0
+              },
+              {
+                "enemyId": "enemy_15057_dqmram",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
+                "score": 0.0
               },
               {
                 "enemyId": "enemy_15059_dqhmmr",
@@ -227664,6 +231192,10 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15039_dqrgrd",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15040_dqrdmn",
                 "score": 100.0
               },
@@ -227673,6 +231205,10 @@
               },
               {
                 "enemyId": "enemy_15044_dqtisd",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15045_dqrbty",
                 "score": 100.0
               },
               {
@@ -227698,6 +231234,14 @@
             "data": [
               {
                 "enemyId": "enemy_15021_dqdurg",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15057_dqmram",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
                 "score": 100.0
               }
             ]
@@ -227761,6 +231305,10 @@
               },
               {
                 "enemyId": "enemy_15040_dqrdmn",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
                 "score": 100.0
               }
             ]
@@ -228005,12 +231553,20 @@
                 "score": 4000.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": 2250.0
+              },
+              {
                 "enemyId": "enemy_15037_dqhtms",
                 "score": 15000.0
               },
               {
                 "enemyId": "enemy_15038_dqhtbw",
                 "score": 15000.0
+              },
+              {
+                "enemyId": "enemy_15039_dqrgrd",
+                "score": 20000.0
               },
               {
                 "enemyId": "enemy_15040_dqrdmn",
@@ -228029,6 +231585,10 @@
                 "score": 15000.0
               },
               {
+                "enemyId": "enemy_15045_dqrbty",
+                "score": 17000.0
+              },
+              {
                 "enemyId": "enemy_15046_dqxts",
                 "score": 1700.0
               },
@@ -228041,6 +231601,14 @@
                 "score": 8000.0
               },
               {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 15000.0
+              },
+              {
+                "enemyId": "enemy_15051_dqxjl",
+                "score": 9000.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 25000.0
               },
@@ -228049,7 +231617,19 @@
                 "score": 14000.0
               },
               {
+                "enemyId": "enemy_15054_dqprpn",
+                "score": 25000.0
+              },
+              {
                 "enemyId": "enemy_15055_dqrhcr",
+                "score": 12000.0
+              },
+              {
+                "enemyId": "enemy_15057_dqmram",
+                "score": 13500.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
                 "score": 12000.0
               },
               {
@@ -228312,6 +231892,10 @@
             "enemyId": "enemy_15035_dqbone",
             "originalEnemyId": "enemy_1109_uabone"
           },
+          "enemy_15036_dqalme": {
+            "enemyId": "enemy_15036_dqalme",
+            "originalEnemyId": "enemy_1246_aslime"
+          },
           "enemy_15037_dqhtms": {
             "enemyId": "enemy_15037_dqhtms",
             "originalEnemyId": "enemy_1341_bthtms"
@@ -228319,6 +231903,10 @@
           "enemy_15038_dqhtbw": {
             "enemyId": "enemy_15038_dqhtbw",
             "originalEnemyId": "enemy_1340_bthtbw"
+          },
+          "enemy_15039_dqrgrd": {
+            "enemyId": "enemy_15039_dqrgrd",
+            "originalEnemyId": "enemy_1339_bhrgrd"
           },
           "enemy_15040_dqrdmn": {
             "enemyId": "enemy_15040_dqrdmn",
@@ -228336,6 +231924,10 @@
             "enemyId": "enemy_15044_dqtisd",
             "originalEnemyId": "enemy_1081_sotisd"
           },
+          "enemy_15045_dqrbty": {
+            "enemyId": "enemy_15045_dqrbty",
+            "originalEnemyId": "enemy_1219_mtrbty"
+          },
           "enemy_15046_dqxts": {
             "enemyId": "enemy_15046_dqxts",
             "originalEnemyId": "enemy_1395_dhxts"
@@ -228348,6 +231940,14 @@
             "enemyId": "enemy_15048_dqdivi",
             "originalEnemyId": "enemy_1436_dsdivi"
           },
+          "enemy_15049_dqfrog": {
+            "enemyId": "enemy_15049_dqfrog",
+            "originalEnemyId": "enemy_10058_cjfrog"
+          },
+          "enemy_15051_dqxjl": {
+            "enemyId": "enemy_15051_dqxjl",
+            "originalEnemyId": "enemy_10066_ftxjl"
+          },
           "enemy_15052_dqboar": {
             "enemyId": "enemy_15052_dqboar",
             "originalEnemyId": "enemy_1309_mhboar"
@@ -228356,9 +231956,21 @@
             "enemyId": "enemy_15053_dqtrtl",
             "originalEnemyId": "enemy_1306_mhtrtl"
           },
+          "enemy_15054_dqprpn": {
+            "enemyId": "enemy_15054_dqprpn",
+            "originalEnemyId": "enemy_1310_mhprpn"
+          },
           "enemy_15055_dqrhcr": {
             "enemyId": "enemy_15055_dqrhcr",
             "originalEnemyId": "enemy_1307_mhrhcr"
+          },
+          "enemy_15057_dqmram": {
+            "enemyId": "enemy_15057_dqmram",
+            "originalEnemyId": "enemy_1274_stmram_2"
+          },
+          "enemy_15058_dqtank": {
+            "enemyId": "enemy_15058_dqtank",
+            "originalEnemyId": "enemy_1272_nhtank"
           },
           "enemy_15059_dqhmmr": {
             "enemyId": "enemy_15059_dqhmmr",
@@ -234994,7 +238606,184 @@
           "customerTagFormat": "<{0}>"
         }
       }
-    }
+    },
+    "HALFIDLE_VERIFY1": {},
+    "TYPE_ACT45SIDE": {
+      "act45side": {
+        "charData": {
+          "char_4182_oblvns": {
+            "charId": "char_4182_oblvns",
+            "sortId": 1,
+            "charIllustId": "char_4182_oblvns",
+            "charCardId": "tarot_char_4182_oblvns",
+            "charName": "<@char.oblv>Sakiko Togawa</>",
+            "unlockStageId": "act45side_01"
+          },
+          "char_4186_tmoris": {
+            "charId": "char_4186_tmoris",
+            "sortId": 2,
+            "charIllustId": "char_4186_tmoris",
+            "charCardId": "tarot_char_4186_tmoris",
+            "charName": "<@char.tmor>Umiri Yahata</>",
+            "unlockStageId": "act45side_02"
+          },
+          "char_4184_dolris": {
+            "charId": "char_4184_dolris",
+            "sortId": 3,
+            "charIllustId": "char_4184_dolris",
+            "charCardId": "tarot_char_4184_dolris",
+            "charName": "<@char.dolr>Uika Misumi</>",
+            "unlockStageId": "act45side_04"
+          },
+          "char_4185_amoris": {
+            "charId": "char_4185_amoris",
+            "sortId": 4,
+            "charIllustId": "char_4185_amoris",
+            "charCardId": "tarot_char_4185_amoris",
+            "charName": "<@char.amor>Nyamu Yūtenji</>",
+            "unlockStageId": "act45side_06"
+          },
+          "char_4183_mortis": {
+            "charId": "char_4183_mortis",
+            "sortId": 5,
+            "charIllustId": "char_4183_mortis",
+            "charCardId": "tarot_char_4183_mortis",
+            "charName": "<@char.mort>Mutsumi Wakaba</>",
+            "unlockStageId": "act45side_08"
+          }
+        },
+        "mailData": {
+          "letter_1": {
+            "mailId": "letter_1",
+            "sortId": 1,
+            "charName": "Closure",
+            "picId": "charId_closure",
+            "mailTitle": "A Message from the Store",
+            "mailContent": "I heard the stage setup for the masquerade has begun? I, as a fan, definitely have to help out! Don't be shy, these are old tables from Rhodes Island that were just sitting around, and I've refurbished them to suit the band's style. They'll definitely come in handy! So, please make sure to invite me to the masquerade!\n",
+            "sendTime": 1770724800,
+            "rewards": [
+              {
+                "id": "furni_dreamCastle_table_02",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "act45side_token_puzzlepieces",
+                "count": 200,
+                "type": "ACTIVITY_ITEM"
+              }
+            ]
+          },
+          "letter_2": {
+            "mailId": "letter_2",
+            "sortId": 2,
+            "charName": "Vigna",
+            "picId": "charId_vigna",
+            "mailTitle": "Operator Message",
+            "mailContent": "These are stage decorations my bandmates and I prepared. Hope they can be of some use. As a fellow band member from Rhodes Island, if there's anything else you need help with, just ask. Even when things get tough, we play without holding back—isn't that what rock and roll is about? Let's jam sometime!",
+            "sendTime": 1770807600,
+            "rewards": [
+              {
+                "id": "furni_dreamCastle_Column_01",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "act45side_token_puzzlepieces",
+                "count": 200,
+                "type": "ACTIVITY_ITEM"
+              }
+            ]
+          },
+          "letter_3": {
+            "mailId": "letter_3",
+            "sortId": 3,
+            "charName": "Warmy",
+            "picId": "charId_warmy",
+            "mailTitle": "Engineering Department Order",
+            "mailContent": "Hello, these are the lighting fixtures from your order. We've adjusted their appearance to match the requested style. After confirmation, we'll help install them on the stage. Well, I don't quite understand it, but this stage really looks so amazing and cool. If it's possible, could I bring my friends to attend too? It's sure to be a truly magnificent and unforgettable masquerade!",
+            "sendTime": 1770894000,
+            "rewards": [
+              {
+                "id": "furni_dreamCastle_ceilingLight_01",
+                "count": 2,
+                "type": "FURN"
+              },
+              {
+                "id": "act45side_token_puzzlepieces",
+                "count": 300,
+                "type": "ACTIVITY_ITEM"
+              }
+            ]
+          },
+          "letter_4": {
+            "mailId": "letter_4",
+            "sortId": 4,
+            "charName": "Iris",
+            "picId": "charId_iris",
+            "mailTitle": "A Message from the Castle of Dreams",
+            "mailContent": "How are the members of Ave Mujica doing? I heard that your masquerade on Rhodes Island is being diligently prepared, so please allow me to contribute as well.\nThese were originally furniture pieces from the Castle of Dreams, and I've sent them over to add some vibe to the masquerade. We are very much looking forward to the official start of the masquerade, and the children are also impatient. I wish you all the best.",
+            "sendTime": 1770980400,
+            "rewards": [
+              {
+                "id": "furni_dreamCastle_candle_01",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "act45side_token_puzzlepieces",
+                "count": 300,
+                "type": "ACTIVITY_ITEM"
+              }
+            ]
+          },
+          "letter_5": {
+            "mailId": "letter_5",
+            "sortId": 5,
+            "charName": "Morpheus",
+            "picId": "charId_morpheus",
+            "mailTitle": "Recording from the Castle of Dreams",
+            "mailContent": "Ugh... Iris asked me to apologize to you, so I just... I went too far before, and caused you unnecessary trouble. I'm truly sorry. Please take these stage backdrops Corettons and I made together... Is that enough now, Iris! Ahh, I don't care anymore, just let it be!! I really hope your masquerade is a success, otherwise Iris will surely nag me again!",
+            "sendTime": 1771066800,
+            "rewards": [
+              {
+                "id": "furni_dreamCastle_table_03",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "act45side_token_puzzlepieces",
+                "count": 500,
+                "type": "ACTIVITY_ITEM"
+              }
+            ]
+          }
+        },
+        "constData": {
+          "entryStageId": "act45side_01",
+          "toastCharUnlock": "{0} appears at the ball",
+          "toastLivePageUnlock": "The Hall unlocked",
+          "toastLivePageLocked": "Clear {0} to unlock",
+          "textCharLocked": "Clear {0} to unlock",
+          "textMailTime": "A Message will arrive after {0}",
+          "textBtnMailTime": "Next Message Arrival Time: {0}",
+          "gameTVSizeMusicId": "music_act45side_0",
+          "gameFullSizeMusicId": "music_act45side_1",
+          "entryMusicId": "music_act45side_2"
+        },
+        "zoneAdditionDataMap": {
+          "act45side_zone1": {
+            "zoneId": "act45side_zone1",
+            "unlockText": "Locked"
+          },
+          "act45side_zone2": {
+            "zoneId": "act45side_zone2",
+            "unlockText": "Unlocks after completing 'Somniamus Omnes'"
+          }
+        }
+      }
+    },
+    "RECRUIT_ONLY": {}
   },
   "extraData": {
     "MAINLINE_BP": {
@@ -235015,6 +238804,15 @@
     }
   },
   "activityItems": {
+    "act6collection": [
+      "act6collection_point_token"
+    ],
+    "act37sre": [
+      "act37side_token_nay_rep_1"
+    ],
+    "act45side": [
+      "act45side_token_puzzlepieces"
+    ],
     "act2enemyduel": [
       "act2enemyduel_milestone_point"
     ],
@@ -235478,6 +239276,10 @@
     "act11d7": [
       1611154800,
       1612004399
+    ],
+    "act37sre": [
+      1771930800,
+      1772794799
     ],
     "act43side": [
       1763046000,
@@ -242188,6 +245990,42 @@
       ],
       "picGroups": [],
       "startTs": 1770130800
+    },
+    {
+      "id": "dis_side_45",
+      "type": "ACTIVITY",
+      "funcId": "act45side",
+      "endTs": 1771930799,
+      "sortId": 125,
+      "itemId": "act45side_token_puzzlepieces",
+      "timeNodes": [
+        {
+          "title": "Event <Somniloquium Serenum> is now open",
+          "ts": 1770724800
+        },
+        {
+          "title": "'Amor Fati' stages opened",
+          "ts": 1771369200
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1770724800
+    },
+    {
+      "id": "dis_side_37_sre",
+      "type": "ACTIVITY",
+      "funcId": "act37sre",
+      "endTs": 1772794799,
+      "sortId": 126,
+      "itemId": "act37side_token_nay_rep_1",
+      "timeNodes": [
+        {
+          "title": "Event <Ending A Grand Overture> open",
+          "ts": 1771930800
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1771930800
     }
   ],
   "actFunData": {
@@ -249581,7 +253419,7 @@
         "name": "See-Saw Ejection Seat",
         "icon": "durcar_gear_a_3_3",
         "showScores": 45,
-        "itemUsage": "<Self-Driving Cart> pushes enemies significantly in direction it is traveling",
+        "itemUsage": "<Self-Driving Cart> pushes enemies greatly in direction it is traveling",
         "itemDesc": "A seat on a see-saw. Rumor has it that these see-saws were responsible for the cracking of the dome, though no evidence has surfaced. Yet.",
         "itemObtain": "Gear Trading Center, Engine Club",
         "rarity": 3,
@@ -252382,7 +256220,7 @@
         "id": "durcar_gear_a_3_3",
         "points": 3.0,
         "mutexGroupKey": "HEADSTOCK",
-        "description": "[Self-Driving Cart] pushes enemies significantly in direction it is traveling",
+        "description": "[Self-Driving Cart] pushes enemies greatly in direction it is traveling",
         "runes": [
           {
             "key": "enemy_talent_blackb_max",
@@ -266460,6 +270298,9 @@
       ]
     }
   },
+  "halfIdleData": {
+    "itemData": {}
+  },
   "kvSwitchData": {
     "act18sre": {
       "kvSwitchInfo": {
@@ -266491,6 +270332,23 @@
     }
   },
   "dynEntrySwitchData": {
+    "act45side": {
+      "entrySwitchInfo": {
+        "act45side_entry_01": {
+          "entryId": "act45side_entry_01",
+          "sortId": 1,
+          "stageId": null,
+          "signalId": "act45side"
+        },
+        "act45side_entry_02": {
+          "entryId": "act45side_entry_02",
+          "sortId": 2,
+          "stageId": "act45side_08",
+          "signalId": "act45side"
+        }
+      },
+      "randomEntrySwitchInfo": {}
+    },
     "act44side": {
       "entrySwitchInfo": {},
       "randomEntrySwitchInfo": {
@@ -269774,6 +273632,43 @@
     }
   },
   "activityTemplateMissionStyles": {
+    "act37sre": {
+      "bigRewardType": "ILLUST_CHAR_REWARD",
+      "bigRewardParamList": [
+        "char_4162_cathy",
+        "Clear GO-4 to recruit this Operator",
+        "dea65c",
+        "8.6,-160"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": null,
+      "isMissionItemCompleteUseMainColor": false,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": null,
+      "claimAllBtnTips": null,
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "dea65c"
+    },
+    "act45side": {
+      "bigRewardType": "PIC_REWARD",
+      "bigRewardParamList": [],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": null,
+      "isMissionItemCompleteUseMainColor": false,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": null,
+      "claimAllBtnTips": "Completed mission(s) to claim rewards for",
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "b40048"
+    },
     "act35sre": {
       "bigRewardType": "ILLUST_CHAR_REWARD",
       "bigRewardParamList": [

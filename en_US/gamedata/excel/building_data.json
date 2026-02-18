@@ -14220,6 +14220,153 @@
           ]
         }
       ]
+    },
+    "char_4182_oblvns": {
+      "charId": "char_4182_oblvns",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_prod_bd_spd[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            },
+            {
+              "buffId": "control_prod_bd_spd[010]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "control_mp_cost&bd3[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_4183_mortis": {
+      "charId": "char_4183_mortis",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_mp_bd&trade[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "control_mp_cost_reset[000]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_4185_amoris": {
+      "charId": "char_4185_amoris",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_meeting_spd&bd[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "control_mp&meet_spd[000]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_4184_dolris": {
+      "charId": "char_4184_dolris",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_dorm_bd[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "control_dorm_rec2[000]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_4186_tmoris": {
+      "charId": "char_4186_tmoris",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_hire_spd&bd[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "control_tra_limit&spd2[000]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
     }
   },
   "buffs": {
@@ -14264,6 +14411,36 @@
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
       "description": "When this Operator is assigned to the Control Center, all <$cc.tag.knight><@cc.kw>Knight</></> Operators assigned to Factories gain productivity <@cc.vup>+7%</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_prod_bd_spd[000]": {
+      "buffId": "control_prod_bd_spd[000]",
+      "buffName": "Plentiful Work Experience",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_p_oblvns",
+      "sortId": 1617,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "When this Operator is assigned to the Control Center, the productivity of <@cc.kw>Precious Metals</> of all Factories <@cc.vup>+0.5%</>, with an additional <@cc.vup>+0.5%</> for every <@cc.vup>20</> <$cc.bd_mujica><@cc.rem>Passion</></>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_prod_bd_spd[010]": {
+      "buffId": "control_prod_bd_spd[010]",
+      "buffName": "Plentiful Work Experience",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_p_oblvns",
+      "sortId": 1617,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "When this Operator is assigned to the Control Center, the productivity of <@cc.kw>Precious Metals</> of all Factories <@cc.vup>+1%</>, with an additional <@cc.vup>+1%</> for every <@cc.vup>20</> <$cc.bd_mujica><@cc.rem>Passion</></>",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -14429,6 +14606,21 @@
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
       "description": "When this Operator is assigned to the Control Center, all <$cc.g.karlan><@cc.kw>Karlan Trade</></> Operators assigned to Trading Posts gain order acquisition efficiency <@cc.vdown>-15%</> and order limit <@cc.vup>+6</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_tra_limit&spd2[000]": {
+      "buffId": "control_tra_limit&spd2[000]",
+      "buffName": "Famiglia Approval",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_t_limit&spd_tmoris",
+      "sortId": 1616,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "When this Operator is assigned to the Control Center, all <$cc.g.siracusa><@cc.kw>Siracusa</></> Operators assigned to Trading Posts gain order acquisition efficiency <@cc.vup>+5%</>",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -14958,6 +15150,21 @@
       "targetGroupSortId": 0,
       "targets": []
     },
+    "control_mp_cost&bd3[000]": {
+      "buffId": "control_mp_cost&bd3[000]",
+      "buffName": "Indomitable Lady",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_mp_oblvns",
+      "sortId": 1617,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "When this Operator is assigned to the Control Center, self Morale loss per hour <@cc.vdown>+0.05</> when Passion is <@cc.kw>40</> or higher",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
     "control_mp_cost&bd_up[000]": {
       "buffId": "control_mp_cost&bd_up[000]",
       "buffName": "I am I",
@@ -15014,6 +15221,36 @@
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
       "description": "When this Operator is assigned to the Control Center, self Morale loss per hour <@cc.vdown>+0.5</>, <$cc.bd_felyne><@cc.rem>Felvine</></> <@cc.vup>+8</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_mp_cost_reset[000]": {
+      "buffId": "control_mp_cost_reset[000]",
+      "buffName": "Halves of a Whole",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_mp_mortis",
+      "sortId": 1613,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "When this Operator is assigned to the Control Center with <@cc.kw>Sakiko Togawa</>, ignores the self Morale loss effect from her own base skill",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_mp&meet_spd[000]": {
+      "buffId": "control_mp&meet_spd[000]",
+      "buffName": "Exitus Acta Probat",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_meet_amoris2",
+      "sortId": 1614,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "When this Operator is assigned to the Control Center with <@cc.kw>Sakiko Togawa</>, Morale consumed per hour by <@cc.kw>Sakiko Togawa</> <@cc.vdown>+0.05</> and clue collection speed <@cc.vup>+5%</> (Only the strongest effect of this type takes place)",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -15228,6 +15465,21 @@
       "targetGroupSortId": 0,
       "targets": []
     },
+    "control_dorm_rec2[000]": {
+      "buffId": "control_dorm_rec2[000]",
+      "buffName": "Resonant Bond",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_dorm_uika2",
+      "sortId": 1615,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "When this Operator is assigned to the Control Center, all Operators in Dormitories recover <@cc.vup>+0.05</> Morale per hour (Only the strongest effect of this type takes place); when assigned to the Control Center with <@cc.kw>Sakiko Togawa</>, Morale consumed per hour by <@cc.kw>Sakiko Togawa</> <@cc.vup>+0.1</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
     "control_train_spd[010]": {
       "buffId": "control_train_spd[010]",
       "buffName": "S.W.E.E.P. Supervisor",
@@ -15284,6 +15536,66 @@
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
       "description": "When this Operator is assigned to the Control Center, for <@cc.vup>each</> <$cc.g.glasgow><@cc.kw>Glasgow Gang</></> Operator assigned to the same Trading Post, order acquisition efficiency <@cc.vup>+10%</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_mp_bd&trade[000]": {
+      "buffId": "control_mp_bd&trade[000]",
+      "buffName": "Monster of Acting",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_trade_mortis",
+      "sortId": 1613,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "When this Operator is assigned to the Control Center, <$cc.bd_mujica><@cc.rem>Passion</></> <@cc.vup>+20</>; for every <@cc.vup>8</> <$cc.bd_mujica><@cc.rem>Passion</></>, self Morale consumed per hour <@cc.vdown>+0.01</> and all Trading Posts' order efficiency <@cc.vup>+1%</> (Only the strongest effect of this type takes place)",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_meeting_spd&bd[000]": {
+      "buffId": "control_meeting_spd&bd[000]",
+      "buffName": "Diligent Worker",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_meet_amoris1",
+      "sortId": 1614,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "When this Operator is assigned to the Control Center, <$cc.bd_mujica><@cc.rem>Passion</></> <@cc.vup>+10</>; clue collection speed <@cc.vup>+5%</> (Only the strongest effect of this type takes place)",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_dorm_bd[000]": {
+      "buffId": "control_dorm_bd[000]",
+      "buffName": "Idol's Aura",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_dorm_uika1",
+      "sortId": 1615,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "When this Operator is assigned to the Control Center, for <@cc.vup>every</> Operator in the Dormitories, <$cc.bd_mujica><@cc.rem>Passion</></> <@cc.vup>+1</> ",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_hire_spd&bd[000]": {
+      "buffId": "control_hire_spd&bd[000]",
+      "buffName": "Reliable Companion",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_hire_tmoris",
+      "sortId": 1616,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "When this Operator is assigned to the Control Center, <$cc.bd_mujica><@cc.rem>Passion</></> <@cc.vup>+10</>; HR contacting speed <@cc.vup>+10%</> (Only the strongest effect of this type takes place)",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -90617,6 +90929,550 @@
         "enableRoomType": 4112,
         "quantity": 1
       },
+      "furni_dreamCastle_Column_01": {
+        "id": "furni_dreamCastle_Column_01",
+        "sortId": 2056,
+        "name": "'Curtain Rise' Pillar",
+        "iconId": "furni_dreamCastle_Column_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "COLUMN",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_1",
+        "width": 4,
+        "depth": 4,
+        "height": 10,
+        "comfort": 325,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A large engraved stone pillar, a scarlet curtain mounted on a sliding rail at the top. With the curtain's opening, guests will step into the abyss of dream, tasting of life's beguiling sorrow and joy.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_ceilingLight_01": {
+        "id": "furni_dreamCastle_ceilingLight_01",
+        "sortId": 2057,
+        "name": "Dark Bronze Vine Chandelier",
+        "iconId": "furni_dreamCastle_ceilingLight_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILINGLAMP",
+        "subType": "NONE",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_1",
+        "width": 5,
+        "depth": 4,
+        "height": 4,
+        "comfort": 115,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A dark bronze chandelier, its bulbs shaped like candle flames. Its luminescence is far from able to light up the entire hall. There is always someone ready to be enticed by the darkness.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 2,
+        "enableRoomType": 4112,
+        "quantity": 2
+      },
+      "furni_dreamCastle_piano_01": {
+        "id": "furni_dreamCastle_piano_01",
+        "sortId": 2058,
+        "name": "'Hall of Candles' Pipe Organ",
+        "iconId": "furni_dreamCastle_piano_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "INSTRUMENT_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_1",
+        "width": 7,
+        "depth": 3,
+        "height": 8,
+        "comfort": 350,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A pipe organ with a robust frame, its pipes enclosed in decorative points. Surrounded by stifling gloom, only those of preternatural determination can play a melody on it to rouse the heart.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_chair_01": {
+        "id": "furni_dreamCastle_chair_01",
+        "sortId": 2059,
+        "name": "Dark Red Piano Stool",
+        "iconId": "furni_dreamCastle_chair_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "SEATING",
+        "subType": "CHAIR",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_1",
+        "width": 2,
+        "depth": 2,
+        "height": 2,
+        "comfort": 115,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A piano stool with a cross-shaped foot, its cushion encased in dark-red silk. When the musician sits and faces the keys, what turmoil churns within her heart?",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_candle_01": {
+        "id": "furni_dreamCastle_candle_01",
+        "sortId": 2060,
+        "name": "'Teardrops of Blood'",
+        "iconId": "furni_dreamCastle_candle_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "FLOORLAMP",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_1",
+        "width": 2,
+        "depth": 2,
+        "height": 4,
+        "comfort": 145,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A metal standing candelabra painted with dark paint, a simple yet elegant design. The people in the Castle of Dreams may wear masks, but this candelabra is witness to the tears pooling under them as they dance.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_chair_02": {
+        "id": "furni_dreamCastle_chair_02",
+        "sortId": 2061,
+        "name": "Dreamseeker's Chair",
+        "iconId": "furni_dreamCastle_chair_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "SEATING",
+        "subType": "CHAIR",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_2",
+        "width": 2,
+        "depth": 2,
+        "height": 6,
+        "comfort": 115,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A high-backed chair with a bright-red seat and back, its head engraved with a candlestick design. Here, the young ladies sank into a boundless dream, the chairs proof of their past victories over themselves.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 5,
+        "enableRoomType": 4112,
+        "quantity": 5
+      },
+      "furni_dreamCastle_table_01": {
+        "id": "furni_dreamCastle_table_01",
+        "sortId": 2062,
+        "name": "Castle Table",
+        "iconId": "furni_dreamCastle_table_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "TABLE",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_2",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 130,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A small round table draped in dark purple cloth, an ornate glass lamp atop it. The young woman leaves her weak heart and the mask she wears only in dreams behind in the past.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_drawing_01": {
+        "id": "furni_dreamCastle_drawing_01",
+        "sortId": 2063,
+        "name": "'Cage of Night'",
+        "iconId": "furni_dreamCastle_drawing_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLDECO",
+        "subType": "ART_WD",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_4",
+        "width": 2,
+        "depth": 1,
+        "height": 3,
+        "comfort": 60,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A painting within a wooden frame, depicting a moonlit night wrapped in chains. Every visitor has chains lashing down their spirit, chains unique to them. Only those of resolute will can break free.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_table_02": {
+        "id": "furni_dreamCastle_table_02",
+        "sortId": 2064,
+        "name": "Gloomy Long Table",
+        "iconId": "furni_dreamCastle_table_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "TABLE",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_2",
+        "width": 16,
+        "depth": 3,
+        "height": 5,
+        "comfort": 540,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A long table with candlesticks, the bizarre, pointy decorations adding to the sullen style. The drastically-changed Castle of Dreams invites those who wish for release to give up their thoughts and step into an inescapable dream.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_carpet_01": {
+        "id": "furni_dreamCastle_carpet_01",
+        "sortId": 2065,
+        "name": "Dark Red Night Sky Carpet",
+        "iconId": "furni_dreamCastle_carpet_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CARPET",
+        "subType": "NONE",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_2",
+        "width": 18,
+        "depth": 10,
+        "height": 1,
+        "comfort": 190,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A dark-red patterned carpet, embroidered with waning moons which symbolize unease. The flickering figure standing on it, framed in bloody red... Is that not what the dreamseeker wishes to see herself as?",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_curtainPlatform_01": {
+        "id": "furni_dreamCastle_curtainPlatform_01",
+        "sortId": 2066,
+        "name": "'Falling Curtain' Platform",
+        "iconId": "furni_dreamCastle_curtainPlatform_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ORTHER_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_3",
+        "width": 4,
+        "depth": 2,
+        "height": 10,
+        "comfort": 240,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A small wooden platform draped in scarlet curtains, its railing intentionally damaged. The performance of joy and sorrow is over, the damaged railing a memento from the performers.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_wall_01": {
+        "id": "furni_dreamCastle_wall_01",
+        "sortId": 2067,
+        "name": "Partition Wall with Carved Columns",
+        "iconId": "furni_dreamCastle_wall_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "PARTITION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_3",
+        "width": 6,
+        "depth": 1,
+        "height": 10,
+        "comfort": 245,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A stone partition wall for dividing up space, the openwork pillars providing a different kind of melancholy. Its peculiar ambience gives people the feeling of being caged. All according to design.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_carpet_02": {
+        "id": "furni_dreamCastle_carpet_02",
+        "sortId": 2068,
+        "name": "Five-Petaled Carpet",
+        "iconId": "furni_dreamCastle_carpet_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CARPET",
+        "subType": "NONE",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_4",
+        "width": 3,
+        "depth": 3,
+        "height": 1,
+        "comfort": 30,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A dark floral carpet, embroidered with pale pistils. The five petals represent the five young ladies who broke from the Castle of Dreams' confinement, and their unyielding hearts that refused the call of fantasy.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_table_03": {
+        "id": "furni_dreamCastle_table_03",
+        "sortId": 2069,
+        "name": "'Monument of Thorns'",
+        "iconId": "furni_dreamCastle_table_03",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "TABLE",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_3",
+        "width": 6,
+        "depth": 3,
+        "height": 5,
+        "comfort": 245,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A display shaped like a sinister stone tablet, adorned with candles, roses, and thorns. Smashing the dream is like walking through thorns. One must bear the sting of reality to succeed.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_bookcase_02": {
+        "id": "furni_dreamCastle_bookcase_02",
+        "sortId": 2070,
+        "name": "Pointed-Top Bookshelf",
+        "iconId": "furni_dreamCastle_bookcase_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CABINET",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_3",
+        "width": 2,
+        "depth": 2,
+        "height": 5,
+        "comfort": 160,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A small bookshelf modeled after the Castle of Dreams' roof, its back daubed with a starry sky. The scores sealed away here represent the dreamseekers' courage and determination in confronting reality.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_wallpaper_01": {
+        "id": "furni_dreamCastle_wallpaper_01",
+        "sortId": 2071,
+        "name": "'Mystifying Night Sky'",
+        "iconId": "furni_dreamCastle_wallpaper_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLPAPER",
+        "subType": "NONE",
+        "location": "NONE",
+        "category": "WALL",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_4",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A panoramic display showing the Castle of Dreams' concert area, the scene outside the latticed windows seemingly-eternal night. No night lasts forever, no dream never ends.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_dreamCastle_floor_01": {
+        "id": "furni_dreamCastle_floor_01",
+        "sortId": 2072,
+        "name": "'Gloomish Ground'",
+        "iconId": "furni_dreamCastle_floor_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "FLOOR",
+        "subType": "NONE",
+        "location": "NONE",
+        "category": "FLOOR",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_dreamCastle",
+        "groupId": "furni_set_dreamCastle_4",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "Flooring unique to the Castle of Dreams, the dark stone tiles inlaid with conspicuous goldwork. As they left, the dreamseekers' footsteps atop these tiles were more confident than when they arrived.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
       "furni_oct1st_deckChair_01": {
         "id": "furni_oct1st_deckChair_01",
         "sortId": 9998,
@@ -90965,7 +91821,7 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false,
-        "isOnly": 1,
+        "isOnly": 2,
         "enableRoomType": 4112,
         "quantity": 0
       },
@@ -93493,7 +94349,7 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false,
-        "isOnly": 1,
+        "isOnly": 2,
         "enableRoomType": 4112,
         "quantity": 0
       },
@@ -93525,7 +94381,7 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false,
-        "isOnly": 1,
+        "isOnly": 2,
         "enableRoomType": 4112,
         "quantity": 0
       },
@@ -93717,7 +94573,7 @@
         "processedByProductPercentage": 0,
         "processedByProductGroup": [],
         "canBeDestroy": false,
-        "isOnly": 1,
+        "isOnly": 2,
         "enableRoomType": 4112,
         "quantity": 0
       },
@@ -99152,6 +100008,38 @@
         "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
         "description": "A cartoon-like doll that presumably showed up here at some point. Has a frigidity like the night.\n'She' doesn't seem all that happy—maybe you can try and be friends with 'her'?",
         "obtainApproach": "Ex Astris Collab",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 0
+      },
+      "furni_7eleven_store_01": {
+        "id": "furni_7eleven_store_01",
+        "sortId": 14017,
+        "name": "Mini-Mart Drink Stand",
+        "iconId": "furni_7eleven_store_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ORTHER_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 3,
+        "themeId": "",
+        "groupId": "",
+        "width": 12,
+        "depth": 8,
+        "height": 8,
+        "comfort": 120,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A convenience store that everyone knows has set up a drink stand on Rhodes Island, offering all sorts of beverages in one convenient place. Beneath the classic three-striped sign, you can always find familiar, beloved flavors.",
+        "obtainApproach": "Collab event",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
@@ -120022,6 +120910,173 @@
           "furni_teaCanteen_floor_01"
         ]
       },
+      "furni_set_dreamCastle": {
+        "id": "furni_set_dreamCastle",
+        "enableRoomType": 4112,
+        "sortId": 117,
+        "name": "Castle Hall of Altered Dreams",
+        "themeType": "EVENT",
+        "desc": "A room replicating the Castle of Dreams after some strange changes. Though all who walk into the Castle see its environs slightly differently, the marks left behind by the dreamseekers will last forevermore upon this scene.",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_dreamCastle_Column_01",
+            "pos0": 3,
+            "pos1": 5,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_ceilingLight_01",
+            "pos0": 9,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_ceilingLight_01",
+            "pos0": 20,
+            "pos1": 4,
+            "dir": 2
+          },
+          {
+            "furnitureId": "furni_dreamCastle_piano_01",
+            "pos0": 1,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_chair_01",
+            "pos0": 4,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_candle_01",
+            "pos0": 7,
+            "pos1": 6,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_chair_02",
+            "pos0": 8,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_chair_02",
+            "pos0": 12,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_chair_02",
+            "pos0": 16,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_chair_02",
+            "pos0": 20,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_chair_02",
+            "pos0": 24,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_table_01",
+            "pos0": 19,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_drawing_01",
+            "pos0": 27,
+            "pos1": 5,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_table_02",
+            "pos0": 9,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_carpet_01",
+            "pos0": 8,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_curtainPlatform_01",
+            "pos0": 25,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_wall_01",
+            "pos0": 28,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_carpet_02",
+            "pos0": 31,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_table_03",
+            "pos0": 28,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_bookcase_02",
+            "pos0": 32,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_dreamCastle_floor_01",
+            "pos0": 0,
+            "pos1": 10,
+            "dir": 0
+          }
+        ],
+        "groups": [
+          "furni_set_dreamCastle_1",
+          "furni_set_dreamCastle_2",
+          "furni_set_dreamCastle_3",
+          "furni_set_dreamCastle_4"
+        ],
+        "furnitures": [
+          "furni_dreamCastle_Column_01",
+          "furni_dreamCastle_ceilingLight_01",
+          "furni_dreamCastle_piano_01",
+          "furni_dreamCastle_chair_01",
+          "furni_dreamCastle_candle_01",
+          "furni_dreamCastle_chair_02",
+          "furni_dreamCastle_table_01",
+          "furni_dreamCastle_drawing_01",
+          "furni_dreamCastle_table_02",
+          "furni_dreamCastle_carpet_01",
+          "furni_dreamCastle_curtainPlatform_01",
+          "furni_dreamCastle_wall_01",
+          "furni_dreamCastle_carpet_02",
+          "furni_dreamCastle_table_03",
+          "furni_dreamCastle_bookcase_02",
+          "furni_dreamCastle_wallpaper_01",
+          "furni_dreamCastle_floor_01"
+        ]
+      },
       "furniM_set_basicRoom": {
         "id": "furniM_set_basicRoom",
         "enableRoomType": 32,
@@ -127294,6 +128349,63 @@
           "furni_gardenFantasy_plantColumn_01",
           "furni_gardenFantasy_bridge_01",
           "furni_gardenFantasy_floor_01"
+        ]
+      },
+      "furni_set_dreamCastle_1": {
+        "id": "furni_set_dreamCastle_1",
+        "sortId": 1,
+        "name": "'Fantastical Dream' Performance Area",
+        "themeId": "furni_set_dreamCastle",
+        "comfort": 280,
+        "count": 5,
+        "furniture": [
+          "furni_dreamCastle_Column_01",
+          "furni_dreamCastle_ceilingLight_01",
+          "furni_dreamCastle_piano_01",
+          "furni_dreamCastle_chair_01",
+          "furni_dreamCastle_candle_01"
+        ]
+      },
+      "furni_set_dreamCastle_2": {
+        "id": "furni_set_dreamCastle_2",
+        "sortId": 2,
+        "name": "'Fall into Dream' Prayer Area",
+        "themeId": "furni_set_dreamCastle",
+        "comfort": 355,
+        "count": 4,
+        "furniture": [
+          "furni_dreamCastle_chair_02",
+          "furni_dreamCastle_table_01",
+          "furni_dreamCastle_table_02",
+          "furni_dreamCastle_carpet_01"
+        ]
+      },
+      "furni_set_dreamCastle_3": {
+        "id": "furni_set_dreamCastle_3",
+        "sortId": 3,
+        "name": "'Chase Your Dreams' Display Area",
+        "themeId": "furni_set_dreamCastle",
+        "comfort": 205,
+        "count": 4,
+        "furniture": [
+          "furni_dreamCastle_curtainPlatform_01",
+          "furni_dreamCastle_wall_01",
+          "furni_dreamCastle_table_03",
+          "furni_dreamCastle_bookcase_02"
+        ]
+      },
+      "furni_set_dreamCastle_4": {
+        "id": "furni_set_dreamCastle_4",
+        "sortId": 4,
+        "name": "'Dream's End' Memorial Area",
+        "themeId": "furni_set_dreamCastle",
+        "comfort": 100,
+        "count": 4,
+        "furniture": [
+          "furni_dreamCastle_drawing_01",
+          "furni_dreamCastle_carpet_02",
+          "furni_dreamCastle_wallpaper_01",
+          "furni_dreamCastle_floor_01"
         ]
       },
       "furniM_set_amiya_1": {
@@ -135182,9 +136294,9 @@
         "bgmId": "bgm_bg_ddd",
         "bgmSortId": 5,
         "bgmStartTime": 1635793200,
-        "bgmName": "Vocation - Ready?",
+        "bgmName": "Vacation - Ready?",
         "gameMusicId": "music_bg_ddd",
-        "obtainApproach": "Clear the first area of any 3 events that have entered [Intermezzi] or [Side Story]",
+        "obtainApproach": "Clear the first area of any 3 events that have entered [Intermezzi]",
         "bgmDescUnlocked": "Gift from background",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -135197,7 +136309,7 @@
         "bgmStartTime": 1635793200,
         "bgmName": "Business - City",
         "gameMusicId": "music_bg_street",
-        "obtainApproach": "Clear the first area of any 6 events that have entered [Intermezzi] or [Side Story]",
+        "obtainApproach": "Clear the first area of any 6 events that have entered [Intermezzi]",
         "bgmDescUnlocked": "Gift from background",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -135210,7 +136322,7 @@
         "bgmStartTime": 1635793200,
         "bgmName": "Winter - Loneliness",
         "gameMusicId": "music_bg_loneliness",
-        "obtainApproach": "Clear the first area of any 9 events that have entered [Intermezzi] or [Side Story]",
+        "obtainApproach": "Clear the first area of any 9 events that have entered [Intermezzi]",
         "bgmDescUnlocked": "Gift from background",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -135223,7 +136335,7 @@
         "bgmStartTime": 1667487600,
         "bgmName": "Peaks - A Toast to Spring Mounts",
         "gameMusicId": "music_bg_yan",
-        "obtainApproach": "Clear the first area of any 11 events that have entered [Intermezzi] or [Side Story]",
+        "obtainApproach": "Clear the first area of any 11 events that have entered [Intermezzi]",
         "bgmDescUnlocked": "Gift from background",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -135236,7 +136348,7 @@
         "bgmStartTime": 1667487600,
         "bgmName": "Mystic Sea - Undertide",
         "gameMusicId": "music_bg_iberia",
-        "obtainApproach": "Clear 'Under Tides' SV-9 with a 3-star rating; Clear 'Stultifera Navis' SN-10 with a 3-star rating",
+        "obtainApproach": "Clear Under Tides SV-9 with a 3-star rating; 3",
         "bgmDescUnlocked": "Gift from background",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -135288,7 +136400,7 @@
         "bgmStartTime": 1699376400,
         "bgmName": "Clear Sky - Everyday Life in the Holy City",
         "gameMusicId": "music_bg_laterano",
-        "obtainApproach": "Clear the first area of any 13 events that have entered [Intermezzi] or [Side Story]",
+        "obtainApproach": "Clear the first area of any 13 events that have entered [Intermezzi]",
         "bgmDescUnlocked": "Gift from background",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -135301,16 +136413,29 @@
         "bgmStartTime": 1699376400,
         "bgmName": "Arboretum - Journey",
         "gameMusicId": "music_bg_rhine",
-        "obtainApproach": "Clear 'Dorothy's Vision' DV-8 with a 3-star rating; Clear 'Lone Trail' CW-10 with a 3-star rating",
+        "obtainApproach": "Clear Dorothy's Vision DV-8 with a 3-star rating; 3",
         "bgmDescUnlocked": "Gift from background",
         "unlockType": "MainBG",
         "unlockParams": [
           "bg_rhine_1"
         ]
       },
+      "bgm_bg_office": {
+        "bgmId": "bgm_bg_office",
+        "bgmSortId": 15,
+        "bgmStartTime": 1760443200,
+        "bgmName": "Footsteps - Through the Great Expanses of Space and Time",
+        "gameMusicId": "music_bg_office",
+        "obtainApproach": "The Arknights Official Lore Compendium",
+        "bgmDescUnlocked": "Gift from background",
+        "unlockType": "MainBG",
+        "unlockParams": [
+          "bg_kalts_1"
+        ]
+      },
       "bgm_bg_rogue_3": {
         "bgmId": "bgm_bg_rogue_3",
-        "bgmSortId": 15,
+        "bgmSortId": 16,
         "bgmStartTime": 1706785200,
         "bgmName": "Genesis - Sovereign",
         "gameMusicId": "music_rogue_3_12",
@@ -135319,19 +136444,6 @@
         "unlockType": "MainBG",
         "unlockParams": [
           "bg_rogue_3"
-        ]
-      },
-      "bgm_bg_office": {
-        "bgmId": "bgm_bg_office",
-        "bgmSortId": 16,
-        "bgmStartTime": 1714518000,
-        "bgmName": "Footsteps - Through the Great Expanses of Space and Time",
-        "gameMusicId": "music_bg_office",
-        "obtainApproach": "The Arknights Official Lore Compendium",
-        "bgmDescUnlocked": "Gift from background",
-        "unlockType": "MainBG",
-        "unlockParams": [
-          "bg_kalts_1"
         ]
       },
       "bgm_bg_rainbowsix": {
@@ -135462,6 +136574,19 @@
         "unlockType": "MainBG",
         "unlockParams": [
           "bg_recalrune_1"
+        ]
+      },
+      "bgm_bg_avemujica": {
+        "bgmId": "bgm_bg_avemujica",
+        "bgmSortId": 27,
+        "bgmStartTime": 1770724800,
+        "bgmName": "Spotlight - Georgette Me, Georgette You (Arknights Piano Arrangement)",
+        "gameMusicId": "music_bg_avemujica",
+        "obtainApproach": "Obtained by buying a Dolls' Somniloquy Pack in the [Store]",
+        "bgmDescUnlocked": "Gift from background",
+        "unlockType": "MainBG",
+        "unlockParams": [
+          "bg_avemujica_1"
         ]
       }
     }
