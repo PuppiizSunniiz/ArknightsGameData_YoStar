@@ -1,5 +1,96 @@
 {
   "basicInfo": {
+    "act6collection": {
+      "id": "act6collection",
+      "type": "COLLECTION",
+      "displayType": "NONE",
+      "name": "夢のお城模擬訓練",
+      "startTime": 1770688800,
+      "endTime": 1772477999,
+      "rewardEndTime": 1772477999,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act37sre": {
+      "id": "act37sre",
+      "type": "TYPE_ACT9D0",
+      "displayType": "SIDESTORY",
+      "name": "落日の向こうへ・復刻",
+      "startTime": 1771873200,
+      "endTime": 1772737199,
+      "rewardEndTime": 1773082799,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act37sre",
+      "medalGroupId": "medalGroupActivity37side",
+      "ungroupedMedalIds": null,
+      "isReplicate": true,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act51sign": {
+      "id": "act51sign",
+      "type": "CHECKIN_ONLY",
+      "displayType": "NONE",
+      "name": "操り人形のお出迎えスタンプラリー",
+      "startTime": 1770688800,
+      "endTime": 1771873199,
+      "rewardEndTime": 1771873199,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act45side": {
+      "id": "act45side",
+      "type": "TYPE_ACT45SIDE",
+      "displayType": "NONE",
+      "name": "安らかな譫言",
+      "startTime": 1770688800,
+      "endTime": 1771873199,
+      "rewardEndTime": 1772477999,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act45side",
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_hidden_45side_01",
+        "medal_hidden_45side_02"
+      ],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act2enemyduel": {
       "id": "act2enemyduel",
       "type": "ENEMY_DUEL",
@@ -5438,6 +5529,20 @@
     }
   },
   "homeActConfig": {
+    "act6collection": {
+      "actId": "act6collection",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "d2034d",
+      "actTopBarText": "特別模擬訓練"
+    },
+    "act51sign": {
+      "actId": "act51sign",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "e92266",
+      "actTopBarText": "コラボ\nスタンプ"
+    },
     "act50sign": {
       "actId": "act50sign",
       "isPopupAfterCheckin": false,
@@ -5541,7 +5646,7 @@
       "isPopupAfterCheckin": false,
       "showTopBarMenu": true,
       "actTopBarColor": "b21e28",
-      "actTopBarText": "統合戦略期間限定任務"
+      "actTopBarText": "統合戦略\nPt任務"
     },
     "act48sign": {
       "actId": "act48sign",
@@ -6287,6 +6392,10 @@
     }
   },
   "zoneToActivity": {
+    "act37sre_zone1": "act37sre",
+    "act37sre_zone2": "act37sre",
+    "act45side_zone1": "act45side",
+    "act45side_zone2": "act45side",
     "act2enemyduel_zone1": "act2enemyduel",
     "act35sre_zone1": "act35sre",
     "act35sre_zone2": "act35sre",
@@ -6528,6 +6637,1598 @@
   },
   "actTimeTrackPoint": {},
   "missionData": [
+    {
+      "id": "37sreActivity_1",
+      "sortId": 1,
+      "description": "GO-1をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_2",
+      "sortId": 2,
+      "description": "GO-2をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_3",
+      "sortId": 3,
+      "description": "GO-3をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_4",
+      "sortId": 4,
+      "description": "GO-4をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 50
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4162_cathy",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_5",
+      "sortId": 5,
+      "description": "GO-5をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_05",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 50
+        },
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_plants_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_6",
+      "sortId": 6,
+      "description": "★3評価でGO-5をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_05",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_7",
+      "sortId": 7,
+      "description": "GO-6をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 60
+        },
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_chandelier_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_8",
+      "sortId": 8,
+      "description": "★3評価でGO-6をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_06",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_pillar_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_9",
+      "sortId": 9,
+      "description": "GO-7をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 60
+        },
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_boxshelf_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_10",
+      "sortId": 10,
+      "description": "★3評価でGO-7をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_07",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_ticketOffice_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_11",
+      "sortId": 11,
+      "description": "GO-8をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_08",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 60
+        },
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_clock_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_12",
+      "sortId": 12,
+      "description": "★3評価でGO-8をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_08",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_Mailbox_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_13",
+      "sortId": 13,
+      "description": "GO-9をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_09",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 80
+        },
+        {
+          "type": "FURN",
+          "id": "furni_trainStation_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_14",
+      "sortId": 14,
+      "description": "★3評価でGO-9をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_09",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_15",
+      "sortId": 15,
+      "description": "GO-EX-1をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_16",
+      "sortId": 16,
+      "description": "GO-EX-2をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_17",
+      "sortId": 17,
+      "description": "GO-EX-3をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_18",
+      "sortId": 18,
+      "description": "GO-EX-4をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_19",
+      "sortId": 19,
+      "description": "GO-EX-5をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex05",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_20",
+      "sortId": 20,
+      "description": "GO-EX-6をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_21",
+      "sortId": 21,
+      "description": "GO-EX-7をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_22",
+      "sortId": 22,
+      "description": "GO-EX-8をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex08",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_23",
+      "sortId": 23,
+      "description": "GO-EX-8の強襲作戦をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act37side_ex08#f#",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_terratimes_Glasgow_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_24",
+      "sortId": 24,
+      "description": "イベントステージを10回クリア（チュートリアルを除く）",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act37side_01^act37side_02^act37side_03^act37side_04^act37side_05^act37side_06^act37side_07^act37side_08^act37side_09^act37side_ex01^act37side_ex01#f#^act37side_ex02^act37side_ex02#f#^act37side_ex03^act37side_ex03#f#^act37side_ex04^act37side_ex04#f#^act37side_ex05^act37side_ex05#f#^act37side_ex06^act37side_ex06#f#^act37side_ex07^act37side_ex07#f#^act37side_ex08^act37side_ex08#f#",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_25",
+      "sortId": 25,
+      "description": "イベントステージを25回クリア（チュートリアルを除く）",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act37side_01^act37side_02^act37side_03^act37side_04^act37side_05^act37side_06^act37side_07^act37side_08^act37side_09^act37side_ex01^act37side_ex01#f#^act37side_ex02^act37side_ex02#f#^act37side_ex03^act37side_ex03#f#^act37side_ex04^act37side_ex04#f#^act37side_ex05^act37side_ex05#f#^act37side_ex06^act37side_ex06#f#^act37side_ex07^act37side_ex07#f#^act37side_ex08^act37side_ex08#f#",
+        "25"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "37sreActivity_26",
+      "sortId": 26,
+      "description": "イベントステージを40回クリア（チュートリアルを除く）",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act37side_01^act37side_02^act37side_03^act37side_04^act37side_05^act37side_06^act37side_07^act37side_08^act37side_09^act37side_ex01^act37side_ex01#f#^act37side_ex02^act37side_ex02#f#^act37side_ex03^act37side_ex03#f#^act37side_ex04^act37side_ex04#f#^act37side_ex05^act37side_ex05#f#^act37side_ex06^act37side_ex06#f#^act37side_ex07^act37side_ex07#f#^act37side_ex08^act37side_ex08#f#",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act37sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act37side_token_nay_rep_1",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_1",
+      "sortId": 1,
+      "description": "SS-1をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_2",
+      "sortId": 2,
+      "description": "SS-2をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_3",
+      "sortId": 3,
+      "description": "SS-3をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 70
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_4",
+      "sortId": 4,
+      "description": "SS-4をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 70
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4185_amoris",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_5",
+      "sortId": 5,
+      "description": "SS-5をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 70
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4186_tmoris",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_6",
+      "sortId": 6,
+      "description": "★3評価でSS-5をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_05",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_7",
+      "sortId": 7,
+      "description": "SS-6をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_8",
+      "sortId": 8,
+      "description": "★3評価でSS-6をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_06",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_dreamCastle_carpet_02",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_9",
+      "sortId": 9,
+      "description": "SS-7をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_dreamCastle_drawing_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_10",
+      "sortId": 10,
+      "description": "★3評価でSS-7をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_07",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_dreamCastle_wallpaper_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_11",
+      "sortId": 11,
+      "description": "SS-8をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_dreamCastle_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_12",
+      "sortId": 12,
+      "description": "★3評価でSS-8をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_08",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_13",
+      "sortId": 13,
+      "description": "SS-EX-1をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_14",
+      "sortId": 14,
+      "description": "SS-EX-2をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_15",
+      "sortId": 15,
+      "description": "SS-EX-3をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_16",
+      "sortId": 16,
+      "description": "SS-EX-4をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_17",
+      "sortId": 17,
+      "description": "SS-EX-5をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_18",
+      "sortId": 18,
+      "description": "SS-EX-6をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_19",
+      "sortId": 19,
+      "description": "SS-EX-7をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_20",
+      "sortId": 20,
+      "description": "SS-EX-8をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_ex08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_21",
+      "sortId": 21,
+      "description": "イベントステージを15回クリア（チュートリアルを除く）",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_01^act45side_02^act45side_03^act45side_04^act45side_05^act45side_06^act45side_07^act45side_08^act45side_ex01^act45side_ex01#f#^act45side_ex02^act45side_ex02#f#^act45side_ex03^act45side_ex03#f#^act45side_ex04^act45side_ex04#f#^act45side_ex05^act45side_ex05#f#^act45side_ex06^act45side_ex06#f#^act45side_ex07^act45side_ex07#f#^act45side_ex08^act45side_ex08#f#",
+        "15"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_22",
+      "sortId": 22,
+      "description": "イベントステージを45回クリア（チュートリアルを除く）",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_01^act45side_02^act45side_03^act45side_04^act45side_05^act45side_06^act45side_07^act45side_08^act45side_ex01^act45side_ex01#f#^act45side_ex02^act45side_ex02#f#^act45side_ex03^act45side_ex03#f#^act45side_ex04^act45side_ex04#f#^act45side_ex05^act45side_ex05#f#^act45side_ex06^act45side_ex06#f#^act45side_ex07^act45side_ex07#f#^act45side_ex08^act45side_ex08#f#",
+        "45"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "45sideActivity_23",
+      "sortId": 23,
+      "description": "イベントステージを85回クリア（チュートリアルを除く）",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act45side_01^act45side_02^act45side_03^act45side_04^act45side_05^act45side_06^act45side_07^act45side_08^act45side_ex01^act45side_ex01#f#^act45side_ex02^act45side_ex02#f#^act45side_ex03^act45side_ex03#f#^act45side_ex04^act45side_ex04#f#^act45side_ex05^act45side_ex05#f#^act45side_ex06^act45side_ex06#f#^act45side_ex07^act45side_ex07#f#^act45side_ex08^act45side_ex08#f#",
+        "85"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act45side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act45side_token_puzzlepieces",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
     {
       "id": "35sreActivity_1",
       "sortId": 1,
@@ -84656,6 +86357,806 @@
       "countEndTs": -1
     },
     {
+      "id": "6clloctionActivity_1",
+      "sortId": 1,
+      "description": "任意の★5オペレーター1名が昇進段階1に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "1",
+        "5",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_2",
+      "sortId": 2,
+      "description": "任意の★5オペレーター2名が昇進段階1に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "2",
+        "5",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_3",
+      "sortId": 3,
+      "description": "任意の★5オペレーター3名が昇進段階1に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "3",
+        "5",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_4",
+      "sortId": 4,
+      "description": "任意の★5オペレーター4名が昇進段階1に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "4",
+        "5",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_5",
+      "sortId": 9,
+      "description": "任意の★5オペレーター1名が昇進段階2に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "1",
+        "5",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 400
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_6",
+      "sortId": 10,
+      "description": "任意の★5オペレーター2名が昇進段階2に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "2",
+        "5",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 400
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_7",
+      "sortId": 11,
+      "description": "任意の★5オペレーター3名が昇進段階2に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "3",
+        "5",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 400
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_8",
+      "sortId": 12,
+      "description": "任意の★5オペレーター4名が昇進段階2に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActEvolveChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "4",
+        "5",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 400
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_9",
+      "sortId": 5,
+      "description": "開催期間中に、任意の★5オペレーター1名が昇進段階1レベル40に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "1",
+        "5",
+        "1",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_10",
+      "sortId": 6,
+      "description": "開催期間中に、任意の★5オペレーター2名が昇進段階1レベル40に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "2",
+        "5",
+        "1",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_11",
+      "sortId": 7,
+      "description": "開催期間中に、任意の★5オペレーター3名が昇進段階1レベル40に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "3",
+        "5",
+        "1",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_12",
+      "sortId": 8,
+      "description": "開催期間中に、任意の★5オペレーター4名が昇進段階1レベル40に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "4",
+        "5",
+        "1",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 200
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_13",
+      "sortId": 13,
+      "description": "開催期間中に、任意の★5オペレーター1名が昇進段階2レベル50に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "1",
+        "5",
+        "2",
+        "50"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 300
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_14",
+      "sortId": 14,
+      "description": "開催期間中に、任意の★5オペレーター2名が昇進段階2レベル50に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "2",
+        "5",
+        "2",
+        "50"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 300
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_15",
+      "sortId": 15,
+      "description": "開催期間中に、任意の★5オペレーター3名が昇進段階2レベル50に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "3",
+        "5",
+        "2",
+        "50"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 300
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_16",
+      "sortId": 16,
+      "description": "開催期間中に、任意の★5オペレーター4名が昇進段階2レベル50に到達",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeChar",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "4",
+        "5",
+        "2",
+        "50"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 300
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_17",
+      "sortId": 17,
+      "description": "任意の★5オペレーター1名のスキルをランク4まで強化",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "1",
+        "5",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_18",
+      "sortId": 18,
+      "description": "任意の★5オペレーター2名のスキルをランク4まで強化",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "2",
+        "5",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_19",
+      "sortId": 19,
+      "description": "任意の★5オペレーター3名のスキルをランク4まで強化",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "3",
+        "5",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_20",
+      "sortId": 20,
+      "description": "任意の★5オペレーター4名のスキルをランク4まで強化",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "4",
+        "5",
+        "4"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_21",
+      "sortId": 21,
+      "description": "任意の★5オペレーター1名のスキルをランク7まで強化",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "1",
+        "5",
+        "7"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 250
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_22",
+      "sortId": 22,
+      "description": "任意の★5オペレーター2名のスキルをランク7まで強化",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "2",
+        "5",
+        "7"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 250
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_23",
+      "sortId": 23,
+      "description": "任意の★5オペレーター3名のスキルをランク7まで強化",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "3",
+        "5",
+        "7"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 250
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6clloctionActivity_24",
+      "sortId": 24,
+      "description": "任意の★5オペレーター4名のスキルをランク7まで強化",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "ActUpgradeSkill",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6collection",
+        "4",
+        "5",
+        "7"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6collection",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6collection_point_token",
+          "count": 250
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
       "id": "5clloctionActivity_1",
       "sortId": 1,
       "description": "特勤オペレーター・レイディアンを編成し、楽譜・資源調達・統合戦略のステージを合計5回クリア",
@@ -96515,6 +99016,79 @@
   ],
   "missionGroup": [
     {
+      "id": "act37sre",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "37sreActivity_1",
+        "37sreActivity_2",
+        "37sreActivity_3",
+        "37sreActivity_4",
+        "37sreActivity_5",
+        "37sreActivity_6",
+        "37sreActivity_7",
+        "37sreActivity_8",
+        "37sreActivity_9",
+        "37sreActivity_10",
+        "37sreActivity_11",
+        "37sreActivity_12",
+        "37sreActivity_13",
+        "37sreActivity_14",
+        "37sreActivity_15",
+        "37sreActivity_16",
+        "37sreActivity_17",
+        "37sreActivity_18",
+        "37sreActivity_19",
+        "37sreActivity_20",
+        "37sreActivity_21",
+        "37sreActivity_22",
+        "37sreActivity_23",
+        "37sreActivity_24",
+        "37sreActivity_25",
+        "37sreActivity_26"
+      ],
+      "startTs": 1771873200,
+      "endTs": 1773082799
+    },
+    {
+      "id": "act45side",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "45sideActivity_1",
+        "45sideActivity_2",
+        "45sideActivity_3",
+        "45sideActivity_4",
+        "45sideActivity_5",
+        "45sideActivity_6",
+        "45sideActivity_7",
+        "45sideActivity_8",
+        "45sideActivity_9",
+        "45sideActivity_10",
+        "45sideActivity_11",
+        "45sideActivity_12",
+        "45sideActivity_13",
+        "45sideActivity_14",
+        "45sideActivity_15",
+        "45sideActivity_16",
+        "45sideActivity_17",
+        "45sideActivity_18",
+        "45sideActivity_19",
+        "45sideActivity_20",
+        "45sideActivity_21",
+        "45sideActivity_22",
+        "45sideActivity_23"
+      ],
+      "startTs": 1770688800,
+      "endTs": 1772477999
+    },
+    {
       "id": "act35sre",
       "title": null,
       "type": "ACTIVITY",
@@ -100039,6 +102613,42 @@
       "endTs": 1592333999
     },
     {
+      "id": "act6collection",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": null,
+      "missionIds": [
+        "6clloctionActivity_1",
+        "6clloctionActivity_2",
+        "6clloctionActivity_3",
+        "6clloctionActivity_4",
+        "6clloctionActivity_5",
+        "6clloctionActivity_6",
+        "6clloctionActivity_7",
+        "6clloctionActivity_8",
+        "6clloctionActivity_9",
+        "6clloctionActivity_10",
+        "6clloctionActivity_11",
+        "6clloctionActivity_12",
+        "6clloctionActivity_13",
+        "6clloctionActivity_14",
+        "6clloctionActivity_15",
+        "6clloctionActivity_16",
+        "6clloctionActivity_17",
+        "6clloctionActivity_18",
+        "6clloctionActivity_19",
+        "6clloctionActivity_20",
+        "6clloctionActivity_21",
+        "6clloctionActivity_22",
+        "6clloctionActivity_23",
+        "6clloctionActivity_24"
+      ],
+      "startTs": 1770688800,
+      "endTs": 1772477999
+    },
+    {
       "id": "act5collection",
       "title": null,
       "type": "ACTIVITY",
@@ -100566,6 +103176,205 @@
       }
     },
     "CHECKIN_ONLY": {
+      "act51sign": {
+        "checkInList": {
+          "0": {
+            "itemList": [
+              {
+                "id": "LINKAGE_TKT_GACHA_10_6501",
+                "count": 1,
+                "type": "LINKAGE_TKT_GACHA_10"
+              },
+              {
+                "id": "ap_supply_lt_120",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              }
+            ],
+            "order": 1,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 1,
+            "isDynItem": false
+          },
+          "1": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "mod_update_token_1",
+                "count": 10,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 2,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "2": {
+            "itemList": [
+              {
+                "id": "2003",
+                "count": 20,
+                "type": "CARD_EXP"
+              },
+              {
+                "id": "7002",
+                "count": 5,
+                "type": "TKT_INST_FIN"
+              }
+            ],
+            "order": 3,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "3": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "3401",
+                "count": 300,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 4,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "4": {
+            "itemList": [
+              {
+                "id": "avatar_activity_mujica",
+                "count": 1,
+                "type": "PLAYER_AVATAR"
+              },
+              {
+                "id": "3003",
+                "count": 20,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 5,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 2,
+            "isDynItem": false
+          },
+          "5": {
+            "itemList": [
+              {
+                "id": "3302",
+                "count": 20,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "2004",
+                "count": 10,
+                "type": "CARD_EXP"
+              }
+            ],
+            "order": 6,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "6": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "4001",
+                "count": 30000,
+                "type": "GOLD"
+              }
+            ],
+            "order": 7,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "7": {
+            "itemList": [
+              {
+                "id": "LINKAGE_TKT_GACHA_10_6501",
+                "count": 1,
+                "type": "LINKAGE_TKT_GACHA_10"
+              },
+              {
+                "id": "mod_update_token_2",
+                "count": 3,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 8,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 3,
+            "isDynItem": false
+          },
+          "8": {
+            "itemList": [
+              {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "7001",
+                "count": 5,
+                "type": "TKT_RECRUIT"
+              }
+            ],
+            "order": 9,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "9": {
+            "itemList": [
+              {
+                "id": "mod_unlock_token",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 10,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          }
+        },
+        "apSupplyOutOfDateDict": {
+          "ap_supply_lt_120": 1772996399
+        },
+        "dynCheckInData": null,
+        "extraCheckinList": null
+      },
       "act50sign": {
         "checkInList": {
           "0": {
@@ -122721,6 +125530,320 @@
     },
     "TYPE_ACT5D1": {},
     "COLLECTION": {
+      "act6collection": {
+        "collections": [
+          {
+            "id": 1,
+            "itemType": "GOLD",
+            "itemId": "4001",
+            "itemCnt": 10000,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 100,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 2,
+            "itemType": "MATERIAL",
+            "itemId": "30013",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 200,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 3,
+            "itemType": "CARD_EXP",
+            "itemId": "2003",
+            "itemCnt": 15,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 300,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 4,
+            "itemType": "MATERIAL",
+            "itemId": "31013",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 400,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 5,
+            "itemType": "VOUCHER_ELITE_II_4",
+            "itemId": "voucher_elite_II_4",
+            "itemCnt": 1,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 600,
+            "isBonus": true,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 6,
+            "itemType": "MATERIAL",
+            "itemId": "3302",
+            "itemCnt": 10,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 800,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 7,
+            "itemType": "MATERIAL",
+            "itemId": "31033",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 1000,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 8,
+            "itemType": "GOLD",
+            "itemId": "4001",
+            "itemCnt": 10000,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 1200,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 9,
+            "itemType": "MATERIAL",
+            "itemId": "30013",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 1400,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 10,
+            "itemType": "VOUCHER_LEVELMAX_4",
+            "itemId": "voucher_levelmax_4",
+            "itemCnt": 1,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 1650,
+            "isBonus": true,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 11,
+            "itemType": "CARD_EXP",
+            "itemId": "2003",
+            "itemCnt": 15,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 1900,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 12,
+            "itemType": "MATERIAL",
+            "itemId": "31013",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 2150,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 13,
+            "itemType": "MATERIAL",
+            "itemId": "3302",
+            "itemCnt": 10,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 2400,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 14,
+            "itemType": "MATERIAL",
+            "itemId": "31033",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 2650,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 15,
+            "itemType": "VOUCHER_ELITE_II_5",
+            "itemId": "voucher_elite_II_5",
+            "itemCnt": 1,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 2950,
+            "isBonus": true,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 16,
+            "itemType": "GOLD",
+            "itemId": "4001",
+            "itemCnt": 10000,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 3250,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 17,
+            "itemType": "MATERIAL",
+            "itemId": "30013",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 3550,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 18,
+            "itemType": "CARD_EXP",
+            "itemId": "2003",
+            "itemCnt": 15,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 3850,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 19,
+            "itemType": "MATERIAL",
+            "itemId": "31013",
+            "itemCnt": 2,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 4150,
+            "isBonus": false,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          },
+          {
+            "id": 20,
+            "itemType": "VOUCHER_LEVELMAX_5",
+            "itemId": "voucher_levelmax_5",
+            "itemCnt": 1,
+            "pointId": "act6collection_point_token",
+            "pointCnt": 4500,
+            "isBonus": true,
+            "pngName": null,
+            "pngSort": 0,
+            "isShow": false,
+            "showInList": false,
+            "showIconBG": true,
+            "isBonusShow": false
+          }
+        ],
+        "apSupplyOutOfDateDict": {},
+        "consts": {
+          "showJumpBtn": true,
+          "jumpBtnType": "CHAR_REPO",
+          "jumpBtnParam1": null,
+          "jumpBtnParam2": null,
+          "dailyTaskDisabled": true,
+          "dailyTaskStartTime": 0,
+          "isSimpleMode": false
+        }
+      },
       "act5collection": {
         "collections": [
           {
@@ -122910,6 +126033,7 @@
           "jumpBtnType": "NONE",
           "jumpBtnParam1": null,
           "jumpBtnParam2": null,
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 1766084400,
           "isSimpleMode": false
         }
@@ -123448,6 +126572,7 @@
           "jumpBtnType": "ROGUE",
           "jumpBtnParam1": "rogue_1",
           "jumpBtnParam2": "main_03-08",
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 0,
           "isSimpleMode": true
         }
@@ -123641,6 +126766,7 @@
           "jumpBtnType": "ROGUE",
           "jumpBtnParam1": "rogue_2",
           "jumpBtnParam2": "main_03-08",
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 1754593200,
           "isSimpleMode": false
         }
@@ -123956,6 +127082,7 @@
           "jumpBtnType": "ROGUE",
           "jumpBtnParam1": "rogue_4",
           "jumpBtnParam2": "main_03-08",
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 1750446000,
           "isSimpleMode": false
         }
@@ -124271,6 +127398,7 @@
           "jumpBtnType": "NONE",
           "jumpBtnParam1": null,
           "jumpBtnParam2": null,
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 0,
           "isSimpleMode": false
         }
@@ -124586,6 +127714,7 @@
           "jumpBtnType": "NONE",
           "jumpBtnParam1": null,
           "jumpBtnParam2": null,
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 0,
           "isSimpleMode": false
         }
@@ -124901,6 +128030,7 @@
           "jumpBtnType": "NONE",
           "jumpBtnParam1": null,
           "jumpBtnParam2": null,
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 0,
           "isSimpleMode": false
         }
@@ -125216,6 +128346,7 @@
           "jumpBtnType": "NONE",
           "jumpBtnParam1": null,
           "jumpBtnParam2": null,
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 0,
           "isSimpleMode": false
         }
@@ -125456,12 +128587,39 @@
           "jumpBtnType": "NONE",
           "jumpBtnParam1": null,
           "jumpBtnParam2": null,
+          "dailyTaskDisabled": false,
           "dailyTaskStartTime": 0,
           "isSimpleMode": false
         }
       }
     },
     "TYPE_ACT9D0": {
+      "act37sre": {
+        "tokenItemId": "act37side_token_nay_rep_1",
+        "zoneDescList": {
+          "act37sre_zone1": {
+            "zoneId": "act37sre_zone1",
+            "unlockText": "未開放",
+            "displayStartTime": 1771873200
+          },
+          "act37sre_zone2": {
+            "zoneId": "act37sre_zone2",
+            "unlockText": "「名もなき栄光」クリア後解放",
+            "displayStartTime": 1771873200
+          }
+        },
+        "favorUpList": {},
+        "subMissionInfo": null,
+        "hasSubMission": false,
+        "apSupplyOutOfDateDict": {},
+        "newsInfoList": null,
+        "newsServerInfoList": null,
+        "miscHub": {},
+        "constData": {
+          "campaignEnemyCnt": 0,
+          "campaignStageId": null
+        }
+      },
       "act43side": {
         "tokenItemId": "act43side_token_phantom",
         "zoneDescList": {
@@ -126791,14 +129949,14 @@
             "newsTitle": "「十年一剣」試合中特別報道",
             "newsInfShow": 1,
             "newsFrom": "BY KAWALERIELKI SPORTS",
-            "newsText": "騎士協会の審議と国民院の可決により、エレンズチョイステクノロジー社がスポンサーを務め、幾度もトップ100に進出したタイレル騎士団が本日、タイレル大騎士団に昇格しました。現在のタイレル大騎士団はほとんど既存の団員により構成されており、「団長」として新たに命名されたレイチェル騎士団と、若い予備騎士の訓練を務めるウォーウィップ騎士団 しか擁していません。人数こそ少ないですが、かつての特別選手権にて三位を獲得した寒頭騎士が教官としてウォーウィップ騎士団に加入したことが、大きな話題を引き起こしています。\n<newsimg>newsTextPic_6_1<newsimg/>\n一方、騎士協会の審査を経て今シーズンの選抜戦にて一人目の本戦進出者となり、選抜戦段階で騎士号を獲得した独立騎士ユスティナが昨晩の試合後に現れました。彼女はその卓越した実力、圧倒的な得票数と迅速な勝ち上がりにより、既に幾つかの企業に注目されており、「遠牙」の封号を与えられています。\n「遠牙」ユスティナにしろタイレル大騎士団にしろ、これらはすべてカジミエーシュの騎士競技の目覚ましい発展を象徴しています。今年の特別選手権はどのような新風をもたらしてくれるのでしょうか、非常に楽しみです。\n<newsimg>newsTextPic_co_s_1<newsimg/>\n※ユーザーデータをもとに、より関連性の高い記事をピックアップしています。\n<newsimg>newsTextPic_ad_3<newsimg/>",
+            "newsText": "騎士協会の審議と国民院の可決により、エレンズチョイステクノロジー社がスポンサーを務め、幾度もトップ100に進出したタイレル騎士団が本日、タイレル大騎士団に昇格しました。現在のタイレル大騎士団はほとんど既存の団員により構成されており、「団長」として新たに命名されたレイチェル騎士団と、若い予備騎士の訓練を務めるウォーウィップ騎士団しか擁していません。人数こそ少ないですが、かつての騎士メジャーにて三位を獲得した寒頭騎士が教官としてウォーウィップ騎士団に加入したことが、大きな話題を引き起こしています。\n<newsimg>newsTextPic_6_1<newsimg/>\n一方、騎士協会の審査を経て今シーズンの選抜戦にて一人目の本戦進出者となり、選抜戦段階で騎士号を獲得した独立騎士ユスティナが昨晩の試合後に現れました。彼女はその卓越した実力、圧倒的な得票数と迅速な勝ち上がりにより、既に幾つかの企業に注目されており、「遠牙」の封号を与えられています。\n「遠牙」ユスティナにしろタイレル大騎士団にしろ、これらはすべてカジミエーシュの騎士競技の目覚ましい発展を象徴しています。今年の騎士メジャーはどのような新風をもたらしてくれるのでしょうか、非常に楽しみです。\n<newsimg>newsTextPic_co_s_1<newsimg/>\n※ユーザーデータをもとに、より関連性の高い記事をピックアップしています。\n<newsimg>newsTextPic_ad_3<newsimg/>",
             "newsParam1": 4000,
             "newsParam2": 15000,
             "newsParam3": 0.3,
             "newsLines": [
               {
                 "lineType": "TextContent",
-                "content": "騎士協会の審議と国民院の可決により、エレンズチョイステクノロジー社がスポンサーを務め、幾度もトップ100に進出したタイレル騎士団が本日、タイレル大騎士団に昇格しました。現在のタイレル大騎士団はほとんど既存の団員により構成されており、「団長」として新たに命名されたレイチェル騎士団と、若い予備騎士の訓練を務めるウォーウィップ騎士団 しか擁していません。人数こそ少ないですが、かつての特別選手権にて三位を獲得した寒頭騎士が教官としてウォーウィップ騎士団に加入したことが、大きな話題を引き起こしています。"
+                "content": "騎士協会の審議と国民院の可決により、エレンズチョイステクノロジー社がスポンサーを務め、幾度もトップ100に進出したタイレル騎士団が本日、タイレル大騎士団に昇格しました。現在のタイレル大騎士団はほとんど既存の団員により構成されており、「団長」として新たに命名されたレイチェル騎士団と、若い予備騎士の訓練を務めるウォーウィップ騎士団しか擁していません。人数こそ少ないですが、かつての騎士メジャーにて三位を獲得した寒頭騎士が教官としてウォーウィップ騎士団に加入したことが、大きな話題を引き起こしています。"
               },
               {
                 "lineType": "ImageContent",
@@ -126810,7 +129968,7 @@
               },
               {
                 "lineType": "TextContent",
-                "content": "「遠牙」ユスティナにしろタイレル大騎士団にしろ、これらはすべてカジミエーシュの騎士競技の目覚ましい発展を象徴しています。今年の特別選手権はどのような新風をもたらしてくれるのでしょうか、非常に楽しみです。"
+                "content": "「遠牙」ユスティナにしろタイレル大騎士団にしろ、これらはすべてカジミエーシュの騎士競技の目覚ましい発展を象徴しています。今年の騎士メジャーはどのような新風をもたらしてくれるのでしょうか、非常に楽しみです。"
               },
               {
                 "lineType": "ImageContent",
@@ -127835,14 +130993,14 @@
             "newsTitle": "「十年一剣」試合中特別報道",
             "newsInfShow": 1,
             "newsFrom": "BY KAWALERIELKI SPORTS",
-            "newsText": "騎士協会の審議と国民院の可決により、エレンズチョイステクノロジー社がスポンサーを務め、幾度もトップ100に進出したタイレル騎士団が本日、タイレル大騎士団に昇格しました。現在のタイレル大騎士団はほとんど既存の団員により構成されており、「団長」として新たに命名されたレイチェル騎士団と、若い予備騎士の訓練を務める戦鞭騎士団しか擁していません。人数こそ少ないですが、かつての特別選手権にて三位を獲得した寒頭騎士が教官として戦鞭騎士団に加入したことが、大きな話題を引き起こしています。\n<newsimg>newsTextPic_6_1<newsimg/>\n一方、騎士協会の審査を経て今シーズンの選抜戦にて一人目の本戦進出者となり、選抜戦段階で騎士号を獲得した独立騎士ユスティナが昨晩の試合後に現れました。彼女はその卓越した実力、圧倒的な得票数と迅速な勝ち上がりにより、既に幾つかの企業に注目されており、「遠牙」の封号を与えられています。\n「遠牙」ユスティナにしろタイレル大騎士団にしろ、これらはすべてカジミエーシュの騎士競技の目覚ましい発展を象徴しています。今年の特別選手権はどのような新風をもたらしてくれるのでしょうか、非常に楽しみです。\n<newsimg>newsTextPic_co_s_1<newsimg/>\n※ユーザーデータをもとに、より関連性の高い記事をピックアップしています。\n<newsimg>newsTextPic_ad_3<newsimg/>",
+            "newsText": "騎士協会の審議と国民院の可決により、エレンズチョイステクノロジー社がスポンサーを務め、幾度もトップ100に進出したタイレル騎士団が本日、タイレル大騎士団に昇格しました。現在のタイレル大騎士団はほとんど既存の団員により構成されており、「団長」として新たに命名されたレイチェル騎士団と、若い予備騎士の訓練を務めるウォーウィップ騎士団しか擁していません。人数こそ少ないですが、かつての騎士メジャーにて三位を獲得した寒頭騎士が教官としてウォーウィップ騎士団に加入したことが、大きな話題を引き起こしています。\n<newsimg>newsTextPic_6_1<newsimg/>\n一方、騎士協会の審査を経て今シーズンの選抜戦にて一人目の本戦進出者となり、選抜戦段階で騎士号を獲得した独立騎士ユスティナが昨晩の試合後に現れました。彼女はその卓越した実力、圧倒的な得票数と迅速な勝ち上がりにより、既に幾つかの企業に注目されており、「遠牙」の封号を与えられています。\n「遠牙」ユスティナにしろタイレル大騎士団にしろ、これらはすべてカジミエーシュの騎士競技の目覚ましい発展を象徴しています。今年の騎士メジャーはどのような新風をもたらしてくれるのでしょうか、非常に楽しみです。\n<newsimg>newsTextPic_co_s_1<newsimg/>\n※ユーザーデータをもとに、より関連性の高い記事をピックアップしています。\n<newsimg>newsTextPic_ad_3<newsimg/>",
             "newsParam1": 4000,
             "newsParam2": 15000,
             "newsParam3": 0.3,
             "newsLines": [
               {
                 "lineType": "TextContent",
-                "content": "騎士協会の審議と国民院の可決により、エレンズチョイステクノロジー社がスポンサーを務め、幾度もトップ100に進出したタイレル騎士団が本日、タイレル大騎士団に昇格しました。現在のタイレル大騎士団はほとんど既存の団員により構成されており、「団長」として新たに命名されたレイチェル騎士団と、若い予備騎士の訓練を務める戦鞭騎士団しか擁していません。人数こそ少ないですが、かつての特別選手権にて三位を獲得した寒頭騎士が教官として戦鞭騎士団に加入したことが、大きな話題を引き起こしています。"
+                "content": "騎士協会の審議と国民院の可決により、エレンズチョイステクノロジー社がスポンサーを務め、幾度もトップ100に進出したタイレル騎士団が本日、タイレル大騎士団に昇格しました。現在のタイレル大騎士団はほとんど既存の団員により構成されており、「団長」として新たに命名されたレイチェル騎士団と、若い予備騎士の訓練を務めるウォーウィップ騎士団しか擁していません。人数こそ少ないですが、かつての騎士メジャーにて三位を獲得した寒頭騎士が教官としてウォーウィップ騎士団に加入したことが、大きな話題を引き起こしています。"
               },
               {
                 "lineType": "ImageContent",
@@ -127854,7 +131012,7 @@
               },
               {
                 "lineType": "TextContent",
-                "content": "「遠牙」ユスティナにしろタイレル大騎士団にしろ、これらはすべてカジミエーシュの騎士競技の目覚ましい発展を象徴しています。今年の特別選手権はどのような新風をもたらしてくれるのでしょうか、非常に楽しみです。"
+                "content": "「遠牙」ユスティナにしろタイレル大騎士団にしろ、これらはすべてカジミエーシュの騎士競技の目覚ましい発展を象徴しています。今年の騎士メジャーはどのような新風をもたらしてくれるのでしょうか、非常に楽しみです。"
               },
               {
                 "lineType": "ImageContent",
@@ -159268,11 +162426,91 @@
             }
           ]
         },
-        "apSupplyOutOfDateDict": {},
-        "rewardsTitle": {
-          "act2switch_reward_50W": "1",
-          "act2switch_reward_200W": "2"
+        "rewardShowDatas": {
+          "act2switch_reward_50W": {
+            "checkinId": "act2switch_reward_50W",
+            "rewardsTitle": "1",
+            "rewardShowItemDatas": [
+              {
+                "itemBundle": {
+                  "id": "furni_sanrio_melody_01",
+                  "count": 1,
+                  "type": "FURN"
+                },
+                "isMainReward": true
+              },
+              {
+                "itemBundle": {
+                  "id": "3401",
+                  "count": 500,
+                  "type": "MATERIAL"
+                },
+                "isMainReward": false
+              },
+              {
+                "itemBundle": {
+                  "id": "2003",
+                  "count": 20,
+                  "type": "CARD_EXP"
+                },
+                "isMainReward": false
+              }
+            ],
+            "mainRewardShowData": {
+              "mainRewardPicId": "furni_sanrio_melody_01",
+              "mainRewardName": "ほのぼのミニソファー",
+              "mainRewardCount": 1,
+              "hasTip": true,
+              "tipItemBundle": {
+                "id": "furni_sanrio_melody_01",
+                "count": 1,
+                "type": "FURN"
+              }
+            }
+          },
+          "act2switch_reward_200W": {
+            "checkinId": "act2switch_reward_200W",
+            "rewardsTitle": "2",
+            "rewardShowItemDatas": [
+              {
+                "itemBundle": {
+                  "id": "furni_sanrio_cinnamoroll_01",
+                  "count": 1,
+                  "type": "FURN"
+                },
+                "isMainReward": true
+              },
+              {
+                "itemBundle": {
+                  "id": "4001",
+                  "count": 50000,
+                  "type": "GOLD"
+                },
+                "isMainReward": false
+              },
+              {
+                "itemBundle": {
+                  "id": "2004",
+                  "count": 30,
+                  "type": "CARD_EXP"
+                },
+                "isMainReward": false
+              }
+            ],
+            "mainRewardShowData": {
+              "mainRewardPicId": "furni_sanrio_cinnamoroll_01",
+              "mainRewardName": "パタパタシナモロール",
+              "mainRewardCount": 1,
+              "hasTip": true,
+              "tipItemBundle": {
+                "id": "furni_sanrio_cinnamoroll_01",
+                "count": 1,
+                "type": "FURN"
+              }
+            }
+          }
         },
+        "apSupplyOutOfDateDict": {},
         "sortIdDict": {
           "act2switch_reward_50W": 0,
           "act2switch_reward_200W": 1
@@ -159319,11 +162557,91 @@
             }
           ]
         },
-        "apSupplyOutOfDateDict": {},
-        "rewardsTitle": {
-          "act2switch_reward_50W": "1",
-          "act2switch_reward_200W": "2"
+        "rewardShowDatas": {
+          "act2switch_reward_50W": {
+            "checkinId": "act2switch_reward_50W",
+            "rewardsTitle": "1",
+            "rewardShowItemDatas": [
+              {
+                "itemBundle": {
+                  "id": "furni_act42d0_books_01",
+                  "count": 1,
+                  "type": "FURN"
+                },
+                "isMainReward": true
+              },
+              {
+                "itemBundle": {
+                  "id": "3401",
+                  "count": 500,
+                  "type": "MATERIAL"
+                },
+                "isMainReward": false
+              },
+              {
+                "itemBundle": {
+                  "id": "2003",
+                  "count": 20,
+                  "type": "CARD_EXP"
+                },
+                "isMainReward": false
+              }
+            ],
+            "mainRewardShowData": {
+              "mainRewardPicId": "furni_act42d0_books_01",
+              "mainRewardName": "飛び出す石の本",
+              "mainRewardCount": 1,
+              "hasTip": true,
+              "tipItemBundle": {
+                "id": "furni_act42d0_books_01",
+                "count": 1,
+                "type": "FURN"
+              }
+            }
+          },
+          "act2switch_reward_200W": {
+            "checkinId": "act2switch_reward_200W",
+            "rewardsTitle": "2",
+            "rewardShowItemDatas": [
+              {
+                "itemBundle": {
+                  "id": "furni_act42d0_window_01",
+                  "count": 1,
+                  "type": "FURN"
+                },
+                "isMainReward": true
+              },
+              {
+                "itemBundle": {
+                  "id": "4001",
+                  "count": 50000,
+                  "type": "GOLD"
+                },
+                "isMainReward": false
+              },
+              {
+                "itemBundle": {
+                  "id": "2004",
+                  "count": 30,
+                  "type": "CARD_EXP"
+                },
+                "isMainReward": false
+              }
+            ],
+            "mainRewardShowData": {
+              "mainRewardPicId": "furni_act42d0_window_01",
+              "mainRewardName": "胡楊の窓",
+              "mainRewardCount": 1,
+              "hasTip": true,
+              "tipItemBundle": {
+                "id": "furni_act42d0_window_01",
+                "count": 1,
+                "type": "FURN"
+              }
+            }
+          }
         },
+        "apSupplyOutOfDateDict": {},
         "sortIdDict": {
           "act2switch_reward_50W": 0,
           "act2switch_reward_200W": 1
@@ -174614,12 +177932,12 @@
             "levelInfos": {
               "1": {
                 "level": 1,
-                "effectDesc": "全てのオペレーターのSP自然回復速度+0.1sp/s",
+                "effectDesc": "全てのオペレーターのSP自然回復速度+0.1sp/秒",
                 "runeData": {
                   "id": "act1bossrush_relic_03_1",
                   "points": 0.0,
                   "mutexGroupKey": null,
-                  "description": "全てのオペレーターのSP自然回復速度+0.1sp/s",
+                  "description": "全てのオペレーターのSP自然回復速度+0.1sp/秒",
                   "runes": [
                     {
                       "key": "env_gbuff_new",
@@ -174690,12 +178008,12 @@
               },
               "2": {
                 "level": 2,
-                "effectDesc": "全てのオペレーターのSP自然回復速度+0.2sp/s、スキル発動に必要なSP-10％",
+                "effectDesc": "全てのオペレーターのSP自然回復速度+0.2sp/秒、スキル発動に必要なSP-10％",
                 "runeData": {
                   "id": "act1bossrush_relic_03_2",
                   "points": 0.0,
                   "mutexGroupKey": null,
-                  "description": "全てのオペレーターのSP自然回復速度+0.2sp/s、スキル発動に必要なSP-10％",
+                  "description": "全てのオペレーターのSP自然回復速度+0.2sp/秒、スキル発動に必要なSP-10％",
                   "runes": [
                     {
                       "key": "env_gbuff_new",
@@ -174795,12 +178113,12 @@
               },
               "3": {
                 "level": 3,
-                "effectDesc": "全てのオペレーターのSP自然回復速度+0.4sp/s、スキル発動に必要なSP-20％。全ての敵の術耐性-15",
+                "effectDesc": "全てのオペレーターのSP自然回復速度+0.4sp/秒、スキル発動に必要なSP-20％。全ての敵の術耐性-15",
                 "runeData": {
                   "id": "act1bossrush_relic_03_3",
                   "points": 0.0,
                   "mutexGroupKey": null,
-                  "description": "全てのオペレーターのSP自然回復速度+0.4sp/s、スキル発動に必要なSP-20％。全ての敵の術耐性-15",
+                  "description": "全てのオペレーターのSP自然回復速度+0.4sp/秒、スキル発動に必要なSP-20％。全ての敵の術耐性-15",
                   "runes": [
                     {
                       "key": "env_gbuff_new",
@@ -221184,7 +224502,6 @@
               "desc": "配置後一定時間、双方のオペレーターの攻撃力<@multiv3.teamBuff>+20%</>",
               "iconId": "skill_icon_sktok_muulco"
             },
-            "unlockKeyNum": 0,
             "runeData": {
               "id": "multi_rune_basic",
               "points": 0.0,
@@ -221270,7 +224587,8 @@
                   ]
                 }
               ]
-            }
+            },
+            "isInitial": true
           },
           {
             "id": "buff_2",
@@ -221285,7 +224603,6 @@
               "desc": "配置後、配置されている双方のオペレーターに一定時間継続のバリア(<@multiv3.teamBuff>6000</>までの被ダメージを吸収可能)を付与",
               "iconId": "skill_icon_sktok_muulwr"
             },
-            "unlockKeyNum": 1,
             "runeData": {
               "id": "multi_rune_anchoring",
               "points": 0.0,
@@ -221420,7 +224737,8 @@
                   ]
                 }
               ]
-            }
+            },
+            "isInitial": false
           },
           {
             "id": "buff_3",
@@ -221435,7 +224753,6 @@
               "desc": "配置後敵全員にダメージを与え、双方の再配置待ちのオペレーターの再配置時間を<@multiv3.teamBuff>0</>にする",
               "iconId": "skill_icon_sktok_muulas"
             },
-            "unlockKeyNum": 1,
             "runeData": {
               "id": "multi_rune_roaming",
               "points": 0.0,
@@ -221618,7 +224935,8 @@
                   ]
                 }
               ]
-            }
+            },
+            "isInitial": false
           },
           {
             "id": "buff_4",
@@ -221633,7 +224951,6 @@
               "desc": "配置後一定時間、双方のオペレーターの攻撃速度が大幅に上昇するが、防御力と術耐性が<@multiv3.teamBuff>0</>になる",
               "iconId": "skill_icon_sktok_muulrg"
             },
-            "unlockKeyNum": 1,
             "runeData": {
               "id": "multi_rune_offensive",
               "points": 0.0,
@@ -221821,7 +225138,8 @@
                   ]
                 }
               ]
-            }
+            },
+            "isInitial": false
           },
           {
             "id": "buff_5",
@@ -221836,7 +225154,6 @@
               "desc": "配置後一定時間、双方のオペレーターに向けてランダムにサイダーボトルを噴射し続け、命中した対象のSPが<@multiv3.teamBuff>3</>回復",
               "iconId": "skill_icon_sktok_muulcl"
             },
-            "unlockKeyNum": 1,
             "runeData": {
               "id": "multi_rune_supportive",
               "points": 0.0,
@@ -222000,7 +225317,8 @@
                   ]
                 }
               ]
-            }
+            },
+            "isInitial": false
           }
         ],
         "targetMissionDataDict": {
@@ -222092,22 +225410,22 @@
             "id": "act1multiMissionActivity5_1",
             "sortId": 1,
             "title": "占領",
-            "battleDesc": "<蓄音機>を占領せよ",
-            "description": "<蓄音機>1つの制御権を奪う"
+            "battleDesc": "<「蓄音機」>を占領せよ",
+            "description": "<「蓄音機」>1つの制御権を奪う"
           },
           "act1multiMissionActivity5_2": {
             "id": "act1multiMissionActivity5_2",
             "sortId": 2,
             "title": "占領",
-            "battleDesc": "<蓄音機>を占領せよ",
-            "description": "<蓄音機>3つの制御権を奪う"
+            "battleDesc": "<「蓄音機」>を占領せよ",
+            "description": "<「蓄音機」>3つの制御権を奪う"
           },
           "act1multiMissionActivity5_3": {
             "id": "act1multiMissionActivity5_3",
             "sortId": 3,
             "title": "占領",
-            "battleDesc": "<蓄音機>を占領せよ",
-            "description": "<蓄音機>5つの制御権を奪う"
+            "battleDesc": "<「蓄音機」>を占領せよ",
+            "description": "<「蓄音機」>5つの制御権を奪う"
           },
           "act1multiMissionActivity6_1": {
             "id": "act1multiMissionActivity6_1",
@@ -222156,21 +225474,21 @@
             "sortId": 1,
             "title": "救出",
             "battleDesc": "防衛ラインまで<ウルサス民間人>を護衛せよ",
-            "description": "防衛ラインまで4人のウルサス民間人を護衛"
+            "description": "防衛ラインまで4人の<ウルサス民間人>を護衛"
           },
           "act1multiMissionActivity8_2": {
             "id": "act1multiMissionActivity8_2",
             "sortId": 2,
             "title": "救出",
             "battleDesc": "防衛ラインまで<ウルサス民間人>を護衛せよ",
-            "description": "防衛ラインまで3人のウルサス民間人を護衛"
+            "description": "防衛ラインまで3人の<ウルサス民間人>を護衛"
           },
           "act1multiMissionActivity8_3": {
             "id": "act1multiMissionActivity8_3",
             "sortId": 3,
             "title": "救出",
             "battleDesc": "防衛ラインまで<ウルサス民間人>を護衛せよ",
-            "description": "防衛ラインまで5人のウルサス民間人を護衛"
+            "description": "防衛ラインまで5人の<ウルサス民間人>を護衛"
           },
           "act1multiMissionActivity9_1": {
             "id": "act1multiMissionActivity9_1",
@@ -222281,22 +225599,22 @@
             "id": "act1multiMissionActivity14_1",
             "sortId": 1,
             "title": "占領",
-            "battleDesc": "<蓄音機>を占領せよ",
-            "description": "<蓄音機>4つの制御権を奪う"
+            "battleDesc": "<「蓄音機」>を占領せよ",
+            "description": "<「蓄音機」>4つの制御権を奪う"
           },
           "act1multiMissionActivity14_2": {
             "id": "act1multiMissionActivity14_2",
             "sortId": 2,
             "title": "占領",
-            "battleDesc": "<蓄音機>を占領せよ",
-            "description": "<蓄音機>4つの制御権を奪う"
+            "battleDesc": "<「蓄音機」>を占領せよ",
+            "description": "<「蓄音機」>4つの制御権を奪う"
           },
           "act1multiMissionActivity14_3": {
             "id": "act1multiMissionActivity14_3",
             "sortId": 3,
             "title": "占領",
-            "battleDesc": "<蓄音機>を占領せよ",
-            "description": "<蓄音機>5つの制御権を奪う"
+            "battleDesc": "<「蓄音機」>を占領せよ",
+            "description": "<「蓄音機」>5つの制御権を奪う"
           },
           "act1multiMissionActivitytr_1_1": {
             "id": "act1multiMissionActivitytr_1_1",
@@ -225177,7 +228495,7 @@
           "stageListViewTimeLockToast": "ロックのカウントダウンが終了すると、試合が解放されます"
         },
         "constData": {
-          "milestoneId": "act1multi_token_cap",
+          "milestoneId": "act2multi_token_cap",
           "roomNumCopyDesc": "ルーム番号[{0}]。Dr.{1}#{2}があなたを{3}：{4}・{5}に招待しています。【このテキストをそのまま入力ボックスに貼りつけると自動識別されます】",
           "noMapRoomNumCopyDesc": "ルーム番号[{0}]。Dr.{1}#{2}があなたを試合に招待しています。【このテキストをそのまま入力ボックスに貼りつけると自動識別されます】",
           "randomMapRoomNumCopyDesc": "ルーム番号[{0}]。Dr.{1}#{2}があなたをランダム種目{3}に招待しています。【このテキストをそのまま入力ボックスに貼りつけると自動識別されます】",
@@ -225188,22 +228506,22 @@
           "defenseOrdMax": 7,
           "defenseDifMax": 7,
           "stageChooseAnimRandomStageIdList": [
-            "act1multi_01",
-            "act1multi_02",
-            "act1multi_03"
+            "act2multi_01",
+            "act2multi_02",
+            "act2multi_03"
           ],
           "requireStarsPerBuffKey": 10,
           "maxUnlockNum": 20,
           "mapUnlockDesc1": "任意のモードで一定の成績を収めれば、ルームマッチモードで種目を選択することができるようになります",
           "mapUnlockDesc2": "特定種目選択の解放条件",
           "mapUnlockDesc3": "当該種目で表彰スタンプを<@map.normal>3</>枚獲得",
-          "mapUnlockDesc4": "得失点差記録が<@map.football>4</>に達する",
+          "mapUnlockDesc4": "ローイング記録が<@map.raft>4000</>に達すると、種目選択が可能になります",
           "mapUnlockDesc5": "防衛WAVEが<@map.defence>7</>以上になる",
           "mapUnlockDesc6": "すべての種目選択の解放条件",
           "mapUnlockDesc7": "任意難易度の通常種目で表彰スタンプを計<@map.normal>9</>枚獲得すると、当該難易度のすべての種目選択が解放される",
           "difUnlockCond": 9,
-          "ordRewardStageId": "act1multi_01",
-          "difRewardStageId": "act1multi_ex01",
+          "ordRewardStageId": "act2multi_01",
+          "difRewardStageId": "act2multi_ex01",
           "maxMatchTime": 120,
           "tipsSwitchTime": 5,
           "pingConds": [
@@ -225231,7 +228549,7 @@
           "dailyMissionRule": "毎日競技種目をプレイして【参加認定証】を累計で<@dm.award>150</>獲得すると、集計時に追加で【参加認定証】x<@dm.award>200</>を獲得できます。\n（毎日04:00にリセット）\n\n<@dm.condition>獲得対象種目</>：訓練場以外の全ての競技種目",
           "missionDesc": "クランタですら追いつけないスピードを出す？フォルテですら持ち上げられない重さを持ち上げる？きっとあなたの心の中で小さくもクレイジーな目標を隠しているはずだ。せっかくのチャンスだから、チャレンジしてはいかが？",
           "dailyMissionRewardItem": {
-            "id": "act1multi_token_cap",
+            "id": "act2multi_token_cap",
             "count": 200,
             "type": "ACTIVITY_ITEM"
           },
@@ -225240,9 +228558,9 @@
           "defenceGreatVoiceWave": 5,
           "reportMaxNum": 3,
           "reportText": "プレイヤーが規約違反した行為を選択してください（最大三つまで）",
-          "reward1Id": "emoticon_originium_slug",
+          "reward1Id": "avatar_activity_MULTI2",
           "reward1Text": "＊競技注目度がLv.<@milestone>{0}</>に達すると受取可能",
-          "reward2Id": "char_190_clour@epoque#43",
+          "reward2Id": "char_349_chiave@race#2",
           "reward2Text": "＊競技注目度がLv.<@milestone>{0}</>に達すると受取可能",
           "maxRetryTimeInTeamRoom": 30,
           "maxRetryTimeInMatchRoom": 30,
@@ -225258,7 +228576,7 @@
             "requireStarCnt": 18
           },
           "inverseModeHint": "*編成交換モードでは、ゲーム開始後に協力者と編成とプレースタイルを交換します",
-          "teamUnlockStageId": "act1multi_tr01",
+          "teamUnlockStageId": "act2multi_tr01",
           "teamUnlockParam": 1,
           "trainPartnerCharId": "char_002_amiya",
           "trainPartnerCharSkinId": "char_002_amiya#1",
@@ -225277,15 +228595,33 @@
           "checkFriendStateTime": 60,
           "photoCharacterDefaultAct": "Default",
           "trainingStageConfirmDesc": "固定編成で作戦に挑み、クリアするとマッチング機能が解放されます\n<@multiv3.unlockToast>【{0}・模擬試合】</>を開始しますか？",
-          "joinRoomLongTimeThreshold": 30.0
-        }
+          "joinRoomLongTimeThreshold": 30.0,
+          "invitationSendCd": 60,
+          "boatMapReachableSize": 26,
+          "boatMapSizeMax": 40,
+          "boatExitMapOffset": 0,
+          "boatEnterTranOffset": 4,
+          "boatCollisionLossSpeedFactor": 0.5,
+          "boatAirFactor": 0.15,
+          "boatFrictionFactor": 0.01,
+          "boatForceInterval": 0.1,
+          "boatExchangeDamageMax": 5000,
+          "boatExchangeDamageMin": 100,
+          "boatExchangeForceMax": 20,
+          "boatExchangeForceMin": 4,
+          "waterSpeedFactor": 0.004
+        },
+        "sailBoatLevelPoolDict": {},
+        "sailBoatBlockPoolDict": {},
+        "sailBoatBlockInfoList": {}
       }
     },
     "TYPE_MAINSS": {
       "act2mainss": {
         "zoneAdditionDataMap": {
           "act2mainss_zone1": {
-            "unlockTip": "<color=#d51c47>3-8</color>クリア後続行可能"
+            "unlockTip": "<color=#d51c47>3-8</color>クリア後続行可能",
+            "unlockTipAfterRetro": "<color=#d51c47>3-8</color>クリア後続行可能"
           }
         }
       }
@@ -225851,7 +229187,8 @@
             "isRoom": false,
             "modeType": "OPERATION",
             "stageIds": [
-              "act2enemyduel_01a"
+              "act2enemyduel_01a",
+              "act2enemyduel_01b"
             ],
             "pageId": 1,
             "innerSortId": 3,
@@ -225883,7 +229220,8 @@
             "isRoom": false,
             "modeType": "OPERATION",
             "stageIds": [
-              "act2enemyduel_01a"
+              "act2enemyduel_01a",
+              "act2enemyduel_01b"
             ],
             "pageId": 1,
             "innerSortId": 2,
@@ -225915,7 +229253,8 @@
             "isRoom": false,
             "modeType": "STAND",
             "stageIds": [
-              "act2enemyduel_01a"
+              "act2enemyduel_01a",
+              "act2enemyduel_01b"
             ],
             "pageId": 1,
             "innerSortId": 1,
@@ -225947,7 +229286,8 @@
             "isRoom": true,
             "modeType": "OPERATION",
             "stageIds": [
-              "act2enemyduel_01a"
+              "act2enemyduel_01a",
+              "act2enemyduel_01b"
             ],
             "pageId": 2,
             "innerSortId": 2,
@@ -225979,7 +229319,8 @@
             "isRoom": true,
             "modeType": "STAND",
             "stageIds": [
-              "act2enemyduel_01a"
+              "act2enemyduel_01a",
+              "act2enemyduel_01b"
             ],
             "pageId": 2,
             "innerSortId": 1,
@@ -227871,12 +231212,20 @@
                 "score": 4.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": 2.0
+              },
+              {
                 "enemyId": "enemy_15037_dqhtms",
                 "score": 18.0
               },
               {
                 "enemyId": "enemy_15038_dqhtbw",
                 "score": 7.0
+              },
+              {
+                "enemyId": "enemy_15039_dqrgrd",
+                "score": 12.0
               },
               {
                 "enemyId": "enemy_15040_dqrdmn",
@@ -227895,6 +231244,10 @@
                 "score": 25.0
               },
               {
+                "enemyId": "enemy_15045_dqrbty",
+                "score": 18.0
+              },
+              {
                 "enemyId": "enemy_15046_dqxts",
                 "score": 1.0
               },
@@ -227907,6 +231260,14 @@
                 "score": 7.0
               },
               {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 18.0
+              },
+              {
+                "enemyId": "enemy_15051_dqxjl",
+                "score": 14.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 6.0
               },
@@ -227915,8 +231276,20 @@
                 "score": 7.0
               },
               {
+                "enemyId": "enemy_15054_dqprpn",
+                "score": 9.0
+              },
+              {
                 "enemyId": "enemy_15055_dqrhcr",
                 "score": 20.0
+              },
+              {
+                "enemyId": "enemy_15057_dqmram",
+                "score": 11.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
+                "score": 14.0
               },
               {
                 "enemyId": "enemy_15059_dqhmmr",
@@ -228176,12 +231549,20 @@
                 "score": -2.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": -2.0
+              },
+              {
                 "enemyId": "enemy_15037_dqhtms",
                 "score": 8.0
               },
               {
                 "enemyId": "enemy_15038_dqhtbw",
                 "score": 6.0
+              },
+              {
+                "enemyId": "enemy_15039_dqrgrd",
+                "score": 2.0
               },
               {
                 "enemyId": "enemy_15040_dqrdmn",
@@ -228200,6 +231581,10 @@
                 "score": 10.0
               },
               {
+                "enemyId": "enemy_15045_dqrbty",
+                "score": 8.0
+              },
+              {
                 "enemyId": "enemy_15046_dqxts",
                 "score": -2.0
               },
@@ -228212,6 +231597,14 @@
                 "score": -1.0
               },
               {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 5.0
+              },
+              {
+                "enemyId": "enemy_15051_dqxjl",
+                "score": 2.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 5.0
               },
@@ -228220,8 +231613,20 @@
                 "score": 1.0
               },
               {
+                "enemyId": "enemy_15054_dqprpn",
+                "score": 2.0
+              },
+              {
                 "enemyId": "enemy_15055_dqrhcr",
                 "score": 4.0
+              },
+              {
+                "enemyId": "enemy_15057_dqmram",
+                "score": 6.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
+                "score": 3.0
               },
               {
                 "enemyId": "enemy_15059_dqhmmr",
@@ -228393,7 +231798,15 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15037_dqhtms",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15039_dqrgrd",
                 "score": 100.0
               },
               {
@@ -228413,6 +231826,10 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15051_dqxjl",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 100.0
               },
@@ -228421,7 +231838,15 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15054_dqprpn",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15055_dqrhcr",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15057_dqmram",
                 "score": 100.0
               },
               {
@@ -228534,7 +231959,19 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15045_dqrbty",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15048_dqdivi",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
                 "score": 100.0
               },
               {
@@ -228619,6 +232056,10 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15043_dqrckm",
                 "score": 100.0
               },
@@ -228635,11 +232076,23 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15051_dqxjl",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 100.0
               },
               {
                 "enemyId": "enemy_15053_dqtrtl",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15054_dqprpn",
                 "score": 100.0
               },
               {
@@ -228818,6 +232271,14 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15039_dqrgrd",
+                "score": 300.0
+              },
+              {
                 "enemyId": "enemy_15044_dqtisd",
                 "score": 300.0
               },
@@ -228830,6 +232291,10 @@
                 "score": 300.0
               },
               {
+                "enemyId": "enemy_15051_dqxjl",
+                "score": 300.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 300.0
               },
@@ -228838,7 +232303,15 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15054_dqprpn",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15055_dqrhcr",
+                "score": 300.0
+              },
+              {
+                "enemyId": "enemy_15057_dqmram",
                 "score": 300.0
               },
               {
@@ -228905,6 +232378,18 @@
               {
                 "enemyId": "enemy_15043_dqrckm",
                 "score": 300.0
+              },
+              {
+                "enemyId": "enemy_15045_dqrbty",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 300.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
+                "score": 300.0
               }
             ]
           },
@@ -228956,6 +232441,10 @@
                 "score": 300.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": 300.0
+              },
+              {
                 "enemyId": "enemy_15046_dqxts",
                 "score": 300.0
               },
@@ -228964,11 +232453,19 @@
                 "score": 300.0
               },
               {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 300.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 300.0
               },
               {
                 "enemyId": "enemy_15053_dqtrtl",
+                "score": 300.0
+              },
+              {
+                "enemyId": "enemy_15054_dqprpn",
                 "score": 300.0
               },
               {
@@ -229226,11 +232723,19 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15037_dqhtms",
                 "score": 100.0
               },
               {
                 "enemyId": "enemy_15038_dqhtbw",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15039_dqrgrd",
                 "score": 100.0
               },
               {
@@ -229250,6 +232755,10 @@
                 "score": -100.0
               },
               {
+                "enemyId": "enemy_15045_dqrbty",
+                "score": 0.0
+              },
+              {
                 "enemyId": "enemy_15046_dqxts",
                 "score": 100.0
               },
@@ -229262,6 +232771,14 @@
                 "score": 0.0
               },
               {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 0.0
+              },
+              {
+                "enemyId": "enemy_15051_dqxjl",
+                "score": 0.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 100.0
               },
@@ -229270,8 +232787,20 @@
                 "score": -100.0
               },
               {
+                "enemyId": "enemy_15054_dqprpn",
+                "score": 0.0
+              },
+              {
                 "enemyId": "enemy_15055_dqrhcr",
                 "score": -100.0
+              },
+              {
+                "enemyId": "enemy_15057_dqmram",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
+                "score": 0.0
               },
               {
                 "enemyId": "enemy_15059_dqhmmr",
@@ -229439,6 +232968,10 @@
                 "score": 100.0
               },
               {
+                "enemyId": "enemy_15039_dqrgrd",
+                "score": 100.0
+              },
+              {
                 "enemyId": "enemy_15040_dqrdmn",
                 "score": 100.0
               },
@@ -229448,6 +232981,10 @@
               },
               {
                 "enemyId": "enemy_15044_dqtisd",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15045_dqrbty",
                 "score": 100.0
               },
               {
@@ -229473,6 +233010,14 @@
             "data": [
               {
                 "enemyId": "enemy_15021_dqdurg",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15057_dqmram",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
                 "score": 100.0
               }
             ]
@@ -229536,6 +233081,10 @@
               },
               {
                 "enemyId": "enemy_15040_dqrdmn",
+                "score": 100.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
                 "score": 100.0
               }
             ]
@@ -229780,12 +233329,20 @@
                 "score": 4000.0
               },
               {
+                "enemyId": "enemy_15036_dqalme",
+                "score": 2250.0
+              },
+              {
                 "enemyId": "enemy_15037_dqhtms",
                 "score": 15000.0
               },
               {
                 "enemyId": "enemy_15038_dqhtbw",
                 "score": 15000.0
+              },
+              {
+                "enemyId": "enemy_15039_dqrgrd",
+                "score": 20000.0
               },
               {
                 "enemyId": "enemy_15040_dqrdmn",
@@ -229804,6 +233361,10 @@
                 "score": 15000.0
               },
               {
+                "enemyId": "enemy_15045_dqrbty",
+                "score": 17000.0
+              },
+              {
                 "enemyId": "enemy_15046_dqxts",
                 "score": 1700.0
               },
@@ -229816,6 +233377,14 @@
                 "score": 8000.0
               },
               {
+                "enemyId": "enemy_15049_dqfrog",
+                "score": 15000.0
+              },
+              {
+                "enemyId": "enemy_15051_dqxjl",
+                "score": 9000.0
+              },
+              {
                 "enemyId": "enemy_15052_dqboar",
                 "score": 25000.0
               },
@@ -229824,7 +233393,19 @@
                 "score": 14000.0
               },
               {
+                "enemyId": "enemy_15054_dqprpn",
+                "score": 25000.0
+              },
+              {
                 "enemyId": "enemy_15055_dqrhcr",
+                "score": 12000.0
+              },
+              {
+                "enemyId": "enemy_15057_dqmram",
+                "score": 13500.0
+              },
+              {
+                "enemyId": "enemy_15058_dqtank",
                 "score": 12000.0
               },
               {
@@ -230087,6 +233668,10 @@
             "enemyId": "enemy_15035_dqbone",
             "originalEnemyId": "enemy_1109_uabone"
           },
+          "enemy_15036_dqalme": {
+            "enemyId": "enemy_15036_dqalme",
+            "originalEnemyId": "enemy_1246_aslime"
+          },
           "enemy_15037_dqhtms": {
             "enemyId": "enemy_15037_dqhtms",
             "originalEnemyId": "enemy_1341_bthtms"
@@ -230094,6 +233679,10 @@
           "enemy_15038_dqhtbw": {
             "enemyId": "enemy_15038_dqhtbw",
             "originalEnemyId": "enemy_1340_bthtbw"
+          },
+          "enemy_15039_dqrgrd": {
+            "enemyId": "enemy_15039_dqrgrd",
+            "originalEnemyId": "enemy_1339_bhrgrd"
           },
           "enemy_15040_dqrdmn": {
             "enemyId": "enemy_15040_dqrdmn",
@@ -230111,6 +233700,10 @@
             "enemyId": "enemy_15044_dqtisd",
             "originalEnemyId": "enemy_1081_sotisd"
           },
+          "enemy_15045_dqrbty": {
+            "enemyId": "enemy_15045_dqrbty",
+            "originalEnemyId": "enemy_1219_mtrbty"
+          },
           "enemy_15046_dqxts": {
             "enemyId": "enemy_15046_dqxts",
             "originalEnemyId": "enemy_1395_dhxts"
@@ -230123,6 +233716,14 @@
             "enemyId": "enemy_15048_dqdivi",
             "originalEnemyId": "enemy_1436_dsdivi"
           },
+          "enemy_15049_dqfrog": {
+            "enemyId": "enemy_15049_dqfrog",
+            "originalEnemyId": "enemy_10058_cjfrog"
+          },
+          "enemy_15051_dqxjl": {
+            "enemyId": "enemy_15051_dqxjl",
+            "originalEnemyId": "enemy_10066_ftxjl"
+          },
           "enemy_15052_dqboar": {
             "enemyId": "enemy_15052_dqboar",
             "originalEnemyId": "enemy_1309_mhboar"
@@ -230131,9 +233732,21 @@
             "enemyId": "enemy_15053_dqtrtl",
             "originalEnemyId": "enemy_1306_mhtrtl"
           },
+          "enemy_15054_dqprpn": {
+            "enemyId": "enemy_15054_dqprpn",
+            "originalEnemyId": "enemy_1310_mhprpn"
+          },
           "enemy_15055_dqrhcr": {
             "enemyId": "enemy_15055_dqrhcr",
             "originalEnemyId": "enemy_1307_mhrhcr"
+          },
+          "enemy_15057_dqmram": {
+            "enemyId": "enemy_15057_dqmram",
+            "originalEnemyId": "enemy_1274_stmram_2"
+          },
+          "enemy_15058_dqtank": {
+            "enemyId": "enemy_15058_dqtank",
+            "originalEnemyId": "enemy_1272_nhtank"
           },
           "enemy_15059_dqhmmr": {
             "enemyId": "enemy_15059_dqhmmr",
@@ -236769,7 +240382,184 @@
           "customerTagFormat": "<{0}>"
         }
       }
-    }
+    },
+    "HALFIDLE_VERIFY1": {},
+    "TYPE_ACT45SIDE": {
+      "act45side": {
+        "charData": {
+          "char_4182_oblvns": {
+            "charId": "char_4182_oblvns",
+            "sortId": 1,
+            "charIllustId": "char_4182_oblvns",
+            "charCardId": "tarot_char_4182_oblvns",
+            "charName": "<@char.oblv>豊川祥子</>",
+            "unlockStageId": "act45side_01"
+          },
+          "char_4186_tmoris": {
+            "charId": "char_4186_tmoris",
+            "sortId": 2,
+            "charIllustId": "char_4186_tmoris",
+            "charCardId": "tarot_char_4186_tmoris",
+            "charName": "<@char.tmor>八幡海鈴</>",
+            "unlockStageId": "act45side_02"
+          },
+          "char_4184_dolris": {
+            "charId": "char_4184_dolris",
+            "sortId": 3,
+            "charIllustId": "char_4184_dolris",
+            "charCardId": "tarot_char_4184_dolris",
+            "charName": "<@char.dolr>三角初華</>",
+            "unlockStageId": "act45side_04"
+          },
+          "char_4185_amoris": {
+            "charId": "char_4185_amoris",
+            "sortId": 4,
+            "charIllustId": "char_4185_amoris",
+            "charCardId": "tarot_char_4185_amoris",
+            "charName": "<@char.amor>祐天寺にゃむ</>",
+            "unlockStageId": "act45side_06"
+          },
+          "char_4183_mortis": {
+            "charId": "char_4183_mortis",
+            "sortId": 5,
+            "charIllustId": "char_4183_mortis",
+            "charCardId": "tarot_char_4183_mortis",
+            "charName": "<@char.mort>若葉睦</>",
+            "unlockStageId": "act45side_08"
+          }
+        },
+        "mailData": {
+          "letter_1": {
+            "mailId": "letter_1",
+            "sortId": 1,
+            "charName": "クロージャ",
+            "picId": "charId_closure",
+            "mailTitle": "購買部からの手紙",
+            "mailContent": "マスカレードの会場設営、もう始まってるの？これはムジカのファンとして手伝わなきゃだね！遠慮しないで、どのテーブルも最近は使ってなかったんだ。バンドの雰囲気にぴったりなデザインに修理しておいたから、きっと役に立つと思うよ！だから、マスカレードには絶対に招待してね！",
+            "sendTime": 1770688800,
+            "rewards": [
+              {
+                "id": "furni_dreamCastle_table_02",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "act45side_token_puzzlepieces",
+                "count": 200,
+                "type": "ACTIVITY_ITEM"
+              }
+            ]
+          },
+          "letter_2": {
+            "mailId": "letter_2",
+            "sortId": 2,
+            "charName": "ヴィグナ",
+            "picId": "charId_vigna",
+            "mailTitle": "オペレーターからの手紙",
+            "mailContent": "あたしとバンド友達で用意したステージ装飾だよ。使ってくれたら嬉しいな。ロドスでバンドしてる仲間同士だし、もし困ったことがあったら気軽に言ってね。どんな困難にぶつかっても、みんなで自分らしく演奏する。それこそロックだから！それじゃ、いつか一緒にセッションしよう！",
+            "sendTime": 1770750000,
+            "rewards": [
+              {
+                "id": "furni_dreamCastle_Column_01",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "act45side_token_puzzlepieces",
+                "count": 200,
+                "type": "ACTIVITY_ITEM"
+              }
+            ]
+          },
+          "letter_3": {
+            "mailId": "letter_3",
+            "sortId": 3,
+            "charName": "ウォーミー",
+            "picId": "charId_warmy",
+            "mailTitle": "エンジニア部からのオーダー",
+            "mailContent": "こんにちは、ご注文の照明機器のお届けです。外観もご希望通りに調整していますよ。これで問題なければ、わたしたちのほうでステージに取り付けますね。それにしても、素人っぽい感想になっちゃうんですが、本当に立派でかっこいいステージだなって。もしよかったら、わたしもお友達のみなさんと一緒に観させていただけませんか？きっとすごくキレイで、忘れられないマスカレードになると思うんです！",
+            "sendTime": 1770836400,
+            "rewards": [
+              {
+                "id": "furni_dreamCastle_ceilingLight_01",
+                "count": 2,
+                "type": "FURN"
+              },
+              {
+                "id": "act45side_token_puzzlepieces",
+                "count": 300,
+                "type": "ACTIVITY_ITEM"
+              }
+            ]
+          },
+          "letter_4": {
+            "mailId": "letter_4",
+            "sortId": 4,
+            "charName": "アイリス",
+            "picId": "charId_iris",
+            "mailTitle": "夢のお城からの手紙",
+            "mailContent": "バンドのみなさんはお元気でして？ロドスでマスカレードの準備をしていると聞いて、私も何か力になりたいと思い、夢のお城の調度品をお送りしました。ステージの雰囲気作りに役立てば幸いですわ。誰もが開演を楽しみにしていて、子どもたちに至っては待ちきれない様子です。何事もなく進むよう祈っていますわ。",
+            "sendTime": 1770922800,
+            "rewards": [
+              {
+                "id": "furni_dreamCastle_candle_01",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "act45side_token_puzzlepieces",
+                "count": 300,
+                "type": "ACTIVITY_ITEM"
+              }
+            ]
+          },
+          "letter_5": {
+            "mailId": "letter_5",
+            "sortId": 5,
+            "charName": "モーフィアス",
+            "picId": "charId_morpheus",
+            "mailTitle": "夢のお城からの録音",
+            "mailContent": "うぅぅ……アイリスから「謝りなさい」って言われて、仕方なく録っているだけなんだから……この前は私がやりすぎたせいで、あんたたちに迷惑をかけちゃったわね。その……本当にごめんなさい。お詫びの印にこれを受け取って。私とカールトンたちで作った舞台の装飾よ……アイリス、もういいでしょ！？これで送るわよ！！あんたたち、絶対にマスカレードを成功させなさい！じゃないと、私がまたアイリスに怒られちゃうんだから！",
+            "sendTime": 1771009200,
+            "rewards": [
+              {
+                "id": "furni_dreamCastle_table_03",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "act45side_token_puzzlepieces",
+                "count": 500,
+                "type": "ACTIVITY_ITEM"
+              }
+            ]
+          }
+        },
+        "constData": {
+          "entryStageId": "act45side_01",
+          "toastCharUnlock": "{0}が登場",
+          "toastLivePageUnlock": "マスカレードホールが解放されました",
+          "toastLivePageLocked": "{0}クリア後解放",
+          "textCharLocked": "{0}クリア後解放",
+          "textMailTime": "{0}後に手紙が届きます",
+          "textBtnMailTime": "次の手紙まであと：{0}",
+          "gameTVSizeMusicId": "music_act45side_0",
+          "gameFullSizeMusicId": "music_act45side_1",
+          "entryMusicId": "music_act45side_2"
+        },
+        "zoneAdditionDataMap": {
+          "act45side_zone1": {
+            "zoneId": "act45side_zone1",
+            "unlockText": "未開放"
+          },
+          "act45side_zone2": {
+            "zoneId": "act45side_zone2",
+            "unlockText": "「忘れえぬ夢」クリア後解放"
+          }
+        }
+      }
+    },
+    "RECRUIT_ONLY": {}
   },
   "extraData": {
     "MAINLINE_BP": {
@@ -236790,6 +240580,15 @@
     }
   },
   "activityItems": {
+    "act6collection": [
+      "act6collection_point_token"
+    ],
+    "act37sre": [
+      "act37side_token_nay_rep_1"
+    ],
+    "act45side": [
+      "act45side_token_puzzlepieces"
+    ],
     "act2enemyduel": [
       "act2enemyduel_milestone_point"
     ],
@@ -237256,6 +241055,10 @@
     "act11d7": [
       1611118800,
       1611946799
+    ],
+    "act37sre": [
+      1771873200,
+      1772737199
     ],
     "act43side": [
       1763017200,
@@ -243966,6 +247769,42 @@
       ],
       "picGroups": [],
       "startTs": 1770102000
+    },
+    {
+      "id": "dis_side_45",
+      "type": "ACTIVITY",
+      "funcId": "act45side",
+      "endTs": 1771873199,
+      "sortId": 125,
+      "itemId": "act45side_token_puzzlepieces",
+      "timeNodes": [
+        {
+          "title": "<安らかな譫言>イベント開催中",
+          "ts": 1770688800
+        },
+        {
+          "title": "「運命愛」ステージ開放中",
+          "ts": 1771311600
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1770688800
+    },
+    {
+      "id": "dis_side_37_sre",
+      "type": "ACTIVITY",
+      "funcId": "act37sre",
+      "endTs": 1772737199,
+      "sortId": 126,
+      "itemId": "act37side_token_nay_rep_1",
+      "timeNodes": [
+        {
+          "title": "<落日の向こうへ>イベント開催中",
+          "ts": 1771873200
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1771873200
     }
   ],
   "actFunData": {
@@ -268238,6 +272077,9 @@
       ]
     }
   },
+  "halfIdleData": {
+    "itemData": {}
+  },
   "kvSwitchData": {
     "act18sre": {
       "kvSwitchInfo": {
@@ -268269,6 +272111,23 @@
     }
   },
   "dynEntrySwitchData": {
+    "act45side": {
+      "entrySwitchInfo": {
+        "act45side_entry_01": {
+          "entryId": "act45side_entry_01",
+          "sortId": 1,
+          "stageId": null,
+          "signalId": "act45side"
+        },
+        "act45side_entry_02": {
+          "entryId": "act45side_entry_02",
+          "sortId": 2,
+          "stageId": "act45side_08",
+          "signalId": "act45side"
+        }
+      },
+      "randomEntrySwitchInfo": {}
+    },
     "act44side": {
       "entrySwitchInfo": {},
       "randomEntrySwitchInfo": {
@@ -271552,6 +275411,43 @@
     }
   },
   "activityTemplateMissionStyles": {
+    "act37sre": {
+      "bigRewardType": "ILLUST_CHAR_REWARD",
+      "bigRewardParamList": [
+        "char_4162_cathy",
+        "GO-4クリア後にこのオペレーターを招集可能",
+        "dea65c",
+        "8.6,-160"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": null,
+      "isMissionItemCompleteUseMainColor": false,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": null,
+      "claimAllBtnTips": null,
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "dea65c"
+    },
+    "act45side": {
+      "bigRewardType": "PIC_REWARD",
+      "bigRewardParamList": [],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": null,
+      "isMissionItemCompleteUseMainColor": false,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": null,
+      "claimAllBtnTips": "未受領の任務報酬があります",
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "b40048"
+    },
     "act35sre": {
       "bigRewardType": "ILLUST_CHAR_REWARD",
       "bigRewardParamList": [
