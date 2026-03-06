@@ -330006,5 +330006,1226 @@
         ]
       }
     ]
+  },
+  "sktok_lharen": {
+    "skillId": "sktok_lharen",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "いざ勝負！",
+        "rangeId": "0-1",
+        "description": "スキル発動後、<@ba.enemy><ロアー見習い騎士></>、<@ba.enemy><無名の独立騎士></>、<@ba.enemy><盾持ち独立騎士></>、<@ba.enemy><ブラッドボイル見習い騎士></>の中からランダムに1体を生成（撃破した敵に応じて<@ba.drop>昇進許可</>を獲得）。その敵が撃破されると、この<衝突ケージ>に配置されているオペレーターの攻撃力+3%",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lharen",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1099_nbkght|enemy_1101_plkght|enemy_1102_sdkght|enemy_1103_wdkght"
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.25|0.25|0.25|0.25"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "atk",
+            "value": 0.03,
+            "valueStr": null
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhbat": {
+    "skillId": "sktok_lhbat",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "血の遺物",
+        "rangeId": "x-4",
+        "description": "SPが自然回復しない。攻撃範囲内で敵が撃破されるたび、自身のSPが1回復。スキル発動後、<@ba.enemy><大君の祝福></>（撃破後、少量の<@ba.drop>訓練マニュアル</>を獲得）を1体生成、或いは<@ba.drop>下級戦術プラグイン</>を1つ獲得",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhbat",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1220_dzoms"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "prob",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "equip_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhblod": {
+    "skillId": "sktok_lhblod",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "飛び散る血珀",
+        "rangeId": "x-4",
+        "description": "SPが自然回復しない。周期的に味方ユニットにダメージを与え、一定量のダメージを与えるとSPが回復。スキル発動時、周囲の地面マスに<@ba.enemy><血珀></>を生成し、自身を破壊、少量の<@ba.drop>技術マニュアル</>を獲得",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhblod",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1367_dseed"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-4"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_blod"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcamp": {
+    "skillId": "sktok_lhcamp",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "来客",
+        "rangeId": "0-1",
+        "description": "SPが自然回復しない。敵がこのマスに進入時に自身のSPが回復。スキル発動時、<@ba.enemy><流れ者></>（撃破すると、<@ba.drop>訓練マニュアル</>を獲得）を1体生成",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcamp",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1030_wteeth"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcampa": {
+    "skillId": "sktok_lhcampa",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "来客",
+        "rangeId": "0-1",
+        "description": "SPが自然回復しない。敵がこのマスに進入時に自身のSPが回復。スキル発動時、<@ba.enemy><狙撃歩兵></>（撃破すると、<@ba.drop>狙撃昇進許可</>と<@ba.drop>特殊昇進許可</>を獲得）を1体生成",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcampa",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1047_sagent"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcampb": {
+    "skillId": "sktok_lhcampb",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "来客",
+        "rangeId": "0-1",
+        "description": "SPが自然回復しない。敵がこのマスに進入時に自身のSPが回復。スキル発動時、<@ba.enemy><重装兵></>（撃破すると、<@ba.drop>重装昇進許可</>と<@ba.drop>医療昇進許可</>を獲得）を1体生成",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcampb",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1006_shield"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcampc": {
+    "skillId": "sktok_lhcampc",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "来客",
+        "rangeId": "0-1",
+        "description": "SPが自然回復しない。敵がこのマスに進入時に自身のSPが回復。スキル発動時、<@ba.enemy><苔生獣></>（撃破すると、<@ba.drop>前衛昇進許可</>と<@ba.drop>先鋒昇進許可</>を獲得）を1体生成",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcampc",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_7005_xbbull"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcol": {
+    "skillId": "sktok_lhcol",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "貸出登録",
+        "rangeId": "x-5",
+        "description": "SPが自然回復しない。生産モジュール獲得時にSPが回復。スキル発動時、少量の<@ba.drop>技術マニュアル</>をドロップし、周囲の地面マスに<@ba.enemy><上級術師></>（撃破すると、<@ba.drop>術師昇進許可</>と<@ba.drop>補助昇進許可</>を獲得）を生成",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcol",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1018_aoemag"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_col"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcolb": {
+    "skillId": "sktok_lhcolb",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "読書会",
+        "rangeId": "x-5",
+        "description": "SPが自然回復しない。生産モジュール獲得時にSPが回復。スキル発動時、<@ba.drop>技術マニュアル</>をドロップし、確率で<@ba.drop>生産モジュール</>をドロップし、周囲の地面マスに<@ba.enemy><上級バリア術師></>（撃破すると、<@ba.drop>術師昇進許可</>と<@ba.drop>補助昇進許可</>を獲得）を生成",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcolb",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1036_amraoe"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_col2"
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "lv_1"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhdoor": {
+    "skillId": "sktok_lhdoor",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "空間跳躍",
+        "rangeId": "0-1",
+        "description": "スキル発動時、自身と同じマスにいる敵1体を、最も近い到達可能位置にいるオペレーターの位置へ転送",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhdoor",
+        "duration": 2.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_lheqp": {
+    "skillId": "sktok_lheqp",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "補給受取",
+        "rangeId": "0-1",
+        "description": "スキル発動後、<@ba.enemy>ブロック不可、かつ自ら攻撃しない敵</>を1体生成し、その敵を撃破すると<@ba.drop>上級戦術プラグイン</>を1つドロップ",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 1,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lheqp",
+        "duration": 1.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1285_sgwlf|enemy_7019_thief"
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.5|0.5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "equip_3"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhfac": {
+    "skillId": "sktok_lhfac",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "汚染対処",
+        "rangeId": "x-1",
+        "description": "スキル発動時、自身及び範囲内のすべての<源石クラスター>を破壊し、そのマスを<源石採掘場>に変化させ、隣接4マス内に<@ba.enemy><鉱脈の守護者></>（撃破すると、<@ba.drop>前衛昇進許可</>と<@ba.drop>先鋒昇進許可</>を獲得）を数体生成",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhfac",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_7002_veingd"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_fac"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhfacp": {
+    "skillId": "sktok_lhfacp",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "過負荷稼働",
+        "rangeId": "x-5",
+        "description": "フィールド上の【感染生物】が撃破されるとSPが回復。【感染生物】が自身の攻撃範囲内で撃破された場合、SPの回復量が2倍になる。スキル発動時、中量の<@ba.drop>訓練マニュアル</>と少量の<@ba.drop>密封鉱核</>を獲得し、周囲に<@ba.enemy><バクダンムシ></>（撃破すると、少量の<@ba.drop>訓練マニュアル</>を獲得）を数体生成",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhfacp",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1021_bslime"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "prob",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_facp"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhfarm": {
+    "skillId": "sktok_lhfarm",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "リサイクル",
+        "rangeId": "x-5",
+        "description": "フィールド上の【感染生物】が撃破されるとSPが回復。【感染生物】が自身の攻撃範囲内で撃破された場合、SPの回復量が2倍になる。スキル発動時、少量の<@ba.drop>訓練マニュアル</>と<@ba.drop>策略ビーコン</>を獲得し、周囲に<@ba.enemy><オリジムシβ></>（撃破すると、微量の<@ba.drop>訓練マニュアル</>を獲得）を数体生成",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhfarm",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1007_slime_3"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_farm"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhflwr": {
+    "skillId": "sktok_lhflwr",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "暴れ木",
+        "rangeId": null,
+        "description": "SPが自然回復しない。残りHPが自身の攻撃力より低い【ボス】以外の敵のみを攻撃し、敵を撃破するとSPが回復。スキル発動時、自身を破壊し、<@ba.enemy><ツリーシールド></>（撃破すると、<@ba.drop>重装昇進許可</>と<@ba.drop>医療昇進許可</>を獲得）を生成",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhflwr",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_10069_ftlsj"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhhe": {
+    "skillId": "sktok_lhhe",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "灌漑",
+        "rangeId": "x-5",
+        "description": "フィールド端のマス、もしくは<河川>の隣接4マスにのみ設置可能。周囲の他の<地形>の効果を上昇させる。隣接4マスに地面マスがある場合、その地面マスを灌漑して<沃土>に変化させる。スキル発動時、<@ba.enemy><潜水員></>（撃破すると、<@ba.drop>狙撃昇進許可</>と<@ba.drop>特殊昇進許可</>を獲得）か、<@ba.enemy><水兵></>（撃破すると、<@ba.drop>前衛昇進許可</>と<@ba.drop>先鋒昇進許可</>を獲得）を生成",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhhe",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1160_hvyslr|enemy_1158_divman"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.5|0.5"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhpad": {
+    "skillId": "sktok_lhpad",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "採取",
+        "rangeId": null,
+        "description": "SPが自然回復。敵がこのマスに進入時に自身のSPが減少。スキル発動時、少量の<@ba.drop>訓練マニュアル</>を獲得",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhpad",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad"
+          },
+          {
+            "key": "extra_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhpad2": {
+    "skillId": "sktok_lhpad2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "大収穫",
+        "rangeId": null,
+        "description": "SPが自然回復。敵がこのマスに進入時に自身のSPが減少。スキル発動時、大量の<@ba.drop>訓練マニュアル</>を獲得",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhpad2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad2"
+          },
+          {
+            "key": "extra_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhplt": {
+    "skillId": "sktok_lhplt",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "汚染伝播",
+        "rangeId": "x-5",
+        "description": "生成時、周囲に<@ba.enemy><ホウシャムシ></>が出現。スキル発動時、隣接4マスの空いているマス全てに<@ba.enemy><源石クラスター></>を生成。3世代目の<@ba.enemy><源石クラスター></>は新たな<@ba.enemy><源石クラスター></>を生成しない",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhplt",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "max_generation",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhport": {
+    "skillId": "sktok_lhport",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "長距離輸送",
+        "rangeId": "0-1",
+        "description": "フィールドに<河川>で繋がっている他の<クレーン>が存在する場合、輸送艇を生成し、到達可能な<クレーン>まで向かわせる。輸送艇が目的地に到達すると、距離に応じて各種<@ba.drop>昇進許可</>を獲得",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhport",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_18001_lhship"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhrift": {
+    "skillId": "sktok_lhrift",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "来客",
+        "rangeId": "0-1",
+        "description": "SPが自然回復しない。敵がこのマスに進入時に自身のSPが回復。スキル発動時、<@ba.enemy><吸い込み暴走マシン></>（撃破すると、ランダムな1組の<@ba.drop>昇進許可</>を獲得）を1体生成",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhrift",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_18003_lhkarb"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhshop": {
+    "skillId": "sktok_lhshop",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "鋳造",
+        "rangeId": null,
+        "description": "SPが自然回復しない。新たな戦術プラグインを獲得するたびにSPが回復。スキル発動時、<@ba.drop>中級戦術プラグイン</>または<@ba.drop>上級戦術プラグイン</>を1つ獲得。スキルを2回発動するたびに、<@ba.drop><プラグイン強化地点></>を1つ獲得",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhshop",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "count_gain_equip",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "count_trigger_gain_trap",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "count_gain_trap",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "equip_2"
+          },
+          {
+            "key": "drop_trap_pool",
+            "value": 0.0,
+            "valueStr": "trap_lhshop"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhswer": {
+    "skillId": "sktok_lhswer",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "来客",
+        "rangeId": "0-1",
+        "description": "SPが自然回復しない。敵がこのマスに進入時に自身のSPが回復。スキル発動時、<@ba.enemy><ハガネガニ></>（撃破すると、<@ba.drop>特殊昇進許可</>と<@ba.drop>重装昇進許可</>を獲得）を1体生成",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhswer",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1016_diaman"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhtown": {
+    "skillId": "sktok_lhtown",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "巡回警備",
+        "rangeId": null,
+        "description": "フィールドに存在する<先遣偵察機>、あるいは他の<偵察センター>1つにつき、5秒ごとに自身のSPが1回復。スキル発動後、<@ba.enemy><バリケード></>（撃破すると、<@ba.drop>狙撃昇進許可</>と<@ba.drop>特殊昇進許可</>を獲得）か、<@ba.enemy><協賛ドローン></>（撃破すると、<@ba.drop>狙撃昇進許可</>、<@ba.drop>特殊昇進許可</>及び1つの<@ba.drop>プラグイン補給地点</>を獲得）を1体生成",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 55,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhtown",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "summon1.enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1355_mrfly"
+          },
+          {
+            "key": "summon2.enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1105_tyokai"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhupgd": {
+    "skillId": "sktok_lhupgd",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "強力検収",
+        "rangeId": "0-1",
+        "description": "スキル発動後、<@ba.enemy>強力な敵</>を1体生成し、その敵を撃破すると装備中の戦術プラグイン1つがランダムでグレードアップ",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 1,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhupgd",
+        "duration": 1.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_6002_trswlf|enemy_1045_hammer"
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.5|0.5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhvlg": {
+    "skillId": "sktok_lhvlg",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "作戦計画",
+        "rangeId": "x-4",
+        "description": "スキル発動時、スキル範囲内のランダムな敵1体の攻撃力と最大HPを+50%し、隣接4マスに新たな<先遣偵察機>を1体生成。対象の敵を撃破すると、<@ba.drop>下級戦術プラグイン</>を1つドロップ",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhvlg",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "key",
+            "value": 0.0,
+            "valueStr": "equip_1"
+          },
+          {
+            "key": "max_generation",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhbot": {
+    "skillId": "sktok_lhbot",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "鉱脈探査",
+        "rangeId": "1-1",
+        "description": "設置後、術攻撃を行う。<豊かな鉱山>に設置すると鉱脈探査を行い、スキル終了後に<豊かな鉱山>が<源石採掘場>に変化",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 8,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhbot",
+        "duration": 10.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_lhside": {
+    "skillId": "sktok_lhside",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "信号増幅",
+        "rangeId": "x-1",
+        "description": "スキル発動時、スキル範囲内に存在する自身を除く生産モジュール1つにつき、範囲内のオペレーター全員が30秒間攻撃力+2%、最大HP+2%（重複不可）",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhside",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.02,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.02,
+            "valueStr": null
+          },
+          {
+            "key": "buff_duration",
+            "value": 30.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
   }
 }
