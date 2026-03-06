@@ -330006,5 +330006,1226 @@
         ]
       }
     ]
+  },
+  "sktok_lharen": {
+    "skillId": "sktok_lharen",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Let the Games Begin!",
+        "rangeId": "0-1",
+        "description": "Randomly generates one enemy from the following: <@ba.enemy>Roar Knightclub Trainee</>, <@ba.enemy>Nameless Independent Knight</>, <@ba.enemy>Independent Knight Shielder</>, <@ba.enemy>Bloodboil Knightclub Trainee</> (grants <@ba.drop>Elite Advancement Tokens</> based on the enemy defeated); once this enemy is defeated, the Operator deployed on this [Impact Fence] gains 3% ATK",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lharen",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1099_nbkght|enemy_1101_plkght|enemy_1102_sdkght|enemy_1103_wdkght"
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.25|0.25|0.25|0.25"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "atk",
+            "value": 0.03,
+            "valueStr": null
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhbat": {
+    "skillId": "sktok_lhbat",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Legacy of Blood",
+        "rangeId": "x-4",
+        "description": "Does not naturally recover SP, but gains 1 SP whenever an enemy is defeated within Attack Range; when skill is activated, generates a <@ba.enemy>Touch of the Sanguinarch</> (grants a few <@ba.drop>Training Handbooks</> once defeated) or grants a <@ba.drop>Basic Armory Plug-in</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhbat",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1220_dzoms"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "prob",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "equip_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhblod": {
+    "skillId": "sktok_lhblod",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Bloodstain",
+        "rangeId": "x-4",
+        "description": "Does not naturally recover SP and periodically deals damage to allied units; once a certain amount of total damage has been dealt, gains SP; when skill is activated, generates <@ba.enemy>Blood Amber</> on nearby ground tiles and drops a small amount of <@ba.drop>Skill Handbooks</> before destroying itself",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhblod",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1367_dseed"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-4"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_blod"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcamp": {
+    "skillId": "sktok_lhcamp",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Visitor",
+        "rangeId": "0-1",
+        "description": "Does not naturally recover SP, but gains SP whenever an enemy passes through; when skill is activated, generates a <@ba.enemy>Junkman</> (grants <@ba.drop>Training Handbooks</> once defeated)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcamp",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1030_wteeth"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcampa": {
+    "skillId": "sktok_lhcampa",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Visitor",
+        "rangeId": "0-1",
+        "description": "Does not naturally recover SP, but gains SP whenever an enemy passes through; when skill is activated, generates a <@ba.enemy>Sniper</> (grants <@ba.drop>Sniper Advancement Tokens</> and <@ba.drop>Specialist Advancement Tokens</> once defeated)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcampa",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1047_sagent"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcampb": {
+    "skillId": "sktok_lhcampb",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Visitor",
+        "rangeId": "0-1",
+        "description": "Does not naturally recover SP, but gains SP whenever an enemy passes through; when skill is activated, generates a <@ba.enemy>Heavy Defender</> (grants <@ba.drop>Defender Advancement Tokens</> and <@ba.drop>Medic Advancement Tokens</> once defeated)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcampb",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1006_shield"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcampc": {
+    "skillId": "sktok_lhcampc",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Visitor",
+        "rangeId": "0-1",
+        "description": "Does not naturally recover SP, but gains SP whenever an enemy passes through; when skill is activated, generates a <@ba.enemy>Mossback Beast</> (grants <@ba.drop>Guard Advancement Tokens</> and <@ba.drop>Vanguard Advancement Tokens</> once defeated)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcampc",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_7005_xbbull"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcol": {
+    "skillId": "sktok_lhcol",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Library Registration",
+        "rangeId": "x-5",
+        "description": "Does not naturally recover SP, but gains SP when you gain Production Modules; when skill is activated, generates <@ba.enemy>Senior Casters</> on nearby ground tiles (grants <@ba.drop>Caster Advancement Tokens</> and <@ba.drop>Supporter Advancement Tokens</> once defeated) and drops a small amount of <@ba.drop>Skill Handbooks</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcol",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1018_aoemag"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_col"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcolb": {
+    "skillId": "sktok_lhcolb",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Group Study",
+        "rangeId": "x-5",
+        "description": "Does not naturally recover SP, but gains SP when you gain Production Modules; when skill is activated, generates <@ba.enemy>Shielded Senior Casters</> on nearby ground tiles (grants <@ba.drop>Caster Advancement Tokens</> and <@ba.drop>Supporter Advancement Tokens</> once defeated) and drops a small amount of <@ba.drop>Skill Handbooks</> along with a random chance for <@ba.drop>Production Modules</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcolb",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1036_amraoe"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_col2"
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "lv_1"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhdoor": {
+    "skillId": "sktok_lhdoor",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Spatial Leap",
+        "rangeId": "0-1",
+        "description": "Teleports one enemy at its location to the nearest reachable Operator",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhdoor",
+        "duration": 2.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_lheqp": {
+    "skillId": "sktok_lheqp",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Resupply Received",
+        "rangeId": "0-1",
+        "description": "Generates an <@ba.enemy>unblockable enemy that does not attack</>; upon defeat, this enemy will drop an <@ba.drop>Advanced Armory Plug-in</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 1,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lheqp",
+        "duration": 1.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1285_sgwlf|enemy_7019_thief"
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.5|0.5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "equip_3"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhfac": {
+    "skillId": "sktok_lhfac",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Pollution Management",
+        "rangeId": "x-1",
+        "description": "When skill is activated, destroys itself and all [Originium Formations] within range, turning its own tile into an [Originium Mine], while generating several <@ba.enemy>Vein Guardians</> on the 4 adjacent tiles (grants <@ba.drop>Guard Advancement Tokens</> and <@ba.drop>Vanguard Advancement Tokens</> once defeated)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhfac",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_7002_veingd"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_fac"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhfacp": {
+    "skillId": "sktok_lhfacp",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Overloaded Operation",
+        "rangeId": "x-5",
+        "description": "Gains SP when Infected Creatures are defeated, if said Creatures are defeated within its Attack Range, gains doubled SP; when skill is activated, grants a medium amount of <@ba.drop>Training Handbooks</> and a small amount of <@ba.drop>Packaged Cores</>, while generating several <@ba.enemy>Infused Originium Slugs</> on surrounding tiles (grants a small amount of <@ba.drop>Training Handbooks</> when defeated)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhfacp",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1021_bslime"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "prob",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_facp"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhfarm": {
+    "skillId": "sktok_lhfarm",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Recycling",
+        "rangeId": "x-5",
+        "description": "Gains SP when Infected Creatures are defeated, if said Creatures are defeated within its Attack Range, gains doubled SP; when skill is activated, grants a small amount of <@ba.drop>Training Handbooks</> and <@ba.drop>Strategic Beacons</>, while generating several <@ba.enemy>Originium Slugs β</> on surrounding tiles (grants a minimal amount of <@ba.drop>Training Handbooks</> when defeated)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhfarm",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1007_slime_3"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_farm"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhflwr": {
+    "skillId": "sktok_lhflwr",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Man-Beating Tree",
+        "rangeId": null,
+        "description": "Does not naturally recover SP, only attacks non-leader enemies with HP lower than its ATK, and gains SP when defeating enemies; when skill is activated, self-destructs and generates a <@ba.enemy>Tree Shield</> (grants <@ba.drop>Defender Advancement Tokens</> and <@ba.drop>Medic Advancement Tokens</> once defeated)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhflwr",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_10069_ftlsj"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhhe": {
+    "skillId": "sktok_lhhe",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Irrigate",
+        "rangeId": "x-5",
+        "description": "Can only be deployed on the edges of the map or next to other [River] tiles; increases the effect of other surrounding [Terrain] tiles; when there are ground tiles in the 4 adjacent tiles, irrigates the soil, creating [Loam]; when skill is activated, generates a <@ba.enemy>Diver</> (grants <@ba.drop>Sniper Advancement Tokens</> and <@ba.drop>Specialist Advancement Tokens</> once defeated) or a <@ba.enemy>Dockworker</> (grants <@ba.drop>Guard Advancement Tokens</> and <@ba.drop>Vanguard Advancement Tokens</> once defeated)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhhe",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1160_hvyslr|enemy_1158_divman"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.5|0.5"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhpad": {
+    "skillId": "sktok_lhpad",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Reap",
+        "rangeId": null,
+        "description": "Recovers SP over time, but loses SP whenever an enemy passes through; when skill is activated, grants a small amount of <@ba.drop>Training Handbooks</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhpad",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad"
+          },
+          {
+            "key": "extra_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhpad2": {
+    "skillId": "sktok_lhpad2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Bumper Crop",
+        "rangeId": null,
+        "description": "Recovers SP over time, but loses SP whenever an enemy passes through; when skill is activated, grants a large amount of <@ba.drop>Training Handbooks</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhpad2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad2"
+          },
+          {
+            "key": "extra_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhplt": {
+    "skillId": "sktok_lhplt",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Pollution Spread",
+        "rangeId": "x-5",
+        "description": "Upon spawning, generates <@ba.enemy>Radioactive Originium Slugs</> in the surrounding tiles; when skill is activated, generates <@ba.enemy>Originium Formations</> in surrounding empty tiles; second-generation <@ba.enemy>Originium Formations</> will not generate new <@ba.enemy>Originium Formations</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhplt",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "max_generation",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhport": {
+    "skillId": "sktok_lhport",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Long-Distance Transport",
+        "rangeId": "0-1",
+        "description": "When linked to other [Loaders] via [River] tiles, generates a Transport Boat that will head to other [Loaders] within reach; once the Transport Boat arrives at its destination, grants all sorts of <@ba.drop>Elite Advancement Tokens</> based on the distance traveled",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhport",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_18001_lhship"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhrift": {
+    "skillId": "sktok_lhrift",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Visitor",
+        "rangeId": "0-1",
+        "description": "Does not naturally recover SP, but gains SP whenever an enemy passes through; when skill is activated, generates a <@ba.enemy>Rampaging Vacuum</> (grants two random types of <@ba.drop>Elite Advancement Tokens</> once defeated)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhrift",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_18003_lhkarb"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhshop": {
+    "skillId": "sktok_lhshop",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Cast",
+        "rangeId": null,
+        "description": "Does not naturally recover SP, but gains SP whenever a new Armory Plug-in is obtained; when skill is activated, grants an <@ba.drop>Improved Armory Plug-in</> or <@ba.drop>Advanced Armory Plug-in</>; for every two skill activations, grants a <@ba.drop>Plug-in Upgrade Depot</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhshop",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "count_gain_equip",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "count_trigger_gain_trap",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "count_gain_trap",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "equip_2"
+          },
+          {
+            "key": "drop_trap_pool",
+            "value": 0.0,
+            "valueStr": "trap_lhshop"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhswer": {
+    "skillId": "sktok_lhswer",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Visitor",
+        "rangeId": "0-1",
+        "description": "Does not naturally recover SP, but gains SP whenever an enemy passes through; when skill is activated, generates a <@ba.enemy>Metal Crab</> (grants <@ba.drop>Specialist Advancement Tokens</> and <@ba.drop>Defender Advancement Tokens</> once defeated)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhswer",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1016_diaman"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhtown": {
+    "skillId": "sktok_lhtown",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Security Patrol",
+        "rangeId": null,
+        "description": "Gains 1 SP every 5s for every [Advance Detector] or other [Sensor Hub] on the map; when skill is activated, generates a <@ba.enemy>Blocker</> (grants <@ba.drop>Sniper Advancement Tokens</> and <@ba.drop>Specialist Advancement Tokens</> once defeated) or a <@ba.enemy>Sponsor Drone</> (grants <@ba.drop>Sniper Advancement Tokens</>, <@ba.drop>Specialist Advancement Tokens</> and a <@ba.drop>Plug-in Supply Depot</> once defeated)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 55,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhtown",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "summon1.enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1355_mrfly"
+          },
+          {
+            "key": "summon2.enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1105_tyokai"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhupgd": {
+    "skillId": "sktok_lhupgd",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Enhanced Assessment",
+        "rangeId": "0-1",
+        "description": "When skill is activated, generates a <@ba.enemy>powerful enemy</>; defeating this enemy will upgrade an equipped Armory Plug-in",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 1,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhupgd",
+        "duration": 1.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_6002_trswlf|enemy_1045_hammer"
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.5|0.5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhvlg": {
+    "skillId": "sktok_lhvlg",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Battle Plan",
+        "rangeId": "x-4",
+        "description": "When skill is activated, grants one random enemy within range +50% ATK and Max HP, and generates a new [Advance Detector] on the 4 adjacent tiles; when the marked enemy is defeated, it drops a <@ba.drop>Basic Armory Plug-in</>",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhvlg",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "key",
+            "value": 0.0,
+            "valueStr": "equip_1"
+          },
+          {
+            "key": "max_generation",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhbot": {
+    "skillId": "sktok_lhbot",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Prospect",
+        "rangeId": "1-1",
+        "description": "Can attack after deployment, dealing Arts damage; when deployed on a [Rich Vein], will begin to prospect the [Rich Vein], turning it into an [Originium Mine] once skill ends",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 8,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhbot",
+        "duration": 10.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_lhside": {
+    "skillId": "sktok_lhside",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Signal Boost",
+        "rangeId": "x-1",
+        "description": "When skill is activated, for 30s all Operators within range gain ATK +2% and HP +2% for each Production Module within range other than itself (does not stack)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhside",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.02,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.02,
+            "valueStr": null
+          },
+          {
+            "key": "buff_duration",
+            "value": 30.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
   }
 }
