@@ -330006,5 +330006,1226 @@
         ]
       }
     ]
+  },
+  "sktok_lharen": {
+    "skillId": "sktok_lharen",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "전투 시작!",
+        "rangeId": "0-1",
+        "description": "스킬 발동 시 <@ba.enemy>로어 견습 기사단원</>, <@ba.enemy>이름없는 프리랜서 기사</>, <@ba.enemy>방패 프리랜서 기사</>, <@ba.enemy>블러드보일 견습 기사단원</> 중 1명 랜덤 생성(처치한 적에 따라 <@ba.drop>정예화 승진 증표</> 획득), 해당 적 처치 시 [황야의 결투장] 위 오퍼레이터의 공격력 +3%",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lharen",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1099_nbkght|enemy_1101_plkght|enemy_1102_sdkght|enemy_1103_wdkght"
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.25|0.25|0.25|0.25"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "atk",
+            "value": 0.03,
+            "valueStr": null
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhbat": {
+    "skillId": "sktok_lhbat",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "피의 유산",
+        "rangeId": "x-4",
+        "description": "SP 자연 회복 불가, 공격 범위 내의 적이 쓰러질 경우 SP +1, 스킬 발동 시 <@ba.enemy>생귀나르의 축복</> 1마리 생성 (처치 시 소량의 <@ba.drop>훈련 수첩</> 획득) 또는 <@ba.drop>하급 전술 플러그인</> 1개 획득",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhbat",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1220_dzoms"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "prob",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "equip_1"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhblod": {
+    "skillId": "sktok_lhblod",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "피의 붕괴",
+        "rangeId": "x-4",
+        "description": "SP 자연 회복 불가, 주기적으로 아군 유닛에게 대미지를 입히며, 일정 대미지를 입힌 후 SP 회복, 스킬 발동 시 주변의 지상에 <@ba.enemy>블러드 앰버</> 생성, 소량의 <@ba.drop>기술 수첩</>을 드랍하며 자폭",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhblod",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1367_dseed"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-4"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_blod"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcamp": {
+    "skillId": "sktok_lhcamp",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "방문객",
+        "rangeId": "0-1",
+        "description": "SP 자연 회복 불가, 적이 지나갈 때마다 SP 회복, 스킬 발동 시 <@ba.enemy>부랑자</> 1명 생성 (처치 시 <@ba.drop>훈련 수첩</> 획득)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcamp",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1030_wteeth"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcampa": {
+    "skillId": "sktok_lhcampa",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "방문객",
+        "rangeId": "0-1",
+        "description": "SP 자연 회복 불가, 적이 지나갈 때마다 SP 회복, 스킬 발동 시 <@ba.enemy>스나이퍼</> 1명 생성 (처치 시 <@ba.drop>스나이퍼 정예화 증표</>와 <@ba.drop>스페셜리스트 정예화 증표</> 획득)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcampa",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1047_sagent"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcampb": {
+    "skillId": "sktok_lhcampb",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "방문객",
+        "rangeId": "0-1",
+        "description": "SP 자연 회복 불가, 적이 지나갈 때마다 SP 회복, 스킬 발동 시 <@ba.enemy>중기갑병</> 1명 생성 (처치 시 <@ba.drop>디펜더 정예화 증표</>와 <@ba.drop>메딕 정예화 증표</> 획득)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcampb",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1006_shield"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcampc": {
+    "skillId": "sktok_lhcampc",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "방문객",
+        "rangeId": "0-1",
+        "description": "SP 자연 회복 불가, 적이 지나갈 때마다 SP 회복, 스킬 발동 시 <@ba.enemy>모스백비스트</> 1마리 생성 (처치 시 <@ba.drop>가드 정예화 증표</>와 <@ba.drop>뱅가드 정예화 증표</> 획득)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcampc",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_7005_xbbull"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcol": {
+    "skillId": "sktok_lhcol",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "대출 등록",
+        "rangeId": "x-5",
+        "description": "SP 자연 회복 불가, 생산 모듈을 획득할 때마다 SP 회복, 스킬 발동 시 주변 지상에 <@ba.enemy>하이캐스터</> 생성(처치 시 <@ba.drop>캐스터 정예화 증표</>와 <@ba.drop>서포터 정예화 증표</> 획득), 소량의 <@ba.drop>기술 수첩</> 드랍",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcol",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1018_aoemag"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_col"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhcolb": {
+    "skillId": "sktok_lhcolb",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "독서회",
+        "rangeId": "x-5",
+        "description": "SP 자연 회복 불가, 생산 모듈을 획득할 때마다 SP 회복, 스킬 발동 시 주변 지상에 <@ba.enemy>방패 하이캐스터</> 생성 (처치 시 <@ba.drop>캐스터 정예화 증표</>와 <@ba.drop>서포터 정예화 증표</> 획득), <@ba.drop>기술 수첩</> 드랍 및 확률적으로 <@ba.drop>생산 모듈</> 드랍",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhcolb",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1036_amraoe"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_col2"
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "lv_1"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhdoor": {
+    "skillId": "sktok_lhdoor",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "공간 도약",
+        "rangeId": "0-1",
+        "description": "자신이 위치한 칸의 적 1명을 도달 가능한 가까운 오퍼레이터 위치로 전송",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhdoor",
+        "duration": 2.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_lheqp": {
+    "skillId": "sktok_lheqp",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "보급 서명",
+        "rangeId": "0-1",
+        "description": "스킬 발동 시 <@ba.enemy>저지할 수 없고 공격하지도 않는 적</> 1명 생성, 해당 적 처치 시 <@ba.drop>상급 전술 플러그인</> 1개 드랍",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 1,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lheqp",
+        "duration": 1.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1285_sgwlf|enemy_7019_thief"
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.5|0.5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "equip_3"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhfac": {
+    "skillId": "sktok_lhfac",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "오염 처리",
+        "rangeId": "x-1",
+        "description": "스킬 발동 시 자신과 범위 내의 모든 [오리지늄 결정 군집] 파괴, 위치한 칸을 [오리지늄 광산]으로 변경, 주변 4칸에 <@ba.enemy>광맥 가디언</> 여러 명 소환 (처치 시 <@ba.drop>가드 정예화 증표</>와 <@ba.drop>뱅가드 정예화 증표</> 획득)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhfac",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_7002_veingd"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_fac"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhfacp": {
+    "skillId": "sktok_lhfacp",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "과부하 운용",
+        "rangeId": "x-5",
+        "description": "감염 생물이 쓰러질 때마다 SP 회복, 자신의 공격 범위 내에서 감염 생물이 쓰러질 경우 SP 회복 2배. 스킬 발동 시 일정량의 <@ba.drop>훈련 수첩</>과 소량의 <@ba.drop>밀봉된 광핵</>을 획득하고 주변에 <@ba.enemy>고에너지 원석충</> 여러 마리 생성 (처치 시 소량의 <@ba.drop>훈련 수첩</> 획득)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhfacp",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1021_bslime"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "prob",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_facp"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhfarm": {
+    "skillId": "sktok_lhfarm",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "재활용",
+        "rangeId": "x-5",
+        "description": "감염 생물이 쓰러질 때마다 SP 회복, 자신의 공격 범위 내에서 감염 생물이 쓰러질 경우 SP 회복 2배. 스킬 발동 시 소량의 <@ba.drop>훈련 수첩</>과 <@ba.drop>전략 비콘</>을 획득하고 주변에 <@ba.enemy>원석충 β</> 여러 마리 생성 (처치 시 소량의 <@ba.drop>훈련 수첩</> 획득)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhfarm",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1007_slime_3"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          },
+          {
+            "key": "resource",
+            "value": 0.0,
+            "valueStr": "trap_drop_farm"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhflwr": {
+    "skillId": "sktok_lhflwr",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "타격의 나무",
+        "rangeId": null,
+        "description": "SP 자연 회복 불가, 자신의 공격력보다 HP가 낮은 비 리더 적만 공격, 적 처치 시 SP 회복, 스킬 발동 시 자폭하며 <@ba.enemy>나무 방패</> 생성 (처치 시 <@ba.drop>디펜더 정예화 증표</>와 <@ba.drop>메딕 정예화 증표</> 획득)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhflwr",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_10069_ftlsj"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhhe": {
+    "skillId": "sktok_lhhe",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "물 대기",
+        "rangeId": "x-5",
+        "description": "맵의 가장자리 또는 [수로] 주변 4칸에만 배치 가능, 주변의 다른 [지형]의 효과 상승, 주변 4칸에 지상이 있을 경우 해당 지상에 물을 대어 [옥토]로 변경, 스킬 발동 시 <@ba.enemy>잠수부</>(처치 시 <@ba.drop>스나이퍼 정예화 증표</>와 <@ba.drop>스페셜리스트 정예화 증표</> 획득) 또는 <@ba.enemy>선원</>(처치 시 <@ba.drop>가드 정예화 증표</>와 <@ba.drop>뱅가드 정예화 증표</> 획득) 생성",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhhe",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1160_hvyslr|enemy_1158_divman"
+          },
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.5|0.5"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhpad": {
+    "skillId": "sktok_lhpad",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "채집",
+        "rangeId": null,
+        "description": "SP 자연 회복, 적이 지나갈 때마다 SP 감소, 스킬 발동 시 소량의 <@ba.drop>훈련 수첩</> 획득",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhpad",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad"
+          },
+          {
+            "key": "extra_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhpad2": {
+    "skillId": "sktok_lhpad2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "풍작",
+        "rangeId": null,
+        "description": "SP 자연 회복, 적이 지나갈 때마다 SP 감소, 스킬 발동 시 대량의 <@ba.drop>훈련 수첩</> 획득",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhpad2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "default_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad2"
+          },
+          {
+            "key": "extra_pool",
+            "value": 0.0,
+            "valueStr": "trap_drop_pad2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhplt": {
+    "skillId": "sktok_lhplt",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "오염 전파",
+        "rangeId": "x-5",
+        "description": "생성 시 주변에 <@ba.enemy>복사에너지 원석충</> 생성, 스킬 발동 시 주변의 빈 칸에 <@ba.enemy>오리지늄 결정 군집</> 생성, 이후 생성되는 <@ba.enemy>오리지늄 결정 군집</>이 더 이상 새로운 <@ba.enemy>오리지늄 결정 군집</>을 생성하지 않음",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhplt",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "range_id",
+            "value": 0.0,
+            "valueStr": "x-5"
+          },
+          {
+            "key": "max_generation",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhport": {
+    "skillId": "sktok_lhport",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "장거리 운송",
+        "rangeId": "0-1",
+        "description": "전장에 [수로]와 연결된 [하역기]가 있을 경우, 수송 보트가 생성되어 다른 [하역기]로 이동, 수송 보트가 목적지에 도달할 시 거리에 따라 모든 종류의 <@ba.drop>정예화 승진 증표</> 획득",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhport",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_18001_lhship"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhrift": {
+    "skillId": "sktok_lhrift",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "방문객",
+        "rangeId": "0-1",
+        "description": "SP 자연 회복 불가, 적이 지나갈 때마다 SP 회복, 스킬 발동 시 <@ba.enemy>불안한 흡입기</> 1개 생성 (처치 시 랜덤 2종류의 <@ba.drop>정예화 승진 증표</> 획득)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhrift",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_18003_lhkarb"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhshop": {
+    "skillId": "sktok_lhshop",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "주조",
+        "rangeId": null,
+        "description": "SP 자연 회복 불가, 새로운 전술 플러그인을 획득할 때마다 SP 회복, 스킬 발동 시 <@ba.drop>중급 전술 플러그인</> 또는 <@ba.drop>상급 전술 플러그인</> 1개 획득, 스킬을 2회 발동할 때마다 <@ba.drop>플러그인 강화소</> 1개 획득",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 10,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhshop",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "count_gain_equip",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "count_trigger_gain_trap",
+            "value": 2.0,
+            "valueStr": null
+          },
+          {
+            "key": "count_gain_trap",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "battle_item",
+            "value": 0.0,
+            "valueStr": "equip_2"
+          },
+          {
+            "key": "drop_trap_pool",
+            "value": 0.0,
+            "valueStr": "trap_lhshop"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhswer": {
+    "skillId": "sktok_lhswer",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "방문객",
+        "rangeId": "0-1",
+        "description": "SP 자연 회복 불가, 적이 지나갈 때마다 SP 회복, 스킬 발동 시 <@ba.enemy>메탈 크랩</> 1마리 생성 (처치 시 <@ba.drop>스페셜리스트 정예화 증표</>와 <@ba.drop>디펜더 정예화 증표</> 획득)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhswer",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1016_diaman"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhtown": {
+    "skillId": "sktok_lhtown",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "보안 순찰",
+        "rangeId": null,
+        "description": "배치된 [선발 탐지기] 또는 [탐지 센터] 1개당 자신은 5초마다 SP 1 회복, 스킬 발동 시 <@ba.enemy>배리어</>(처치 시 <@ba.drop>스나이퍼 정예화 증표</>와 <@ba.drop>스페셜리스트 정예화 증표</> 획득) 또는 <@ba.enemy>협찬 드론</>(처치 시 <@ba.drop>스나이퍼 정예화 증표</>, <@ba.drop>스페셜리스트 정예화 증표</>, <@ba.drop>플러그인 보급소</> 1개 획득) 생성",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 55,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhtown",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "cnt",
+            "value": 1.0,
+            "valueStr": null
+          },
+          {
+            "key": "summon1.enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1355_mrfly"
+          },
+          {
+            "key": "summon2.enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_1105_tyokai"
+          },
+          {
+            "key": "max_summon_cnt",
+            "value": 2.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhupgd": {
+    "skillId": "sktok_lhupgd",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "검수 강화",
+        "rangeId": "0-1",
+        "description": "스킬 발동 시 <@ba.enemy>강력한 적</> 생성, 해당 적 처치 시 장착 중인 전술 플러그인 1개 업그레이드 가능",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 1,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhupgd",
+        "duration": 1.0,
+        "blackboard": [
+          {
+            "key": "enemy_key",
+            "value": 0.0,
+            "valueStr": "enemy_6002_trswlf|enemy_1045_hammer"
+          },
+          {
+            "key": "prob",
+            "value": 0.0,
+            "valueStr": "0.5|0.5"
+          },
+          {
+            "key": "branch_id",
+            "value": 0.0,
+            "valueStr": "Circle_2"
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhvlg": {
+    "skillId": "sktok_lhvlg",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "작전 계획",
+        "rangeId": "x-4",
+        "description": "스킬 발동 시 스킬 범위 내 랜덤 적 1명의 공격력, 최대 HP +50%, 주변 4칸에 새로운 [선발 탐지기] 1개 생성, 표식이 있는 적이 쓰러지면 <@ba.drop>하급 전술 플러그인</> 1개 드랍",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhvlg",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.5,
+            "valueStr": null
+          },
+          {
+            "key": "key",
+            "value": 0.0,
+            "valueStr": "equip_1"
+          },
+          {
+            "key": "max_generation",
+            "value": 4.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_lhbot": {
+    "skillId": "sktok_lhbot",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "탐광",
+        "rangeId": "1-1",
+        "description": "배치 후 공격하여 마법 대미지를 입힐 수 있음, [광맥 지대]에 배치 시 시추를 진행하며, 스킬 종료 시 [광맥 지대]가 [오리지늄 광산]으로 변경",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 8,
+          "initSp": 8,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_lhbot",
+        "duration": 10.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_lhside": {
+    "skillId": "sktok_lhside",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "신호 증폭",
+        "rangeId": "x-1",
+        "description": "스킬 발동 시 범위 내 자신을 제외한 생산 모듈 1개당 범위 내 모든 아군 오퍼레이터의 공격력 +2%, HP +2%, 30초 지속 (중첩 불가)",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": "INCREASE_WITH_TIME",
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_lhside",
+        "duration": 2.0,
+        "blackboard": [
+          {
+            "key": "atk",
+            "value": 0.02,
+            "valueStr": null
+          },
+          {
+            "key": "max_hp",
+            "value": 0.02,
+            "valueStr": null
+          },
+          {
+            "key": "buff_duration",
+            "value": 30.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
   }
 }
