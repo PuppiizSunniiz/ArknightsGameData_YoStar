@@ -1,5 +1,74 @@
 {
   "basicInfo": {
+    "act3mainss": {
+      "id": "act3mainss",
+      "type": "TYPE_MAINSS",
+      "displayType": "NONE",
+      "name": "Abnormal Spectrum",
+      "startTime": 1773932400,
+      "endTime": 1775127599,
+      "rewardEndTime": 1775732399,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act3mainss",
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_stage_normal_25",
+        "medal_stage_normal_26",
+        "medal_stage_sixstar_02",
+        "medal_stage_hard_12",
+        "medal_stage_sixstarpoint_02"
+      ],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [
+        {
+          "sortIndex": 1,
+          "picId": "act3mainss_1",
+          "availCheck": {
+            "startTs": 1773932400,
+            "endTs": 1775732399,
+            "type": "NONE",
+            "rate": -1.0,
+            "stageUnlockParam": null,
+            "charUnlockParam": null
+          }
+        },
+        {
+          "sortIndex": 2,
+          "picId": "act3mainss_2",
+          "availCheck": {
+            "startTs": 1773932400,
+            "endTs": 1775732399,
+            "type": "STAGECLEAR",
+            "rate": -1.0,
+            "stageUnlockParam": {
+              "stageId": "main_16-08"
+            },
+            "charUnlockParam": null
+          }
+        },
+        {
+          "sortIndex": 3,
+          "picId": "act3mainss_3",
+          "availCheck": {
+            "startTs": 1773932400,
+            "endTs": 1775732399,
+            "type": "STAGECLEAR",
+            "rate": -1.0,
+            "stageUnlockParam": {
+              "stageId": "main_16-17"
+            },
+            "charUnlockParam": null
+          }
+        }
+      ],
+      "usePicGroup": true
+    },
     "act5switch": {
       "id": "act5switch",
       "type": "SWITCH_ONLY",
@@ -6478,6 +6547,7 @@
     }
   },
   "zoneToActivity": {
+    "act3mainss_zone1": "act3mainss",
     "act1vhalfidle_zone1": "act1vhalfidle",
     "act37sre_zone1": "act37sre",
     "act37sre_zone2": "act37sre",
@@ -6724,6 +6794,285 @@
   },
   "actTimeTrackPoint": {},
   "missionData": [
+    {
+      "id": "act3mainssActivity_1",
+      "sortId": 1,
+      "description": "Clear 16-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_16-01^main_16-01#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1775127599
+    },
+    {
+      "id": "act3mainssActivity_2",
+      "sortId": 2,
+      "description": "Clear 16-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_16-02^main_16-02#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1775127599
+    },
+    {
+      "id": "act3mainssActivity_3",
+      "sortId": 3,
+      "description": "Clear 16-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_16-04^main_16-04#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1775127599
+    },
+    {
+      "id": "act3mainssActivity_4",
+      "sortId": 4,
+      "description": "Clear 16-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_16-05^main_16-05#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1775127599
+    },
+    {
+      "id": "act3mainssActivity_5",
+      "sortId": 5,
+      "description": "Clear 16-10",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_16-09^main_16-09#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1775127599
+    },
+    {
+      "id": "act3mainssActivity_6",
+      "sortId": 6,
+      "description": "Clear 16-11",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_16-10^main_16-10#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1775127599
+    },
+    {
+      "id": "act3mainssActivity_7",
+      "sortId": 7,
+      "description": "Clear 16-13",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_16-12^main_16-12#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1775127599
+    },
+    {
+      "id": "act3mainssActivity_8",
+      "sortId": 8,
+      "description": "Clear 16-15",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_16-14^main_16-14#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1775127599
+    },
+    {
+      "id": "act3mainssActivity_9",
+      "sortId": 9,
+      "description": "Clear 16-17",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "main_16-16^main_16-16#s",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3mainss",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3mainss_token",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": 1775127599
+    },
     {
       "id": "1vhalfidleActitvity_1",
       "sortId": 1,
@@ -101376,6 +101725,27 @@
     }
   ],
   "missionGroup": [
+    {
+      "id": "act3mainss",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "act3mainssActivity_1",
+        "act3mainssActivity_2",
+        "act3mainssActivity_3",
+        "act3mainssActivity_4",
+        "act3mainssActivity_5",
+        "act3mainssActivity_6",
+        "act3mainssActivity_7",
+        "act3mainssActivity_8",
+        "act3mainssActivity_9"
+      ],
+      "startTs": 1773932400,
+      "endTs": 1775732399
+    },
     {
       "id": "act1vhalfidle",
       "title": null,
@@ -231304,6 +231674,14 @@
       }
     },
     "TYPE_MAINSS": {
+      "act3mainss": {
+        "zoneAdditionDataMap": {
+          "act3mainss_zone1": {
+            "unlockTip": "Reach <color=#d51c47>3-8</color> to continue playing",
+            "unlockTipAfterRetro": "Reach <color=#d51c47>15-21</color> to continue playing"
+          }
+        }
+      },
       "act2mainss": {
         "zoneAdditionDataMap": {
           "act2mainss_zone1": {
@@ -243328,7 +243706,8 @@
               "char_4202_haruka",
               "char_4195_radian",
               "char_1044_hsgma2",
-              "char_4182_oblvns"
+              "char_4182_oblvns",
+              "char_4204_mantra"
             ],
             "consumeData": [
               {
@@ -244894,6 +245273,18 @@
           "char_4186_tmoris": {
             "charId": "char_4186_tmoris",
             "isLinkageChar": true
+          },
+          "char_4204_mantra": {
+            "charId": "char_4204_mantra",
+            "isLinkageChar": false
+          },
+          "char_4207_branch": {
+            "charId": "char_4207_branch",
+            "isLinkageChar": false
+          },
+          "char_4208_wintim": {
+            "charId": "char_4208_wintim",
+            "isLinkageChar": false
           }
         },
         "plotTypeData": {
@@ -279626,6 +280017,9 @@
     }
   },
   "activityItems": {
+    "act3mainss": [
+      "act3mainss_token"
+    ],
     "act6collection": [
       "act6collection_point_token"
     ],
@@ -286888,6 +287282,83 @@
       ],
       "picGroups": [],
       "startTs": 1772809200
+    },
+    {
+      "id": "dis_main3ss",
+      "type": "ACTIVITY_COMP",
+      "funcId": "act3mainss",
+      "endTs": 1775127599,
+      "sortId": 129,
+      "itemId": "act3mainss_token",
+      "timeNodes": [
+        {
+          "title": "Event <Abnormal Spectrum> is now open",
+          "ts": 1773932400
+        },
+        {
+          "title": "Extreme Mode added",
+          "ts": 1774566000
+        }
+      ],
+      "picGroups": [
+        {
+          "sortIndex": 1,
+          "picId": "act3mainss_1",
+          "availCheck": {
+            "startTs": 1773932400,
+            "endTs": 1775732399,
+            "type": "NONE",
+            "rate": -1.0,
+            "stageUnlockParam": null,
+            "charUnlockParam": null
+          }
+        },
+        {
+          "sortIndex": 2,
+          "picId": "act3mainss_2",
+          "availCheck": {
+            "startTs": 1773932400,
+            "endTs": 1775732399,
+            "type": "STAGECLEAR",
+            "rate": -1.0,
+            "stageUnlockParam": {
+              "stageId": "main_16-08"
+            },
+            "charUnlockParam": null
+          }
+        },
+        {
+          "sortIndex": 3,
+          "picId": "act3mainss_3",
+          "availCheck": {
+            "startTs": 1773932400,
+            "endTs": 1775732399,
+            "type": "STAGECLEAR",
+            "rate": -1.0,
+            "stageUnlockParam": {
+              "stageId": "main_16-17"
+            },
+            "charUnlockParam": null
+          }
+        }
+      ],
+      "startTs": 1773932400
+    },
+    {
+      "id": "dis_rogue_5_enroll_1",
+      "type": "ROGUELIKE",
+      "funcId": "rogue_5_entry_display_2",
+      "endTs": 1774522799,
+      "sortId": 128,
+      "itemId": null,
+      "timeNodes": [
+        {
+          "title": "Integrated Strategies <Sui's Garden of Grotesqueries>: Out of Nothingness is now open",
+          "ts": 1773932400
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1773932400
     }
   ],
   "actFunData": {
@@ -311471,6 +311942,29 @@
     }
   },
   "dynEntrySwitchData": {
+    "act3mainss": {
+      "entrySwitchInfo": {
+        "act3mainss_entry_01": {
+          "entryId": "act3mainss_entry_01",
+          "sortId": 1,
+          "stageId": null,
+          "signalId": "act3mainss"
+        },
+        "act3mainss_entry_02": {
+          "entryId": "act3mainss_entry_02",
+          "sortId": 2,
+          "stageId": "main_16-08",
+          "signalId": "act3mainss"
+        },
+        "act3mainss_entry_03": {
+          "entryId": "act3mainss_entry_03",
+          "sortId": 3,
+          "stageId": "main_16-17",
+          "signalId": "act3mainss"
+        }
+      },
+      "randomEntrySwitchInfo": {}
+    },
     "act45side": {
       "entrySwitchInfo": {
         "act45side_entry_01": {
@@ -314771,6 +315265,27 @@
     }
   },
   "activityTemplateMissionStyles": {
+    "act3mainss": {
+      "bigRewardType": "SKIN_REWARD",
+      "bigRewardParamList": [
+        "char_445_wscoot@epoque#49",
+        "Clear 16-8 to obtain this outfit",
+        "a41836",
+        "115,-205"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": "28929c",
+      "isMissionItemCompleteUseMainColor": true,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": "28929c",
+      "claimAllBtnTips": "Completed mission(s) to claim rewards for",
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "28929c"
+    },
     "act1vhalfidle": {
       "bigRewardType": "PIC_REWARD",
       "bigRewardParamList": [],
@@ -315250,6 +315765,27 @@
       "titleType": "COMMON",
       "coinType": "COMMON",
       "coinBackColor": "a41836"
+    },
+    "permanent_main_2_Abnormal_Spectrum": {
+      "bigRewardType": "SKIN_REWARD",
+      "bigRewardParamList": [
+        "char_445_wscoot@epoque#49",
+        "Clear 16-8 to obtain this outfit",
+        "a41836",
+        "115,-205"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": "28929c",
+      "isMissionItemCompleteUseMainColor": true,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": "28929c",
+      "claimAllBtnTips": "Completed mission(s) to claim rewards for",
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "28929c"
     }
   },
   "activityCrossDayTrackTypeDataDict": {
