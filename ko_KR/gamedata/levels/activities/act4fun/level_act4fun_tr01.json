@@ -10,6 +10,7 @@
     "isTrainingLevel": true,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
+    "displayRestTime": false,
     "maxPlayTime": 75.0,
     "functionDisableMask": "NONE",
     "configBlackBoard": null
@@ -824,20 +825,23 @@
   },
   "tilesDisallowToLocate": [],
   "runes": null,
+  "optionalRunes": null,
   "globalBuffs": [
     {
       "prefabKey": "funlive_char_ban_battle_logic",
       "blackboard": null,
       "overrideCameraEffect": null,
       "passProfessionMaskFlag": false,
-      "professionMask": "NONE"
+      "professionMask": "NONE",
+      "playerSideMask": "ALL"
     },
     {
       "prefabKey": "funlive_enemy_ban_battle_logic",
       "blackboard": null,
       "overrideCameraEffect": null,
       "passProfessionMaskFlag": false,
-      "professionMask": "NONE"
+      "professionMask": "NONE",
+      "playerSideMask": "ALL"
     },
     {
       "prefabKey": "funlive_rare_dangerous_event_data",
@@ -860,7 +864,8 @@
       ],
       "overrideCameraEffect": null,
       "passProfessionMaskFlag": false,
-      "professionMask": "NONE"
+      "professionMask": "NONE",
+      "playerSideMask": "ALL"
     },
     {
       "prefabKey": "funlive_unit_beginning_rare_effect_logic",
@@ -878,7 +883,8 @@
       ],
       "overrideCameraEffect": null,
       "passProfessionMaskFlag": false,
-      "professionMask": "NONE"
+      "professionMask": "NONE",
+      "playerSideMask": "ALL"
     },
     {
       "prefabKey": "funlive_unit_beginning_dangerous_effect_logic",
@@ -891,7 +897,8 @@
       ],
       "overrideCameraEffect": null,
       "passProfessionMaskFlag": false,
-      "professionMask": "NONE"
+      "professionMask": "NONE",
+      "playerSideMask": "ALL"
     },
     {
       "prefabKey": "funlive_unit_npc_annoying_effect_logic",
@@ -904,7 +911,8 @@
       ],
       "overrideCameraEffect": null,
       "passProfessionMaskFlag": false,
-      "professionMask": "NONE"
+      "professionMask": "NONE",
+      "playerSideMask": "ALL"
     }
   ],
   "routes": [
@@ -1938,6 +1946,8 @@
         "hidden": true,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "char_4064_mlynar",
           "level": 1,
@@ -1962,6 +1972,8 @@
         "hidden": true,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "trap_116_stdurk",
           "level": 1,

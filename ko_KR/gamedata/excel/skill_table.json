@@ -334113,5 +334113,152 @@
         ]
       }
     ]
+  },
+  "sktok_muulct": {
+    "skillId": "sktok_muulct",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "모두 허상이다!",
+        "rangeId": null,
+        "description": "배치 후 <@ba.vup>40초</> 동안 전장의 상태 이상인 적이 받는 물리 및 마법 대미지 <@ba.vup>+40%</>, 10초마다 공격 범위 내 모든 적을 <@ba.vup>5</>초간 <$ba.stun>기절</>시킴",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_muulct",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "damage_scale",
+            "value": 1.4,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_murjet": {
+    "skillId": "sktok_murjet",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "강력 추진",
+        "rangeId": null,
+        "description": "받는 대미지에 따라 래프팅 보트를 <@ba.vup>추진</>시킴",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_murjet",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "fx_1",
+            "value": 200.0,
+            "valueStr": null
+          },
+          {
+            "key": "fx_2",
+            "value": 600.0,
+            "valueStr": null
+          },
+          {
+            "key": "fx_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_murbas": {
+    "skillId": "sktok_murbas",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "다방향 연결",
+        "rangeId": null,
+        "description": "위에 오퍼레이터 배치 가능",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_empty",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_murmag": {
+    "skillId": "sktok_murmag",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "자기 흡착 비콘",
+        "rangeId": null,
+        "description": "위에 오퍼레이터 배치 가능, <루비 윙>, <사파이어 윙>, <다이아몬드 윙>, <침수된 물자 상자>를 자신이 있는 위치로 <@ba.vup>비교적 많이</> 끌어당김",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_empty",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_murtre": {
+    "skillId": "sktok_murtre",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "부력 탑재",
+        "rangeId": null,
+        "description": "파괴되지 않았을 경우 점수 <@ba.vup>200</> 획득",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_empty",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
   }
 }
