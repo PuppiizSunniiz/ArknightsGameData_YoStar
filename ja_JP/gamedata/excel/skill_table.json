@@ -334113,5 +334113,152 @@
         ]
       }
     ]
+  },
+  "sktok_muulct": {
+    "skillId": "sktok_muulct",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "すべて虚像！",
+        "rangeId": null,
+        "description": "設置後<@ba.vup>40秒</>間、状態異常中の敵全員が受ける物理・術ダメージ<@ba.vup>+40%</>。10秒ごとに、攻撃範囲内の敵全員を<@ba.vup>5</>秒間<$ba.stun>スタン</>させる",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_muulct",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "damage_scale",
+            "value": 1.4,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_murjet": {
+    "skillId": "sktok_murjet",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "パワースラスト",
+        "rangeId": null,
+        "description": "受けたダメージに応じてボートを<@ba.vup>押し進める</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_murjet",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "fx_1",
+            "value": 200.0,
+            "valueStr": null
+          },
+          {
+            "key": "fx_2",
+            "value": 600.0,
+            "valueStr": null
+          },
+          {
+            "key": "fx_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_murbas": {
+    "skillId": "sktok_murbas",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "多方向接続",
+        "rangeId": null,
+        "description": "オペレーターを上に配置可能",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_empty",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_murmag": {
+    "skillId": "sktok_murmag",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "磁力ビーコン",
+        "rangeId": null,
+        "description": "オペレーターを上に配置可能。<ルビーウイング>、<サファイアウイング>、<ダイヤモンドウイング>および<水没物資箱>を<@ba.vup>かなりの力</>で自身のいるマスまで引き寄せる",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_empty",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_murtre": {
+    "skillId": "sktok_murtre",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "水上連結",
+        "rangeId": null,
+        "description": "破壊されていなければ、スコア<@ba.vup>+200</>",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_empty",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
   }
 }
