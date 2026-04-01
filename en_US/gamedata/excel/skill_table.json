@@ -334113,5 +334113,152 @@
         ]
       }
     ]
+  },
+  "sktok_muulct": {
+    "skillId": "sktok_muulct",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "All An Illusion!",
+        "rangeId": null,
+        "description": "For <@ba.vup>40s</> after deployment, all enemies on the field suffering from a negative status receive <@ba.vup>40%</> more Physical and Arts damage; every 10s, <$ba.stun>stuns</> all enemies within Attack Range for <@ba.vup>5</>s",
+        "skillType": "AUTO",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_muulct",
+        "duration": 40.0,
+        "blackboard": [
+          {
+            "key": "damage_scale",
+            "value": 1.4,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_murjet": {
+    "skillId": "sktok_murjet",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Impel Forward",
+        "rangeId": null,
+        "description": "<@ba.vup>Pushes</> Drifter based on damage received",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_murjet",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "fx_1",
+            "value": 200.0,
+            "valueStr": null
+          },
+          {
+            "key": "fx_2",
+            "value": 600.0,
+            "valueStr": null
+          },
+          {
+            "key": "fx_time",
+            "value": 1.0,
+            "valueStr": null
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_murbas": {
+    "skillId": "sktok_murbas",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Multidirectional Link",
+        "rangeId": null,
+        "description": "Can deploy Operators atop it",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_empty",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_murmag": {
+    "skillId": "sktok_murmag",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Magnetic Beacon",
+        "rangeId": null,
+        "description": "Can deploy Operators atop it, will drag <Ruby Flightwings>, <Sapphire Flightwings>, <Diamond Flightwings>, and <Submerged Supply Crates> <@ba.vup>greatly</> towards its position",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_empty",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
+  },
+  "sktok_murtre": {
+    "skillId": "sktok_murtre",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "Unsteady Configuration",
+        "rangeId": null,
+        "description": "Gives <@ba.vup>200</> points if not destroyed",
+        "skillType": "PASSIVE",
+        "durationType": "NONE",
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_empty",
+        "duration": 0.0,
+        "blackboard": []
+      }
+    ]
   }
 }
