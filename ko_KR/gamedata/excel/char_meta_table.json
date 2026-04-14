@@ -121,6 +121,9 @@
       "char_253_greyy",
       "char_1027_greyy2"
     ],
+    "char_4051_akkord": [
+      "char_4051_akkord"
+    ],
     "char_328_cammou": [
       "char_328_cammou"
     ],
@@ -464,6 +467,9 @@
     "char_4185_amoris": [
       "char_4185_amoris"
     ],
+    "char_394_hadiya": [
+      "char_394_hadiya"
+    ],
     "char_129_bluep": [
       "char_129_bluep"
     ],
@@ -524,7 +530,8 @@
       "char_1043_leizi2"
     ],
     "char_135_halo": [
-      "char_135_halo"
+      "char_135_halo",
+      "char_1047_halo2"
     ],
     "char_344_beewax": [
       "char_344_beewax"
@@ -732,6 +739,9 @@
     "char_4104_coldst": [
       "char_4104_coldst"
     ],
+    "char_4211_snhunt": [
+      "char_4211_snhunt"
+    ],
     "char_4177_brigid": [
       "char_4177_brigid"
     ],
@@ -748,7 +758,8 @@
       "char_4105_almond"
     ],
     "char_174_slbell": [
-      "char_174_slbell"
+      "char_174_slbell",
+      "char_1046_sbell2"
     ],
     "char_254_vodfox": [
       "char_254_vodfox"
@@ -1105,7 +1116,8 @@
       "char_2024_chyue"
     ],
     "char_172_svrash": [
-      "char_172_svrash"
+      "char_172_svrash",
+      "char_1045_svash2"
     ],
     "char_293_thorns": [
       "char_293_thorns",
@@ -2656,13 +2668,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "지원Ⅰ",
+          "name": "지원 I",
           "description": "우연한 만남의 '동심' 사건에서 '라이디언을 탐색시킨다' 선택지 개방",
           "conditionDesc": "모집할 필요 없이, 1차 정예화 후 적용"
         },
         {
           "level": 2,
-          "name": "지원Ⅰ",
+          "name": "지원 I",
           "description": "우연한 만남의 '동심' 사건에서 '라이디언을 탐색시킨다' 선택지 및 전설의 '동심' 사건에서 '라이디언을 진입시킨다' 선택지 개방",
           "conditionDesc": "모집할 필요 없이, 2차 정예화 후 적용"
         }
@@ -2676,7 +2688,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "지원Ⅱ",
+          "name": "지원 II",
           "description": "특근 분대의 효과 상승",
           "conditionDesc": "모집할 필요 없이, 2차 정예화 후 적용"
         }
@@ -2690,19 +2702,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "모집Ⅰ",
+          "name": "모집 I",
           "description": "[쉐이의 기이한 계원]에서 모집 시 소모 희망 -2",
           "conditionDesc": "통합 전략 [쉐이의 기이한 계원]에서 모집 시 적용"
         },
         {
           "level": 2,
-          "name": "모집Ⅰ",
+          "name": "모집 I",
           "description": "[쉐이의 기이한 계원]에서 모집 시 소모 희망 -4",
           "conditionDesc": "통합 전략 [쉐이의 기이한 계원]에서 모집 시 적용"
         },
         {
           "level": 3,
-          "name": "모집Ⅰ",
+          "name": "모집 I",
           "description": "[쉐이의 기이한 계원]에서 모집 시 소모 희망 -4, 랭크업 시 소모 희망 -2",
           "conditionDesc": "통합 전략 [쉐이의 기이한 계원]에서 모집 시 적용"
         }
@@ -2716,19 +2728,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "모집Ⅱ",
+          "name": "모집 II",
           "description": "[쉐이의 기이한 계원]에서 모집 시 모집권 저장 수량 +1",
           "conditionDesc": "통합 전략 [쉐이의 기이한 계원]에서 모집 후 적용"
         },
         {
           "level": 2,
-          "name": "모집Ⅱ",
+          "name": "모집 II",
           "description": "[쉐이의 기이한 계원]에서 모집 시 모집권 저장 수량 +1, 쉐이의 잔식 진입 시 촛불 +1",
           "conditionDesc": "통합 전략 [쉐이의 기이한 계원]에서 모집 후 적용"
         },
         {
           "level": 3,
-          "name": "모집Ⅱ",
+          "name": "모집 II",
           "description": "[쉐이의 기이한 계원]에서 모집 시 모집권 저장 수량 +1, 실드 +2, 쉐이의 잔식 진입 시 촛불 +1, 랜덤으로 노드 1개 탐색",
           "conditionDesc": "통합 전략 [쉐이의 기이한 계원]에서 모집 후 적용"
         }
@@ -2742,19 +2754,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "전투Ⅰ",
+          "name": "전투 I",
           "description": "[쉐이의 기이한 계원]에서 새로운 구역에 진입할 때마다, 라이디언이 차례대로 다음의 효과 획득: 소환물 배치 코스트 -9, 소환물 배치 수량 +1",
           "conditionDesc": "통합 전략 [쉐이의 기이한 계원]에서 모집 후 적용"
         },
         {
           "level": 2,
-          "name": "전투Ⅰ",
+          "name": "전투 I",
           "description": "[쉐이의 기이한 계원]에서 새로운 구역에 진입할 때마다, 라이디언이 차례대로 다음의 효과 획득: 소환물 배치 코스트 -9, 소환물 배치 수량 +2, 소환물 공격 속도 +20",
           "conditionDesc": "통합 전략 [쉐이의 기이한 계원]에서 모집 후 적용"
         },
         {
           "level": 3,
-          "name": "전투Ⅰ",
+          "name": "전투 I",
           "description": "[쉐이의 기이한 계원]에서 새로운 구역에 진입할 때마다, 라이디언이 차례대로 다음의 효과 획득: 소환물 배치 코스트 -9, 소환물 배치 수량 +2, 소환물 공격 속도 +35, 소환물이 배치 인원수를 소모하지 않음",
           "conditionDesc": "통합 전략 [쉐이의 기이한 계원]에서 모집 후 적용"
         }
@@ -2768,19 +2780,19 @@
       "levelList": [
         {
           "level": 1,
-          "name": "전투Ⅱ",
+          "name": "전투 II",
           "description": "[쉐이의 기이한 계원]에서 라이디언 및 라이디언 소환물의 HP +20%",
           "conditionDesc": "통합 전략 [쉐이의 기이한 계원]에서 모집 후 적용"
         },
         {
           "level": 2,
-          "name": "전투Ⅱ",
+          "name": "전투 II",
           "description": "[쉐이의 기이한 계원]에서 라이디언 및 라이디언 소환물의 HP, 방어력 +25%",
           "conditionDesc": "통합 전략 [쉐이의 기이한 계원]에서 모집 후 적용"
         },
         {
           "level": 3,
-          "name": "전투Ⅱ",
+          "name": "전투 II",
           "description": "[쉐이의 기이한 계원]에서 라이디언 및 라이디언 소환물의 HP, 방어력 +30%, 마법 저항 +15",
           "conditionDesc": "통합 전략 [쉐이의 기이한 계원]에서 모집 후 적용"
         }
