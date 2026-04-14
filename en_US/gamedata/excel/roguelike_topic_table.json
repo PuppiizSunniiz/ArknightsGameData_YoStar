@@ -2647,6 +2647,42 @@
         "canBeFree": true,
         "uniEquipId": "uniequip_002_mantra",
         "recruitType": "FREE"
+      },
+      "char_4051_akkord": {
+        "charId": "char_4051_akkord",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_akkord",
+        "recruitType": "FREE"
+      },
+      "char_1047_halo2": {
+        "charId": "char_1047_halo2",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_halo2",
+        "recruitType": "FREE"
+      },
+      "char_4211_snhunt": {
+        "charId": "char_4211_snhunt",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_snhunt",
+        "recruitType": "FREE"
+      },
+      "char_394_hadiya": {
+        "charId": "char_394_hadiya",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_1046_sbell2": {
+        "charId": "char_1046_sbell2",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_sbell2",
+        "recruitType": "FREE"
+      },
+      "char_1045_svash2": {
+        "charId": "char_1045_svash2",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
       }
     }
   },
@@ -31073,7 +31109,7 @@
           "sortId": 106,
           "canSacrifice": false,
           "tinyIconColor": null,
-          "unlockCondDesc": "Across multiple adventures, defeat Boss 'The Forsaken' once",
+          "unlockCondDesc": "Across multiple adventures, defeat Boss 'Forsaken One' once",
           "shortUsage": null
         },
         "rogue_1_relic_p03": {
@@ -31107,7 +31143,7 @@
           "sortId": 108,
           "canSacrifice": false,
           "tinyIconColor": null,
-          "unlockCondDesc": "Across multiple adventures, defeat Boss 'The Forsaken' 3 times",
+          "unlockCondDesc": "Across multiple adventures, defeat Boss 'Forsaken One' 3 times",
           "shortUsage": null
         },
         "rogue_1_relic_p05": {
@@ -31124,7 +31160,7 @@
           "sortId": 109,
           "canSacrifice": false,
           "tinyIconColor": null,
-          "unlockCondDesc": "Across multiple adventures, defeat Boss 'The Forsaken' 6 times",
+          "unlockCondDesc": "Across multiple adventures, defeat Boss 'Forsaken One' 6 times",
           "shortUsage": null
         },
         "rogue_1_relic_p06": {
@@ -37504,7 +37540,7 @@
           "challengeConditionDes": [
             "Begin with the following collectible: Castle's Offspring",
             "Neurodegeneration intensified: Operators will be Frozen for 30s after deployment, but gain +200% ATK and DEF for the duration",
-            "Initial Light decreased, greater Light loss upon receiving objective damage"
+            "Starting Light decreased, greater Light loss upon receiving objective damage"
           ],
           "challengeTasks": {
             "rogue_2_task_01": {
@@ -37559,7 +37595,7 @@
           "challengeConditionDes": [
             "Begin with the following collectibles: Rhodes Island Tactical Transceiver, Four-Leaf Clover Fossil",
             "Metastatic Aberration intensified: Operators have -75% Max HP, ATK, DEF, Deployment Cost, and Redeployment Time, but start with +80 SP",
-            "Initial Light decreased, greater Light loss upon receiving objective damage"
+            "Starting Light decreased, greater Light loss upon receiving objective damage"
           ],
           "challengeTasks": {
             "rogue_2_task_02": {
@@ -37615,7 +37651,7 @@
           "challengeConditionDes": [
             "Begin with the following collectibles: Coin-Operated Toy, Chivalric Commandments - New Edition",
             "Hemopoietic Inhibition intensified: Operators lose HP at a faster rate when their HP is not full, but gain increased ATK based on how low their HP is",
-            "Initial Light decreased, greater Light loss upon receiving objective damage"
+            "Starting Light decreased, greater Light loss upon receiving objective damage"
           ],
           "challengeTasks": {
             "rogue_2_task_03": {
@@ -37671,7 +37707,7 @@
           "challengeConditionDes": [
             "Begin with the following collectible: Three-Key Contract",
             "Concentration Disorder intensified: All Operators will automatically activate their skills, and while no skill is active, have gradually increased ATK and gradually decreased ASPD; this effect resets when the skill duration ends",
-            "Initial Light decreased, greater Light loss upon receiving objective damage"
+            "Starting Light decreased, greater Light loss upon receiving objective damage"
           ],
           "challengeTasks": {
             "rogue_2_task_04": {
@@ -38376,7 +38412,7 @@
           "scoreFactor": 1.4,
           "canUnlockItem": true,
           "doMonthTask": true,
-          "ruleDesc": "Initial Light -15",
+          "ruleDesc": "Starting Light -15",
           "ruleDescReplacements": null,
           "failTitle": "Signal Lost",
           "failImageId": "image_rogue_2_fail_general",
@@ -38484,7 +38520,7 @@
           "scoreFactor": 1.5,
           "canUnlockItem": true,
           "doMonthTask": true,
-          "ruleDesc": "Initial Light -15",
+          "ruleDesc": "Starting Light -15",
           "ruleDescReplacements": null,
           "failTitle": "Signal Lost",
           "failImageId": "image_rogue_2_fail_general",
@@ -78673,7 +78709,7 @@
           "scoreFactor": 1.0,
           "canUnlockItem": true,
           "doMonthTask": true,
-          "ruleDesc": "Initial Max Life Points -4",
+          "ruleDesc": "Starting Max Life Points -4",
           "ruleDescReplacements": null,
           "failTitle": "Signal Lost",
           "failImageId": "image_rogue_3_fail_general",
@@ -130626,7 +130662,7 @@
         "scene_ro3_normal1_enter": {
           "id": "scene_ro3_normal1_enter",
           "title": "Sami's Language",
-          "description": "'From a linguistic perspective, deciphering the Furða Foldartals in the hands of the locals is no puzzle to crack. The truly difficult question is where they come from, and if they were carved by man... wait, what's that sound?' \r\nThe professionals in the research team are proposing that you set up cameras to monitor the local shamans' movements, so all of you witness this moment together: the wood's surface cracks and peels with a loud noise, and a intricate pattern forms on the tree.",
+          "description": "'From a linguistic perspective, deciphering the Foldartals in the hands of the locals is no puzzle to crack. The truly difficult question is where they come from, and if they were carved by man... wait, what's that sound?' \r\nThe professionals in the research team are proposing that you set up cameras to monitor the local shamans' movements, so all of you witness this moment together: the wood's surface cracks and peels with a loud noise, and a intricate pattern forms on the tree.",
           "background": "pic_rogue_3_18",
           "titleIcon": null,
           "subTypeId": 8,
@@ -132606,7 +132642,7 @@
         "scene_ro3_month5_enter": {
           "id": "scene_ro3_month5_enter",
           "title": "Sami's Language",
-          "description": "'From a linguistic perspective, deciphering the Furða Foldartals in the hands of the locals is no puzzle to crack. The truly difficult question is where they come from, and if they were carved by man... wait, what's that sound?' \r\nThe professionals in the research team are proposing that you set up cameras to monitor the local shamans' movements, so all of you witness this moment together: the wood's surface cracks and peels with a loud noise, and a intricate pattern forms on the tree.",
+          "description": "'From a linguistic perspective, deciphering the Foldartals in the hands of the locals is no puzzle to crack. The truly difficult question is where they come from, and if they were carved by man... wait, what's that sound?' \r\nThe professionals in the research team are proposing that you set up cameras to monitor the local shamans' movements, so all of you witness this moment together: the wood's surface cracks and peels with a loud noise, and a intricate pattern forms on the tree.",
           "background": "pic_rogue_3_18",
           "titleIcon": null,
           "subTypeId": 0,
@@ -200663,14 +200699,10 @@
           "displayUnlockMonth": 5,
           "acquireTitle": "Lee Outfit Obtainable",
           "purchaseTitle": "Lee Outfit",
-          "displayName": "Mysterious Outfit",
+          "displayName": "The Life Appraiser",
           "displayDiscription": "The emotions of humans are passed on to their objects.\nGaze upon an object, and you catch a glimpse of its owner.\nMeetings and partings, all are the tidings of fate.\nObjects choose their own master too.",
           "bpLevelId": "bp_level_125",
-          "itemBundle": {
-            "id": "char_311_mudrok@wild#10",
-            "count": 1,
-            "type": "CHAR_SKIN"
-          },
+          "itemBundle": null,
           "detailAnnounceTime": "2026-05-01 04:00:00",
           "picIdAftrerUnlock": null
         },
@@ -200681,7 +200713,7 @@
           "displayUnlockMonth": 6,
           "acquireTitle": "Background Obtainable",
           "purchaseTitle": "Background",
-          "displayName": "Background",
+          "displayName": "Garden Visit",
           "displayDiscription": "The one who etched the words is nowhere to be seen by the pond and trees. Parting is dearly felt only when the dew falls from the leaves.",
           "bpLevelId": "bp_level_140",
           "itemBundle": null,
@@ -200810,7 +200842,7 @@
           "paramList": [
             "10"
           ],
-          "desc": "Purchase a total of 10 items from the Rogue Trader or Tomb of Sui Trader",
+          "desc": "Purchase a total of 10 items from the Rogue Trader or Trade",
           "tokenRewardNum": 125
         },
         {
@@ -221606,7 +221638,7 @@
                 {
                   "key": "key",
                   "value": 0.0,
-                  "valueStr": "rogue_5_modify_cost[token&trap]"
+                  "valueStr": "rogue_5_modify_cost[trap]"
                 },
                 {
                   "key": "value",
@@ -221622,6 +221654,21 @@
                   "key": "selector.profession",
                   "value": 0.0,
                   "valueStr": "trap"
+                }
+              ]
+            },
+            {
+              "key": "char_attribute_add",
+              "blackboard": [
+                {
+                  "key": "selector.profession",
+                  "value": 0.0,
+                  "valueStr": "token"
+                },
+                {
+                  "key": "cost",
+                  "value": -10.0,
+                  "valueStr": null
                 }
               ]
             }
@@ -237593,7 +237640,7 @@
         "choice_ro5_scout_4": {
           "id": "choice_ro5_scout_4",
           "title": "Apply for a case-carrier",
-          "description": "(Have <@ro5.get>Unsealed Case</>, choose an Operator to enter the scroll\r\n<@ro5.lose>Operators who enter the scroll will temporarily leave, and only Operators in the scroll can participate in the final battle of Mingmie Peak</>",
+          "description": "Have <@ro5.get>Unsealed Case</>, choose an Operator to enter the scroll\r\n<@ro5.lose>Operators who enter the scroll will temporarily leave, and only Operators in the scroll can participate in the final battle of Mingmie Peak</>",
           "lockedCoverDesc": null,
           "type": "EXPEDITION",
           "leftDecoType": "NONE",
@@ -237613,7 +237660,7 @@
         "choice_ro5_scout_5": {
           "id": "choice_ro5_scout_5",
           "title": "Touch the scroll",
-          "description": "(Have <@ro5.get>Unsealed Case</>, choose an Operator to enter the scroll\r\n<@ro5.lose>Operators who enter the scroll will temporarily leave, and only Operators in the scroll can participate in the final battle of Mingmie Peak</>",
+          "description": "Have <@ro5.get>Unsealed Case</>, choose an Operator to enter the scroll\r\n<@ro5.lose>Operators who enter the scroll will temporarily leave, and only Operators in the scroll can participate in the final battle of Mingmie Peak</>",
           "lockedCoverDesc": null,
           "type": "EXPEDITION",
           "leftDecoType": "NONE",
@@ -257293,7 +257340,7 @@
         "choice_ro5_end3_1": {
           "id": "choice_ro5_end3_1",
           "title": "Send everyone else out of the Tomb",
-          "description": "We shall return\r\n<@ro5.lose>Operators who enter the scroll will temporarily leave, and only Operators in the scroll can participate in the final battle of Mingmie Peak</>",
+          "description": "We shall return\r\n<@ro5.lose>Operators who didn't enter the scroll will temporarily leave, and only Operators in the scroll can participate in the final battle of Mingmie Peak</>",
           "lockedCoverDesc": "",
           "type": "EXPEDITION_RETURN_ALL",
           "leftDecoType": "NONE",
@@ -257353,7 +257400,7 @@
         "choice_ro5_lokksp_3": {
           "id": "choice_ro5_lokksp_3",
           "title": "Begin reconnaissance",
-          "description": "(Have <@ro5.get>Unsealed Case</>, choose an Operator to enter the scroll\r\n<@ro5.lose>Operators who enter the scroll will temporarily leave, and only Operators in the scroll can participate in the final battle of Mingmie Peak</>",
+          "description": "Have <@ro5.get>Unsealed Case</>, choose an Operator to enter the scroll\r\n<@ro5.lose>Operators who enter the scroll will temporarily leave, and only Operators in the scroll can participate in the final battle of Mingmie Peak</>",
           "lockedCoverDesc": "",
           "type": "EXPEDITION",
           "leftDecoType": "NONE",
@@ -265551,20 +265598,6 @@
             "Using Tongbao can make your adventures go more smoothly.",
             "Using Candles at the right time can make your exploration of Sui's Remnant Consciousness go more smoothly."
           ]
-        },
-        "CHALLENGE": {
-          "randomDescriptionList": [
-            "Carefully plan out your route. The decisions you make at each step along the way matter",
-            "Use the resources you obtain in the maps as much as possible",
-            "Select Operators that fit your squad to make combat easier",
-            "Combat nodes change randomly. Understanding their rules will make your battles easier",
-            "The paths in the Garden are ever-changing, and not all roads are smooth. Do not be discouraged, and try again.",
-            "The paths in the Garden are full of dangers. Using Originium Ingots at the right time can help make adventures go more smoothly.",
-            "The paths in the Garden are full of dangers. Using Hope at the right time can help make adventures go more smoothly",
-            "Using Tongbao can make your adventures go more smoothly.",
-            "Using Candles at the right time can make your exploration of Sui's Remnant Consciousness go more smoothly.",
-            "The visit may have been cut short, but you still have the chance to refine your skills at exploring the Garden."
-          ]
         }
       },
       "battleLoadingTips": [
@@ -268729,7 +268762,7 @@
           "id": "rogue_5_band_21",
           "name": "Blooming Flowers Squad",
           "description": null,
-          "usage": "Life Points spent in Plan nodes fixed at 1; When tossing coins, 1 or more Flower Coins will grant +1 Coupon; Start with Tongbao 'A People United'",
+          "usage": "Life Points spent in Plan nodes fixed at 1; When tossing coins, 1 or more Flower Coins will grant +1 Coupon; Start with Tongbao 'Original Script'",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_band_21",
           "itemIconGroupId": null,
@@ -270361,7 +270394,7 @@
           "id": "rogue_5_relic_legacy_55",
           "name": "Blunt Claws - Burst",
           "description": "He's already done all the reserve squad's work for them. What else do you expect?",
-          "usage": "Vanguard Operators gain +10 Initial SP and +10% ATK",
+          "usage": "Vanguard Operators gain +10 Starting SP and +10% ATK",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_relic_legacy_55",
           "itemIconGroupId": null,
@@ -272197,7 +272230,7 @@
           "id": "rogue_5_relic_legacy_136",
           "name": "Captain Morgan's Wine",
           "description": "A wine produced in the Iberian region. Despite having gained popularity in the heart of Victoria's bustling cities, it is now discontinued.",
-          "usage": "+5 Initial SP, increases the SP regen rate of Offensive and Defensive Recovery skills by 1 SP per 3s",
+          "usage": "+5 Starting SP, increases the SP regen rate of Offensive and Defensive Recovery skills by 1 SP per 3s",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_relic_legacy_136",
           "itemIconGroupId": null,
@@ -272214,7 +272247,7 @@
           "id": "rogue_5_relic_legacy_137",
           "name": "Water of Life",
           "description": "The strongest Ursine liquors go straight to one's head, but it's said that the healthy Ursine adult can down several bottles.",
-          "usage": "+7 Initial SP, increases the SP regen rate of Offensive and Defensive Recovery skills by 1 SP per 2.5s",
+          "usage": "+7 Starting SP, increases the SP regen rate of Offensive and Defensive Recovery skills by 1 SP per 2.5s",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_relic_legacy_137",
           "itemIconGroupId": null,
@@ -272231,7 +272264,7 @@
           "id": "rogue_5_relic_legacy_138",
           "name": "Royal Liqueur",
           "description": "The fine wines of the extinct country, Gaul, have now become expensive, prime treasures for collectors. The place of production is now a part of Leithanien, but the technique has been lost.",
-          "usage": "+7 Initial SP, increases the SP regen rate of Offensive and Defensive Recovery skills by 1 SP per 1.5s",
+          "usage": "+7 Starting SP, increases the SP regen rate of Offensive and Defensive Recovery skills by 1 SP per 1.5s",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_relic_legacy_138",
           "itemIconGroupId": null,
@@ -272639,7 +272672,7 @@
           "id": "rogue_5_relic_fight_5",
           "name": "Evaluation Minister",
           "description": "An assessment support tool developed by Tianshi Bureau apprentices. You don't get anything even if you have the right answers. But when you're wrong... well, best to not even try.",
-          "usage": "When an Operator successfully Dodges or Resists damage, the next attack deals +100% damage",
+          "usage": "When an allied unit successfully Dodges or Resists damage, the next attack deals +100% damage",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_relic_fight_5",
           "itemIconGroupId": null,
@@ -272690,7 +272723,7 @@
           "id": "rogue_5_relic_fight_8",
           "name": "'Firefly Booklight'",
           "description": "A plant from a scholar's hometown gradually withers by the academy window, but he cannot bear to dispose of it. The pot is eventually bereft of vegetation, but is surrounded by fireflies illuminating the pages of his books.",
-          "usage": "When enemies are defeated, surrounding Operators and Summons recover 300 HP",
+          "usage": "When enemies are defeated, surrounding allied units recover 300 HP",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_relic_fight_8",
           "itemIconGroupId": null,
@@ -273540,7 +273573,7 @@
           "id": "rogue_5_relic_cardg_5",
           "name": "Artist Shadow",
           "description": "This shadow puppet was created to honor a legendary dancer. Legends tell of summoning mighty waves out of a river, and the beauty of spring drawn from forests with their dances. They dedicated their life to dance, but with age became injured and retired, leaving the mortal realm soon after. Countless dancers have copied their movements, but none have quite made it. What a shame.",
-          "usage": "The leftmost Operator in the Deployment Waiting Zone gains +10 Initial SP, +30 ASPD, and +30% ATK",
+          "usage": "The leftmost Operator in the Deployment Waiting Zone gains +10 Starting SP, +30 ASPD, and +30% ATK",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_relic_cardg_5",
           "itemIconGroupId": null,
@@ -273760,7 +273793,7 @@
         "rogue_5_relic_final_3": {
           "id": "rogue_5_relic_final_3",
           "name": "Ink of the Hidden Butterfly",
-          "description": "A creature researched by Liu'er, made from remnant rock of the Sui Tomb and martial tomes panned by Shuo. Originally Sui was carved on it, but Its form has faded, and now a butterfly is craved to takes Its place. But the butterfly fears the Sui's might, so it is time to repel the Sui to appease it.",
+          "description": "A creature researched by Liu'er, made from remnant rock of the Sui Tomb and martial tomes panned by Shuo. Originally Sui was carved on it, but Its form has faded, and now a butterfly is carved to take Its place. But the butterfly fears the Sui's might, so it is time to repel the Sui to appease it.",
           "usage": "When carrying this Collectible, 'Body of Sui' will raid your party in battles",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_relic_final_3",
@@ -280561,7 +280594,7 @@
           "id": "rogue_5_copper_buff_U_3_a",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_buff_U_3_a",
           "itemIconGroupId": null,
@@ -280578,7 +280611,7 @@
           "id": "rogue_5_copper_buff_U_3_b",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nRusty: On toss, +1 Ingot after each node</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nRusty: On toss, +1 Ingot after each node</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_buff_U_3_b",
           "itemIconGroupId": null,
@@ -280595,7 +280628,7 @@
           "id": "rogue_5_copper_buff_U_3_c",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nSurvival: +2 Objective Shield when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nSurvival: +2 Objective Shield when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_buff_U_3_c",
           "itemIconGroupId": null,
@@ -280612,7 +280645,7 @@
           "id": "rogue_5_copper_buff_U_3_d",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nFantastical: +1 Hope when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nFantastical: +1 Hope when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_buff_U_3_d",
           "itemIconGroupId": null,
@@ -280629,7 +280662,7 @@
           "id": "rogue_5_copper_buff_U_3_e",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nLight: +1 Candle when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nLight: +1 Candle when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_buff_U_3_e",
           "itemIconGroupId": null,
@@ -280646,7 +280679,7 @@
           "id": "rogue_5_copper_buff_U_3_f",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nStroll: On toss, +1 Coupon after every battle</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nStroll: On toss, +1 Coupon after every battle</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_buff_U_3_f",
           "itemIconGroupId": null,
@@ -280663,7 +280696,7 @@
           "id": "rogue_5_copper_buff_U_4_a",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle, happens twice",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle, happens twice",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_buff_U_4_a",
           "itemIconGroupId": null,
@@ -280680,7 +280713,7 @@
           "id": "rogue_5_copper_buff_U_4_b",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle, happens twice<color=#2fac78>\nRusty: On toss, +1 Ingot after each node</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle, happens twice<color=#2fac78>\nRusty: On toss, +1 Ingot after each node</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_buff_U_4_b",
           "itemIconGroupId": null,
@@ -280697,7 +280730,7 @@
           "id": "rogue_5_copper_buff_U_4_c",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle, happens twice<color=#2fac78>\nSurvival: +2 Shield when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle, happens twice<color=#2fac78>\nSurvival: +2 Shield when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_buff_U_4_c",
           "itemIconGroupId": null,
@@ -280714,7 +280747,7 @@
           "id": "rogue_5_copper_buff_U_4_d",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle, happens twice<color=#2fac78>\nFantastical: +1 Hope when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle, happens twice<color=#2fac78>\nFantastical: +1 Hope when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_buff_U_4_d",
           "itemIconGroupId": null,
@@ -280731,7 +280764,7 @@
           "id": "rogue_5_copper_buff_U_4_e",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100%, happens twice every battle<color=#2fac78>\nLight: +1 Candle when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100%, happens twice every battle<color=#2fac78>\nLight: +1 Candle when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_buff_U_4_e",
           "itemIconGroupId": null,
@@ -280748,7 +280781,7 @@
           "id": "rogue_5_copper_buff_U_4_f",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100%, happens twice every battle<color=#2fac78>\nStroll: On toss, +1 Coupon after every battle</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100%, happens twice every battle<color=#2fac78>\nStroll: On toss, +1 Coupon after every battle</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_buff_U_4_f",
           "itemIconGroupId": null,
@@ -288398,7 +288431,7 @@
           "id": "rogue_5_copper_U_3_a",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_U_3_a",
           "itemIconGroupId": "rogue_5_copper_U_3",
@@ -288409,13 +288442,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded"
         },
         "rogue_5_copper_U_3_b": {
           "id": "rogue_5_copper_U_3_b",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nRusty: On toss, +1 Ingot after each node</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nRusty: On toss, +1 Ingot after each node</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_U_3_b",
           "itemIconGroupId": "rogue_5_copper_U_3",
@@ -288426,13 +288459,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Rusty></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Rusty></color>"
         },
         "rogue_5_copper_U_3_c": {
           "id": "rogue_5_copper_U_3_c",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nSurvival: +2 Objective Shield when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nSurvival: +2 Objective Shield when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_U_3_c",
           "itemIconGroupId": "rogue_5_copper_U_3",
@@ -288443,13 +288476,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Survival></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Survival></color>"
         },
         "rogue_5_copper_U_3_d": {
           "id": "rogue_5_copper_U_3_d",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nFantastical: +1 Hope when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nFantastical: +1 Hope when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_U_3_d",
           "itemIconGroupId": "rogue_5_copper_U_3",
@@ -288460,13 +288493,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Fantastical></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Fantastical></color>"
         },
         "rogue_5_copper_U_3_e": {
           "id": "rogue_5_copper_U_3_e",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nLight: +1 Candle when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nLight: +1 Candle when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_U_3_e",
           "itemIconGroupId": "rogue_5_copper_U_3",
@@ -288477,13 +288510,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Light></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Light></color>"
         },
         "rogue_5_copper_U_3_f": {
           "id": "rogue_5_copper_U_3_f",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nStroll: On toss, +1 Coupon after every battle</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nStroll: On toss, +1 Coupon after every battle</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_U_3_f",
           "itemIconGroupId": "rogue_5_copper_U_3",
@@ -288494,13 +288527,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Stroll></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Stroll></color>"
         },
         "rogue_5_copper_U_4_a": {
           "id": "rogue_5_copper_U_4_a",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_U_4_a",
           "itemIconGroupId": "rogue_5_copper_U_4",
@@ -288511,13 +288544,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle"
         },
         "rogue_5_copper_U_4_b": {
           "id": "rogue_5_copper_U_4_b",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nRusty: On toss, +1 Ingot after each node</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nRusty: On toss, +1 Ingot after each node</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_U_4_b",
           "itemIconGroupId": "rogue_5_copper_U_4",
@@ -288528,13 +288561,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Rusty></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Rusty></color>"
         },
         "rogue_5_copper_U_4_c": {
           "id": "rogue_5_copper_U_4_c",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nSurvival: +2 Objective Shield when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nSurvival: +2 Objective Shield when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_U_4_c",
           "itemIconGroupId": "rogue_5_copper_U_4",
@@ -288545,13 +288578,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Survival></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Survival></color>"
         },
         "rogue_5_copper_U_4_d": {
           "id": "rogue_5_copper_U_4_d",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nFantastical: +1 Hope when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nFantastical: +1 Hope when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_U_4_d",
           "itemIconGroupId": "rogue_5_copper_U_4",
@@ -288562,13 +288595,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Fantastical></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Fantastical></color>"
         },
         "rogue_5_copper_U_4_e": {
           "id": "rogue_5_copper_U_4_e",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nLight: +1 Candle when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nLight: +1 Candle when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_U_4_e",
           "itemIconGroupId": "rogue_5_copper_U_4",
@@ -288579,13 +288612,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Light></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Light></color>"
         },
         "rogue_5_copper_U_4_f": {
           "id": "rogue_5_copper_U_4_f",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nStroll: On toss, +1 Coupon after every battle</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nStroll: On toss, +1 Coupon after every battle</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_copper_U_4_f",
           "itemIconGroupId": "rogue_5_copper_U_4",
@@ -288596,7 +288629,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Stroll></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Stroll></color>"
         },
         "rogue_5_copper_U_5_a": {
           "id": "rogue_5_copper_U_5_a",
@@ -297425,7 +297458,7 @@
           "id": "rogue_5_change_copper_U_3_a",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_change_copper_U_3_a",
           "itemIconGroupId": "rogue_5_copper_U_3",
@@ -297436,13 +297469,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded"
         },
         "rogue_5_change_copper_U_3_b": {
           "id": "rogue_5_change_copper_U_3_b",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nRusty: On toss, +1 Ingot after each node</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nRusty: On toss, +1 Ingot after each node</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_change_copper_U_3_b",
           "itemIconGroupId": "rogue_5_copper_U_3",
@@ -297453,13 +297486,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Rusty></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Rusty></color>"
         },
         "rogue_5_change_copper_U_3_c": {
           "id": "rogue_5_change_copper_U_3_c",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nSurvival: +2 Objective Shield when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nSurvival: +2 Objective Shield when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_change_copper_U_3_c",
           "itemIconGroupId": "rogue_5_copper_U_3",
@@ -297470,13 +297503,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Survival></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Survival></color>"
         },
         "rogue_5_change_copper_U_3_d": {
           "id": "rogue_5_change_copper_U_3_d",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nFantastical: +1 Hope when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nFantastical: +1 Hope when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_change_copper_U_3_d",
           "itemIconGroupId": "rogue_5_copper_U_3",
@@ -297487,13 +297520,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Fantastical></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Fantastical></color>"
         },
         "rogue_5_change_copper_U_3_e": {
           "id": "rogue_5_change_copper_U_3_e",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nLight: +1 Candle when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nLight: +1 Candle when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_change_copper_U_3_e",
           "itemIconGroupId": "rogue_5_copper_U_3",
@@ -297504,13 +297537,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Light></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Light></color>"
         },
         "rogue_5_change_copper_U_3_f": {
           "id": "rogue_5_change_copper_U_3_f",
           "name": "Risk-Enlightenment",
           "description": "Young and gifted. A rare find. Seeking truth. Many in dreams.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nStroll: On toss, +1 Coupon after every battle</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded in Plan<color=#2fac78>\nStroll: On toss, +1 Coupon after every battle</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_change_copper_U_3_f",
           "itemIconGroupId": "rogue_5_copper_U_3",
@@ -297521,13 +297554,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Stroll></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of a random Operator +100% every battle; can be upgraded<color=#2fac78><Condition: Stroll></color>"
         },
         "rogue_5_change_copper_U_4_a": {
           "id": "rogue_5_change_copper_U_4_a",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_change_copper_U_4_a",
           "itemIconGroupId": "rogue_5_copper_U_4",
@@ -297538,13 +297571,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle"
         },
         "rogue_5_change_copper_U_4_b": {
           "id": "rogue_5_change_copper_U_4_b",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nRusty: On toss, +1 Ingot after each node</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nRusty: On toss, +1 Ingot after each node</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_change_copper_U_4_b",
           "itemIconGroupId": "rogue_5_copper_U_4",
@@ -297555,13 +297588,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Rusty></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Rusty></color>"
         },
         "rogue_5_change_copper_U_4_c": {
           "id": "rogue_5_change_copper_U_4_c",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nSurvival: +2 Objective Shield when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nSurvival: +2 Objective Shield when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_change_copper_U_4_c",
           "itemIconGroupId": "rogue_5_copper_U_4",
@@ -297572,13 +297605,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Survival></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Survival></color>"
         },
         "rogue_5_change_copper_U_4_d": {
           "id": "rogue_5_change_copper_U_4_d",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nFantastical: +1 Hope when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nFantastical: +1 Hope when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_change_copper_U_4_d",
           "itemIconGroupId": "rogue_5_copper_U_4",
@@ -297589,13 +297622,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Fantastical></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Fantastical></color>"
         },
         "rogue_5_change_copper_U_4_e": {
           "id": "rogue_5_change_copper_U_4_e",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nLight: +1 Candle when added to Coffer</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nLight: +1 Candle when added to Coffer</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_change_copper_U_4_e",
           "itemIconGroupId": "rogue_5_copper_U_4",
@@ -297606,13 +297639,13 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Light></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Light></color>"
         },
         "rogue_5_change_copper_U_4_f": {
           "id": "rogue_5_change_copper_U_4_f",
           "name": "Bal-Trailblazer",
           "description": "Duty calls. Dawn breaks free. A fervent vow. For a bright day.",
-          "usage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nStroll: On toss, +1 Coupon after every battle</color>",
+          "usage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78>\nStroll: On toss, +1 Coupon after every battle</color>",
           "obtainApproach": "Obtained from Integrated Strategies.",
           "iconId": "rogue_5_change_copper_U_4_f",
           "itemIconGroupId": "rogue_5_copper_U_4",
@@ -297623,7 +297656,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "On toss, HP, ATK, Initial SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Stroll></color>"
+          "shortUsage": "On toss, HP, ATK, Starting SP, and DP Cost of 2 random Operators +100% every battle<color=#2fac78><Condition: Stroll></color>"
         },
         "rogue_5_change_copper_U_5_a": {
           "id": "rogue_5_change_copper_U_5_a",
@@ -300271,10 +300304,6 @@
       "styles": {
         "rogue_5_style_default": {
           "styleId": "rogue_5_style_default",
-          "styleConfig": 0
-        },
-        "rogue_5_style_challenge": {
-          "styleId": "rogue_5_style_challenge",
           "styleConfig": 0
         }
       },
@@ -325170,7 +325199,7 @@
               "displayType": "display_gold",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingot",
+              "tokenDesc": "Starting Originium Ingot",
               "sortId": 2
             }
           ]
@@ -325266,7 +325295,7 @@
               "displayType": "display_gold",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingot",
+              "tokenDesc": "Starting Originium Ingot",
               "sortId": 2
             }
           ]
@@ -325296,7 +325325,7 @@
               "displayType": "display_hp",
               "displayNum": 2,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Life Point(s)",
+              "tokenDesc": "Starting Life Point(s)",
               "sortId": 6
             },
             {
@@ -325399,7 +325428,7 @@
               "displayType": "display_gold",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingot",
+              "tokenDesc": "Starting Originium Ingot",
               "sortId": 2
             }
           ]
@@ -325495,7 +325524,7 @@
               "displayType": "display_gold",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingot",
+              "tokenDesc": "Starting Originium Ingot",
               "sortId": 2
             }
           ]
@@ -325628,7 +325657,7 @@
               "displayType": "display_gold",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingot",
+              "tokenDesc": "Starting Originium Ingot",
               "sortId": 2
             }
           ]
@@ -325724,7 +325753,7 @@
               "displayType": "display_gold",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingot",
+              "tokenDesc": "Starting Originium Ingot",
               "sortId": 2
             }
           ]
@@ -325857,7 +325886,7 @@
               "displayType": "display_gold",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingot",
+              "tokenDesc": "Starting Originium Ingot",
               "sortId": 2
             }
           ]
@@ -325953,7 +325982,7 @@
               "displayType": "display_gold",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingot",
+              "tokenDesc": "Starting Originium Ingot",
               "sortId": 2
             }
           ]
@@ -326086,7 +326115,7 @@
               "displayType": "display_gold",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingot",
+              "tokenDesc": "Starting Originium Ingot",
               "sortId": 2
             }
           ]
@@ -326182,7 +326211,7 @@
               "displayType": "display_gold",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingot",
+              "tokenDesc": "Starting Originium Ingot",
               "sortId": 2
             }
           ]
@@ -326229,7 +326258,7 @@
         "display_gold": {
           "sortId": 2,
           "displayForm": "ABSOLUTE_VAL",
-          "tokenDesc": "Initial Originium Ingot"
+          "tokenDesc": "Starting Originium Ingot"
         },
         "display_bat_attack": {
           "sortId": 3,
@@ -326249,7 +326278,7 @@
         "display_hp": {
           "sortId": 6,
           "displayForm": "ABSOLUTE_VAL",
-          "tokenDesc": "Initial Life Point(s)"
+          "tokenDesc": "Starting Life Point(s)"
         },
         "display_temp_hp": {
           "sortId": 7,
@@ -326663,7 +326692,7 @@
               "displayType": "display_gold",
               "displayNum": 5,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingots",
+              "tokenDesc": "Starting Originium Ingots",
               "sortId": 2
             }
           ],
@@ -326996,7 +327025,7 @@
               "displayType": "display_hp",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Life Point",
+              "tokenDesc": "Starting Life Point",
               "sortId": 10
             }
           ],
@@ -327042,7 +327071,7 @@
               "displayType": "display_hp",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Life Point",
+              "tokenDesc": "Starting Life Point",
               "sortId": 10
             }
           ],
@@ -327332,7 +327361,7 @@
               "displayType": "display_dice_point",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Die Rolls",
+              "tokenDesc": "Starting Die Rolls",
               "sortId": 6
             }
           ],
@@ -327359,7 +327388,7 @@
               "displayType": "display_gold",
               "displayNum": 2,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingots",
+              "tokenDesc": "Starting Originium Ingots",
               "sortId": 2
             }
           ],
@@ -327386,7 +327415,7 @@
               "displayType": "display_gold",
               "displayNum": 3,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingots",
+              "tokenDesc": "Starting Originium Ingots",
               "sortId": 2
             }
           ],
@@ -327434,7 +327463,7 @@
               "displayType": "display_key_point",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Keys",
+              "tokenDesc": "Starting Keys",
               "sortId": 4
             }
           ],
@@ -327461,7 +327490,7 @@
               "displayType": "display_dice_point",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Die Rolls",
+              "tokenDesc": "Starting Die Rolls",
               "sortId": 6
             }
           ],
@@ -327675,7 +327704,7 @@
               "displayType": "display_hp",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Life Point",
+              "tokenDesc": "Starting Life Point",
               "sortId": 10
             }
           ],
@@ -327721,7 +327750,7 @@
               "displayType": "display_key_point",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Keys",
+              "tokenDesc": "Starting Keys",
               "sortId": 4
             }
           ],
@@ -327748,7 +327777,7 @@
               "displayType": "display_gold",
               "displayNum": 5,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingots",
+              "tokenDesc": "Starting Originium Ingots",
               "sortId": 2
             }
           ],
@@ -327818,7 +327847,7 @@
         "display_gold": {
           "sortId": 2,
           "displayForm": "ABSOLUTE_VAL",
-          "tokenDesc": "Initial Originium Ingots"
+          "tokenDesc": "Starting Originium Ingots"
         },
         "display_bat_def": {
           "sortId": 3,
@@ -327828,7 +327857,7 @@
         "display_key_point": {
           "sortId": 4,
           "displayForm": "ABSOLUTE_VAL",
-          "tokenDesc": "Initial Keys"
+          "tokenDesc": "Starting Keys"
         },
         "display_bat_max_hp": {
           "sortId": 5,
@@ -327838,7 +327867,7 @@
         "display_dice_point": {
           "sortId": 6,
           "displayForm": "ABSOLUTE_VAL",
-          "tokenDesc": "Initial Die Rolls"
+          "tokenDesc": "Starting Die Rolls"
         },
         "display_exp": {
           "sortId": 7,
@@ -327858,7 +327887,7 @@
         "display_hp": {
           "sortId": 10,
           "displayForm": "ABSOLUTE_VAL",
-          "tokenDesc": "Initial Life Point"
+          "tokenDesc": "Starting Life Point"
         },
         "display_grow_point": {
           "sortId": 11,
@@ -328891,14 +328920,14 @@
           "buffIconId": "rogue_3_grow_icon_life",
           "effectType": "BUFF",
           "rawDesc": [
-            "Initial Max Life Points +1"
+            "Starting Max Life Points +1"
           ],
           "buffDisplayInfo": [
             {
               "displayType": "display_hp",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Max Life Points",
+              "tokenDesc": "Starting Max Life Points",
               "sortId": 10
             }
           ],
@@ -328992,7 +329021,7 @@
               "displayType": "display_gold",
               "displayNum": 4,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingots",
+              "tokenDesc": "Starting Originium Ingots",
               "sortId": 2
             }
           ],
@@ -329279,14 +329308,14 @@
           "buffIconId": "rogue_3_grow_icon_life",
           "effectType": "BUFF",
           "rawDesc": [
-            "Initial Max Life Points +1"
+            "Starting Max Life Points +1"
           ],
           "buffDisplayInfo": [
             {
               "displayType": "display_hp",
               "displayNum": 1,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Max Life Points",
+              "tokenDesc": "Starting Max Life Points",
               "sortId": 10
             }
           ],
@@ -329690,7 +329719,7 @@
               "displayType": "display_gold",
               "displayNum": 4,
               "displayForm": "ABSOLUTE_VAL",
-              "tokenDesc": "Initial Originium Ingots",
+              "tokenDesc": "Starting Originium Ingots",
               "sortId": 2
             }
           ],
@@ -329841,7 +329870,7 @@
         "display_gold": {
           "sortId": 2,
           "displayForm": "ABSOLUTE_VAL",
-          "tokenDesc": "Initial Originium Ingots"
+          "tokenDesc": "Starting Originium Ingots"
         },
         "display_bat_def": {
           "sortId": 3,
@@ -329871,7 +329900,7 @@
         "display_hp": {
           "sortId": 10,
           "displayForm": "ABSOLUTE_VAL",
-          "tokenDesc": "Initial Max Life Points"
+          "tokenDesc": "Starting Max Life Points"
         },
         "display_grow_point": {
           "sortId": 11,
@@ -333177,7 +333206,7 @@
                 "displayType": "display_gold",
                 "displayNum": 2,
                 "displayForm": "ABSOLUTE_VAL",
-                "tokenDesc": "Initial Originium Ingot",
+                "tokenDesc": "Starting Originium Ingot",
                 "sortId": 2
               }
             ],
@@ -333292,14 +333321,14 @@
             "bottomIconId": "rogue_5_grow_icon_life_active",
             "effectType": "BUFF",
             "rawDesc": [
-              "Initial Max Life Points +1"
+              "Starting Max Life Points +1"
             ],
             "buffDisplayInfo": [
               {
                 "displayType": "display_hp",
                 "displayNum": 1,
                 "displayForm": "ABSOLUTE_VAL",
-                "tokenDesc": "Initial Life Point",
+                "tokenDesc": "Starting Life Point",
                 "sortId": 8
               }
             ],
@@ -333599,7 +333628,7 @@
                 "displayType": "display_gold",
                 "displayNum": 2,
                 "displayForm": "ABSOLUTE_VAL",
-                "tokenDesc": "Initial Originium Ingot",
+                "tokenDesc": "Starting Originium Ingot",
                 "sortId": 2
               }
             ],
@@ -334154,7 +334183,7 @@
                 "displayType": "display_gold",
                 "displayNum": 2,
                 "displayForm": "ABSOLUTE_VAL",
-                "tokenDesc": "Initial Originium Ingot",
+                "tokenDesc": "Starting Originium Ingot",
                 "sortId": 2
               }
             ],
@@ -334180,14 +334209,14 @@
             "bottomIconId": "rogue_5_grow_icon_life_active",
             "effectType": "BUFF",
             "rawDesc": [
-              "Initial Max Life Points +1"
+              "Starting Max Life Points +1"
             ],
             "buffDisplayInfo": [
               {
                 "displayType": "display_hp",
                 "displayNum": 1,
                 "displayForm": "ABSOLUTE_VAL",
-                "tokenDesc": "Initial Life Point",
+                "tokenDesc": "Starting Life Point",
                 "sortId": 8
               }
             ],
@@ -334426,7 +334455,7 @@
                 "displayType": "display_gold",
                 "displayNum": 2,
                 "displayForm": "ABSOLUTE_VAL",
-                "tokenDesc": "Initial Originium Ingot",
+                "tokenDesc": "Starting Originium Ingot",
                 "sortId": 2
               }
             ],
@@ -334524,7 +334553,7 @@
                 "displayType": "display_gold",
                 "displayNum": 2,
                 "displayForm": "ABSOLUTE_VAL",
-                "tokenDesc": "Initial Originium Ingot",
+                "tokenDesc": "Starting Originium Ingot",
                 "sortId": 2
               }
             ],
@@ -334736,7 +334765,7 @@
           "display_gold": {
             "sortId": 2,
             "displayForm": "ABSOLUTE_VAL",
-            "tokenDesc": "Initial Originium Ingot"
+            "tokenDesc": "Starting Originium Ingot"
           },
           "display_bat_def": {
             "sortId": 3,
@@ -334766,7 +334795,7 @@
           "display_hp": {
             "sortId": 8,
             "displayForm": "ABSOLUTE_VAL",
-            "tokenDesc": "Initial Life Point"
+            "tokenDesc": "Starting Life Point"
           },
           "display_grow_point": {
             "sortId": 9,
