@@ -2647,6 +2647,42 @@
         "canBeFree": true,
         "uniEquipId": "uniequip_002_mantra",
         "recruitType": "FREE"
+      },
+      "char_4051_akkord": {
+        "charId": "char_4051_akkord",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_akkord",
+        "recruitType": "FREE"
+      },
+      "char_1047_halo2": {
+        "charId": "char_1047_halo2",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_halo2",
+        "recruitType": "FREE"
+      },
+      "char_4211_snhunt": {
+        "charId": "char_4211_snhunt",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_snhunt",
+        "recruitType": "FREE"
+      },
+      "char_394_hadiya": {
+        "charId": "char_394_hadiya",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_1046_sbell2": {
+        "charId": "char_1046_sbell2",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_sbell2",
+        "recruitType": "FREE"
+      },
+      "char_1045_svash2": {
+        "charId": "char_1045_svash2",
+        "canBeFree": true,
+        "uniEquipId": null,
+        "recruitType": "FREE"
       }
     }
   },
@@ -42219,7 +42255,7 @@
         "previewedRewardsAccordingUpdateId": "update_2",
         "tipButtonName": "データベース索引",
         "collectButtonName": "紺碧の記録計",
-        "bpSystemName": "進化の系譜",
+        "bpSystemName": "進化系図",
         "autoSetKV": "pic_rogue_2_KV2",
         "bpPurchaseActiveEnroll": "rogue_2_enroll_2",
         "defaultExpeditionSelectDesc": "次のエリアに入ると{0}は帰還し、物資を持ち帰ります。",
@@ -153625,7 +153661,7 @@
           "code": "ISW-NO",
           "name": "現代戦争の法則",
           "loadingPicId": "loading_SKZ_RL",
-          "description": "『カズデルとの共同宣言』が発表されてからはや数か月が経った。宣言にかかわる各方面の人々は、すでに準備を整えている。この新たな血盟は間もなく、初めての戦火という試練を迎えるだろう。\n<@rolv.rem>実験物を吸収して起動する<パワードスーツ>が出現</>\n<@rolv.rem>制御権を奪取した後、周囲の別陣営のユニットに術ダメージを与え、同陣営のユニットを治療する<「蓄音機」>が出現</>",
+          "description": "『カズデルとの共同宣言』が発表されてからはや数ヶ月が経った。宣言にかかわる各方面の人々は、すでに準備を整えている。この新たな血盟は間もなく、初めての戦火という試練を迎えるだろう。\n<@rolv.rem>実験物を吸収して起動する<パワードスーツ>が出現</>\n<@rolv.rem>制御権を奪取した後、周囲の別陣営のユニットに術ダメージを与え、同陣営のユニットを治療する<「蓄音機」>が出現</>",
           "eliteDesc": null,
           "isBoss": 0,
           "isElite": 0,
@@ -155543,7 +155579,7 @@
           "code": "ISW-NO",
           "name": "現代戦争の法則",
           "loadingPicId": "loading_SKZ_RL",
-          "description": "『カズデルとの共同宣言』が発表されてからはや数か月が経った。宣言にかかわる各方面の人々は、すでに準備を整えている。この新たな血盟は間もなく、初めての戦火という試練を迎えるだろう。\n<@rolv.rem>実験物を吸収して起動する<パワードスーツ>が出現</>\n<@rolv.rem>制御権を奪取した後、周囲の別陣営のユニットに術ダメージを与え、同陣営のユニットを治療する<「蓄音機」>が出現</>",
+          "description": "『カズデルとの共同宣言』が発表されてからはや数ヶ月が経った。宣言にかかわる各方面の人々は、すでに準備を整えている。この新たな血盟は間もなく、初めての戦火という試練を迎えるだろう。\n<@rolv.rem>実験物を吸収して起動する<パワードスーツ>が出現</>\n<@rolv.rem>制御権を奪取した後、周囲の別陣営のユニットに術ダメージを与え、同陣営のユニットを治療する<「蓄音機」>が出現</>",
           "eliteDesc": "敵の攻撃力と最大HPが上昇。追加の敵が出現",
           "isBoss": 0,
           "isElite": 1,
@@ -200663,14 +200699,10 @@
           "displayUnlockMonth": 5,
           "acquireTitle": "リーのコーデ獲得可能",
           "purchaseTitle": "リーのコーデ",
-          "displayName": "未知なるコーデ",
+          "displayName": "鑑浮生",
           "displayDiscription": "人に七情有り、物は其の念を承く。\n物を鑑るは正に是れ其の主の心中を窺うなり。\n萍水相逢いて、去留縁に随う。\n器物も亦た主を擇ぶ。",
           "bpLevelId": "bp_level_125",
-          "itemBundle": {
-            "id": "char_311_mudrok@wild#10",
-            "count": 1,
-            "type": "CHAR_SKIN"
-          },
+          "itemBundle": null,
           "detailAnnounceTime": "2026-05-01 04:00:00",
           "picIdAftrerUnlock": null
         },
@@ -200681,7 +200713,7 @@
           "displayUnlockMonth": 6,
           "acquireTitle": "ホーム背景獲得可能",
           "purchaseTitle": "ホーム背景",
-          "displayName": "ホーム背景",
+          "displayName": "遊園",
           "displayDiscription": "池平らかにして樹は古く、碑を描くの人を見ず。桐の間露落ち、方に両別の懐いを覚ゆ。",
           "bpLevelId": "bp_level_140",
           "itemBundle": null,
@@ -200810,7 +200842,7 @@
           "paramList": [
             "10"
           ],
-          "desc": "【怪しい旅商人】または【歳陵の行商人】スポットで累計10個の商品を購入",
+          "desc": "【怪しい旅商人】または【易与】スポットで累計10個の商品を購入",
           "tokenRewardNum": 125
         },
         {
@@ -221606,7 +221638,7 @@
                 {
                   "key": "key",
                   "value": 0.0,
-                  "valueStr": "rogue_5_modify_cost[token&trap]"
+                  "valueStr": "rogue_5_modify_cost[trap]"
                 },
                 {
                   "key": "value",
@@ -221622,6 +221654,21 @@
                   "key": "selector.profession",
                   "value": 0.0,
                   "valueStr": "trap"
+                }
+              ]
+            },
+            {
+              "key": "char_attribute_add",
+              "blackboard": [
+                {
+                  "key": "selector.profession",
+                  "value": 0.0,
+                  "valueStr": "token"
+                },
+                {
+                  "key": "cost",
+                  "value": -10.0,
+                  "valueStr": null
                 }
               ]
             }
@@ -237853,7 +237900,7 @@
         "choice_ro5_chest_4": {
           "id": "choice_ro5_chest_4",
           "title": "謎解きを試みる",
-          "description": "通宝を振り、花銭が1枚以上出たら、上記の<@ro5.get>全て</>の秘宝を同時に獲得",
+          "description": "通宝を振り、花銭が1枚以上出たら、上記の<@ro5.get>すべての</>の秘宝を同時に獲得",
           "lockedCoverDesc": "（花銭を<@ro5.get>1</>枚以上所持していると選択可能）",
           "type": "WISH",
           "leftDecoType": "NONE",
@@ -237913,7 +237960,7 @@
         "choice_ro5_chest_7": {
           "id": "choice_ro5_chest_7",
           "title": "どういうことだ？",
-          "description": "秘宝を<@ro5.get>全て</>獲得した",
+          "description": "秘宝を<@ro5.get>すべて</>獲得した",
           "lockedCoverDesc": null,
           "type": "NEXT",
           "leftDecoType": "NONE",
@@ -257293,7 +257340,7 @@
         "choice_ro5_end3_1": {
           "id": "choice_ro5_end3_1",
           "title": "他の者たちを歳の陵墓から送り出す",
-          "description": "きっとすぐに戻れる\r\n<@ro5.lose>巻物に入ったオペレーターは一時的に離脱し、巻物に入ったオペレーターのみが【明滅頂】の最終戦闘に参加できる</>",
+          "description": "きっとすぐに戻れる\r\n<@ro5.lose>巻物に入っていないオペレーターは一時的に離脱し、巻物に入ったオペレーターのみが【明滅頂】の最終戦闘に参加できる</>",
           "lockedCoverDesc": "",
           "type": "EXPEDITION_RETURN_ALL",
           "leftDecoType": "NONE",
@@ -265551,20 +265598,6 @@
             "さまざまな通宝を活用することで、よりスムーズに探索を進めることができます。",
             "燭火を計画的に使用することで、よりスムーズに歳獣の残識の探索を進めることができます。"
           ]
-        },
-        "CHALLENGE": {
-          "randomDescriptionList": [
-            "進行ルートは慎重に計画しましょう。一歩ごとの決断が全て重要になります。",
-            "マップで獲得できる資源を最大限活用すれば、探索が更にスムーズになります。",
-            "合理的にオペレーターを選択し編成に組み込めば、戦闘が更にスムーズになります。",
-            "【統合戦略】での戦闘スポットの内容はランダムに変化します。その変化の規則性を掌握すれば、戦闘が更にスムーズになります。",
-            "界園の中の道筋は絶えず変化しており、すべての道が平坦であるとは限りません。気を落とさずに再挑戦しましょう。",
-            "界園の道中には数多の危険が潜んでいます。源石錐をうまく利用すれば、よりスムーズに探索を進めることができます。",
-            "界園の道中には数多の危険が潜んでいます。希望を合理的に利用することで、よりスムーズに探索を進めることができます。",
-            "さまざまな通宝を活用することで、よりスムーズに探索を進めることができます。",
-            "燭火を計画的に使用することで、よりスムーズに歳獣の残識の探索を進めることができます。",
-            "遊覧は不意に終わりを告げましたが、まだ界園を探索する力を磨くチャンスは残されています。"
-          ]
         }
       },
       "battleLoadingTips": [
@@ -272639,7 +272672,7 @@
           "id": "rogue_5_relic_fight_5",
           "name": "賞善郎",
           "description": "天師府の学生が独自開発した入学試験補助装置。問題に正解しても何ももらえないが、答えを間違うと……いや、やめておいた方が良いだろう。",
-          "usage": "オペレーターが攻撃を回避または無効化した際、次の攻撃で与えるダメージ+100%",
+          "usage": "味方ユニットが攻撃を回避または無効化した際、次の攻撃で与えるダメージ+100%",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_relic_fight_5",
           "itemIconGroupId": null,
@@ -272690,7 +272723,7 @@
           "id": "rogue_5_relic_fight_8",
           "name": "「蛍火に照らされる書物」",
           "description": "校舎の窓辺に置いた故郷の盆栽は次第に枯れてゆくが、書生はそれを捨てるに忍びなかった。やがて、鉢の中の草はすっかり消え、代わりに鉢の上で渦巻く蛍火が彼の読む書物を照らした。",
-          "usage": "敵が撃破された際、周囲のオペレーター及び召喚物のHPを300回復",
+          "usage": "敵が撃破された際、周囲の味方ユニットのHPを300回復",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_relic_fight_8",
           "itemIconGroupId": null,
@@ -273149,7 +273182,7 @@
           "id": "rogue_5_relic_explore_7",
           "name": "子武の剣",
           "description": "歳獣の残識が第一の時辰に入骨し、凝縮されて形を持った物であり、刃の形を取っている。戦いを以て鍛えれば、その鋭い怒りが見えてくる。",
-          "usage": "滞在中または次に入る【歳獣の残識】において、すべての【禍乱】が探索可能状態になる。【禍乱】を1つ通過するごとに、全てのオペレーターの再配置時間-5%（最大6回まで重複可能）",
+          "usage": "滞在中または次に入る【歳獣の残識】において、すべての【禍乱】が探索可能状態になる。【禍乱】を1つ通過するごとに、全てのオペレーターの再配置時間-5%（最大6回まで）",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_relic_explore_7",
           "itemIconGroupId": null,
@@ -273160,7 +273193,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "滞在中または次に入る【歳獣の残識】において、すべての【禍乱】が探索可能状態になる。【禍乱】を1つ通過するごとに、全てのオペレーターの再配置時間-5%（最大6回まで重複可能）"
+          "shortUsage": "滞在中または次に入る【歳獣の残識】において、すべての【禍乱】が探索可能状態になる。【禍乱】を1つ通過するごとに、全てのオペレーターの再配置時間-5%（最大6回まで）"
         },
         "rogue_5_relic_explore_8": {
           "id": "rogue_5_relic_explore_8",
@@ -274441,7 +274474,7 @@
           "id": "rogue_5_copper_buff_B_02_a",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_02_a",
           "itemIconGroupId": null,
@@ -274458,7 +274491,7 @@
           "id": "rogue_5_copper_buff_B_02_b",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+2</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+2</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_02_b",
           "itemIconGroupId": null,
@@ -274475,7 +274508,7 @@
           "id": "rogue_5_copper_buff_B_02_c",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n存護：銭匣に収まる際、シールド値+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n存護：銭匣に収まる際、シールド値+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_02_c",
           "itemIconGroupId": null,
@@ -274492,7 +274525,7 @@
           "id": "rogue_5_copper_buff_B_02_d",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n入幻：振り出されると、戦闘が終了するたび、希望+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n入幻：振り出されると、戦闘が終了するたび、希望+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_02_d",
           "itemIconGroupId": null,
@@ -274509,7 +274542,7 @@
           "id": "rogue_5_copper_buff_B_02_e",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_02_e",
           "itemIconGroupId": null,
@@ -274526,7 +274559,7 @@
           "id": "rogue_5_copper_buff_B_02_f",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_02_f",
           "itemIconGroupId": null,
@@ -274645,7 +274678,7 @@
           "id": "rogue_5_copper_buff_B_04_a",
           "name": "厲-南に山を見る",
           "description": "UNUSED",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_04_a",
           "itemIconGroupId": null,
@@ -274662,7 +274695,7 @@
           "id": "rogue_5_copper_buff_B_04_b",
           "name": "厲-南に山を見る",
           "description": "UNUSED",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+2</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+2</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_04_b",
           "itemIconGroupId": null,
@@ -274679,7 +274712,7 @@
           "id": "rogue_5_copper_buff_B_04_c",
           "name": "厲-南に山を見る",
           "description": "UNUSED",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n存護：銭匣に収まる際、シールド値+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n存護：銭匣に収まる際、シールド値+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_04_c",
           "itemIconGroupId": null,
@@ -274696,7 +274729,7 @@
           "id": "rogue_5_copper_buff_B_04_d",
           "name": "厲-南に山を見る",
           "description": "UNUSED",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n入幻：振り出されると、戦闘が終了するたび、希望+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n入幻：振り出されると、戦闘が終了するたび、希望+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_04_d",
           "itemIconGroupId": null,
@@ -274713,7 +274746,7 @@
           "id": "rogue_5_copper_buff_B_04_e",
           "name": "厲-南に山を見る",
           "description": "UNUSED",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_04_e",
           "itemIconGroupId": null,
@@ -274730,7 +274763,7 @@
           "id": "rogue_5_copper_buff_B_04_f",
           "name": "厲-南に山を見る",
           "description": "UNUSED",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_04_f",
           "itemIconGroupId": null,
@@ -274747,7 +274780,7 @@
           "id": "rogue_5_copper_buff_B_05_a",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_05_a",
           "itemIconGroupId": null,
@@ -274764,7 +274797,7 @@
           "id": "rogue_5_copper_buff_B_05_b",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+2</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+2</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_05_b",
           "itemIconGroupId": null,
@@ -274781,7 +274814,7 @@
           "id": "rogue_5_copper_buff_B_05_c",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n存護：銭匣に収まる際、シールド値+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n存護：銭匣に収まる際、シールド値+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_05_c",
           "itemIconGroupId": null,
@@ -274798,7 +274831,7 @@
           "id": "rogue_5_copper_buff_B_05_d",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n入幻：振り出されると、戦闘が終了するたび、希望+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n入幻：振り出されると、戦闘が終了するたび、希望+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_05_d",
           "itemIconGroupId": null,
@@ -274815,7 +274848,7 @@
           "id": "rogue_5_copper_buff_B_05_e",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_05_e",
           "itemIconGroupId": null,
@@ -274832,7 +274865,7 @@
           "id": "rogue_5_copper_buff_B_05_f",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_buff_B_05_f",
           "itemIconGroupId": null,
@@ -276887,7 +276920,7 @@
         },
         "rogue_5_copper_buff_F_16_a": {
           "id": "rogue_5_copper_buff_F_16_a",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "UNUSED",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%",
           "obtainApproach": "統合戦略報酬",
@@ -276904,7 +276937,7 @@
         },
         "rogue_5_copper_buff_F_16_b": {
           "id": "rogue_5_copper_buff_F_16_b",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "UNUSED",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+2</color>",
           "obtainApproach": "統合戦略報酬",
@@ -276921,7 +276954,7 @@
         },
         "rogue_5_copper_buff_F_16_c": {
           "id": "rogue_5_copper_buff_F_16_c",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "UNUSED",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%<color=#2fac78>\n存護：銭匣に収まる際、シールド値+1</color>",
           "obtainApproach": "統合戦略報酬",
@@ -276938,7 +276971,7 @@
         },
         "rogue_5_copper_buff_F_16_d": {
           "id": "rogue_5_copper_buff_F_16_d",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "UNUSED",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%<color=#2fac78>\n入幻：振り出されると、戦闘が終了するたび、希望+1</color>",
           "obtainApproach": "統合戦略報酬",
@@ -276955,7 +276988,7 @@
         },
         "rogue_5_copper_buff_F_16_e": {
           "id": "rogue_5_copper_buff_F_16_e",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "UNUSED",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
           "obtainApproach": "統合戦略報酬",
@@ -276972,7 +277005,7 @@
         },
         "rogue_5_copper_buff_F_16_f": {
           "id": "rogue_5_copper_buff_F_16_f",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "UNUSED",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
           "obtainApproach": "統合戦略報酬",
@@ -282278,7 +282311,7 @@
           "id": "rogue_5_copper_B_02_a",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_02_a",
           "itemIconGroupId": "rogue_5_copper_B_02",
@@ -282295,7 +282328,7 @@
           "id": "rogue_5_copper_B_02_b",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_02_b",
           "itemIconGroupId": "rogue_5_copper_B_02",
@@ -282312,7 +282345,7 @@
           "id": "rogue_5_copper_B_02_c",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n存護：銭匣に収まる際、シールド値+2</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n存護：銭匣に収まる際、シールド値+2</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_02_c",
           "itemIconGroupId": "rogue_5_copper_B_02",
@@ -282329,7 +282362,7 @@
           "id": "rogue_5_copper_B_02_d",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n入幻：銭匣に収まる際、希望+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n入幻：銭匣に収まる際、希望+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_02_d",
           "itemIconGroupId": "rogue_5_copper_B_02",
@@ -282346,7 +282379,7 @@
           "id": "rogue_5_copper_B_02_e",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_02_e",
           "itemIconGroupId": "rogue_5_copper_B_02",
@@ -282363,7 +282396,7 @@
           "id": "rogue_5_copper_B_02_f",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_02_f",
           "itemIconGroupId": "rogue_5_copper_B_02",
@@ -282482,7 +282515,7 @@
           "id": "rogue_5_copper_B_04_a",
           "name": "厲-南に山を見る",
           "description": "北に座して南に朝し、門を開きて山を見る。重巒疊嶂として、且に其の勢を禦がんとす。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_04_a",
           "itemIconGroupId": "rogue_5_copper_B_04",
@@ -282499,7 +282532,7 @@
           "id": "rogue_5_copper_B_04_b",
           "name": "厲-南に山を見る",
           "description": "北に座して南に朝し、門を開きて山を見る。重巒疊嶂として、且に其の勢を禦がんとす。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_04_b",
           "itemIconGroupId": "rogue_5_copper_B_04",
@@ -282516,7 +282549,7 @@
           "id": "rogue_5_copper_B_04_c",
           "name": "厲-南に山を見る",
           "description": "北に座して南に朝し、門を開きて山を見る。重巒疊嶂として、且に其の勢を禦がんとす。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n存護：銭匣に収まる際、シールド値+2</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n存護：銭匣に収まる際、シールド値+2</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_04_c",
           "itemIconGroupId": "rogue_5_copper_B_04",
@@ -282533,7 +282566,7 @@
           "id": "rogue_5_copper_B_04_d",
           "name": "厲-南に山を見る",
           "description": "北に座して南に朝し、門を開きて山を見る。重巒疊嶂として、且に其の勢を禦がんとす。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n入幻：銭匣に収まる際、希望+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n入幻：銭匣に収まる際、希望+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_04_d",
           "itemIconGroupId": "rogue_5_copper_B_04",
@@ -282550,7 +282583,7 @@
           "id": "rogue_5_copper_B_04_e",
           "name": "厲-南に山を見る",
           "description": "北に座して南に朝し、門を開きて山を見る。重巒疊嶂として、且に其の勢を禦がんとす。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_04_e",
           "itemIconGroupId": "rogue_5_copper_B_04",
@@ -282567,7 +282600,7 @@
           "id": "rogue_5_copper_B_04_f",
           "name": "厲-南に山を見る",
           "description": "北に座して南に朝し、門を開きて山を見る。重巒疊嶂として、且に其の勢を禦がんとす。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_04_f",
           "itemIconGroupId": "rogue_5_copper_B_04",
@@ -282584,7 +282617,7 @@
           "id": "rogue_5_copper_B_05_a",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_05_a",
           "itemIconGroupId": "rogue_5_copper_B_05",
@@ -282601,7 +282634,7 @@
           "id": "rogue_5_copper_B_05_b",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_05_b",
           "itemIconGroupId": "rogue_5_copper_B_05",
@@ -282618,7 +282651,7 @@
           "id": "rogue_5_copper_B_05_c",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n存護：銭匣に収まる際、シールド値+2</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n存護：銭匣に収まる際、シールド値+2</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_05_c",
           "itemIconGroupId": "rogue_5_copper_B_05",
@@ -282635,7 +282668,7 @@
           "id": "rogue_5_copper_B_05_d",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n入幻：銭匣に収まる際、希望+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n入幻：銭匣に収まる際、希望+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_05_d",
           "itemIconGroupId": "rogue_5_copper_B_05",
@@ -282652,7 +282685,7 @@
           "id": "rogue_5_copper_B_05_e",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_05_e",
           "itemIconGroupId": "rogue_5_copper_B_05",
@@ -282669,7 +282702,7 @@
           "id": "rogue_5_copper_B_05_f",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_copper_B_05_f",
           "itemIconGroupId": "rogue_5_copper_B_05",
@@ -284724,7 +284757,7 @@
         },
         "rogue_5_copper_F_16_a": {
           "id": "rogue_5_copper_F_16_a",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "棋対手に逢えば、相与に成すもの有り。棋上の勝負、謀定めて天を看る。",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%",
           "obtainApproach": "統合戦略報酬",
@@ -284741,7 +284774,7 @@
         },
         "rogue_5_copper_F_16_b": {
           "id": "rogue_5_copper_F_16_b",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "棋対手に逢えば、相与に成すもの有り。棋上の勝負、謀定めて天を看る。",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+1</color>",
           "obtainApproach": "統合戦略報酬",
@@ -284758,7 +284791,7 @@
         },
         "rogue_5_copper_F_16_c": {
           "id": "rogue_5_copper_F_16_c",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "棋対手に逢えば、相与に成すもの有り。棋上の勝負、謀定めて天を看る。",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%<color=#2fac78>\n存護：銭匣に収まる際、シールド値+2</color>",
           "obtainApproach": "統合戦略報酬",
@@ -284775,7 +284808,7 @@
         },
         "rogue_5_copper_F_16_d": {
           "id": "rogue_5_copper_F_16_d",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "棋対手に逢えば、相与に成すもの有り。棋上の勝負、謀定めて天を看る。",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%<color=#2fac78>\n入幻：銭匣に収まる際、希望+1</color>",
           "obtainApproach": "統合戦略報酬",
@@ -284792,7 +284825,7 @@
         },
         "rogue_5_copper_F_16_e": {
           "id": "rogue_5_copper_F_16_e",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "棋対手に逢えば、相与に成すもの有り。棋上の勝負、謀定めて天を看る。",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
           "obtainApproach": "統合戦略報酬",
@@ -284809,7 +284842,7 @@
         },
         "rogue_5_copper_F_16_f": {
           "id": "rogue_5_copper_F_16_f",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "棋対手に逢えば、相与に成すもの有り。棋上の勝負、謀定めて天を看る。",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
           "obtainApproach": "統合戦略報酬",
@@ -287797,7 +287830,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣内にある場合、【先ゆく者】にて持ち帰る遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能"
+          "shortUsage": "銭匣内にある場合、【先ゆく者】から帰還するオペレーターが持ち帰ってくる遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能"
         },
         "rogue_5_copper_R_12_b": {
           "id": "rogue_5_copper_R_12_b",
@@ -287814,7 +287847,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣内にある場合、【先ゆく者】にて持ち帰る遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：錆色></color>"
+          "shortUsage": "銭匣内にある場合、【先ゆく者】から帰還するオペレーターが持ち帰ってくる遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：錆色></color>"
         },
         "rogue_5_copper_R_12_c": {
           "id": "rogue_5_copper_R_12_c",
@@ -287831,7 +287864,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣内にある場合、【先ゆく者】にて持ち帰る遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：存護></color>"
+          "shortUsage": "銭匣内にある場合、【先ゆく者】から帰還するオペレーターが持ち帰ってくる遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：存護></color>"
         },
         "rogue_5_copper_R_12_d": {
           "id": "rogue_5_copper_R_12_d",
@@ -287848,7 +287881,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣内にある場合、【先ゆく者】にて持ち帰る遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：入幻></color>"
+          "shortUsage": "銭匣内にある場合、【先ゆく者】から帰還するオペレーターが持ち帰ってくる遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：入幻></color>"
         },
         "rogue_5_copper_R_12_e": {
           "id": "rogue_5_copper_R_12_e",
@@ -287865,7 +287898,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣内にある場合、【先ゆく者】にて持ち帰る遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：引光></color>"
+          "shortUsage": "銭匣内にある場合、【先ゆく者】から帰還するオペレーターが持ち帰ってくる遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：引光></color>"
         },
         "rogue_5_copper_R_12_f": {
           "id": "rogue_5_copper_R_12_f",
@@ -287882,7 +287915,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣内にある場合、【先ゆく者】にて持ち帰る遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：巡遊></color>"
+          "shortUsage": "銭匣内にある場合、【先ゆく者】から帰還するオペレーターが持ち帰ってくる遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：巡遊></color>"
         },
         "rogue_5_copper_R_13_a": {
           "id": "rogue_5_copper_R_13_a",
@@ -287899,7 +287932,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットを通過するたび、最大耐久値-1（1以下にはならない）"
+          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットに入るたびに最大耐久値-1（0以下にはならない）"
         },
         "rogue_5_copper_R_13_b": {
           "id": "rogue_5_copper_R_13_b",
@@ -287916,7 +287949,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットを通過するたび、最大耐久値-1（1以下にはならない）<color=#2fac78><状態：錆色></color>"
+          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットに入るたびに最大耐久値-1（0以下にはならない）<color=#2fac78><状態：錆色></color>"
         },
         "rogue_5_copper_R_13_c": {
           "id": "rogue_5_copper_R_13_c",
@@ -287933,7 +287966,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットを通過するたび、最大耐久値-1（1以下にはならない）<color=#2fac78><状態：存護></color>"
+          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットに入るたびに最大耐久値-1（0以下にはならない）<color=#2fac78><状態：存護></color>"
         },
         "rogue_5_copper_R_13_d": {
           "id": "rogue_5_copper_R_13_d",
@@ -287950,7 +287983,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットを通過するたび、最大耐久値-1（1以下にはならない）<color=#2fac78><状態：入幻></color>"
+          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットに入るたびに最大耐久値-1（0以下にはならない）<color=#2fac78><状態：入幻></color>"
         },
         "rogue_5_copper_R_13_e": {
           "id": "rogue_5_copper_R_13_e",
@@ -287967,7 +288000,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットを通過するたび、最大耐久値-1（1以下にはならない）<color=#2fac78><状態：引光></color>"
+          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットに入るたびに最大耐久値-1（0以下にはならない）<color=#2fac78><状態：引光></color>"
         },
         "rogue_5_copper_R_13_f": {
           "id": "rogue_5_copper_R_13_f",
@@ -287984,7 +288017,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットを通過するたび、最大耐久値-1（1以下にはならない）<color=#2fac78><状態：巡遊></color>"
+          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットに入るたびに最大耐久値-1（0以下にはならない）<color=#2fac78><状態：巡遊></color>"
         },
         "rogue_5_copper_R_14_a": {
           "id": "rogue_5_copper_R_14_a",
@@ -288375,7 +288408,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "振り出されると、全ての敵の防御力+2000、代わりにダメージを受けるたびに防御力-150（最大25回まで重複可能）<color=#2fac78><状態：引光></color>"
+          "shortUsage": "振り出されると、全ての敵の防御力が+2000されるが、ダメージを受ける度に-150（最大25回まで重複可能）<color=#2fac78><状態：引光></color>"
         },
         "rogue_5_copper_U_2_f": {
           "id": "rogue_5_copper_U_2_f",
@@ -288392,7 +288425,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "振り出されると、全ての敵の防御力+2000、代わりにダメージを受けるたびに防御力-150（最大25回まで重複可能）<color=#2fac78><状態：巡遊></color>"
+          "shortUsage": "振り出されると、全ての敵の防御力が+2000されるが、ダメージを受ける度に-150（最大25回まで重複可能）<color=#2fac78><状態：巡遊></color>"
         },
         "rogue_5_copper_U_3_a": {
           "id": "rogue_5_copper_U_3_a",
@@ -291305,7 +291338,7 @@
           "id": "rogue_5_change_copper_B_02_a",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_02_a",
           "itemIconGroupId": "rogue_5_copper_B_02",
@@ -291322,7 +291355,7 @@
           "id": "rogue_5_change_copper_B_02_b",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_02_b",
           "itemIconGroupId": "rogue_5_copper_B_02",
@@ -291339,7 +291372,7 @@
           "id": "rogue_5_change_copper_B_02_c",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n存護：銭匣に収まる際、シールド値+2</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n存護：銭匣に収まる際、シールド値+2</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_02_c",
           "itemIconGroupId": "rogue_5_copper_B_02",
@@ -291356,7 +291389,7 @@
           "id": "rogue_5_change_copper_B_02_d",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n入幻：銭匣に収まる際、希望+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n入幻：銭匣に収まる際、希望+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_02_d",
           "itemIconGroupId": "rogue_5_copper_B_02",
@@ -291373,7 +291406,7 @@
           "id": "rogue_5_change_copper_B_02_e",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_02_e",
           "itemIconGroupId": "rogue_5_copper_B_02",
@@ -291390,7 +291423,7 @@
           "id": "rogue_5_change_copper_B_02_f",
           "name": "厲-西の廉貞",
           "description": "西は窮山に寄り、怪石嶙峋たり。小人勢を得て、禍心包み蔵す。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%。【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の最大HP・攻撃力+10%、【悪路凶敵】及び【歳獣の残識】では追加で+20%<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_02_f",
           "itemIconGroupId": "rogue_5_copper_B_02",
@@ -291509,7 +291542,7 @@
           "id": "rogue_5_change_copper_B_04_a",
           "name": "厲-南に山を見る",
           "description": "北に座して南に朝し、門を開きて山を見る。重巒疊嶂として、且に其の勢を禦がんとす。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_04_a",
           "itemIconGroupId": "rogue_5_copper_B_04",
@@ -291526,7 +291559,7 @@
           "id": "rogue_5_change_copper_B_04_b",
           "name": "厲-南に山を見る",
           "description": "北に座して南に朝し、門を開きて山を見る。重巒疊嶂として、且に其の勢を禦がんとす。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_04_b",
           "itemIconGroupId": "rogue_5_copper_B_04",
@@ -291543,7 +291576,7 @@
           "id": "rogue_5_change_copper_B_04_c",
           "name": "厲-南に山を見る",
           "description": "北に座して南に朝し、門を開きて山を見る。重巒疊嶂として、且に其の勢を禦がんとす。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n存護：銭匣に収まる際、シールド値+2</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n存護：銭匣に収まる際、シールド値+2</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_04_c",
           "itemIconGroupId": "rogue_5_copper_B_04",
@@ -291560,7 +291593,7 @@
           "id": "rogue_5_change_copper_B_04_d",
           "name": "厲-南に山を見る",
           "description": "北に座して南に朝し、門を開きて山を見る。重巒疊嶂として、且に其の勢を禦がんとす。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n入幻：銭匣に収まる際、希望+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n入幻：銭匣に収まる際、希望+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_04_d",
           "itemIconGroupId": "rogue_5_copper_B_04",
@@ -291577,7 +291610,7 @@
           "id": "rogue_5_change_copper_B_04_e",
           "name": "厲-南に山を見る",
           "description": "北に座して南に朝し、門を開きて山を見る。重巒疊嶂として、且に其の勢を禦がんとす。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_04_e",
           "itemIconGroupId": "rogue_5_copper_B_04",
@@ -291594,7 +291627,7 @@
           "id": "rogue_5_change_copper_B_04_f",
           "name": "厲-南に山を見る",
           "description": "北に座して南に朝し、門を開きて山を見る。重巒疊嶂として、且に其の勢を禦がんとす。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%。【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の防御力+15%、【悪路凶敵】及び【歳獣の残識】では追加で+35%<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_04_f",
           "itemIconGroupId": "rogue_5_copper_B_04",
@@ -291611,7 +291644,7 @@
           "id": "rogue_5_change_copper_B_05_a",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_05_a",
           "itemIconGroupId": "rogue_5_copper_B_05",
@@ -291628,7 +291661,7 @@
           "id": "rogue_5_change_copper_B_05_b",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_05_b",
           "itemIconGroupId": "rogue_5_copper_B_05",
@@ -291645,7 +291678,7 @@
           "id": "rogue_5_change_copper_B_05_c",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n存護：銭匣に収まる際、シールド値+2</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n存護：銭匣に収まる際、シールド値+2</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_05_c",
           "itemIconGroupId": "rogue_5_copper_B_05",
@@ -291662,7 +291695,7 @@
           "id": "rogue_5_change_copper_B_05_d",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n入幻：銭匣に収まる際、希望+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n入幻：銭匣に収まる際、希望+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_05_d",
           "itemIconGroupId": "rogue_5_copper_B_05",
@@ -291679,7 +291712,7 @@
           "id": "rogue_5_change_copper_B_05_e",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_05_e",
           "itemIconGroupId": "rogue_5_copper_B_05",
@@ -291696,7 +291729,7 @@
           "id": "rogue_5_change_copper_B_05_f",
           "name": "厲-東の欠角",
           "description": "天円にして地方なれども、東一角を欠く。言えども耳に入らず、家宅寧らかならず。",
-          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10。【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
+          "usage": "振り出されると、敵【エリート】・【ボス】の術耐性+10、【悪路凶敵】及び【歳獣の残識】では追加で+20<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
           "obtainApproach": "統合戦略報酬",
           "iconId": "rogue_5_change_copper_B_05_f",
           "itemIconGroupId": "rogue_5_copper_B_05",
@@ -293751,7 +293784,7 @@
         },
         "rogue_5_change_copper_F_16_a": {
           "id": "rogue_5_change_copper_F_16_a",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "棋対手に逢えば、相与に成すもの有り。棋上の勝負、謀定めて天を看る。",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%",
           "obtainApproach": "統合戦略報酬",
@@ -293768,7 +293801,7 @@
         },
         "rogue_5_change_copper_F_16_b": {
           "id": "rogue_5_change_copper_F_16_b",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "棋対手に逢えば、相与に成すもの有り。棋上の勝負、謀定めて天を看る。",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%<color=#2fac78>\n錆色：振り出されると、スポットを通過するたび、源石錐+1</color>",
           "obtainApproach": "統合戦略報酬",
@@ -293785,7 +293818,7 @@
         },
         "rogue_5_change_copper_F_16_c": {
           "id": "rogue_5_change_copper_F_16_c",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "棋対手に逢えば、相与に成すもの有り。棋上の勝負、謀定めて天を看る。",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%<color=#2fac78>\n存護：銭匣に収まる際、シールド値+2</color>",
           "obtainApproach": "統合戦略報酬",
@@ -293802,7 +293835,7 @@
         },
         "rogue_5_change_copper_F_16_d": {
           "id": "rogue_5_change_copper_F_16_d",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "棋対手に逢えば、相与に成すもの有り。棋上の勝負、謀定めて天を看る。",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%<color=#2fac78>\n入幻：銭匣に収まる際、希望+1</color>",
           "obtainApproach": "統合戦略報酬",
@@ -293819,7 +293852,7 @@
         },
         "rogue_5_change_copper_F_16_e": {
           "id": "rogue_5_change_copper_F_16_e",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "棋対手に逢えば、相与に成すもの有り。棋上の勝負、謀定めて天を看る。",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%<color=#2fac78>\n引光：銭匣に収まる際、燭火+1</color>",
           "obtainApproach": "統合戦略報酬",
@@ -293836,7 +293869,7 @@
         },
         "rogue_5_change_copper_F_16_f": {
           "id": "rogue_5_change_copper_F_16_f",
-          "name": "厲-良弈に遇う",
+          "name": "厲-良奕に遇う",
           "description": "棋対手に逢えば、相与に成すもの有り。棋上の勝負、謀定めて天を看る。",
           "usage": "振り出されると、全ての敵の攻撃力+25%、味方の攻撃力+60%<color=#2fac78>\n巡遊：振り出されると、戦闘が終了するたび、遊覧券+1</color>",
           "obtainApproach": "統合戦略報酬",
@@ -296824,7 +296857,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣内にある場合、【先ゆく者】にて持ち帰る遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能"
+          "shortUsage": "銭匣内にある場合、【先ゆく者】から帰還するオペレーターが持ち帰ってくる遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能"
         },
         "rogue_5_change_copper_R_12_b": {
           "id": "rogue_5_change_copper_R_12_b",
@@ -296841,7 +296874,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣内にある場合、【先ゆく者】にて持ち帰る遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：錆色></color>"
+          "shortUsage": "銭匣内にある場合、【先ゆく者】から帰還するオペレーターが持ち帰ってくる遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：錆色></color>"
         },
         "rogue_5_change_copper_R_12_c": {
           "id": "rogue_5_change_copper_R_12_c",
@@ -296858,7 +296891,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣内にある場合、【先ゆく者】にて持ち帰る遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：存護></color>"
+          "shortUsage": "銭匣内にある場合、【先ゆく者】から帰還するオペレーターが持ち帰ってくる遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：存護></color>"
         },
         "rogue_5_change_copper_R_12_d": {
           "id": "rogue_5_change_copper_R_12_d",
@@ -296875,7 +296908,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣内にある場合、【先ゆく者】にて持ち帰る遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：入幻></color>"
+          "shortUsage": "銭匣内にある場合、【先ゆく者】から帰還するオペレーターが持ち帰ってくる遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：入幻></color>"
         },
         "rogue_5_change_copper_R_12_e": {
           "id": "rogue_5_change_copper_R_12_e",
@@ -296892,7 +296925,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣内にある場合、【先ゆく者】にて持ち帰る遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：引光></color>"
+          "shortUsage": "銭匣内にある場合、【先ゆく者】から帰還するオペレーターが持ち帰ってくる遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：引光></color>"
         },
         "rogue_5_change_copper_R_12_f": {
           "id": "rogue_5_change_copper_R_12_f",
@@ -296909,7 +296942,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣内にある場合、【先ゆく者】にて持ち帰る遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：巡遊></color>"
+          "shortUsage": "銭匣内にある場合、【先ゆく者】から帰還するオペレーターが持ち帰ってくる遊覧券が増加。【界園】で振り出されると、スポットを【先ゆく者】に更新できる。1回のみ使用可能<color=#2fac78><状態：巡遊></color>"
         },
         "rogue_5_change_copper_R_13_a": {
           "id": "rogue_5_change_copper_R_13_a",
@@ -296926,7 +296959,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットを通過するたび、最大耐久値-1（1以下にはならない）"
+          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットに入るたびに最大耐久値-1（0以下にはならない）"
         },
         "rogue_5_change_copper_R_13_b": {
           "id": "rogue_5_change_copper_R_13_b",
@@ -296943,7 +296976,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットを通過するたび、最大耐久値-1（1以下にはならない）<color=#2fac78><状態：錆色></color>"
+          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットに入るたびに最大耐久値-1（0以下にはならない）<color=#2fac78><状態：錆色></color>"
         },
         "rogue_5_change_copper_R_13_c": {
           "id": "rogue_5_change_copper_R_13_c",
@@ -296960,7 +296993,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットを通過するたび、最大耐久値-1（1以下にはならない）<color=#2fac78><状態：存護></color>"
+          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットに入るたびに最大耐久値-1（0以下にはならない）<color=#2fac78><状態：存護></color>"
         },
         "rogue_5_change_copper_R_13_d": {
           "id": "rogue_5_change_copper_R_13_d",
@@ -296977,7 +297010,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットを通過するたび、最大耐久値-1（1以下にはならない）<color=#2fac78><状態：入幻></color>"
+          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットに入るたびに最大耐久値-1（0以下にはならない）<color=#2fac78><状態：入幻></color>"
         },
         "rogue_5_change_copper_R_13_e": {
           "id": "rogue_5_change_copper_R_13_e",
@@ -296994,7 +297027,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットを通過するたび、最大耐久値-1（1以下にはならない）<color=#2fac78><状態：引光></color>"
+          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットに入るたびに最大耐久値-1（0以下にはならない）<color=#2fac78><状態：引光></color>"
         },
         "rogue_5_change_copper_R_13_f": {
           "id": "rogue_5_change_copper_R_13_f",
@@ -297011,7 +297044,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットを通過するたび、最大耐久値-1（1以下にはならない）<color=#2fac78><状態：巡遊></color>"
+          "shortUsage": "銭匣に収まる際、最大耐久値+6。振り出されると、非戦闘スポットに入るたびに最大耐久値-1（0以下にはならない）<color=#2fac78><状態：巡遊></color>"
         },
         "rogue_5_change_copper_R_14_a": {
           "id": "rogue_5_change_copper_R_14_a",
@@ -297402,7 +297435,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "振り出されると、全ての敵の防御力+2000、代わりにダメージを受けるたびに防御力-150（最大25回まで重複可能）<color=#2fac78><状態：引光></color>"
+          "shortUsage": "振り出されると、全ての敵の防御力が+2000されるが、ダメージを受ける度に-150（最大25回まで重複可能）<color=#2fac78><状態：引光></color>"
         },
         "rogue_5_change_copper_U_2_f": {
           "id": "rogue_5_change_copper_U_2_f",
@@ -297419,7 +297452,7 @@
           "canSacrifice": true,
           "tinyIconColor": null,
           "unlockCondDesc": null,
-          "shortUsage": "振り出されると、全ての敵の防御力+2000、代わりにダメージを受けるたびに防御力-150（最大25回まで重複可能）<color=#2fac78><状態：巡遊></color>"
+          "shortUsage": "振り出されると、全ての敵の防御力が+2000されるが、ダメージを受ける度に-150（最大25回まで重複可能）<color=#2fac78><状態：巡遊></color>"
         },
         "rogue_5_change_copper_U_3_a": {
           "id": "rogue_5_change_copper_U_3_a",
@@ -300271,10 +300304,6 @@
       "styles": {
         "rogue_5_style_default": {
           "styleId": "rogue_5_style_default",
-          "styleConfig": 0
-        },
-        "rogue_5_style_challenge": {
-          "styleId": "rogue_5_style_challenge",
           "styleConfig": 0
         }
       },
@@ -323197,7 +323226,7 @@
           "rogue_5_copperEve_7": {
             "eventId": "rogue_5_copperEve_7",
             "groupId": "rogue_5_coppergame_3",
-            "showDesc": "全ての秘宝を獲得",
+            "showDesc": "すべての秘宝を獲得",
             "divineType": "EVENT",
             "resultType": "GOOD"
           },
@@ -334692,7 +334721,7 @@
             "bottomIconId": "rogue_5_grow_icon_extend_active",
             "effectType": "BUFF",
             "rawDesc": [
-              "洪陸楼と山水閣にランダムなスポットが追加。始末陵に【怪しい旅商人】と【燭火の導き】が必ず出現"
+              "洪陸楼、山水閣にランダムなスポットが追加で出現し、始末陵に必ず【怪しい旅商人】と【燭火の導き】が出現するようになる"
             ],
             "buffDisplayInfo": [],
             "groupId": "group_1",
