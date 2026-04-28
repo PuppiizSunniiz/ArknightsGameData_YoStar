@@ -10,6 +10,7 @@
     "isTrainingLevel": true,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
+    "displayRestTime": false,
     "maxPlayTime": -1.0,
     "functionDisableMask": "NONE",
     "configBlackBoard": null
@@ -1002,6 +1003,7 @@
       ]
     }
   ],
+  "optionalRunes": null,
   "globalBuffs": null,
   "routes": [
     {
@@ -4767,6 +4769,10 @@
             "m_defined": false,
             "m_value": 0.0
           },
+          "epBreakRecoverSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": true,
             "m_value": true
@@ -4794,6 +4800,14 @@
           "fearedImmune": {
             "m_defined": true,
             "m_value": true
+          },
+          "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -5944,6 +5958,8 @@
         "hidden": false,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "char_102_texas",
           "level": 10,
@@ -5966,6 +5982,8 @@
         "hidden": false,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "char_140_whitew",
           "level": 10,
@@ -5988,6 +6006,8 @@
         "hidden": false,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "char_4065_judge",
           "level": 10,
@@ -6010,6 +6030,8 @@
         "hidden": false,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "char_356_broca",
           "level": 10,
@@ -6030,6 +6052,8 @@
         "hidden": false,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "char_346_aosta",
           "level": 10,
@@ -6047,6 +6071,8 @@
         "hidden": false,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "char_145_prove",
           "level": 10,
@@ -6064,6 +6090,8 @@
         "hidden": false,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "char_427_vigil",
           "level": 10,
@@ -6081,6 +6109,8 @@
         "hidden": false,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "char_144_red",
           "level": 10,
@@ -6101,6 +6131,8 @@
         "hidden": true,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "trap_186_cnvfwks",
           "level": 1,
