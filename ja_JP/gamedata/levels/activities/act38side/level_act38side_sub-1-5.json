@@ -10,6 +10,7 @@
     "isTrainingLevel": false,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
+    "displayRestTime": false,
     "maxPlayTime": -1.0,
     "functionDisableMask": "NONE",
     "configBlackBoard": null
@@ -1320,7 +1321,7 @@
         {
           "key": "activity_dependent_ui_plugin_name",
           "value": 0.0,
-          "valueStr": "act38side"
+          "valueStr": "act38sre"
         }
       ]
     },
@@ -1428,6 +1429,7 @@
       ]
     }
   ],
+  "optionalRunes": null,
   "globalBuffs": null,
   "routes": [
     {
@@ -7601,6 +7603,10 @@
             "m_defined": false,
             "m_value": 0.0
           },
+          "epBreakRecoverSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": true
@@ -7628,6 +7634,14 @@
           "fearedImmune": {
             "m_defined": false,
             "m_value": true
+          },
+          "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -8922,6 +8936,8 @@
         "hidden": true,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "trap_186_cnvfwks",
           "level": 1,
