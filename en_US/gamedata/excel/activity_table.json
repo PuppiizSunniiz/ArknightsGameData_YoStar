@@ -277533,6 +277533,136 @@
             "effectId": "aceffect_band_50",
             "victorCount": 3,
             "bandRewardModulus": 1.0
+          },
+          "band_doberm": {
+            "bandId": "band_doberm",
+            "sortId": 21,
+            "modeTypeList": [
+              "SINGLE",
+              "MULTI"
+            ],
+            "bandDesc": "[Extra Training!] Obtain 1 'Pointing Stick' special Arts every 2 rounds: When used, adds extra enemies to the field and grants extra funds if the battle is perfectly cleared on your own",
+            "totalHp": 30,
+            "effectId": "aceffect_band_25",
+            "victorCount": 3,
+            "bandRewardModulus": 1.0
+          },
+          "band_cathy": {
+            "bandId": "band_cathy",
+            "sortId": 22,
+            "modeTypeList": [
+              "SINGLE",
+              "MULTI"
+            ],
+            "bandDesc": "[Targeted Drop] Whenever the Dispatch Center is upgraded, the shop offers 1 free Equipment with 3 options to choose from",
+            "totalHp": 26,
+            "effectId": "aceffect_band_26",
+            "victorCount": 3,
+            "bandRewardModulus": 1.0
+          },
+          "band_malkie": {
+            "bandId": "band_malkie",
+            "sortId": 23,
+            "modeTypeList": [
+              "SINGLE",
+              "MULTI"
+            ],
+            "bandDesc": "[Commercial Packaging] Start with 1 Commercial Packaging Plan: For every 8 Operators sold, obtain 1 copy of the equipped Operator",
+            "totalHp": 30,
+            "effectId": "aceffect_band_27",
+            "victorCount": 3,
+            "bandRewardModulus": 1.0
+          },
+          "band_qalaisa": {
+            "bandId": "band_qalaisa",
+            "sortId": 24,
+            "modeTypeList": [
+              "SINGLE",
+              "MULTI"
+            ],
+            "bandDesc": "[Scavenger Butterfly] When an allied Operator is defeated, other allied units on the field gain +20% ATK (Max 200%, and lasts until Operators are defeated or the battle ends)",
+            "totalHp": 26,
+            "effectId": "aceffect_band_35",
+            "victorCount": 3,
+            "bandRewardModulus": 1.0
+          },
+          "band_chen": {
+            "bandId": "band_chen",
+            "sortId": 25,
+            "modeTypeList": [
+              "SINGLE",
+              "MULTI"
+            ],
+            "bandDesc": "[Personal Power] High Ground Operators deal Weakness damage (When dealing Physical or Arts damage, change damage type depending on the target's DEF and RES)",
+            "totalHp": 22,
+            "effectId": "aceffect_band_39",
+            "victorCount": 3,
+            "bandRewardModulus": 1.0
+          },
+          "band_damaztic": {
+            "bandId": "band_damaztic",
+            "sortId": 26,
+            "modeTypeList": [
+              "SINGLE",
+              "MULTI"
+            ],
+            "bandDesc": "[Damazti Isomorphism] In Round 5, obtain Damazti Isomorph: When equipped together with certain other equipment, the equipped Operator is treated as a member of a specific Alliance",
+            "totalHp": 29,
+            "effectId": "aceffect_band_40",
+            "victorCount": 3,
+            "bandRewardModulus": 1.0
+          },
+          "band_pith": {
+            "bandId": "band_pith",
+            "sortId": 27,
+            "modeTypeList": [
+              "SINGLE",
+              "MULTI"
+            ],
+            "bandDesc": "[Top Student] In Round 1, gain 1 special Operator that can deal Nervous Impairment, Burn, or Necrosis. This Operator also belongs to the Harmony Alliance: +1 Operator count to some Alliances",
+            "totalHp": 24,
+            "effectId": "aceffect_band_42",
+            "victorCount": 3,
+            "bandRewardModulus": 1.0
+          },
+          "band_dusk": {
+            "bandId": "band_dusk",
+            "sortId": 28,
+            "modeTypeList": [
+              "SINGLE",
+              "MULTI"
+            ],
+            "bandDesc": "[Painted into Reality] In Round 1, obtain Special Arts Dusk's Scroll: On use, can copy 1 Operator within use range (Includes that Operator's Elite status and carried Equipment)",
+            "totalHp": 28,
+            "effectId": "aceffect_band_45",
+            "victorCount": 3,
+            "bandRewardModulus": 1.0
+          },
+          "band_cannot": {
+            "bandId": "band_cannot",
+            "sortId": 29,
+            "modeTypeList": [
+              "SINGLE",
+              "MULTI"
+            ],
+            "bandDesc": "[Compound Interest] Leftover Funds can be saved for the next round. When there are at least 5 Funds left, gain 1 extra Funds per round",
+            "totalHp": 27,
+            "effectId": "aceffect_band_34",
+            "victorCount": 3,
+            "bandRewardModulus": 1.0
+          },
+          "band_ducklord": {
+            "bandId": "band_ducklord",
+            "sortId": 30,
+            "modeTypeList": [
+              "SINGLE",
+              "MULTI"
+            ],
+            "bandDesc": "['Mystery Customer'] From Round 5 onwards, some enemies you and your teammates encounter may be replaced with <Duck Lord>, <Gopnik>, <Crying Thief>, or <Fatty>. Defeating them (even during Unite Phases) will grant 1 Funds",
+            "totalHp": 29,
+            "effectId": "aceffect_band_49",
+            "victorCount": 3,
+            "bandRewardModulus": 1.0
           }
         },
         "charChessDataDict": {
@@ -307340,7 +307470,7 @@
             "visiShip"
           ],
           "milestoneTrackId": "act1autochess_milestone_expand",
-          "bandNextUpdateTs": 1778252400,
+          "bandNextUpdateTs": -1,
           "escapedBattleTemplateMapSinglePlayer": "Activities/ACT1AUTOCHESS/level_act1autochess_escaped_single",
           "escapedBattleTemplateMapMultiPlayer": "Activities/ACT1AUTOCHESS/level_act1autochess_escaped_multi",
           "webBusType": "ak_act1autochess"
@@ -343436,6 +343566,66 @@
         "bandName": "Yu",
         "bandIconId": "icon_yu",
         "unlockDesc": "Unlocks after clearing 9 rounds in a Standard Simulation"
+      },
+      "band_doberm": {
+        "bandId": "band_doberm",
+        "bandName": "Dobermann",
+        "bandIconId": "icon_doberm",
+        "unlockDesc": "Unlocks after clearing any 1 simulation"
+      },
+      "band_cathy": {
+        "bandId": "band_cathy",
+        "bandName": "Catherine",
+        "bandIconId": "icon_cathy",
+        "unlockDesc": null
+      },
+      "band_malkie": {
+        "bandId": "band_malkie",
+        "bandName": "Malkiewicz",
+        "bandIconId": "icon_malkie",
+        "unlockDesc": "Unlocks after clearing any 1 simulation"
+      },
+      "band_qalaisa": {
+        "bandId": "band_qalaisa",
+        "bandName": "Qalaiša",
+        "bandIconId": "icon_qalaisa",
+        "unlockDesc": "Unlocks after clearing any 1 simulation"
+      },
+      "band_chen": {
+        "bandId": "band_chen",
+        "bandName": "Ch'en",
+        "bandIconId": "icon_chen",
+        "unlockDesc": null
+      },
+      "band_damaztic": {
+        "bandId": "band_damaztic",
+        "bandName": "'Damazti Cluster'",
+        "bandIconId": "icon_damaztic",
+        "unlockDesc": "Unlocks after clearing any 1 simulation"
+      },
+      "band_pith": {
+        "bandId": "band_pith",
+        "bandName": "Pith",
+        "bandIconId": "icon_pith",
+        "unlockDesc": null
+      },
+      "band_dusk": {
+        "bandId": "band_dusk",
+        "bandName": "Dusk",
+        "bandIconId": "icon_dusk",
+        "unlockDesc": "Unlocks after clearing any 1 simulation"
+      },
+      "band_cannot": {
+        "bandId": "band_cannot",
+        "bandName": "Cannot",
+        "bandIconId": "icon_cannot",
+        "unlockDesc": null
+      },
+      "band_ducklord": {
+        "bandId": "band_ducklord",
+        "bandName": "Duck Lord",
+        "bandIconId": "icon_ducklord",
+        "unlockDesc": "Unlocks after clearing any 1 simulation"
       }
     },
     "cultivateEffectList": [
