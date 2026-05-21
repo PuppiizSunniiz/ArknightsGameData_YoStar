@@ -1,5 +1,96 @@
 {
   "basicInfo": {
+    "act57sign": {
+      "id": "act57sign",
+      "type": "CHECKIN_ONLY",
+      "displayType": "NONE",
+      "name": "Commemorative Sign-In Event",
+      "startTime": 1782817200,
+      "endTime": 1783681199,
+      "rewardEndTime": 1783681199,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act6bossrush": {
+      "id": "act6bossrush",
+      "type": "BOSS_RUSH",
+      "displayType": "NONE",
+      "name": "Trials for Navigator",
+      "startTime": 1781175600,
+      "endTime": 1782385199,
+      "rewardEndTime": 1782644399,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_activity_6bossrush_01",
+        "medal_activity_6bossrush_02"
+      ],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act39sre": {
+      "id": "act39sre",
+      "type": "TYPE_ACT9D0",
+      "displayType": "SIDESTORY",
+      "name": "Exodus from the Pale Sea - Rerun",
+      "startTime": 1780657200,
+      "endTime": 1781521199,
+      "rewardEndTime": 1781866799,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act39sre",
+      "medalGroupId": "medalGroupActivity39side",
+      "ungroupedMedalIds": null,
+      "isReplicate": true,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act47side": {
+      "id": "act47side",
+      "type": "TYPE_ACT9D0",
+      "displayType": "SIDESTORY",
+      "name": "Unrealized Realities",
+      "startTime": 1779375600,
+      "endTime": 1780570799,
+      "rewardEndTime": 1781175599,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act47side",
+      "medalGroupId": "medalGroupActivity47side",
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act1autochess": {
       "id": "act1autochess",
       "type": "AUTOCHESS_SEASON",
@@ -5962,6 +6053,13 @@
     }
   },
   "homeActConfig": {
+    "act57sign": {
+      "actId": "act57sign",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "b58e50",
+      "actTopBarText": "Commemorative Sign-In Event"
+    },
     "act56sign": {
       "actId": "act56sign",
       "isPopupAfterCheckin": false,
@@ -6902,6 +7000,11 @@
     }
   },
   "zoneToActivity": {
+    "act6bossrush_zone1": "act6bossrush",
+    "act39sre_zone1": "act39sre",
+    "act39sre_zone2": "act39sre",
+    "act47side_zone1": "act47side",
+    "act47side_zone2": "act47side",
     "act1autochess_zone1": "act1autochess",
     "act38sre_zone1": "act38sre",
     "act38sre_zone2": "act38sre",
@@ -7158,6 +7261,2028 @@
   },
   "actTimeTrackPoint": {},
   "missionData": [
+    {
+      "id": "6bossrushActivity_1",
+      "sortId": 1,
+      "description": "Complete Basic Trial: TN-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6bossrush_01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6bossrush_milestone_point",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6bossrushActivity_2",
+      "sortId": 2,
+      "description": "Complete Basic Trial: TN-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6bossrush_02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6bossrush_milestone_point",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6bossrushActivity_3",
+      "sortId": 3,
+      "description": "Complete Basic Trial: TN-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6bossrush_03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6bossrush_milestone_point",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6bossrushActivity_4",
+      "sortId": 4,
+      "description": "Complete Basic Trial: TN-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act6bossrush_04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6bossrush_milestone_point",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6bossrushActivity_5",
+      "sortId": 5,
+      "description": "Use a total of 50 skills in event stages",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "StageWithCondition",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act6bossrush_01^act6bossrush_02^act6bossrush_03^act6bossrush_04^act6bossrush_tm01^act6bossrush_tm02^act6bossrush_tm03^act6bossrush_tm04^act6bossrush_ex01^act6bossrush_ex02^act6bossrush_ex03^act6bossrush_ex04^act6bossrush_fin04",
+        "50"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6bossrush_relic_02",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6bossrushActivity_6",
+      "sortId": 6,
+      "description": "Deploy a total of 40 Operators in event stages",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "StageWithCondition",
+      "templateType": "2",
+      "param": [
+        "2",
+        "act6bossrush_01^act6bossrush_02^act6bossrush_03^act6bossrush_04^act6bossrush_tm01^act6bossrush_tm02^act6bossrush_tm03^act6bossrush_tm04^act6bossrush_ex01^act6bossrush_ex02^act6bossrush_ex03^act6bossrush_ex04^act6bossrush_fin04",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6bossrush_relic_03",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6bossrushActivity_7",
+      "sortId": 7,
+      "description": "Defeat a total of 100 enemies in event stages",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "5",
+      "param": [
+        "5",
+        "act6bossrush_01^act6bossrush_02^act6bossrush_03^act6bossrush_04^act6bossrush_tm01^act6bossrush_tm02^act6bossrush_tm03^act6bossrush_tm04^act6bossrush_ex01^act6bossrush_ex02^act6bossrush_ex03^act6bossrush_ex04^act6bossrush_fin04",
+        "100",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6bossrush_relic_04",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6bossrushActivity_8",
+      "sortId": 8,
+      "description": "Complete Orientation Trial: TN-1 while deploying Mountain at least twice",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "2",
+      "param": [
+        "2",
+        "2",
+        "act6bossrush_tm01",
+        "char_264_f12yin",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6bossrush_milestone_point",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6bossrushActivity_9",
+      "sortId": 9,
+      "description": "Complete Orientation Trial: TN-2 while deploying Friston-3 at least once",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "2",
+      "param": [
+        "2",
+        "2",
+        "act6bossrush_tm02",
+        "char_4093_frston",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6bossrush_milestone_point",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6bossrushActivity_10",
+      "sortId": 10,
+      "description": "Complete Orientation Trial: TN-3 with 1 or more Operator with the [Fast-Redeploy] tag in the squad (except fixed squad)",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "17",
+      "param": [
+        "17",
+        "2",
+        "act6bossrush_tm03",
+        "1",
+        "Fast-Redeploy"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6bossrush_milestone_point",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6bossrushActivity_11",
+      "sortId": 11,
+      "description": "Complete any Spectacular Trial with [Guardian Core] activated and with a total of 3 or more Operators that have not retreated at the end of the wave",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageWithRelic",
+      "templateType": "2",
+      "param": [
+        "2",
+        "act6bossrush_ex01^act6bossrush_ex02^act6bossrush_ex03^act6bossrush_ex04",
+        "act6bossrush_relic_01",
+        "act6bossrush_wave_remained",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6bossrush_milestone_point",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6bossrushActivity_12",
+      "sortId": 12,
+      "description": "Complete any Spectacular Trial with [Precision Focus] activated and no less than 3 Guard operators in squad",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageWithRelic",
+      "templateType": "4",
+      "param": [
+        "4",
+        "act6bossrush_ex01^act6bossrush_ex02^act6bossrush_ex03^act6bossrush_ex04",
+        "act6bossrush_relic_02",
+        "3",
+        "WARRIOR"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6bossrush_milestone_point",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6bossrushActivity_13",
+      "sortId": 13,
+      "description": "Complete any Spectacular Trial with [Rapid Charge] activated, and use a skill 15 times in the operation",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageWithRelic",
+      "templateType": "7",
+      "param": [
+        "7",
+        "act6bossrush_ex01^act6bossrush_ex02^act6bossrush_ex03^act6bossrush_ex04",
+        "act6bossrush_relic_03",
+        "ALL",
+        "15"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6bossrush_milestone_point",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "6bossrushActivity_14",
+      "sortId": 14,
+      "description": "Complete any Spectacular Trial with [Particle Tracking] activated, and clear the operation with exactly 1 Life Point remaining.",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageWithRelic",
+      "templateType": "11",
+      "param": [
+        "11",
+        "act6bossrush_ex01^act6bossrush_ex02^act6bossrush_ex03^act6bossrush_ex04",
+        "act6bossrush_relic_04",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act6bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act6bossrush_milestone_point",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_1",
+      "sortId": 1,
+      "description": "Clear EP-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_2",
+      "sortId": 2,
+      "description": "Clear EP-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_3",
+      "sortId": 3,
+      "description": "Clear EP-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_4",
+      "sortId": 4,
+      "description": "Clear EP-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 50
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4163_rosesa",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_5",
+      "sortId": 5,
+      "description": "Clear EP-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_05",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 60
+        },
+        {
+          "type": "FURN",
+          "id": "furni_shipRoom_shelf_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_6",
+      "sortId": 6,
+      "description": "Clear EP-5 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_05",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_7",
+      "sortId": 7,
+      "description": "Clear EP-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 60
+        },
+        {
+          "type": "FURN",
+          "id": "furni_shipRoom_table_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_8",
+      "sortId": 8,
+      "description": "Clear EP-6 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_06",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_shipRoom_canvas_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_9",
+      "sortId": 9,
+      "description": "Clear EP-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 80
+        },
+        {
+          "type": "FURN",
+          "id": "furni_shipRoom_shipshelf_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_10",
+      "sortId": 10,
+      "description": "Clear EP-7 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_07",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_shipRoom_wallpaper_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_11",
+      "sortId": 11,
+      "description": "Clear EP-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_08",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 80
+        },
+        {
+          "type": "FURN",
+          "id": "furni_shipRoom_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_12",
+      "sortId": 12,
+      "description": "Clear EP-8 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_08",
+        "1",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_13",
+      "sortId": 13,
+      "description": "Clear EP-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_ex01",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_14",
+      "sortId": 14,
+      "description": "Clear EP-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_ex02",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_15",
+      "sortId": 15,
+      "description": "Clear EP-EX-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_ex03",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_16",
+      "sortId": 16,
+      "description": "Clear EP-EX-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_ex04",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_17",
+      "sortId": 17,
+      "description": "Clear EP-EX-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_ex05",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_18",
+      "sortId": 18,
+      "description": "Clear EP-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_ex06",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_19",
+      "sortId": 19,
+      "description": "Clear EP-EX-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_ex07",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_20",
+      "sortId": 20,
+      "description": "Clear EP-EX-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_ex08",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_21",
+      "sortId": 21,
+      "description": "Clear EP-EX-8 Challenge Mode",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act39side_ex08#f#",
+        "1",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_terracommericials_CondensedSuppressant_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_22",
+      "sortId": 22,
+      "description": "Clear event stages 10 times, not including tutorial stages.",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_01^act39side_02^act39side_03^act39side_04^act39side_05^act39side_06^act39side_07^act39side_08^act39side_ex01^act39side_ex01#f#^act39side_ex02^act39side_ex02#f#^act39side_ex03^act39side_ex03#f#^act39side_ex04^act39side_ex04#f#^act39side_ex05^act39side_ex05#f#^act39side_ex06^act39side_ex06#f#^act39side_ex07^act39side_ex07#f#^act39side_ex08^act39side_ex08#f#",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_23",
+      "sortId": 23,
+      "description": "Clear event stages 25 times, not including tutorial stages.",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_01^act39side_02^act39side_03^act39side_04^act39side_05^act39side_06^act39side_07^act39side_08^act39side_ex01^act39side_ex01#f#^act39side_ex02^act39side_ex02#f#^act39side_ex03^act39side_ex03#f#^act39side_ex04^act39side_ex04#f#^act39side_ex05^act39side_ex05#f#^act39side_ex06^act39side_ex06#f#^act39side_ex07^act39side_ex07#f#^act39side_ex08^act39side_ex08#f#",
+        "25"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "39sreActivity_24",
+      "sortId": 24,
+      "description": "Clear event stages 40 times, not including tutorial stages.",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act39side_01^act39side_02^act39side_03^act39side_04^act39side_05^act39side_06^act39side_07^act39side_08^act39side_ex01^act39side_ex01#f#^act39side_ex02^act39side_ex02#f#^act39side_ex03^act39side_ex03#f#^act39side_ex04^act39side_ex04#f#^act39side_ex05^act39side_ex05#f#^act39side_ex06^act39side_ex06#f#^act39side_ex07^act39side_ex07#f#^act39side_ex08^act39side_ex08#f#",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act39sre",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act39side_token_garum_rep_1",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_1",
+      "sortId": 1,
+      "description": "Clear UR-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 40
+        },
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_shelf_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_2",
+      "sortId": 2,
+      "description": "Clear UR-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 40
+        },
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_plant_02",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_3",
+      "sortId": 3,
+      "description": "Clear UR-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 70
+        },
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_4",
+      "sortId": 4,
+      "description": "Clear UR-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 70
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4213_skybx",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_5",
+      "sortId": 5,
+      "description": "Clear UR-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 70
+        },
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_clock_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_6",
+      "sortId": 6,
+      "description": "Clear UR-5 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_05",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_7",
+      "sortId": 7,
+      "description": "Clear UR-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_ceilingLight_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_8",
+      "sortId": 8,
+      "description": "Clear UR-6 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_06",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_carpet_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_9",
+      "sortId": 9,
+      "description": "Clear UR-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_bar_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_10",
+      "sortId": 10,
+      "description": "Clear UR-7 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_07",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_wallpaper_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_11",
+      "sortId": 11,
+      "description": "Clear UR-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_cloudRestaurant_table_02",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_12",
+      "sortId": 12,
+      "description": "Clear UR-8 with a 3-star rating",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_08",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_13",
+      "sortId": 13,
+      "description": "Clear UR-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_14",
+      "sortId": 14,
+      "description": "Clear UR-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_15",
+      "sortId": 15,
+      "description": "Clear UR-EX-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_16",
+      "sortId": 16,
+      "description": "Clear UR-EX-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_17",
+      "sortId": 17,
+      "description": "Clear UR-EX-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_18",
+      "sortId": 18,
+      "description": "Clear UR-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_19",
+      "sortId": 19,
+      "description": "Clear UR-EX-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_20",
+      "sortId": 20,
+      "description": "Clear UR-EX-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_21",
+      "sortId": 21,
+      "description": "Clear UR-EX-8 Challenge Mode",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_ex08#f#",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_terracommericials_Braintet_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_22",
+      "sortId": 22,
+      "description": "Clear event stages 15 times, not including tutorial stages",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_01^act47side_02^act47side_03^act47side_04^act47side_05^act47side_06^act47side_07^act47side_08^act47side_ex01^act47side_ex01#f#^act47side_ex02^act47side_ex02#f#^act47side_ex03^act47side_ex03#f#^act47side_ex04^act47side_ex04#f#^act47side_ex05^act47side_ex05#f#^act47side_ex06^act47side_ex06#f#^act47side_ex07^act47side_ex07#f#^act47side_ex08^act47side_ex08#f#",
+        "15"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_23",
+      "sortId": 23,
+      "description": "Clear event stages 45 times, not including tutorial stages",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_01^act47side_02^act47side_03^act47side_04^act47side_05^act47side_06^act47side_07^act47side_08^act47side_ex01^act47side_ex01#f#^act47side_ex02^act47side_ex02#f#^act47side_ex03^act47side_ex03#f#^act47side_ex04^act47side_ex04#f#^act47side_ex05^act47side_ex05#f#^act47side_ex06^act47side_ex06#f#^act47side_ex07^act47side_ex07#f#^act47side_ex08^act47side_ex08#f#",
+        "45"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "47sideActivity_24",
+      "sortId": 24,
+      "description": "Clear event stages 85 times, not including tutorial stages",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act47side_01^act47side_02^act47side_03^act47side_04^act47side_05^act47side_06^act47side_07^act47side_08^act47side_ex01^act47side_ex01#f#^act47side_ex02^act47side_ex02#f#^act47side_ex03^act47side_ex03#f#^act47side_ex04^act47side_ex04#f#^act47side_ex05^act47side_ex05#f#^act47side_ex06^act47side_ex06#f#^act47side_ex07^act47side_ex07#f#^act47side_ex08^act47side_ex08#f#",
+        "85"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act47side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act47side_token_bottle",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
     {
       "id": "1autochessActivity_1",
       "sortId": 1,
@@ -107112,6 +109237,104 @@
   ],
   "missionGroup": [
     {
+      "id": "act6bossrush",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "6bossrushActivity_1",
+        "6bossrushActivity_2",
+        "6bossrushActivity_3",
+        "6bossrushActivity_4",
+        "6bossrushActivity_5",
+        "6bossrushActivity_6",
+        "6bossrushActivity_7",
+        "6bossrushActivity_8",
+        "6bossrushActivity_9",
+        "6bossrushActivity_10",
+        "6bossrushActivity_11",
+        "6bossrushActivity_12",
+        "6bossrushActivity_13",
+        "6bossrushActivity_14"
+      ],
+      "startTs": 1781175600,
+      "endTs": 1782644399
+    },
+    {
+      "id": "act39sre",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "39sreActivity_1",
+        "39sreActivity_2",
+        "39sreActivity_3",
+        "39sreActivity_4",
+        "39sreActivity_5",
+        "39sreActivity_6",
+        "39sreActivity_7",
+        "39sreActivity_8",
+        "39sreActivity_9",
+        "39sreActivity_10",
+        "39sreActivity_11",
+        "39sreActivity_12",
+        "39sreActivity_13",
+        "39sreActivity_14",
+        "39sreActivity_15",
+        "39sreActivity_16",
+        "39sreActivity_17",
+        "39sreActivity_18",
+        "39sreActivity_19",
+        "39sreActivity_20",
+        "39sreActivity_21",
+        "39sreActivity_22",
+        "39sreActivity_23",
+        "39sreActivity_24"
+      ],
+      "startTs": 1780657200,
+      "endTs": 1781866799
+    },
+    {
+      "id": "act47side",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "47sideActivity_1",
+        "47sideActivity_2",
+        "47sideActivity_3",
+        "47sideActivity_4",
+        "47sideActivity_5",
+        "47sideActivity_6",
+        "47sideActivity_7",
+        "47sideActivity_8",
+        "47sideActivity_9",
+        "47sideActivity_10",
+        "47sideActivity_11",
+        "47sideActivity_12",
+        "47sideActivity_13",
+        "47sideActivity_14",
+        "47sideActivity_15",
+        "47sideActivity_16",
+        "47sideActivity_17",
+        "47sideActivity_18",
+        "47sideActivity_19",
+        "47sideActivity_20",
+        "47sideActivity_21",
+        "47sideActivity_22",
+        "47sideActivity_23",
+        "47sideActivity_24"
+      ],
+      "startTs": 1779375600,
+      "endTs": 1781175599
+    },
+    {
       "id": "act1autochess",
       "title": null,
       "type": "ACTIVITY",
@@ -111558,6 +113781,148 @@
       }
     },
     "CHECKIN_ONLY": {
+      "act57sign": {
+        "checkInList": {
+          "0": {
+            "itemList": [
+              {
+                "id": "ap_supply_lt_120",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              },
+              {
+                "id": "4001",
+                "count": 30000,
+                "type": "GOLD"
+              }
+            ],
+            "order": 1,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "1": {
+            "itemList": [
+              {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "7001",
+                "count": 5,
+                "type": "TKT_RECRUIT"
+              }
+            ],
+            "order": 2,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "2": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "3301",
+                "count": 30,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 3,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "3": {
+            "itemList": [
+              {
+                "id": "furni_act68d4_mailbox_01",
+                "count": 1,
+                "type": "FURN"
+              },
+              {
+                "id": "3302",
+                "count": 20,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 4,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 1,
+            "isDynItem": false
+          },
+          "4": {
+            "itemList": [
+              {
+                "id": "3401",
+                "count": 300,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "2003",
+                "count": 20,
+                "type": "CARD_EXP"
+              }
+            ],
+            "order": 5,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "5": {
+            "itemList": [
+              {
+                "id": "mod_unlock_token",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "3003",
+                "count": 20,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 6,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "6": {
+            "itemList": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "7002",
+                "count": 5,
+                "type": "TKT_INST_FIN"
+              }
+            ],
+            "order": 7,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          }
+        },
+        "apSupplyOutOfDateDict": {
+          "ap_supply_lt_120": 1784545199
+        },
+        "dynCheckInData": null,
+        "extraCheckinList": null
+      },
       "act56sign": {
         "checkInList": {
           "0": {
@@ -137596,6 +139961,58 @@
       }
     },
     "TYPE_ACT9D0": {
+      "act39sre": {
+        "tokenItemId": "act39side_token_garum_rep_1",
+        "zoneDescList": {
+          "act39sre_zone1": {
+            "zoneId": "act39sre_zone1",
+            "unlockText": "Locked",
+            "displayStartTime": 1780657200
+          },
+          "act39sre_zone2": {
+            "zoneId": "act39sre_zone2",
+            "unlockText": "Unlocks after completing 'Across the Salt Flat'",
+            "displayStartTime": 1780657200
+          }
+        },
+        "favorUpList": {},
+        "subMissionInfo": null,
+        "hasSubMission": false,
+        "apSupplyOutOfDateDict": {},
+        "newsInfoList": null,
+        "newsServerInfoList": null,
+        "miscHub": {},
+        "constData": {
+          "campaignEnemyCnt": 0,
+          "campaignStageId": null
+        }
+      },
+      "act47side": {
+        "tokenItemId": "act47side_token_bottle",
+        "zoneDescList": {
+          "act47side_zone1": {
+            "zoneId": "act47side_zone1",
+            "unlockText": "Locked",
+            "displayStartTime": 1779375600
+          },
+          "act47side_zone2": {
+            "zoneId": "act47side_zone2",
+            "unlockText": "Unlocks after completing 'Air Expo Columbia'",
+            "displayStartTime": 1779375600
+          }
+        },
+        "favorUpList": {},
+        "subMissionInfo": null,
+        "hasSubMission": false,
+        "apSupplyOutOfDateDict": {},
+        "newsInfoList": null,
+        "newsServerInfoList": null,
+        "miscHub": {},
+        "constData": {
+          "campaignEnemyCnt": 0,
+          "campaignStageId": null
+        }
+      },
       "act37sre": {
         "tokenItemId": "act37side_token_nay_rep_1",
         "zoneDescList": {
@@ -173077,6 +175494,3087 @@
       }
     },
     "BOSS_RUSH": {
+      "act6bossrush": {
+        "zoneAdditionDataMap": {
+          "act6bossrush_zone1": {
+            "unlockText": "Locked",
+            "displayStartTime": 1781175600
+          }
+        },
+        "stageGroupMap": {
+          "act6bossrush_group01": {
+            "stageGroupId": "act6bossrush_group01",
+            "sortId": 1,
+            "stageGroupName": "A Duel at Night",
+            "stageIdMap": {
+              "NORMAL": "act6bossrush_01",
+              "TEAM": "act6bossrush_tm01",
+              "EX": "act6bossrush_ex01"
+            },
+            "waveBossInfo": [
+              [
+                "enemy_1104_lfkght_3"
+              ],
+              [
+                "enemy_7022_gatgod"
+              ]
+            ],
+            "normalStageCount": 3,
+            "isHardStageGroup": false,
+            "unlockCondtion": null
+          },
+          "act6bossrush_group02": {
+            "stageGroupId": "act6bossrush_group02",
+            "sortId": 2,
+            "stageGroupName": "Industrial Depths",
+            "stageIdMap": {
+              "NORMAL": "act6bossrush_02",
+              "TEAM": "act6bossrush_tm02",
+              "EX": "act6bossrush_ex02"
+            },
+            "waveBossInfo": [
+              [
+                "enemy_2034_sythef"
+              ],
+              [
+                "enemy_2002_bearmi"
+              ],
+              [
+                "enemy_2001_duckmi"
+              ]
+            ],
+            "normalStageCount": 3,
+            "isHardStageGroup": false,
+            "unlockCondtion": null
+          },
+          "act6bossrush_group03": {
+            "stageGroupId": "act6bossrush_group03",
+            "sortId": 3,
+            "stageGroupName": "Ambush in the Sands",
+            "stageIdMap": {
+              "NORMAL": "act6bossrush_03",
+              "TEAM": "act6bossrush_tm03",
+              "EX": "act6bossrush_ex03"
+            },
+            "waveBossInfo": [
+              [
+                "enemy_6005_llstone"
+              ],
+              [
+                "enemy_7027_xbbtl",
+                "enemy_7028_xbscp"
+              ],
+              [
+                "enemy_1561_crzjdg"
+              ]
+            ],
+            "normalStageCount": 3,
+            "isHardStageGroup": false,
+            "unlockCondtion": null
+          },
+          "act6bossrush_group04": {
+            "stageGroupId": "act6bossrush_group04",
+            "sortId": 4,
+            "stageGroupName": "The Fading Sonata",
+            "stageIdMap": {
+              "NORMAL": "act6bossrush_04",
+              "TEAM": "act6bossrush_tm04",
+              "EX": "act6bossrush_ex04",
+              "SP": "act6bossrush_fin04"
+            },
+            "waveBossInfo": [
+              [
+                "enemy_1511_mdrock"
+              ],
+              [
+                "enemy_1548_ltniak"
+              ],
+              [
+                "enemy_2080_skzlwy"
+              ]
+            ],
+            "normalStageCount": 3,
+            "isHardStageGroup": true,
+            "unlockCondtion": "Complete Basic Trial: <color=#038DCCFF>TN-1</color>/<color=#038DCCFF>TN-2</color>/<color=#038DCCFF>TN-3</color> to unlock"
+          }
+        },
+        "stageAdditionDataMap": {
+          "act6bossrush_01": {
+            "stageId": "act6bossrush_01",
+            "stageType": "NORMAL",
+            "stageGroupId": "act6bossrush_group01",
+            "teamIdList": [],
+            "unlockText": null
+          },
+          "act6bossrush_02": {
+            "stageId": "act6bossrush_02",
+            "stageType": "NORMAL",
+            "stageGroupId": "act6bossrush_group02",
+            "teamIdList": [],
+            "unlockText": null
+          },
+          "act6bossrush_03": {
+            "stageId": "act6bossrush_03",
+            "stageType": "NORMAL",
+            "stageGroupId": "act6bossrush_group03",
+            "teamIdList": [],
+            "unlockText": null
+          },
+          "act6bossrush_04": {
+            "stageId": "act6bossrush_04",
+            "stageType": "NORMAL",
+            "stageGroupId": "act6bossrush_group04",
+            "teamIdList": [],
+            "unlockText": "Complete Basic Trial: <color=#038DCCFF>TN-1</color>/<color=#038DCCFF>TN-2</color>/<color=#038DCCFF>TN-3</color> to unlock"
+          },
+          "act6bossrush_tm01": {
+            "stageId": "act6bossrush_tm01",
+            "stageType": "TEAM",
+            "stageGroupId": "act6bossrush_group01",
+            "teamIdList": [
+              "act6bossrush_team01"
+            ],
+            "unlockText": "Complete Basic Trial: <color=#038DCCFF>TN-1</color> to unlock"
+          },
+          "act6bossrush_tm02": {
+            "stageId": "act6bossrush_tm02",
+            "stageType": "TEAM",
+            "stageGroupId": "act6bossrush_group02",
+            "teamIdList": [
+              "act6bossrush_team02"
+            ],
+            "unlockText": "Complete Basic Trial: <color=#038DCCFF>TN-2</color> to unlock"
+          },
+          "act6bossrush_tm03": {
+            "stageId": "act6bossrush_tm03",
+            "stageType": "TEAM",
+            "stageGroupId": "act6bossrush_group03",
+            "teamIdList": [
+              "act6bossrush_team03"
+            ],
+            "unlockText": "Complete Basic Trial: <color=#038DCCFF>TN-3</color> to unlock"
+          },
+          "act6bossrush_tm04": {
+            "stageId": "act6bossrush_tm04",
+            "stageType": "TEAM",
+            "stageGroupId": "act6bossrush_group04",
+            "teamIdList": [
+              "act6bossrush_team01",
+              "act6bossrush_team02",
+              "act6bossrush_team03"
+            ],
+            "unlockText": "Complete Basic Trial: <color=#038DCCFF>TN-4</color> to unlock"
+          },
+          "act6bossrush_ex01": {
+            "stageId": "act6bossrush_ex01",
+            "stageType": "EX",
+            "stageGroupId": "act6bossrush_group01",
+            "teamIdList": [
+              "act6bossrush_team01",
+              "free"
+            ],
+            "unlockText": "Complete Orientation Trial: <color=#038DCCFF>TN-1</color> to unlock"
+          },
+          "act6bossrush_ex02": {
+            "stageId": "act6bossrush_ex02",
+            "stageType": "EX",
+            "stageGroupId": "act6bossrush_group02",
+            "teamIdList": [
+              "act6bossrush_team02",
+              "free"
+            ],
+            "unlockText": "Complete Orientation Trial: <color=#038DCCFF>TN-2</color> to unlock"
+          },
+          "act6bossrush_ex03": {
+            "stageId": "act6bossrush_ex03",
+            "stageType": "EX",
+            "stageGroupId": "act6bossrush_group03",
+            "teamIdList": [
+              "act6bossrush_team03",
+              "free"
+            ],
+            "unlockText": "Complete Orientation Trial: <color=#038DCCFF>TN-3</color> to unlock"
+          },
+          "act6bossrush_ex04": {
+            "stageId": "act6bossrush_ex04",
+            "stageType": "EX",
+            "stageGroupId": "act6bossrush_group04",
+            "teamIdList": [
+              "act6bossrush_team01",
+              "act6bossrush_team02",
+              "act6bossrush_team03",
+              "free"
+            ],
+            "unlockText": "Complete Orientation Trial: <color=#038DCCFF>TN-4</color>, and Spectacular Trial: <color=#038DCCFF>TN-1</color>/<color=#038DCCFF>TN-2</color>/<color=#038DCCFF>TN-3</color> to unlock"
+          },
+          "act6bossrush_fin04": {
+            "stageId": "act6bossrush_fin04",
+            "stageType": "SP",
+            "stageGroupId": "act6bossrush_group04",
+            "teamIdList": [
+              "act6bossrush_team01",
+              "act6bossrush_team02",
+              "act6bossrush_team03",
+              "free"
+            ],
+            "unlockText": null
+          }
+        },
+        "stageDropDataMap": {
+          "act6bossrush_01": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 10,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 100,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "ONCE"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 10,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_token_relic",
+                  "dropType": "ONCE"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            }
+          },
+          "act6bossrush_02": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 10,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 40,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 100,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "ONCE"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 15,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_token_relic",
+                  "dropType": "ONCE"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            }
+          },
+          "act6bossrush_03": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 10,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 40,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 100,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "ONCE"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 15,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_token_relic",
+                  "dropType": "ONCE"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            }
+          },
+          "act6bossrush_04": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 15,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 35,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 55,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 150,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "ONCE"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 20,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_token_relic",
+                  "dropType": "ONCE"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            }
+          },
+          "act6bossrush_tm01": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 10,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 100,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "ONCE"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 15,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_token_relic",
+                  "dropType": "ONCE"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            }
+          },
+          "act6bossrush_tm02": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 10,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 40,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 100,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "ONCE"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_token_relic",
+                  "dropType": "ONCE"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            }
+          },
+          "act6bossrush_tm03": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 10,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 40,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 100,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "ONCE"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_token_relic",
+                  "dropType": "ONCE"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            }
+          },
+          "act6bossrush_tm04": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 15,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 35,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 55,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 150,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "ONCE"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 30,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_token_relic",
+                  "dropType": "ONCE"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            }
+          },
+          "act6bossrush_ex01": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 20,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 45,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 150,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "ONCE"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_token_relic",
+                  "dropType": "ONCE"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            }
+          },
+          "act6bossrush_ex02": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 20,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 45,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 70,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 150,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "ONCE"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 30,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_token_relic",
+                  "dropType": "ONCE"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            }
+          },
+          "act6bossrush_ex03": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 20,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 45,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 70,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 150,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "ONCE"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 30,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_token_relic",
+                  "dropType": "ONCE"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            }
+          },
+          "act6bossrush_ex04": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 30,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 65,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 100,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 200,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "ONCE"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            }
+          },
+          "act6bossrush_fin04": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "NORMAL"
+                },
+                {
+                  "occPercent": "ALWAYS",
+                  "dropCount": 320,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act6bossrush_milestone_point",
+                  "dropType": "ONCE"
+                }
+              ],
+              "firstPassRewards": [],
+              "passRewards": []
+            }
+          }
+        },
+        "missionAdditionDataMap": {
+          "6bossrushActivity_1": {
+            "missionId": "6bossrushActivity_1",
+            "isRelicTask": false
+          },
+          "6bossrushActivity_2": {
+            "missionId": "6bossrushActivity_2",
+            "isRelicTask": false
+          },
+          "6bossrushActivity_3": {
+            "missionId": "6bossrushActivity_3",
+            "isRelicTask": false
+          },
+          "6bossrushActivity_4": {
+            "missionId": "6bossrushActivity_4",
+            "isRelicTask": false
+          },
+          "6bossrushActivity_5": {
+            "missionId": "6bossrushActivity_5",
+            "isRelicTask": true
+          },
+          "6bossrushActivity_6": {
+            "missionId": "6bossrushActivity_6",
+            "isRelicTask": true
+          },
+          "6bossrushActivity_7": {
+            "missionId": "6bossrushActivity_7",
+            "isRelicTask": true
+          },
+          "6bossrushActivity_8": {
+            "missionId": "6bossrushActivity_8",
+            "isRelicTask": false
+          },
+          "6bossrushActivity_9": {
+            "missionId": "6bossrushActivity_9",
+            "isRelicTask": false
+          },
+          "6bossrushActivity_10": {
+            "missionId": "6bossrushActivity_10",
+            "isRelicTask": false
+          },
+          "6bossrushActivity_11": {
+            "missionId": "6bossrushActivity_11",
+            "isRelicTask": false
+          },
+          "6bossrushActivity_12": {
+            "missionId": "6bossrushActivity_12",
+            "isRelicTask": false
+          },
+          "6bossrushActivity_13": {
+            "missionId": "6bossrushActivity_13",
+            "isRelicTask": false
+          },
+          "6bossrushActivity_14": {
+            "missionId": "6bossrushActivity_14",
+            "isRelicTask": false
+          }
+        },
+        "teamDataMap": {
+          "free": {
+            "teamId": "free",
+            "teamName": "Free Squad",
+            "charIdList": [],
+            "teamBuffName": null,
+            "teamBuffDes": null,
+            "teamBuffId": null,
+            "maxCharNum": 9,
+            "runeData": null
+          },
+          "act6bossrush_team01": {
+            "teamId": "act6bossrush_team01",
+            "teamName": "Agile Ones",
+            "charIdList": [
+              "char_264_f12yin",
+              "char_137_brownb",
+              "char_347_jaksel"
+            ],
+            "teamBuffName": "Evasive Strike",
+            "teamBuffDes": "All Guard Operators gain 50% Physical Dodge. After a successful dodge, their ATK increases by 100% for 3 seconds, and they immediately restore 20% of their Max HP",
+            "teamBuffId": "act6bossrush_team01",
+            "maxCharNum": 10,
+            "runeData": {
+              "id": "act6bossrush_team01",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "All Guard Operators gain 50% Physical Dodge. After a successful dodge, their ATK increases by 100% for 3 seconds, and they immediately restore 20% of their Max HP",
+              "runes": [
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": "WARRIOR",
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "act6bossrush_evade_checker"
+                    },
+                    {
+                      "key": "prob",
+                      "value": 0.5,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "atk",
+                      "value": 1.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "evade_attr_duration",
+                      "value": 3.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "hp_ratio",
+                      "value": 0.2,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act6bossrush_team02": {
+            "teamId": "act6bossrush_team02",
+            "teamName": "Intelligent Phalanx",
+            "charIdList": [
+              "char_4093_frston",
+              "char_4000_jnight",
+              "char_286_cast3"
+            ],
+            "teamBuffName": "Quick Expansion",
+            "teamBuffDes": "After deploying Friston-3, Justice Knight, or Castle-3, deploy as many other deployable Ground Operators as possible to the 4 adjacent ground tiles (highest DP cost first), and grant these Ground Operators +50% ATK for 30 seconds",
+            "teamBuffId": "act6bossrush_team02",
+            "maxCharNum": 10,
+            "runeData": {
+              "id": "act6bossrush_team02",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "After deploying Friston-3, Justice Knight, or Castle-3, deploy as many deployable Ground Operators as possible to the 4 adjacent ground tiles, and grant these Ground Operators +50% ATK for 30 seconds",
+              "runes": [
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "act6bossrush_build_char_in_range"
+                    },
+                    {
+                      "key": "char",
+                      "value": 0.0,
+                      "valueStr": "char_4093_frston|char_286_cast3|char_4000_jnight"
+                    },
+                    {
+                      "key": "atk",
+                      "value": 0.5,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "attr_duration",
+                      "value": 30.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act6bossrush_team03": {
+            "teamId": "act6bossrush_team03",
+            "teamName": "Blades in the Shadows",
+            "charIdList": [
+              "char_1028_texas2",
+              "char_214_kafka",
+              "char_1502_crosly"
+            ],
+            "teamBuffName": "Maintain Silence",
+            "teamBuffDes": "All Operators have -3 DP Cost, -70% Redeployment Time, and -50% Max HP",
+            "teamBuffId": "act6bossrush_team03",
+            "maxCharNum": 10,
+            "runeData": {
+              "id": "act6bossrush_team03",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "All Operators have -3 DP Cost, -70% Redeployment Time, and -50% Max HP",
+              "runes": [
+                {
+                  "key": "char_respawntime_mul",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "scale",
+                      "value": 0.3,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "char_cost_add",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": -3.0,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "char_attribute_mul",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "max_hp",
+                      "value": 0.5,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "relicList": [
+          {
+            "relicId": "act6bossrush_relic_01",
+            "sortId": 1,
+            "name": "Guardian Core",
+            "icon": "act6bossrush_relic_01",
+            "relicTaskId": "6bossrushActivity_5"
+          },
+          {
+            "relicId": "act6bossrush_relic_02",
+            "sortId": 2,
+            "name": "Precision Focus",
+            "icon": "act6bossrush_relic_02",
+            "relicTaskId": "6bossrushActivity_5"
+          },
+          {
+            "relicId": "act6bossrush_relic_03",
+            "sortId": 3,
+            "name": "Rapid Charge",
+            "icon": "act6bossrush_relic_03",
+            "relicTaskId": "6bossrushActivity_6"
+          },
+          {
+            "relicId": "act6bossrush_relic_04",
+            "sortId": 4,
+            "name": "Particle Tracking",
+            "icon": "act6bossrush_relic_04",
+            "relicTaskId": "6bossrushActivity_7"
+          }
+        ],
+        "relicLevelInfoDataMap": {
+          "act6bossrush_relic_01": {
+            "relicId": "act6bossrush_relic_01",
+            "levelInfos": {
+              "1": {
+                "level": 1,
+                "effectDesc": "At the end of the wave, all Operators that have not retreated gain 50 SP and +20% ATK for the next wave",
+                "runeData": {
+                  "id": "act6bossrush_relic_01_1",
+                  "points": 0.0,
+                  "mutexGroupKey": null,
+                  "description": "At the end of the wave, all Operators that have not retreated gain 50 SP and +20% ATK for the next wave",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "act6bossrush_relic1_buff"
+                        },
+                        {
+                          "key": "atk",
+                          "value": 0.2,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "sp",
+                          "value": 50.0,
+                          "valueStr": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 0
+              },
+              "2": {
+                "level": 2,
+                "effectDesc": "At the end of the wave, all Operators that have not retreated gain 50 SP and +30% ATK for the next wave",
+                "runeData": {
+                  "id": "act6bossrush_relic_01_2",
+                  "points": 0.0,
+                  "mutexGroupKey": null,
+                  "description": "At the end of the wave, all Operators that have not retreated gain 50 SP and +30% ATK for the next wave",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "act6bossrush_relic1_buff"
+                        },
+                        {
+                          "key": "atk",
+                          "value": 0.3,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "sp",
+                          "value": 50.0,
+                          "valueStr": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 20
+              },
+              "3": {
+                "level": 3,
+                "effectDesc": "At the end of the wave, all Operators that have not retreated gain 50 SP and +50% ATK for the next wave",
+                "runeData": {
+                  "id": "act6bossrush_relic_01_3",
+                  "points": 0.0,
+                  "mutexGroupKey": null,
+                  "description": "At the end of the wave, all Operators that have not retreated gain 50 SP and +50% ATK for the next wave",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "act6bossrush_relic1_buff"
+                        },
+                        {
+                          "key": "atk",
+                          "value": 0.5,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "sp",
+                          "value": 50.0,
+                          "valueStr": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 40
+              }
+            }
+          },
+          "act6bossrush_relic_02": {
+            "relicId": "act6bossrush_relic_02",
+            "levelInfos": {
+              "1": {
+                "level": 1,
+                "effectDesc": "Physical and Arts damage dealt to blocked enemies increases by 50%; Physical and Arts damage taken from unblocked units is reduced by 50%",
+                "runeData": {
+                  "id": "act6bossrush_relic_02_1",
+                  "points": 0.0,
+                  "mutexGroupKey": null,
+                  "description": "Damage dealt to blocked enemies increases by 50%; Physical and Arts damage taken from unblocked units is reduced by 50%",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "act6bossrush_relic2_buff"
+                        },
+                        {
+                          "key": "damage_scale",
+                          "value": 1.5,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "damage_resistance",
+                          "value": 0.5,
+                          "valueStr": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 0
+              },
+              "2": {
+                "level": 2,
+                "effectDesc": "Physical and Arts damage dealt to blocked enemies increases by 75%; Physical and Arts damage taken from unblocked units is reduced by 60%",
+                "runeData": {
+                  "id": "act6bossrush_relic_02_2",
+                  "points": 0.0,
+                  "mutexGroupKey": null,
+                  "description": "Damage dealt to blocked enemies increases by 75%; Physical and Arts damage taken from unblocked units is reduced by 60%",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "act6bossrush_relic2_buff"
+                        },
+                        {
+                          "key": "damage_scale",
+                          "value": 1.75,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "damage_resistance",
+                          "value": 0.6,
+                          "valueStr": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 20
+              },
+              "3": {
+                "level": 3,
+                "effectDesc": "Physical and Arts damage dealt to blocked enemies increases by 100%; Physical and Arts damage taken from unblocked units is reduced by 75%",
+                "runeData": {
+                  "id": "act6bossrush_relic_02_3",
+                  "points": 0.0,
+                  "mutexGroupKey": null,
+                  "description": "Damage dealt to blocked enemies increases by 100%; Physical and Arts damage taken from unblocked units is reduced by 75%",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "act6bossrush_relic2_buff"
+                        },
+                        {
+                          "key": "damage_scale",
+                          "value": 2.0,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "damage_resistance",
+                          "value": 0.75,
+                          "valueStr": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 40
+              }
+            }
+          },
+          "act6bossrush_relic_03": {
+            "relicId": "act6bossrush_relic_03",
+            "levelInfos": {
+              "1": {
+                "level": 1,
+                "effectDesc": "Starting SP +10; skills activate automatically",
+                "runeData": {
+                  "id": "act6bossrush_relic_03_1",
+                  "points": 0.0,
+                  "mutexGroupKey": null,
+                  "description": "Starting SP +10; skills activate automatically",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "modify_sp[born]"
+                        },
+                        {
+                          "key": "sp",
+                          "value": 10.0,
+                          "valueStr": null
+                        }
+                      ]
+                    },
+                    {
+                      "key": "char_dynamic_ability_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "AutoSkillTrigger"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 0
+              },
+              "2": {
+                "level": 2,
+                "effectDesc": "Starting SP +15; skills activate automatically",
+                "runeData": {
+                  "id": "act6bossrush_relic_03_2",
+                  "points": 0.0,
+                  "mutexGroupKey": null,
+                  "description": "Starting SP +15; skills activate automatically",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "modify_sp[born]"
+                        },
+                        {
+                          "key": "sp",
+                          "value": 15.0,
+                          "valueStr": null
+                        }
+                      ]
+                    },
+                    {
+                      "key": "char_dynamic_ability_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "AutoSkillTrigger"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 20
+              },
+              "3": {
+                "level": 3,
+                "effectDesc": "Starting SP +20; skills activate automatically",
+                "runeData": {
+                  "id": "act6bossrush_relic_03_3",
+                  "points": 0.0,
+                  "mutexGroupKey": null,
+                  "description": "Starting SP +20; skills activate automatically",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "modify_sp[born]"
+                        },
+                        {
+                          "key": "sp",
+                          "value": 20.0,
+                          "valueStr": null
+                        }
+                      ]
+                    },
+                    {
+                      "key": "char_dynamic_ability_new",
+                      "selector": {
+                        "professionMask": 767,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "AutoSkillTrigger"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 40
+              }
+            }
+          },
+          "act6bossrush_relic_04": {
+            "relicId": "act6bossrush_relic_04",
+            "levelInfos": {
+              "1": {
+                "level": 1,
+                "effectDesc": "Fatty appears in battle; upon defeating it, gain King's Legacy",
+                "runeData": {
+                  "id": "act6bossrush_relic_04_1",
+                  "points": 0.0,
+                  "mutexGroupKey": null,
+                  "description": "Fatty appears in battle; upon defeating it, immediately gain a King's Set Collectible",
+                  "runes": [
+                    {
+                      "key": "level_hidden_group_enable",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "hidden01"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "env_gbuff_new_with_verify",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "act6bossrush_relic3_buff[target]"
+                        },
+                        {
+                          "key": "enemy",
+                          "value": 0.0,
+                          "valueStr": "enemy_2085_skzjxd"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "act6bossrush_relic3_buff"
+                        },
+                        {
+                          "key": "act6bossrush_relic3_buff_1.interval",
+                          "value": 2.0,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "act6bossrush_relic3_buff_1.sp",
+                          "value": 1.0,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "act6bossrush_relic3_buff_1.hp_ratio",
+                          "value": 0.03,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "act6bossrush_relic3_buff_2.atk_speed",
+                          "value": 50.0,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "act6bossrush_relic3_buff_3.atk",
+                          "value": 1.5,
+                          "valueStr": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 0
+              },
+              "2": {
+                "level": 2,
+                "effectDesc": "An additional Fatty appears in battle; upon defeating it, gain King's Legacy and King's New Lance",
+                "runeData": {
+                  "id": "act6bossrush_relic_04_2",
+                  "points": 0.0,
+                  "mutexGroupKey": null,
+                  "description": "An additional Fatty appears in battle; upon defeating it, immediately gain a King's Set Collectible",
+                  "runes": [
+                    {
+                      "key": "level_hidden_group_enable",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "hidden01"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "env_gbuff_new_with_verify",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "act6bossrush_relic3_buff[target]"
+                        },
+                        {
+                          "key": "enemy",
+                          "value": 0.0,
+                          "valueStr": "enemy_2085_skzjxd"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "act6bossrush_relic3_buff"
+                        },
+                        {
+                          "key": "act6bossrush_relic3_buff_1.interval",
+                          "value": 2.0,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "act6bossrush_relic3_buff_1.sp",
+                          "value": 1.0,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "act6bossrush_relic3_buff_1.hp_ratio",
+                          "value": 0.03,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "act6bossrush_relic3_buff_2.attack_speed",
+                          "value": 50.0,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "act6bossrush_relic3_buff_3.atk",
+                          "value": 1.5,
+                          "valueStr": null
+                        }
+                      ]
+                    },
+                    {
+                      "key": "level_hidden_group_enable",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "hidden02"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 20
+              },
+              "3": {
+                "level": 3,
+                "effectDesc": "More Fatties appear in battle; upon defeating them, gain King's Legacy, King's New Lance, and King's Crown",
+                "runeData": {
+                  "id": "act6bossrush_relic_04_3",
+                  "points": 0.0,
+                  "mutexGroupKey": null,
+                  "description": "More Fatties appear in battle; upon defeating them, immediately gain a King's Set Collectible",
+                  "runes": [
+                    {
+                      "key": "level_hidden_group_enable",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "hidden01"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "env_gbuff_new_with_verify",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "act6bossrush_relic3_buff[target]"
+                        },
+                        {
+                          "key": "enemy",
+                          "value": 0.0,
+                          "valueStr": "enemy_2085_skzjxd"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "act6bossrush_relic3_buff"
+                        },
+                        {
+                          "key": "act6bossrush_relic3_buff_1.interval",
+                          "value": 2.0,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "act6bossrush_relic3_buff_1.sp",
+                          "value": 1.0,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "act6bossrush_relic3_buff_1.hp_ratio",
+                          "value": 0.03,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "act6bossrush_relic3_buff_2.attack_speed",
+                          "value": 50.0,
+                          "valueStr": null
+                        },
+                        {
+                          "key": "act6bossrush_relic3_buff_3.atk",
+                          "value": 1.5,
+                          "valueStr": null
+                        }
+                      ]
+                    },
+                    {
+                      "key": "level_hidden_group_enable",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "hidden02"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "level_hidden_group_enable",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": "ALL",
+                        "playerSideMask": "ALL",
+                        "sideType": "ALL",
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "enemyLevelTypeFilter": null,
+                        "enemyActionHiddenGroupFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null,
+                        "filterTagExcludeFilter": null,
+                        "subProfessionExcludeFilter": null,
+                        "mapTagFilter": null,
+                        "heightTypeMask": "ALL"
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "value": 0.0,
+                          "valueStr": "hidden03"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 40
+              }
+            }
+          }
+        },
+        "mileStoneList": [
+          {
+            "mileStoneId": "mileStone_1",
+            "mileStoneLvl": 1,
+            "needPointCnt": 50,
+            "rewardItem": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_2",
+            "mileStoneLvl": 2,
+            "needPointCnt": 100,
+            "rewardItem": {
+              "id": "2003",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_3",
+            "mileStoneLvl": 3,
+            "needPointCnt": 150,
+            "rewardItem": {
+              "id": "30044",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_4",
+            "mileStoneLvl": 4,
+            "needPointCnt": 200,
+            "rewardItem": {
+              "id": "30053",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_5",
+            "mileStoneLvl": 5,
+            "needPointCnt": 250,
+            "rewardItem": {
+              "id": "mod_update_token_2",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_6",
+            "mileStoneLvl": 6,
+            "needPointCnt": 300,
+            "rewardItem": {
+              "id": "30033",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_7",
+            "mileStoneLvl": 7,
+            "needPointCnt": 350,
+            "rewardItem": {
+              "id": "3302",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_8",
+            "mileStoneLvl": 8,
+            "needPointCnt": 400,
+            "rewardItem": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_9",
+            "mileStoneLvl": 9,
+            "needPointCnt": 450,
+            "rewardItem": {
+              "id": "2003",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_10",
+            "mileStoneLvl": 10,
+            "needPointCnt": 500,
+            "rewardItem": {
+              "id": "mod_unlock_token",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_11",
+            "mileStoneLvl": 11,
+            "needPointCnt": 575,
+            "rewardItem": {
+              "id": "3401",
+              "count": 100,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12",
+            "mileStoneLvl": 12,
+            "needPointCnt": 650,
+            "rewardItem": {
+              "id": "3302",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_13",
+            "mileStoneLvl": 13,
+            "needPointCnt": 725,
+            "rewardItem": {
+              "id": "30053",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_14",
+            "mileStoneLvl": 14,
+            "needPointCnt": 800,
+            "rewardItem": {
+              "id": "30033",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_15",
+            "mileStoneLvl": 15,
+            "needPointCnt": 875,
+            "rewardItem": {
+              "id": "7003",
+              "count": 1,
+              "type": "TKT_GACHA"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_16",
+            "mileStoneLvl": 16,
+            "needPointCnt": 950,
+            "rewardItem": {
+              "id": "mod_update_token_1",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_17",
+            "mileStoneLvl": 17,
+            "needPointCnt": 1025,
+            "rewardItem": {
+              "id": "3302",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_18",
+            "mileStoneLvl": 18,
+            "needPointCnt": 1100,
+            "rewardItem": {
+              "id": "30053",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_19",
+            "mileStoneLvl": 19,
+            "needPointCnt": 1175,
+            "rewardItem": {
+              "id": "30155",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_20",
+            "mileStoneLvl": 20,
+            "needPointCnt": 1250,
+            "rewardItem": {
+              "id": "mod_update_token_2",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_21",
+            "mileStoneLvl": 21,
+            "needPointCnt": 1325,
+            "rewardItem": {
+              "id": "2003",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_22",
+            "mileStoneLvl": 22,
+            "needPointCnt": 1400,
+            "rewardItem": {
+              "id": "30033",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_23",
+            "mileStoneLvl": 23,
+            "needPointCnt": 1475,
+            "rewardItem": {
+              "id": "30053",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_24",
+            "mileStoneLvl": 24,
+            "needPointCnt": 1550,
+            "rewardItem": {
+              "id": "31064",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_25",
+            "mileStoneLvl": 25,
+            "needPointCnt": 1625,
+            "rewardItem": {
+              "id": "char_381_bubble@marthe#11",
+              "count": 1,
+              "type": "CHAR_SKIN"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_26",
+            "mileStoneLvl": 26,
+            "needPointCnt": 1725,
+            "rewardItem": {
+              "id": "30033",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_27",
+            "mileStoneLvl": 27,
+            "needPointCnt": 1825,
+            "rewardItem": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_28",
+            "mileStoneLvl": 28,
+            "needPointCnt": 1925,
+            "rewardItem": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_29",
+            "mileStoneLvl": 29,
+            "needPointCnt": 2025,
+            "rewardItem": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_30",
+            "mileStoneLvl": 30,
+            "needPointCnt": 2125,
+            "rewardItem": {
+              "id": "mod_update_token_2",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_31",
+            "mileStoneLvl": 31,
+            "needPointCnt": 2225,
+            "rewardItem": {
+              "id": "3401",
+              "count": 100,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_32",
+            "mileStoneLvl": 32,
+            "needPointCnt": 2325,
+            "rewardItem": {
+              "id": "30115",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_33",
+            "mileStoneLvl": 33,
+            "needPointCnt": 2425,
+            "rewardItem": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_34",
+            "mileStoneLvl": 34,
+            "needPointCnt": 2525,
+            "rewardItem": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_35",
+            "mileStoneLvl": 35,
+            "needPointCnt": 2625,
+            "rewardItem": {
+              "id": "itempack_mod_4",
+              "count": 1,
+              "type": "ITEM_PACK"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_36",
+            "mileStoneLvl": 36,
+            "needPointCnt": 2725,
+            "rewardItem": {
+              "id": "31054",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_37",
+            "mileStoneLvl": 37,
+            "needPointCnt": 2825,
+            "rewardItem": {
+              "id": "3302",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_38",
+            "mileStoneLvl": 38,
+            "needPointCnt": 2925,
+            "rewardItem": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_39",
+            "mileStoneLvl": 39,
+            "needPointCnt": 3025,
+            "rewardItem": {
+              "id": "30053",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_40",
+            "mileStoneLvl": 40,
+            "needPointCnt": 3125,
+            "rewardItem": {
+              "id": "2003",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_41",
+            "mileStoneLvl": 41,
+            "needPointCnt": 3225,
+            "rewardItem": {
+              "id": "3401",
+              "count": 100,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_42",
+            "mileStoneLvl": 42,
+            "needPointCnt": 3325,
+            "rewardItem": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_43",
+            "mileStoneLvl": 43,
+            "needPointCnt": 3425,
+            "rewardItem": {
+              "id": "30033",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_44",
+            "mileStoneLvl": 44,
+            "needPointCnt": 3525,
+            "rewardItem": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_45",
+            "mileStoneLvl": 45,
+            "needPointCnt": 3625,
+            "rewardItem": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            }
+          }
+        ],
+        "bestWaveRuneList": [
+          {
+            "id": "act6bossrush_recodr_1",
+            "points": 0.0,
+            "mutexGroupKey": null,
+            "description": null,
+            "runes": [
+              {
+                "key": "level_predefines_skill_replace",
+                "selector": {
+                  "professionMask": 1023,
+                  "buildableMask": "ALL",
+                  "playerSideMask": "ALL",
+                  "sideType": "ALL",
+                  "charIdFilter": null,
+                  "enemyIdFilter": null,
+                  "enemyIdExcludeFilter": null,
+                  "enemyLevelTypeFilter": null,
+                  "enemyActionHiddenGroupFilter": null,
+                  "skillIdFilter": null,
+                  "tileKeyFilter": null,
+                  "groupTagFilter": null,
+                  "filterTagFilter": null,
+                  "filterTagExcludeFilter": null,
+                  "subProfessionExcludeFilter": null,
+                  "mapTagFilter": null,
+                  "heightTypeMask": "ALL"
+                },
+                "blackboard": [
+                  {
+                    "key": "key",
+                    "value": 0.0,
+                    "valueStr": "trap_090_recodr#1"
+                  },
+                  {
+                    "key": "skill",
+                    "value": 1.0,
+                    "valueStr": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "act6bossrush_recodr_2",
+            "points": 0.0,
+            "mutexGroupKey": null,
+            "description": null,
+            "runes": [
+              {
+                "key": "level_predefines_skill_replace",
+                "selector": {
+                  "professionMask": 1023,
+                  "buildableMask": "ALL",
+                  "playerSideMask": "ALL",
+                  "sideType": "ALL",
+                  "charIdFilter": null,
+                  "enemyIdFilter": null,
+                  "enemyIdExcludeFilter": null,
+                  "enemyLevelTypeFilter": null,
+                  "enemyActionHiddenGroupFilter": null,
+                  "skillIdFilter": null,
+                  "tileKeyFilter": null,
+                  "groupTagFilter": null,
+                  "filterTagFilter": null,
+                  "filterTagExcludeFilter": null,
+                  "subProfessionExcludeFilter": null,
+                  "mapTagFilter": null,
+                  "heightTypeMask": "ALL"
+                },
+                "blackboard": [
+                  {
+                    "key": "key",
+                    "value": 0.0,
+                    "valueStr": "trap_090_recodr#2"
+                  },
+                  {
+                    "key": "skill",
+                    "value": 1.0,
+                    "valueStr": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "act6bossrush_recodr_3",
+            "points": 0.0,
+            "mutexGroupKey": null,
+            "description": null,
+            "runes": [
+              {
+                "key": "level_predefines_skill_replace",
+                "selector": {
+                  "professionMask": 1023,
+                  "buildableMask": "ALL",
+                  "playerSideMask": "ALL",
+                  "sideType": "ALL",
+                  "charIdFilter": null,
+                  "enemyIdFilter": null,
+                  "enemyIdExcludeFilter": null,
+                  "enemyLevelTypeFilter": null,
+                  "enemyActionHiddenGroupFilter": null,
+                  "skillIdFilter": null,
+                  "tileKeyFilter": null,
+                  "groupTagFilter": null,
+                  "filterTagFilter": null,
+                  "filterTagExcludeFilter": null,
+                  "subProfessionExcludeFilter": null,
+                  "mapTagFilter": null,
+                  "heightTypeMask": "ALL"
+                },
+                "blackboard": [
+                  {
+                    "key": "key",
+                    "value": 0.0,
+                    "valueStr": "trap_090_recodr#3"
+                  },
+                  {
+                    "key": "skill",
+                    "value": 1.0,
+                    "valueStr": null
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constData": {
+          "maxProvidedCharNum": 3,
+          "textMilestoneItemLevelDesc": "Reach Trial Lv.<color=#DBB98C>25</color> to obtain",
+          "milestonePointId": "act6bossrush_milestone_point",
+          "relicUpgradeItemId": "act6bossrush_token_relic",
+          "defaultRelictList": [
+            "act6bossrush_relic_01"
+          ],
+          "rewardSkinId": "char_381_bubble@marthe#11"
+        }
+      },
       "act5bossrush": {
         "zoneAdditionDataMap": {
           "act5bossrush_zone1": {
@@ -282764,11 +288262,11 @@
             "charId": "char_4139_papyrs",
             "tmplId": null,
             "defaultSkillIndex": 0,
-            "defaultUniEquipId": null,
+            "defaultUniEquipId": "uniequip_002_papyrs",
             "backupCharId": "char_4139_papyrs",
             "backupTmplId": null,
             "backupCharSkillIndex": 0,
-            "backupCharUniEquipId": null,
+            "backupCharUniEquipId": "uniequip_002_papyrs",
             "backupCharPotRank": 0,
             "isHidden": false
           },
@@ -307497,6 +312995,20 @@
     }
   },
   "activityItems": {
+    "act6bossrush": [
+      "act6bossrush_milestone_point",
+      "act6bossrush_token_relic",
+      "act6bossrush_relic_01",
+      "act6bossrush_relic_02",
+      "act6bossrush_relic_03",
+      "act6bossrush_relic_04"
+    ],
+    "act39sre": [
+      "act39side_token_garum_rep_1"
+    ],
+    "act47side": [
+      "act47side_token_bottle"
+    ],
     "act1autochess": [
       "act1autochess_token_chess"
     ],
@@ -308003,6 +313515,14 @@
     "act11d7": [
       1611154800,
       1612004399
+    ],
+    "act39sre": [
+      1780657200,
+      1781521199
+    ],
+    "act47side": [
+      1779375600,
+      1780570799
     ],
     "act37sre": [
       1771930800,
@@ -315401,6 +320921,58 @@
       ],
       "picGroups": [],
       "startTs": 1778151600
+    },
+    {
+      "id": "dis_side_47",
+      "type": "ACTIVITY",
+      "funcId": "act47side",
+      "endTs": 1780570799,
+      "sortId": 134,
+      "itemId": "act47side_token_bottle",
+      "timeNodes": [
+        {
+          "title": "Event <Unrealized Realities> is now open",
+          "ts": 1779375600
+        },
+        {
+          "title": "'Exodus from Columbia' stages opened",
+          "ts": 1780009200
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1779375600
+    },
+    {
+      "id": "dis_side_39_sre",
+      "type": "ACTIVITY",
+      "funcId": "act39sre",
+      "endTs": 1781521199,
+      "sortId": 135,
+      "itemId": "act39side_token_garum_rep_1",
+      "timeNodes": [
+        {
+          "title": "<Exodus from the Pale Sea> opened",
+          "ts": 1780657200
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1780657200
+    },
+    {
+      "id": "dis_bossrush_6",
+      "type": "ACTIVITY",
+      "funcId": "act6bossrush",
+      "endTs": 1782385199,
+      "sortId": 136,
+      "itemId": null,
+      "timeNodes": [
+        {
+          "title": "Event <Trials for Navigator> is now open",
+          "ts": 1781175600
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1781175600
     }
   ],
   "actFunData": {
@@ -347975,6 +353547,48 @@
     }
   },
   "activityTemplateMissionStyles": {
+    "act39sre": {
+      "bigRewardType": "ILLUST_CHAR_REWARD",
+      "bigRewardParamList": [
+        "char_4163_rosesa",
+        "Clear EP-4 to obtain this Operator",
+        "3550b8",
+        "100,-10"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": null,
+      "isMissionItemCompleteUseMainColor": false,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": null,
+      "claimAllBtnTips": null,
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "1526f1"
+    },
+    "act47side": {
+      "bigRewardType": "ILLUST_CHAR_REWARD",
+      "bigRewardParamList": [
+        "char_4213_skybx",
+        "Clear UR-4 to obtain this Operator",
+        "f1b431",
+        "-65,-23"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": null,
+      "isMissionItemCompleteUseMainColor": false,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": null,
+      "claimAllBtnTips": null,
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "dead43"
+    },
     "act1autochess": {
       "bigRewardType": "PIC_REWARD",
       "bigRewardParamList": [],
