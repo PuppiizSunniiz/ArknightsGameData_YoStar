@@ -14719,6 +14719,96 @@
           ]
         }
       ]
+    },
+    "char_4056_titi": {
+      "charId": "char_4056_titi",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_probability[118]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            },
+            {
+              "buffId": "workshop_formula_probability[128]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_cost3[600]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_1022_flwr2": {
+      "charId": "char_1022_flwr2",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_all[029]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_all&tired[100]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_4166_varkis": {
+      "charId": "char_4166_varkis",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_meeting&mp_cost[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            },
+            {
+              "buffId": "control_meeting&mp_cost[100]",
+              "cond": {
+                "phase": "PHASE_1",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
     }
   },
   "buffs": {
@@ -15063,6 +15153,36 @@
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
       "description": "When this Operator is assigned to the Control Center: if <@cc.kw>Ines</> is assigned to the Reception Room, clue collection speed <@cc.vup>+5%</>; if <@cc.kw>Hoederer</> is assigned to a Trading Post, that Trading Post's order limit <@cc.vup>+2</>.",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_meeting&mp_cost[000]": {
+      "buffId": "control_meeting&mp_cost[000]",
+      "buffName": "Pride of a Hero α",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_c_minos",
+      "sortId": 1405,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "When this Operator is assigned to the Control Center, clue collection speed <@cc.vup>+4%</> for each <$cc.g.minos><@cc.kw>Minos</></> Operator in the Base (excluding Assistants and Activity Room users, caps at <@cc.vup>+20%</>, strongest effect of the same type applies); when assigned together with <$cc.g.sargon><@cc.kw>Sargon</></> Operators, self Morale loss per hour <@cc.vdown>+0.02</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_meeting&mp_cost[100]": {
+      "buffId": "control_meeting&mp_cost[100]",
+      "buffName": "Pride of a Hero β",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_c_minos2",
+      "sortId": 1405,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "When this Operator is assigned to the Control Center, clue collection speed <@cc.vup>+5%</> for each <$cc.g.minos><@cc.kw>Minos</></> Operator in the Base (excluding Assistants and Activity Room users, caps at <@cc.vup>+25%</>, strongest effect of the same type applies); when assigned together with <$cc.g.sargon><@cc.kw>Sargon</></> Operators, self Morale loss per hour <@cc.vdown>+0.02</>",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -15422,7 +15542,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
-      "description": "When this Operator is assigned to the Control Center, each Operator from <$cc.g.ussg><@cc.kw>Ursus Student Self-Governing Group</></> increases the Morale of all Operators in the Control Center by <@cc.vup>+0.05</> per hour",
+      "description": "When this Operator is assigned to the Control Center, each Operator from <$cc.g.ussg><@cc.kw>Ursus Student Self-government Group</></> increases the Morale of all Operators in the Control Center by <@cc.vup>+0.05</> per hour",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -15677,7 +15797,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
-      "description": "When this Operator is assigned to the Control Center, for each <$cc.g.ussg><@cc.kw>Ursus Student Self-Governing Group</></> Operator, <$cc.bd_tachanka><@cc.rem>Ursus Specialty Beverage</></><@cc.vup>+1</>",
+      "description": "When this Operator is assigned to the Control Center, for each <$cc.g.ussg><@cc.kw>Ursus Student Self-government Group</></> Operator, <$cc.bd_tachanka><@cc.rem>Ursus Specialty Beverage</></><@cc.vup>+1</>",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -20179,7 +20299,7 @@
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
       "description": "When this Operator is assigned to the Workshop to process <@cc.kw>Elite materials</>, increases the byproduct production rate by <@cc.vup>40%</>, and decreases the Morale consumption of recipes that cost <@cc.kw>8</> Morale or more by <@cc.vup>-4</>",
-      "efficiency": 0,
+      "efficiency": 40,
       "targetGroupSortId": 2,
       "targets": [
         "F_EVOLVE"
@@ -20298,6 +20418,23 @@
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
       "description": "When this Operator is assigned to the Workshop to process <@cc.kw>Elite materials</>, reduces the Morale consumed by all corresponding formulas that cost <@cc.kw>2</> Morale by <@cc.vup>-1</>",
+      "efficiency": 0,
+      "targetGroupSortId": 2,
+      "targets": [
+        "F_EVOLVE"
+      ]
+    },
+    "workshop_formula_cost3[600]": {
+      "buffId": "workshop_formula_cost3[600]",
+      "buffName": "Conversing With History",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve_cost3",
+      "sortId": 7530,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "When this Operator is assigned to the Workshop to process <@cc.kw>Elite materials</>, reduces the Morale consumed by all corresponding formulas that cost <@cc.kw>8</> Morale by <@cc.vup>-4</>",
       "efficiency": 0,
       "targetGroupSortId": 2,
       "targets": [
@@ -20996,6 +21133,40 @@
       "roomType": "WORKSHOP",
       "description": "When this Operator is assigned to the Workshop to process <@cc.kw>elite material</>, the production rate of byproduct increases by <@cc.vup>75%</>",
       "efficiency": 75,
+      "targetGroupSortId": 2,
+      "targets": [
+        "F_EVOLVE"
+      ]
+    },
+    "workshop_formula_probability[118]": {
+      "buffId": "workshop_formula_probability[118]",
+      "buffName": "As Good As Old α",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve2",
+      "sortId": 7526,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "When this Operator is assigned to the Workshop to process <@cc.kw>elite material</>, the production rate of byproduct increases by <@cc.vup>75%</>",
+      "efficiency": 75,
+      "targetGroupSortId": 2,
+      "targets": [
+        "F_EVOLVE"
+      ]
+    },
+    "workshop_formula_probability[128]": {
+      "buffId": "workshop_formula_probability[128]",
+      "buffName": "As Good As Old β",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve3",
+      "sortId": 7536,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "When this Operator is assigned to the Workshop to process <@cc.kw>elite material</>, the production rate of byproduct increases by <@cc.vup>80%</>",
+      "efficiency": 80,
       "targetGroupSortId": 2,
       "targets": [
         "F_EVOLVE"
@@ -24333,6 +24504,21 @@
       "targetGroupSortId": 0,
       "targets": []
     },
+    "dorm_rec_all[029]": {
+      "buffId": "dorm_rec_all[029]",
+      "buffName": "Gentle Spirit",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_all2",
+      "sortId": 5426,
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "When this Operator is assigned to a Dormitory, restores <@cc.vup>+0.15</> Morale per hour to all Operators assigned to that Dormitory (Only the strongest effect of this type takes place)",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
     "dorm_bd_num[000]": {
       "buffId": "dorm_bd_num[000]",
       "buffName": "Soundless Resonance",
@@ -24374,6 +24560,21 @@
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
       "description": "When this Operator is assigned to a Dormitory, restores <@cc.vup>+0.15</> Morale per hour to all Operators assigned to that Dormitory and restores an additional <@cc.vup>+0.1</> to Operators whose Morale is below <@cc.vup>18</> (Only the strongest effect of this type applies)",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "dorm_rec_all&tired[100]": {
+      "buffId": "dorm_rec_all&tired[100]",
+      "buffName": "Pure Breath",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_all_tired2",
+      "sortId": 5337,
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "When this Operator is assigned to a Dormitory, restores an additional <@cc.vup>+0.1</> Morale to Operators assigned to that Dormitory whose Morale is below <@cc.vup>20</> (Strongest effect of the same type applies)",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -24853,7 +25054,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
-      "description": "When this Operator is assigned to the HR Office, increases HR contacting speed by <@cc.vup>+20%</>, and for every <@cc.vup>1</> contacts made, increases the likelihood of obtaining <@cc.kw>Ursus Student Self-Governing Group</> clues (working time and recruitment slots improves the likelihood)",
+      "description": "When this Operator is assigned to the HR Office, increases HR contacting speed by <@cc.vup>+20%</>, and for every <@cc.vup>1</> contacts made, increases the likelihood of obtaining <@cc.kw>Ursus Student Self-government Group</> clues (working time and recruitment slots improves the likelihood)",
       "efficiency": 20,
       "targetGroupSortId": 0,
       "targets": []
@@ -25423,7 +25624,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "When this Operator is assigned to the Reception Room, the likelihood of obtaining <@cc.kw>Ursus Student Self-Governing Group</> clues is increased (working time improves the likelihood).",
+      "description": "When this Operator is assigned to the Reception Room, the likelihood of obtaining <@cc.kw>Ursus Student Self-government Group</> clues is increased (working time improves the likelihood).",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -25513,7 +25714,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "When this Operator is assigned to the Reception Room, increases the likelihood of obtaining <@cc.kw>Ursus Student Self-Governing Group</> clues for every newly-obtained Clue that is not from <@cc.kw>Ursus Student Self-Governing Group</> (working time improves this likelihood).",
+      "description": "When this Operator is assigned to the Reception Room, increases the likelihood of obtaining <@cc.kw>Ursus Student Self-government Group</> clues for every newly-obtained Clue that is not from <@cc.kw>Ursus Student Self-government Group</> (working time improves this likelihood).",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -25663,7 +25864,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "MEETING",
-      "description": "When this Operator is assigned to the Reception Room, Clue search speed increases by <@cc.vup>10%</> and it's easier to obtain the clues of <@cc.kw>Ursus Student Self-Governing Group</>",
+      "description": "When this Operator is assigned to the Reception Room, Clue search speed increases by <@cc.vup>10%</> and it's easier to obtain the clues of <@cc.kw>Ursus Student Self-government Group</>",
       "efficiency": 10,
       "targetGroupSortId": 0,
       "targets": []
@@ -58127,7 +58328,7 @@
       "furni_camp_fishingRodKit_01": {
         "id": "furni_camp_fishingRodKit_01",
         "sortId": 1007,
-        "name": "Portable Fishing Set",
+        "name": "Portable Fincatching Set",
         "iconId": "furni_camp_fishingRodKit_01",
         "interactType": "NONE",
         "musicId": "",
@@ -58145,7 +58346,7 @@
         "height": 8,
         "comfort": 250,
         "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
-        "description": "A full set of gear for fishing by the river. Fishing is all about waiting and anticipation. Would one fish if they lacked anything to anticipate?",
+        "description": "A full set of gear for fincatching by the river. Fincatching is all about waiting and anticipation. Would one fish if they lacked anything to anticipate?",
         "obtainApproach": "Purchased from the Limited Furniture Store",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -73857,7 +74058,7 @@
         "height": 4,
         "comfort": 315,
         "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
-        "description": "As new Tianshi apparatuses become widespread, the Ministry of Engineering has also begun to promote integrated information terminals. Someone in a high position once privately asked He Sheng for help in using this newfangled technology.",
+        "description": "As new Tianshi apparatuses become widespread, the Ministry of Works has also begun to promote integrated information terminals. Someone in a high position once privately asked He Sheng for help in using this newfangled technology.",
         "obtainApproach": "Purchased from the Limited Furniture Store",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -94668,6 +94869,550 @@
         "enableRoomType": 4112,
         "quantity": 1
       },
+      "furni_minosMed_column_01": {
+        "id": "furni_minosMed_column_01",
+        "sortId": 2149,
+        "name": "Marble Partition",
+        "iconId": "furni_minosMed_column_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "PARTITION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_1",
+        "width": 8,
+        "depth": 2,
+        "height": 10,
+        "comfort": 390,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A classic Minoan temple wall made of marble. Lena still remembers Lydia's half-covered face from behind the garden wall years ago, that expression she will never see again.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_ceilingLight_01": {
+        "id": "furni_minosMed_ceilingLight_01",
+        "sortId": 2150,
+        "name": "'Blossoming Lights'",
+        "iconId": "furni_minosMed_ceilingLight_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILINGLAMP",
+        "subType": "LIGHT",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_2",
+        "width": 3,
+        "depth": 1,
+        "height": 5,
+        "comfort": 65,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "Small lights shaped like the white flowers commonly found in Minos. Young patients who come in often ask for the flowers' names, and Lena warmly answers their questions.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_ceilingBell_01": {
+        "id": "furni_minosMed_ceilingBell_01",
+        "sortId": 2151,
+        "name": "Bell of Odes",
+        "iconId": "furni_minosMed_ceilingBell_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILING",
+        "subType": "DEVICE_C",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_2",
+        "width": 7,
+        "depth": 3,
+        "height": 5,
+        "comfort": 175,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A decorative copper bell with star-shaped ornaments hanging off a rope connected to the bell clapper. The bell that once chimed for heroic epics now silently watches the sun rise over Athenius.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_desk_01": {
+        "id": "furni_minosMed_desk_01",
+        "sortId": 2152,
+        "name": "Veneration Altar",
+        "iconId": "furni_minosMed_desk_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ORTHER_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_1",
+        "width": 2,
+        "depth": 2,
+        "height": 4,
+        "comfort": 140,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A stone altar upon which heroic odes are placed, an essential part of Minoan life. She hears her old name from time to time, but she always answers with 'I am Lena of Rhodes Island.'",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_sculpture_01": {
+        "id": "furni_minosMed_sculpture_01",
+        "sortId": 2153,
+        "name": "Beast Garden Statuette",
+        "iconId": "furni_minosMed_sculpture_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ART_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_1",
+        "width": 6,
+        "depth": 5,
+        "height": 7,
+        "comfort": 425,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A tiny garden with a small pool, its water outlet inside a wooden beast carving. Legends say the hero Flora planted thousands of plants and flowers in her waterside garden, which could heal all wounds and soothe the hearts of all Minoans.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_shelf_01": {
+        "id": "furni_minosMed_shelf_01",
+        "sortId": 2154,
+        "name": "'Pure Knowledge' Bookshelf",
+        "iconId": "furni_minosMed_shelf_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CABINET",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_1",
+        "width": 5,
+        "depth": 7,
+        "height": 8,
+        "comfort": 515,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A shelf carved from marble, with steps included for easier access to the higher shelves. Plenty of botanical research data and treatment records have found their home on this shelf since the branch office's founding.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_plant_01": {
+        "id": "furni_minosMed_plant_01",
+        "sortId": 2155,
+        "name": "'Records of Glory' Flowerbed",
+        "iconId": "furni_minosMed_plant_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "PLANT",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_3",
+        "width": 7,
+        "depth": 2,
+        "height": 2,
+        "comfort": 185,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A flowerbed based on the ones at Minos's winner podium, pots specially designed to resemble their traditional amphorae. The hero Flora planted seeds preserved in a clay vase all over the barren valleys to revive them after a disaster.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_carpet_01": {
+        "id": "furni_minosMed_carpet_01",
+        "sortId": 2156,
+        "name": "'Remnants of Epics' Rug",
+        "iconId": "furni_minosMed_carpet_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CARPET",
+        "subType": "NONE",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_2",
+        "width": 19,
+        "depth": 7,
+        "height": 1,
+        "comfort": 160,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A long rug made to look like stone, with eroded textures printed on the surface. Traces of the raid on Athenius are clearly visible, but new stories await those in the city.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_table_01": {
+        "id": "furni_minosMed_table_01",
+        "sortId": 2157,
+        "name": "Stonecarved Medical Table",
+        "iconId": "furni_minosMed_table_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "TABLE",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_2",
+        "width": 9,
+        "depth": 3,
+        "height": 5,
+        "comfort": 85,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A long table carved from raw stone, simple and practical. The branch office is new and Lena is drowning in her endless tasks, but she will not stop her work.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_tree_01": {
+        "id": "furni_minosMed_tree_01",
+        "sortId": 2158,
+        "name": "'Faith and Vigor'",
+        "iconId": "furni_minosMed_tree_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "DEVICE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_3",
+        "width": 5,
+        "depth": 3,
+        "height": 10,
+        "comfort": 340,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A tree capable of producing sap with healing properties, carefully planted in gardens. With a single bottle of the tree's sap, Flora saved many warriors from the brink of death, and to this day many still talk of that same battle.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_ceilingLight_02": {
+        "id": "furni_minosMed_ceilingLight_02",
+        "sortId": 2159,
+        "name": "Gauze-Draped Paper Lamp",
+        "iconId": "furni_minosMed_ceilingLight_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILINGLAMP",
+        "subType": "NONE",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_4",
+        "width": 6,
+        "depth": 3,
+        "height": 6,
+        "comfort": 195,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A hanging lamp fitted with a paper shade. The light filtering into the room through the sheer gauze is incredibly soft. 'Fret not, just close your eyes, have a good rest, and tomorrow you're sure to be better.'",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_bed_01": {
+        "id": "furni_minosMed_bed_01",
+        "sortId": 2160,
+        "name": "Convalescence Bed",
+        "iconId": "furni_minosMed_bed_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "BEDDING",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_4",
+        "width": 7,
+        "depth": 3,
+        "height": 4,
+        "comfort": 265,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A simple bed for patients, with a soft and comfortable mattress. Illness can make one lose hope in one's future, and all Lena does is to help them regain the courage to face life again.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_stool_01": {
+        "id": "furni_minosMed_stool_01",
+        "sortId": 2161,
+        "name": "'Break Time' Stool",
+        "iconId": "furni_minosMed_stool_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "SEATING",
+        "subType": "CHAIR",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_2",
+        "width": 3,
+        "depth": 2,
+        "height": 2,
+        "comfort": 135,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "An hourglass-shaped stool with only a plain cloth in place of a cushion. One day ice and snow will melt into the rivers, trees will sprout new buds, and the people will find their own aspirations.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_chair_01": {
+        "id": "furni_minosMed_chair_01",
+        "sortId": 2162,
+        "name": "Therapy Wheelchair",
+        "iconId": "furni_minosMed_chair_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "SEATING",
+        "subType": "CHAIR",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_3",
+        "width": 4,
+        "depth": 3,
+        "height": 5,
+        "comfort": 215,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A wooden wheelchair made for patients with restricted mobility, with an IV drip stand attached. The elderly continue to ramble about the past, but slowly, the future seeps more and more into their stories.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_sculpture_02": {
+        "id": "furni_minosMed_sculpture_02",
+        "sortId": 2163,
+        "name": "Pillar Pool",
+        "iconId": "furni_minosMed_sculpture_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ART_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_4",
+        "width": 4,
+        "depth": 3,
+        "height": 8,
+        "comfort": 275,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A pool with a marble column, the complex water circulation system hidden between the pool and the pillar. Lena will never forget the first time she taught Lydia how to identify plants, and the scent on that gray tail.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_wallpaper_01": {
+        "id": "furni_minosMed_wallpaper_01",
+        "sortId": 2164,
+        "name": "'A New Sight'",
+        "iconId": "furni_minosMed_wallpaper_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLPAPER",
+        "subType": "NONE",
+        "location": "NONE",
+        "category": "WALL",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_4",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "A panoramic display showing scenery of Athenius, with its surrounding mountain range seemingly within reach. She stood by the window gazing towards the temple, as a warm breeze swept through the verdant vale.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_floor_01": {
+        "id": "furni_minosMed_floor_01",
+        "sortId": 2165,
+        "name": "Minoan Stone Floor",
+        "iconId": "furni_minosMed_floor_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "FLOOR",
+        "subType": "NONE",
+        "location": "NONE",
+        "category": "FLOOR",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_3",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "Flooring made of stone from the peak of Mount Athos, with calming qualities. The house of Athopoulou once used a similar design, and today, Lena stands on similar flooring with her brand new ideals.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
       "furni_oct1st_deckChair_01": {
         "id": "furni_oct1st_deckChair_01",
         "sortId": 9998,
@@ -98572,9 +99317,41 @@
         "enableRoomType": 4112,
         "quantity": 0
       },
+      "furni_act68d4_mailbox_01": {
+        "id": "furni_act68d4_mailbox_01",
+        "sortId": 10255,
+        "name": "'Pass On the Hope' Mailbox",
+        "iconId": "furni_act68d4_mailbox_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ORTHER_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "",
+        "groupId": "",
+        "width": 4,
+        "depth": 3,
+        "height": 5,
+        "comfort": 140,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
+        "description": "Postbox commissioned by Amiya, on which she placed her handmade plushies. It is quickly filled up by new year's greeting letters. Sit down with her and see what heart-warming messages your friends sent!",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 0
+      },
       "furni_act73d0_rabbits_01": {
         "id": "furni_act73d0_rabbits_01",
-        "sortId": 10256,
+        "sortId": 10257,
         "name": "'In Celebration'",
         "iconId": "furni_act73d0_rabbits_01",
         "interactType": "NONE",
@@ -101964,6 +102741,38 @@
         "enableRoomType": 4144,
         "quantity": 0
       },
+      "furni_hardNoggin_01": {
+        "id": "furni_hardNoggin_01",
+        "sortId": 11107,
+        "name": "Plaque - 'Hard Noggin'",
+        "iconId": "furni_hardNoggin_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLDECO",
+        "subType": "PLAQUE",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "",
+        "groupId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory, or decorate the Reception Room.",
+        "description": "Keep your noggin safe, starting with protective gear.",
+        "obtainApproach": "Event Reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4144,
+        "quantity": 0
+      },
       "furni_contract_s0_01": {
         "id": "furni_contract_s0_01",
         "sortId": 12001,
@@ -103745,8 +104554,8 @@
         "height": 4,
         "comfort": 140,
         "usage": "Can be used to decorate and increase Ambience in the Activity Room and Dormitory",
-        "description": "A bat rack of the Ursus Student Self-Governing Group. Occasionally they will get together to play baseball.",
-        "obtainApproach": "Ursus Student Self-Governing Group Trust collection",
+        "description": "A bat rack of the Ursus Student Self-government Group. Occasionally they will get together to play baseball.",
+        "obtainApproach": "Ursus Student Self-government Group Trust collection",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
@@ -125374,6 +126183,143 @@
           "furni_cloudRestaurant_floor_01"
         ]
       },
+      "furni_set_minosMed": {
+        "id": "furni_set_minosMed",
+        "enableRoomType": 4112,
+        "sortId": 122,
+        "name": "New Verses of Athenius",
+        "themeType": "EVENT",
+        "desc": "A room recreated based on the Rhodes Island branch office Perfumer set up in Athenius. In the city encircled by lush mountains, Lena dispels past confusion and embarks on a journey to write a new chapter of recovery and rebirth.",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_minosMed_column_01",
+            "pos0": 0,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_ceilingLight_01",
+            "pos0": 12,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_ceilingBell_01",
+            "pos0": 14,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_desk_01",
+            "pos0": 3,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_sculpture_01",
+            "pos0": 2,
+            "pos1": 2,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_shelf_01",
+            "pos0": 8,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_plant_01",
+            "pos0": 11,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_carpet_01",
+            "pos0": 8,
+            "pos1": 1,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_table_01",
+            "pos0": 13,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_tree_01",
+            "pos0": 22,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_ceilingLight_02",
+            "pos0": 28,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_bed_01",
+            "pos0": 27,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_stool_01",
+            "pos0": 18,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_chair_01",
+            "pos0": 23,
+            "pos1": 6,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_sculpture_02",
+            "pos0": 30,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_floor_01",
+            "pos0": 0,
+            "pos1": 10,
+            "dir": 0
+          }
+        ],
+        "groups": [
+          "furni_set_minosMed_1",
+          "furni_set_minosMed_2",
+          "furni_set_minosMed_3",
+          "furni_set_minosMed_4"
+        ],
+        "furnitures": [
+          "furni_minosMed_column_01",
+          "furni_minosMed_ceilingLight_01",
+          "furni_minosMed_ceilingBell_01",
+          "furni_minosMed_desk_01",
+          "furni_minosMed_sculpture_01",
+          "furni_minosMed_shelf_01",
+          "furni_minosMed_plant_01",
+          "furni_minosMed_carpet_01",
+          "furni_minosMed_table_01",
+          "furni_minosMed_tree_01",
+          "furni_minosMed_ceilingLight_02",
+          "furni_minosMed_bed_01",
+          "furni_minosMed_stool_01",
+          "furni_minosMed_chair_01",
+          "furni_minosMed_sculpture_02",
+          "furni_minosMed_wallpaper_01",
+          "furni_minosMed_floor_01"
+        ]
+      },
       "furniM_set_basicRoom": {
         "id": "furniM_set_basicRoom",
         "enableRoomType": 32,
@@ -132998,6 +133944,63 @@
           "furniM_amiya_stoneChair_01",
           "furniM_amiya_giftTable_01",
           "furniM_amiya_carpet_02"
+        ]
+      },
+      "furni_set_minosMed_1": {
+        "id": "furni_set_minosMed_1",
+        "sortId": 1,
+        "name": "'Regained Belief'",
+        "themeId": "furni_set_minosMed",
+        "comfort": 375,
+        "count": 4,
+        "furniture": [
+          "furni_minosMed_column_01",
+          "furni_minosMed_desk_01",
+          "furni_minosMed_sculpture_01",
+          "furni_minosMed_shelf_01"
+        ]
+      },
+      "furni_set_minosMed_2": {
+        "id": "furni_set_minosMed_2",
+        "sortId": 2,
+        "name": "'Recollected Epics'",
+        "themeId": "furni_set_minosMed",
+        "comfort": 130,
+        "count": 5,
+        "furniture": [
+          "furni_minosMed_ceilingLight_01",
+          "furni_minosMed_ceilingBell_01",
+          "furni_minosMed_table_01",
+          "furni_minosMed_stool_01",
+          "furni_minosMed_carpet_01"
+        ]
+      },
+      "furni_set_minosMed_3": {
+        "id": "furni_set_minosMed_3",
+        "sortId": 3,
+        "name": "'Ballad of Recovery'",
+        "themeId": "furni_set_minosMed",
+        "comfort": 230,
+        "count": 4,
+        "furniture": [
+          "furni_minosMed_tree_01",
+          "furni_minosMed_chair_01",
+          "furni_minosMed_plant_01",
+          "furni_minosMed_floor_01"
+        ]
+      },
+      "furni_set_minosMed_4": {
+        "id": "furni_set_minosMed_4",
+        "sortId": 4,
+        "name": "'Vision of Rebirth'",
+        "themeId": "furni_set_minosMed",
+        "comfort": 220,
+        "count": 4,
+        "furniture": [
+          "furni_minosMed_ceilingLight_02",
+          "furni_minosMed_bed_01",
+          "furni_minosMed_sculpture_02",
+          "furni_minosMed_wallpaper_01"
         ]
       }
     },
@@ -140881,7 +141884,7 @@
         "bgmStartTime": 1667487600,
         "bgmName": "Mystic Sea - Undertide",
         "gameMusicId": "music_bg_iberia",
-        "obtainApproach": "Clear Under Tides SV-9 with a 3-star rating; 3",
+        "obtainApproach": "Clear 'Under Tides' SV-9 with a 3-star rating; Clear 'Stultifera Navis' SN-10 with a 3-star rating",
         "bgmDescUnlocked": "Gift from background",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -140946,7 +141949,7 @@
         "bgmStartTime": 1699376400,
         "bgmName": "Arboretum - Journey",
         "gameMusicId": "music_bg_rhine",
-        "obtainApproach": "Clear Dorothy's Vision DV-8 with a 3-star rating; 3",
+        "obtainApproach": "Clear 'Dorothy's Vision' DV-8 with a 3-star rating; Clear 'Lone Trail' CW-10 with a 3-star rating",
         "bgmDescUnlocked": "Gift from background",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -141120,6 +142123,19 @@
         "unlockType": "MainBG",
         "unlockParams": [
           "bg_avemujica_1"
+        ]
+      },
+      "bgm_bg_adastra": {
+        "bgmId": "bgm_bg_adastra",
+        "bgmSortId": 28,
+        "bgmStartTime": 1782889200,
+        "bgmName": "Startrail - Ad astra",
+        "gameMusicId": "music_bg_adastra",
+        "obtainApproach": "Obtained by buying Wish Upon A Star Pack in the [Store]",
+        "bgmDescUnlocked": "Gift from background",
+        "unlockType": "MainBG",
+        "unlockParams": [
+          "bg_lonetrail_1"
         ]
       },
       "bgm_bg_rogue_5": {

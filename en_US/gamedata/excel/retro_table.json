@@ -5632,10 +5632,10 @@
         "act31sre"
       ],
       "startTime": 1752750000,
-      "trailStartTime": -1,
+      "trailStartTime": 1783335600,
       "index": 25,
       "name": "Here A People Sows",
-      "haveTrail": false,
+      "haveTrail": true,
       "customActId": null,
       "customActType": "DEFAULT",
       "trapDomainId": null
@@ -8217,6 +8217,97 @@
       "relatedFullPotentialItemId": null,
       "themeColor": "3f8cd1",
       "fullPotentialItemId": "voucher_full_harold"
+    },
+    "permanent_sidestory_25_Here_A_People_Sows": {
+      "retroId": "permanent_sidestory_25_Here_A_People_Sows",
+      "trailStartTime": 1783335600,
+      "trailRewardList": [
+        {
+          "trailRewardId": "trailReward_sidestory_25_1",
+          "starCount": 15,
+          "rewardItem": {
+            "id": "char_4119_wanqin",
+            "count": 1,
+            "type": "CHAR"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_25_2",
+          "starCount": 27,
+          "rewardItem": {
+            "id": "voucher_full_wanqin",
+            "count": 1,
+            "type": "VOUCHER_FULL_POTENTIAL"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_25_3",
+          "starCount": 43,
+          "rewardItem": {
+            "id": "uni_set_TianshiMansion",
+            "count": 1,
+            "type": "UNI_COLLECTION"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_25_4",
+          "starCount": 59,
+          "rewardItem": {
+            "id": "furni_terratimes_Yan_01",
+            "count": 1,
+            "type": "FURN"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_25_5",
+          "starCount": 78,
+          "rewardItem": {
+            "id": "avatar_activity_HS",
+            "count": 1,
+            "type": "PLAYER_AVATAR"
+          }
+        }
+      ],
+      "stageList": [
+        "act31side_01",
+        "act31side_02",
+        "act31side_03",
+        "act31side_04",
+        "act31side_05",
+        "act31side_06",
+        "act31side_07",
+        "act31side_08",
+        "act31side_09",
+        "act31side_ex01",
+        "act31side_ex01#f#",
+        "act31side_ex02",
+        "act31side_ex02#f#",
+        "act31side_ex03",
+        "act31side_ex03#f#",
+        "act31side_ex04",
+        "act31side_ex04#f#",
+        "act31side_ex05",
+        "act31side_ex05#f#",
+        "act31side_ex06",
+        "act31side_ex06#f#",
+        "act31side_ex07",
+        "act31side_ex07#f#",
+        "act31side_ex08",
+        "act31side_ex08#f#",
+        "act31side_s01",
+        "act31side_s01#f#",
+        "act31side_s02",
+        "act31side_s02#f#",
+        "act31side_s03",
+        "act31side_s03#f#",
+        "act31side_s04",
+        "act31side_s04#f#",
+        "act31side_mo01"
+      ],
+      "relatedChar": "char_4119_wanqin",
+      "relatedFullPotentialItemId": null,
+      "themeColor": "afc04c",
+      "fullPotentialItemId": "voucher_full_wanqin"
     }
   },
   "stageList": {
@@ -130409,7 +130500,7 @@
       "levelId": "Activities/act34side/level_act34side_08",
       "zoneId": "permanent_sidestory_26_zone1",
       "code": "BP-8",
-      "name": "What is Survival?",
+      "name": "'What is Survival?'",
       "description": "Is it the survival of life, or of civilization?\n<@lv.item><Waterway Beacon></> Must be charged by a High Ground Operator; allows your units to deal Burn when activated.",
       "hardStagedId": null,
       "sixStarStageId": null,
@@ -143634,6 +143725,3980 @@
       "advancedRuneIdList1": [],
       "advancedRuneIdList2": [],
       "useSpecialSizeMapPreview": false
+    },
+    "act40side_st01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_01-10",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_st01",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-ST-1",
+      "name": "Chrysanthemum Tea with Dried Tangerine Peels",
+      "description": "Dried orange peels left to age for forty years, in the same cup with freshly picked chrysanthemum. Do the flavors of yore stand up to a careful tasting?",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_tr01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_st01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_tr01",
+      "levelId": "Activities/act40side/level_act40side_tr01",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-TR-1",
+      "name": "Bitter Gourd with Wood Ear",
+      "description": "A refreshing appetizer made from bitter gourd and black fungus, seasoned with soy sauce, sugar, mature vinegar, and hot pepper, giving it a little of every flavor.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": true,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "TRAINING",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_tr01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_01",
+      "levelId": "Activities/act40side/level_act40side_01",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-1",
+      "name": "Scallion Tofu",
+      "description": "Made from spring onions and tofu, it takes quite a bit of skill to give it the proper clean taste.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 9,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_02",
+      "levelId": "Activities/act40side/level_act40side_02",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-2",
+      "name": "Malt Sugar Candy",
+      "description": "'Give the Stove God malt sugar candy on the 23rd of the twelfth lunar month, so he reports only the good things when he goes back to heaven.'\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "LV.35",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 9,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "USUAL",
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_02",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_03",
+      "levelId": "Activities/act40side/level_act40side_03",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-3",
+      "name": "Oil-Splashed Hand-Pulled Noodles",
+      "description": "Some dough gets firmer the more you beat them.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "Elite 1 Lv. 1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 9,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALMOST",
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_04",
+      "levelId": "Activities/act40side/level_act40side_04",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-4",
+      "name": "Pickled Potherb Mustard",
+      "description": "Place the vegetables in the pot and seal the lid. You will know it is time when the lid can no longer keep the aroma contained.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "Elite 1 Lv. 20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 12,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 12,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_04",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_05",
+      "levelId": "Activities/act40side/level_act40side_05",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-5",
+      "name": "Honey Herbal Tea",
+      "description": "A cup of tea after a meal may ease the stomach, but it cannot ease one's worries and regrets. It is sweet on the palate, but it is the bitter aftertaste that lingers.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "Elite 1 Lv. 30",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 12,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 12,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "CARD_EXP",
+            "id": "2002",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "CARD_EXP",
+            "id": "2002",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "CARD_EXP",
+            "id": "2001",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30042",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "CARD_EXP",
+            "id": "2002",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_st02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_05",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_st02",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-ST-2",
+      "name": "Roasted Chestnut",
+      "description": "Try to crack a chestnut with brute force, and you will only hurt yourself. Dip one in oil, another in water, place them in a pot, cover with the rest of the chestnuts, and roast them over a fire. You will know when they are ready when you hear a thundering CRACK.",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_st02",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_06",
+      "levelId": "Activities/act40side/level_act40side_06",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-6",
+      "name": "Braised Wax Gourd Cube",
+      "description": "Sculpt a winter gourd into the shape of meat, fill it with vegetarian ham, and cover with velveting sauce. The result looks identical to red braised pork, but it cannot fool the palate.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "Elite 1 Lv. 50",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 12,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 12,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_06",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_07",
+      "levelId": "Activities/act40side/level_act40side_07",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-7",
+      "name": "Meaty Platter",
+      "description": "A platter of meat from five kinds of beasts. An official once presented this dish to the Lung at a Feast of a Hundred Delicacies, advising the ruler to take equal care of Yan's people from all walks of life.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "Elite 1 Lv. 60",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 21,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 21,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30093",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30094",
+            "dropType": "SPECIAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30093",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30094",
+            "dropType": "SPECIAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30013",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30063",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30073",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31013",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31053",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_07",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_08",
+      "levelId": "Activities/act40side/level_act40side_08",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-8",
+      "name": "Golden Rice Crust",
+      "description": "Golden rice crisp covers the plate. Crack open to reveal the dish beneath.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "Elite 2 Lv. 10",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 21,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 21,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "31013",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "31014",
+            "dropType": "SPECIAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "31013",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31014",
+            "dropType": "SPECIAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "CARD_EXP",
+            "id": "2001",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30042",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "CARD_EXP",
+            "id": "2002",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30023",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30043",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30083",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31023",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31043",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "CARD_EXP",
+            "id": "2003",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_09": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_08",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_09",
+      "levelId": "Activities/act40side/level_act40side_09",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-9",
+      "name": "Longevity Noodles",
+      "description": "The quality of a bowl of longevity noodles is judged not by its taste, but in who made it, and what blessings it contains.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "Elite 2 Lv. 20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 21,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 21,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "31053",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "31054",
+            "dropType": "SPECIAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "31053",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31054",
+            "dropType": "SPECIAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30033",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30053",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30093",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31033",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30103",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31063",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_st03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_09",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_st03",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-ST-3",
+      "name": "Essence Herbal Soup",
+      "description": "Opaque soup with a sip of clarity. Do not ask the way; seek it yourself.",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_st03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex01",
+      "levelId": "Activities/act40side/level_act40side_ex01",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-1",
+      "name": "Sourness",
+      "description": "A pot of vinegar being aged in preparation for a reunion dinner. Its flavor continues to improve with time, but the opportunity to crack it open does not come.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": "act40side_ex01#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "Elite 1 Lv. 50",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex01#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex01",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex01#f#",
+      "levelId": "Activities/act40side/level_act40side_ex01",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-1",
+      "name": "Sourness",
+      "description": "<@lv.fs>Condition:</>\nMore <@lv.item>'Bloated'</> will appear",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex02",
+      "levelId": "Activities/act40side/level_act40side_ex02",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-2",
+      "name": "Sweetness",
+      "description": "A Yanese pastry with sugar crystals upon the pastry puff. She looked forward to listening to her mother read those letters while biting into one of these.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": "act40side_ex02#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "Elite 1 Lv. 60",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex02#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex02",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex02#f#",
+      "levelId": "Activities/act40side/level_act40side_ex02",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-2",
+      "name": "Sweetness",
+      "description": "<@lv.fs>Condition:</>\nMore <@lv.item>Drifting Aroma</> will appear",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex02",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex03",
+      "levelId": "Activities/act40side/level_act40side_ex03",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-3",
+      "name": "Bitterness",
+      "description": "Pour tea over plain rice, and that is his meal for the day. He eats with his head down, never daring to take another look at his daughter's study.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": "act40side_ex03#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "Elite 2 Lv. 1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex03#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex03",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex03#f#",
+      "levelId": "Activities/act40side/level_act40side_ex03",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-3",
+      "name": "Bitterness",
+      "description": "<@lv.fs>Condition:</>\nNumber of deployable boxes greatly reduced",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex04",
+      "levelId": "Activities/act40side/level_act40side_ex04",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-4",
+      "name": "Spiciness",
+      "description": "The hotpot restaurant is always busy in winter. The spicy soup stings the eyes and nose before one has even taken the first bite. Cold winds may blow outside, but the patrons are sweating all over.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": "act40side_ex04#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "Elite 2 Lv. 1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex04#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex04",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex04#f#",
+      "levelId": "Activities/act40side/level_act40side_ex04",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-4",
+      "name": "Spiciness",
+      "description": "<@lv.fs>Condition:</>\n3 tiles on the battlefield are no longer available for deployment",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex04",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex05",
+      "levelId": "Activities/act40side/level_act40side_ex05",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-5",
+      "name": "Saltiness",
+      "description": "Things may change in the city, but the one constant is the sight of them toiling, day-in, day-out. It is always nice to have some salted meat and vegetables after sweating all day.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": "act40side_ex05#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "Elite 2 Lv. 10",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex05#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex05",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex05#f#",
+      "levelId": "Activities/act40side/level_act40side_ex05",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-5",
+      "name": "Saltiness",
+      "description": "<@lv.fs>Condition:</>\nMore <@lv.item>'Humility'</> will appear",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex05",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex06",
+      "levelId": "Activities/act40side/level_act40side_ex06",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-6",
+      "name": "Savoriness",
+      "description": "The proudest moment for a cook's child is when they take out their lunchbox in class, sharing the delicacies within with their curious classmates—and going hungry because they failed to leave any for themselves.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": "act40side_ex06#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "Elite 2 Lv. 20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex06#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex06",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex06#f#",
+      "levelId": "Activities/act40side/level_act40side_ex06",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-6",
+      "name": "Savoriness",
+      "description": "<@lv.fs>Condition:</>\nMore <@lv.item>Prosperity</> will appear",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex06",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex07",
+      "levelId": "Activities/act40side/level_act40side_ex07",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-7",
+      "name": "Acerbity",
+      "description": "The persimmons in the garden may look tempting, but they are sour and bitter. Let sweet fantasies remain fantasies, and keep your distance.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": "act40side_ex07#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "Elite 2 Lv. 35",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex07#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex07",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex07#f#",
+      "levelId": "Activities/act40side/level_act40side_ex07",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-7",
+      "name": "Acerbity",
+      "description": "<@lv.fs>Condition:</>\n<@lv.item><Stove></> and <@lv.item><Derelict Stove></> position changed; some enemy types are different",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex07",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex08",
+      "levelId": "Activities/act40side/level_act40side_ex08",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-8",
+      "name": "Hundred Flavors",
+      "description": "From fire, a hundred flavors. Within a stove, a universe of mysteries.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": "act40side_ex08#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "Elite 2 Lv. 40",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex08#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex08",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex08#f#",
+      "levelId": "Activities/act40side/level_act40side_ex08",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-8",
+      "name": "Hundred Flavors",
+      "description": "<@lv.fs>Condition:</>\n<@lv.item><Stove></> SP requirement increased",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_st03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_s01",
+      "levelId": "Activities/act40side/level_act40side_sub-1-1",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-1",
+      "name": "One-Year Banquet",
+      "description": "At the child's one-year anniversary ritual, the child reaches out, oblivious, while the adults watch on, expectant. When the hand goes to the right, everyone smiles; when the hand goes to the left, everyone becomes anxious. What they grab might decide their future career!\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": "act40side_s01#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s01#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_s01",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_s01#f#",
+      "levelId": "Activities/act40side/level_act40side_sub-1-1",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-1",
+      "name": "One-Year Banquet",
+      "description": "<@lv.fs>Condition:</>\n<@lv.item>'Fasting'</> summon skill cooldown reduced",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_s01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_s02",
+      "levelId": "Activities/act40side/level_act40side_sub-1-2",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-2",
+      "name": "Wedding Banquet",
+      "description": "After calming the parents squabbling over the dowry, after nodding blankly at distant relatives who would not stop sermonizing, the newlyweds sit in a corner, finally alone, and tuck into dishes that have already grown cold. They smile wryly at one another, relieved that the worst is past.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": "act40side_s02#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s02#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_s02",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_s02#f#",
+      "levelId": "Activities/act40side/level_act40side_sub-1-2",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-2",
+      "name": "Wedding Banquet",
+      "description": "<@lv.fs>Condition:</>\nSupporter and Specialist Operator DP cost tripled",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_s02",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_s03",
+      "levelId": "Activities/act40side/level_act40side_sub-1-3",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-3",
+      "name": "Birthday Banquet",
+      "description": "The siblings, who see each other only once a year, are arguing over whose birthday present shows the most love for their parents again. Why is it that you miss them when they are away but find them bothersome when they are around? However, when everyone's favorite dish is served, the mood around the dinner table lightens up slightly.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": "act40side_s03#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s03#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_s03",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_s03#f#",
+      "levelId": "Activities/act40side/level_act40side_sub-1-3",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-3",
+      "name": "Birthday Banquet",
+      "description": "<@lv.fs>Condition:</>\n<@lv.item>'Vapid Blight'</> damage increased",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_s03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_s04",
+      "levelId": "Activities/act40side/level_act40side_sub-1-4",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-4",
+      "name": "Funeral Banquet",
+      "description": "The one who is gone worries no longer. It is only those left behind who worry.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": "act40side_s04#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s04#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_s04",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_s04#f#",
+      "levelId": "Activities/act40side/level_act40side_sub-1-4",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-4",
+      "name": "Funeral Banquet",
+      "description": "<@lv.fs>Condition:</>\n<@lv.item>Vapidity</> HP increased",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_mo01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_st03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_mo01",
+      "levelId": "Activities/act40side/level_act40side_mo01",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-MO-1",
+      "name": "Three Meals a Day",
+      "description": "Vanity is all that matters when you eat to be seen by others. Only you will ever know what the meal truly tastes like.\n<@lv.item><Stove> </>Summons 'Sapid Auspice' to deal True damage to all enemies in its path.\n<@lv.item><Derelict Stove> </>Summons 'Vapid Blight' to deal True damage to all allied units in its path.",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": false,
+      "canBattleReplay": true,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MIST_OPS",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
     }
   },
   "ruleData": {
@@ -153287,6 +157352,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153341,6 +157407,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153370,6 +157437,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153414,6 +157482,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153463,6 +157532,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153512,6 +157582,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153556,6 +157627,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153605,6 +157677,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153659,6 +157732,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153713,6 +157787,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153797,6 +157872,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155048,6 +159124,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155077,6 +159154,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155122,6 +159200,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155151,6 +159230,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155196,6 +159276,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155225,6 +159306,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155270,6 +159352,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155299,6 +159382,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155344,6 +159428,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155389,6 +159474,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155434,6 +159520,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155468,6 +159555,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155513,6 +159601,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155547,6 +159636,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
