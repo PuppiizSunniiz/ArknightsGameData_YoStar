@@ -5632,10 +5632,10 @@
         "act31sre"
       ],
       "startTime": 1752692400,
-      "trailStartTime": -1,
+      "trailStartTime": 1783278000,
       "index": 25,
       "name": "회서리",
-      "haveTrail": false,
+      "haveTrail": true,
       "customActId": null,
       "customActType": "DEFAULT",
       "trapDomainId": null
@@ -8217,6 +8217,97 @@
       "relatedFullPotentialItemId": null,
       "themeColor": "3f8cd1",
       "fullPotentialItemId": "voucher_full_harold"
+    },
+    "permanent_sidestory_25_Here_A_People_Sows": {
+      "retroId": "permanent_sidestory_25_Here_A_People_Sows",
+      "trailStartTime": 1783278000,
+      "trailRewardList": [
+        {
+          "trailRewardId": "trailReward_sidestory_25_1",
+          "starCount": 15,
+          "rewardItem": {
+            "id": "char_4119_wanqin",
+            "count": 1,
+            "type": "CHAR"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_25_2",
+          "starCount": 27,
+          "rewardItem": {
+            "id": "voucher_full_wanqin",
+            "count": 1,
+            "type": "VOUCHER_FULL_POTENTIAL"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_25_3",
+          "starCount": 43,
+          "rewardItem": {
+            "id": "uni_set_TianshiMansion",
+            "count": 1,
+            "type": "UNI_COLLECTION"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_25_4",
+          "starCount": 59,
+          "rewardItem": {
+            "id": "furni_terratimes_Yan_01",
+            "count": 1,
+            "type": "FURN"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_25_5",
+          "starCount": 78,
+          "rewardItem": {
+            "id": "avatar_activity_HS",
+            "count": 1,
+            "type": "PLAYER_AVATAR"
+          }
+        }
+      ],
+      "stageList": [
+        "act31side_01",
+        "act31side_02",
+        "act31side_03",
+        "act31side_04",
+        "act31side_05",
+        "act31side_06",
+        "act31side_07",
+        "act31side_08",
+        "act31side_09",
+        "act31side_ex01",
+        "act31side_ex01#f#",
+        "act31side_ex02",
+        "act31side_ex02#f#",
+        "act31side_ex03",
+        "act31side_ex03#f#",
+        "act31side_ex04",
+        "act31side_ex04#f#",
+        "act31side_ex05",
+        "act31side_ex05#f#",
+        "act31side_ex06",
+        "act31side_ex06#f#",
+        "act31side_ex07",
+        "act31side_ex07#f#",
+        "act31side_ex08",
+        "act31side_ex08#f#",
+        "act31side_s01",
+        "act31side_s01#f#",
+        "act31side_s02",
+        "act31side_s02#f#",
+        "act31side_s03",
+        "act31side_s03#f#",
+        "act31side_s04",
+        "act31side_s04#f#",
+        "act31side_mo01"
+      ],
+      "relatedChar": "char_4119_wanqin",
+      "relatedFullPotentialItemId": null,
+      "themeColor": "afc04c",
+      "fullPotentialItemId": "voucher_full_wanqin"
     }
   },
   "stageList": {
@@ -22360,7 +22451,7 @@
       "zoneId": "permanent_sub_5_zone1",
       "code": "CW-P-1",
       "name": "벼랑 끝",
-      "description": "중력은 당신의 친구이다. 위기를 기회로 바꿔보라.\n<@lv.item><중력 반응></> 전장에 '행성 파편'과 중력 장치 존재\n<@lv.item><고정편성></> 지정된 오퍼레이터로 작전 진행\n<@lv.rem>궤도를 탭하여 '행성 파편'을 직접 이동 가능</>",
+      "description": "중력은 당신의 친구이다. 위기를 기회로 바꿔보라.\n<@lv.item><중력 반응></> 전장에 '행성 파편'과 중력 장치 존재\n<@lv.item><고정편성></> 지정된 오퍼레이터로 작전 진행\n<@lv.rem>궤도를 탭 하여 '행성 파편'을 직접 이동 가능</>",
       "hardStagedId": null,
       "sixStarStageId": null,
       "dangerLevel": "-",
@@ -22459,7 +22550,7 @@
       "zoneId": "permanent_sub_5_zone1",
       "code": "CW-P-2",
       "name": "임전무퇴",
-      "description": "위기가 도사리고 있는 지금 중력만이 유일한 구원이다.\n<@lv.item><중력 반응></> 전장에 '행성 파편'과 중력 장치 존재\n<@lv.item><고정편성></> 지정된 오퍼레이터로 작전 진행\n<@lv.rem>궤도를 탭하여 '행성 파편'을 직접 이동 가능</>",
+      "description": "위기가 도사리고 있는 지금 중력만이 유일한 구원이다.\n<@lv.item><중력 반응></> 전장에 '행성 파편'과 중력 장치 존재\n<@lv.item><고정편성></> 지정된 오퍼레이터로 작전 진행\n<@lv.rem>궤도를 탭 하여 '행성 파편'을 직접 이동 가능</>",
       "hardStagedId": null,
       "sixStarStageId": null,
       "dangerLevel": "-",
@@ -143634,6 +143725,3980 @@
       "advancedRuneIdList1": [],
       "advancedRuneIdList2": [],
       "useSpecialSizeMapPreview": false
+    },
+    "act40side_st01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_01-10",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_st01",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-ST-1",
+      "name": "진피국화차",
+      "description": "40년 된 진피와 올해 가을에 딴 국화를 함께 우려낸 차. 세월이 깃든 맛은 최상품이 될 수 있을까?",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_tr01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_st01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_tr01",
+      "levelId": "Activities/act40side/level_act40side_tr01",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-TR-1",
+      "name": "비취흑옥",
+      "description": "입맛을 돋우는 전채 요리. 여주와 목이버섯에 간장과 설탕, 발효식초를 넣고 고추를 뿌리면 단맛, 신맛, 쓴맛, 매운맛이 골고루 어우러진다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": true,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "TRAINING",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_tr01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_01",
+      "levelId": "Activities/act40side/level_act40side_01",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-1",
+      "name": "일청이백",
+      "description": "두부에 실파를 버무린 요리. '깔끔하고 담백한' 맛을 제대로 살리려면 상당한 내공이 필요하다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 9,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_02",
+      "levelId": "Activities/act40side/level_act40side_02",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-2",
+      "name": "탕과점",
+      "description": "“음력 12월 23일, 탕과점, 조왕신은 하늘로 올라가 옥황상제에게 좋은 일은 알리고 나쁜 일에 대해선 입을 닫는다.”\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "LV.35",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 9,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "USUAL",
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_02",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_03",
+      "levelId": "Activities/act40side/level_act40side_03",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-3",
+      "name": "유발차면",
+      "description": "어떤 밀가루는 반죽할수록 쫄깃해지고, 치댈수록 탱탱해진다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "1차 정예화 Lv.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 9,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALMOST",
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_04",
+      "levelId": "Activities/act40side/level_act40side_04",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-4",
+      "name": "설리홍",
+      "description": "신선한 채소를 항아리에 넣고 꾹꾹 눌러 닫아둔다. 때가 되면, 항아리를 단단히 봉해 두어도 스며 나오는 진한 향을 차마 가둘 수 없으니, 아무리 단단히 봉해둔 항아리라 해도 결국 열게 될 것이다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "1차 정예화 Lv.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 12,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 12,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_04",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_05",
+      "levelId": "Activities/act40side/level_act40side_05",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-5",
+      "name": "제호탕",
+      "description": "식후의 차는 느끼함을 없애주지만, 근심을 덜어내진 못한다. 첫맛은 달콤하지만 마시고 나면 씁쓸한 끝맛이 남는다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "1차 정예화 Lv.30",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 12,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 12,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "CARD_EXP",
+            "id": "2002",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "CARD_EXP",
+            "id": "2002",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "CARD_EXP",
+            "id": "2001",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30042",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "CARD_EXP",
+            "id": "2002",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_st02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_05",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_st02",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-ST-2",
+      "name": "뇌공률",
+      "description": "밤껍질을 깔 때 억지로 힘을 쓰다간 다치기 십상이다. 차라리 한 알은 기름에, 한 알은 물에 적셔 냄비에 넣은 다음, 나머지 밤으로 덮은 뒤 천둥소리가 울릴 때까지 불에 구우면 된다.",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_st02",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_06",
+      "levelId": "Activities/act40side/level_act40side_06",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-6",
+      "name": "승육화방",
+      "description": "동과의 속을 파내 고기의 형태로 만든 후, 햄 맛이 나는 두부로 속을 채운 뒤 걸쭉한 소스를 끼얹는다. 기름진 빨간 양념 때문에 '홍소육'처럼 보이지만 맛까지 같지는 않다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "1차 정예화 Lv.50",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 12,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 12,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_06",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_07",
+      "levelId": "Activities/act40side/level_act40side_07",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-7",
+      "name": "오성판",
+      "description": "다섯 종류의 육류를 한 접시에 담아낸 요리. '성'에는 성찰이라는 의미가 담겨있어, 한 관리가 백진연에서 이 요리를 진룡에게 바치며 간언했다는 기록이 전해진다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "1차 정예화 Lv.60",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 21,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 21,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30093",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30094",
+            "dropType": "SPECIAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30093",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30094",
+            "dropType": "SPECIAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30013",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30063",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30073",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31013",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31053",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_07",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_08",
+      "levelId": "Activities/act40side/level_act40side_08",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-8",
+      "name": "금옥장심",
+      "description": "노릇하게 튀겨낸 누룽지를 마치 뚜껑처럼 사용해 접시를 덮었다. 상 위에 올린 뒤, 누룽지를 깨면 그 안에 감춰진 요리가 드러난다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "2차 정예화 Lv.10",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 21,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 21,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "31013",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "31014",
+            "dropType": "SPECIAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "31013",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31014",
+            "dropType": "SPECIAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "CARD_EXP",
+            "id": "2001",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30042",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "CARD_EXP",
+            "id": "2002",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30023",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30043",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30083",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31023",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31043",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "CARD_EXP",
+            "id": "2003",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_09": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_08",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_09",
+      "levelId": "Activities/act40side/level_act40side_09",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-9",
+      "name": "장수면",
+      "description": "장수면의 좋고 나쁨은 맛으로 나누는 것이 아니다. 누가 생일의 주인공을 위해 그 면을 만들었는지, 그리고 그 순간 어떤 축복의 마음을 품었는지가 관건이다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "2차 정예화 Lv.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 21,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 21,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "31053",
+            "dropType": "NORMAL"
+          },
+          {
+            "type": "MATERIAL",
+            "id": "31054",
+            "dropType": "SPECIAL"
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "31053",
+            "dropType": "NORMAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31054",
+            "dropType": "SPECIAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "OFTEN",
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30033",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30053",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30093",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31033",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "30103",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "SOMETIMES",
+            "type": "MATERIAL",
+            "id": "31063",
+            "dropType": "ADDITIONAL"
+          },
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_st03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_09",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_st03",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-ST-3",
+      "name": "수문탕",
+      "description": "한 솥 가득한 걸쭉한 국물 속 약간의 맑음. 남에게 묻기보다 스스로 찾는 편이 낫다.",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_st03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex01",
+      "levelId": "Activities/act40side/level_act40side_ex01",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-1",
+      "name": "신맛",
+      "description": "화목한 식사를 위해 항아리에 담가둔 식초. 시간이 흐를수록 숙성되고, 묵힐수록 향이 깊어지지만 정작 뚜껑을 열 일은 없다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": "act40side_ex01#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "1차 정예화 Lv.50",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex01#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex01",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex01#f#",
+      "levelId": "Activities/act40side/level_act40side_ex01",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-1",
+      "name": "신맛",
+      "description": "<@lv.fs>제한 조건:</>\n전장에 <@lv.item>'포식'</> 추가 등장",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex02",
+      "levelId": "Activities/act40side/level_act40side_ex02",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-2",
+      "name": "단맛",
+      "description": "염국에서 보낸 디저트, 바삭한 겉면에 반짝이는 설탕이 콕콕 박혀있다. 디저트를 먹으며 엄마가 읽어주는 편지를 듣는 시간은, 그 시절 그녀가 가장 손꼽아 기다리던 시간이다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": "act40side_ex02#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "1차 정예화 Lv.60",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex02#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex02",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex02#f#",
+      "levelId": "Activities/act40side/level_act40side_ex02",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-2",
+      "name": "단맛",
+      "description": "<@lv.fs>제한 조건:</>\n전장에 <@lv.item>피오샹</> 추가 등장",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex02",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex03",
+      "levelId": "Activities/act40side/level_act40side_ex03",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-3",
+      "name": "쓴맛",
+      "description": "거친 찻잎으로 우려낸 진한 찻물에 말아 먹는 밥, 이것이 하루의 식사였다. 고개를 숙인 채 허겁지겁 밥을 먹으면서도 딸이 있는 방 쪽은 감히 쳐다보지 못했다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": "act40side_ex03#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "2차 정예화 Lv.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex03#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex03",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex03#f#",
+      "levelId": "Activities/act40side/level_act40side_ex03",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-3",
+      "name": "쓴맛",
+      "description": "<@lv.fs>제한 조건:</>\n배치 가능한 장애물 수량 대폭 감소",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex04",
+      "levelId": "Activities/act40side/level_act40side_ex04",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-4",
+      "name": "매운맛",
+      "description": "겨울이 되면 훠궈 가게는 어김없이 문전성시를 이룬다. 얼얼한 맛의 진한 육수 때문에 눈은 맵고 코가 찡하다. 밖에선 매서운 칼바람이 불어오지만, 안에서는 땀을 뻘뻘 흘리며 먹는 손님들의 열기는 엄청나다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": "act40side_ex04#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "2차 정예화 Lv.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex04#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex04",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex04#f#",
+      "levelId": "Activities/act40side/level_act40side_ex04",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-4",
+      "name": "매운맛",
+      "description": "<@lv.fs>제한 조건:</>\n전장 내 3개 위치에 아군 유닛 배치 불가",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex04",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex05",
+      "levelId": "Activities/act40side/level_act40side_ex05",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-5",
+      "name": "짠맛",
+      "description": "하루가 다르게 변하는 도시에는 항상 그들이 일하는 모습이 보인다. 고기 절임과 절인 채소는 짭조름하면서도 감칠맛이 있어, 땀 흘린 뒤에 먹기 딱 좋다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": "act40side_ex05#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "2차 정예화 Lv.10",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex05#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex05",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex05#f#",
+      "levelId": "Activities/act40side/level_act40side_ex05",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-5",
+      "name": "짠맛",
+      "description": "<@lv.fs>제한 조건:</>\n<@lv.item>'내면'</> 추가 등장",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex05",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex06",
+      "levelId": "Activities/act40side/level_act40side_ex06",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-6",
+      "name": "감칠맛",
+      "description": "요리사 집의 아이가 가장 으쓱해지는 순간은 도시락을 꺼낼 때다. 아이는 구경하러 온 친구들에게 먹음직스럽고 정갈하게 담긴 음식을 통 크게 나눠주고, 자신은 배를 곯는다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": "act40side_ex06#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "2차 정예화 Lv.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex06#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex06",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex06#f#",
+      "levelId": "Activities/act40side/level_act40side_ex06",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-6",
+      "name": "감칠맛",
+      "description": "<@lv.fs>제한 조건:</>\n<@lv.item>자오차이</> 추가 등장",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex06",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex07",
+      "levelId": "Activities/act40side/level_act40side_ex07",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-7",
+      "name": "떫은맛",
+      "description": "마당의 감나무는 탐스러워 보이지만 막상 먹어보면 떫다. 굳이 맛보지 않는다면 달콤할 거라는 환상도 깨지지 않을 것이다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": "act40side_ex07#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "2차 정예화 Lv.35",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex07#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex07",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex07#f#",
+      "levelId": "Activities/act40side/level_act40side_ex07",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-7",
+      "name": "떫은맛",
+      "description": "<@lv.fs>제한 조건:</>\n<@lv.item><화로></> 및 <@lv.item><버려진 화로></>의 위치 변경, 일부 적이 변경",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex07",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_ex08",
+      "levelId": "Activities/act40side/level_act40side_ex08",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-8",
+      "name": "백가지 맛",
+      "description": "불은 백 가지 맛을 만들고, 화로에는 우주의 이치가 깃들어 있다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": "act40side_ex08#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "2차 정예화 Lv.40",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_ex08#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_ex08",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_ex08#f#",
+      "levelId": "Activities/act40side/level_act40side_ex08",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-8",
+      "name": "백가지 맛",
+      "description": "<@lv.fs>제한 조건:</>\n<@lv.item><화로></>의 SP 소모량 증가",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_st03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_s01",
+      "levelId": "Activities/act40side/level_act40side_sub-1-1",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-1",
+      "name": "돌잔치",
+      "description": "돌잡이 때의 아이는 영문도 모른 채 손을 뻗고, 어른들은 숨을 죽인 채 지켜본다. 조그마한 손을 오른쪽으로 뻗으면 함박웃음을 짓고, 왼쪽으로 뻗으면 모두 초조함에 애를 태운다. 이건 중대한 사안이다!\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": "act40side_s01#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s01#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_s01",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_s01#f#",
+      "levelId": "Activities/act40side/level_act40side_sub-1-1",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-1",
+      "name": "돌잔치",
+      "description": "<@lv.fs>제한 조건:</>\n<@lv.item>'폐식'</>의 소환 스킬 쿨타임 감소",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_s01",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_s02",
+      "levelId": "Activities/act40side/level_act40side_sub-1-2",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-2",
+      "name": "결혼 피로연",
+      "description": "축의금 문제로 기분이 상한 부모님을 달래고, 끝도 없는 친척들의 훈계도 모두 상대한 후에야 젊은 부부는 손님 없는 구석에 앉아 식은 음식을 나눠 먹는다. 그리고 마침내 긴장이 풀린 듯, 둘은 서로를 바라보며 웃음을 터뜨린다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": "act40side_s02#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s02#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_s02",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_s02#f#",
+      "levelId": "Activities/act40side/level_act40side_sub-1-2",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-2",
+      "name": "결혼 피로연",
+      "description": "<@lv.fs>제한 조건:</>\n서포터, 스페셜리스트 오퍼레이터 배치 코스트 3배로 증가",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_s02",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_s03",
+      "levelId": "Activities/act40side/level_act40side_sub-1-3",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-3",
+      "name": "생신잔치",
+      "description": "1년에 한 번 모이기도 어려운데, 그마저도 사소한 것들로 누가 더 효도하는지 서로 비교한다. 안 보면 그립지만, 막상 보면 또 시끄럽기만 하다. 하지만 어린 시절 각자 가장 좋아했던 음식들이 차례로 식탁에 올라오면, 팽팽했던 식탁 분위기도 어느새 누그러진다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": "act40side_s03#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s03#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_s03",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_s03#f#",
+      "levelId": "Activities/act40side/level_act40side_sub-1-3",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-3",
+      "name": "생신잔치",
+      "description": "<@lv.fs>제한 조건:</>\n<@lv.item>'황폐의 시련'</>이 입히는 대미지 증가",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_s03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_s04",
+      "levelId": "Activities/act40side/level_act40side_sub-1-4",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-4",
+      "name": "추도 연회",
+      "description": "두 다리를 뻗고 홀연히 떠나면, 아픔은 오직 이 세상 사람들에게만 남는다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": "act40side_s04#f#",
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_s04#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": "PASS"
+        },
+        {
+          "stageId": "act40side_s04",
+          "completeState": "COMPLETE"
+        }
+      ],
+      "stageId": "act40side_s04#f#",
+      "levelId": "Activities/act40side/level_act40side_sub-1-4",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-4",
+      "name": "추도 연회",
+      "description": "<@lv.fs>제한 조건:</>\n<@lv.item>무위</>의 HP 증가",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MAIN_NORMAL",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
+    },
+    "act40side_mo01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_st03",
+          "completeState": "PASS"
+        }
+      ],
+      "stageId": "act40side_mo01",
+      "levelId": "Activities/act40side/level_act40side_mo01",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-MO-1",
+      "name": "삼시세끼",
+      "description": "남에게 보여주기 위한 밥은 겉만 화려할 뿐이다. 입으로 들어가는 음식의 맛은 자신만 알 수 있다.\n<@lv.item><화로></> '속세의 화식'을 소환해 경로상의 모든 적 유닛에게 트루 대미지를 입힘\n<@lv.item><버려진 화로></> '황폐의 시련'을 소환해 경로상의 모든 아군 유닛에게 트루 대미지를 입힘",
+      "hardStagedId": null,
+      "sixStarStageId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": false,
+      "canBattleReplay": true,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": "MIST_OPS",
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": "ALWAYS",
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": "COMPLETE"
+          }
+        ]
+      },
+      "canUseCharm": false,
+      "canUseTech": false,
+      "canUseTrapTool": false,
+      "canUseBattlePerformance": false,
+      "canUseFirework": false,
+      "canMultipleBattle": false,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01",
+      "extraCondition": null,
+      "extraInfo": null,
+      "sixStarBaseDesc": null,
+      "sixStarDisplayRewardList": null,
+      "advancedRuneIdList1": [],
+      "advancedRuneIdList2": [],
+      "useSpecialSizeMapPreview": false
     }
   },
   "ruleData": {
@@ -153287,6 +157352,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153341,6 +157407,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153370,6 +157437,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153414,6 +157482,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153463,6 +157532,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153512,6 +157582,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153556,6 +157627,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153605,6 +157677,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153659,6 +157732,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153713,6 +157787,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -153797,6 +157872,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155048,6 +159124,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155077,6 +159154,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155122,6 +159200,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155151,6 +159230,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155196,6 +159276,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155225,6 +159306,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155270,6 +159352,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155299,6 +159382,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155344,6 +159428,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155389,6 +159474,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155434,6 +159520,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155468,6 +159555,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155513,6 +159601,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,
@@ -155547,6 +159636,7 @@
                     "playerSideMask": "ALL",
                     "sideType": "ALL",
                     "charIdFilter": null,
+                    "charIdExcludeFilter": null,
                     "enemyIdFilter": null,
                     "enemyIdExcludeFilter": null,
                     "enemyLevelTypeFilter": null,

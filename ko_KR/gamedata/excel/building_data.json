@@ -14719,6 +14719,96 @@
           ]
         }
       ]
+    },
+    "char_4056_titi": {
+      "charId": "char_4056_titi",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_probability[118]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            },
+            {
+              "buffId": "workshop_formula_probability[128]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_cost3[600]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_1022_flwr2": {
+      "charId": "char_1022_flwr2",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_all[029]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_all&tired[100]",
+              "cond": {
+                "phase": "PHASE_2",
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_4166_varkis": {
+      "charId": "char_4166_varkis",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "control_meeting&mp_cost[000]",
+              "cond": {
+                "phase": "PHASE_0",
+                "level": 1
+              }
+            },
+            {
+              "buffId": "control_meeting&mp_cost[100]",
+              "cond": {
+                "phase": "PHASE_1",
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
     }
   },
   "buffs": {
@@ -14987,7 +15077,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
-      "description": "제어 센터에 배치 시, <$cc.g.karlan><@cc.kw>쉐라그</></> 오퍼레이터가 <@cc.vup>3</>명 배치된 무역소가 1개당 오더 수주 효율 <@cc.vup>+10%</>",
+      "description": "제어 센터에 배치 시, <$cc.g.karlan><@cc.kw>쉐라그</></> 오퍼레이터가 <@cc.vup>3</>명 배치된 무역소의 오더 수주 효율 <@cc.vup>+10%</>",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -15063,6 +15153,36 @@
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
       "description": "제어 센터에 배치 시, <@cc.kw>이네스</>가 응접실에 있으면 응접실의 단서 수집 속도 <@cc.vup>+5%</>, <@cc.kw>외드레르</>가 무역소에 있으면 해당 무역소의 오더 상한 <@cc.vup>+2</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_meeting&mp_cost[000]": {
+      "buffId": "control_meeting&mp_cost[000]",
+      "buffName": "영웅의 긍지 α",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_c_minos",
+      "sortId": 1405,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "제어 센터에 배치 시, 기반시설(어시스턴트 및 활동실 사용자 미포함) 내 배치된 <$cc.g.minos><@cc.kw>미노스</></> 오퍼레이터 1명당 응접실의 단서 수집 속도 <@cc.vup>+4%</>(최대 <@cc.vup>+20%</>, 동종 효과 중 가장 높은 수치만 적용). <$cc.g.sargon><@cc.kw>사르곤</></> 오퍼레이터와 함께 제어 센터에 배치 시, 자신의 시간당 컨디션 소모 <@cc.vdown>+0.02</>",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "control_meeting&mp_cost[100]": {
+      "buffId": "control_meeting&mp_cost[100]",
+      "buffName": "영웅의 긍지 β",
+      "buffIcon": "control",
+      "skillIcon": "bskill_ctrl_c_minos2",
+      "sortId": 1405,
+      "buffColor": "#005752",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "CONTROL",
+      "description": "제어 센터에 배치 시, 기반시설(어시스턴트 및 활동실 사용자 미포함) 내 배치된 <$cc.g.minos><@cc.kw>미노스</></> 오퍼레이터 1명당 응접실의 단서 수집 속도 <@cc.vup>+5%</>(최대 <@cc.vup>+25%</>, 동종 효과 중 가장 높은 수치만 적용). <$cc.g.sargon><@cc.kw>사르곤</></> 오퍼레이터와 함께 제어 센터에 배치 시, 자신의 시간당 컨디션 소모 <@cc.vdown>+0.02</>",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -15932,7 +16052,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
-      "description": "제어 센터에 배치 시 <$cc.bd_mujica><@cc.rem>열정</> </><@cc.vup>+10</>, 응접실의 단서 수집 속도 +<@cc.vup>+5%</> (동종 효과 중 가장 높은 수치만 적용)",
+      "description": "제어 센터에 배치 시 <$cc.bd_mujica><@cc.rem>열정</> </><@cc.vup>+10</>, 응접실의 단서 수집 속도 <@cc.vup>+5%</> (동종 효과 중 가장 높은 수치만 적용)",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -19081,7 +19201,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "무역소에 배치 시, 숙소 내 오퍼레이터 <@cc.kw>1</>명당 <$cc.bd_b1><@cc.rem>속세의 화식</></> <@cc.vup>+1</>, <$cc.bd_b1><@cc.rem>속세의 화식</></> <@cc.vup>1</>점당 오더 수주 효율 <@cc.vup>+1%</>",
+      "description": "무역소에 배치 시, 숙소 내 오퍼레이터 <@cc.kw>1</>명당 \n<$cc.bd_b1><@cc.rem>속세의 화식</></> <@cc.vup>+1</>, <$cc.bd_b1><@cc.rem>속세의 화식</></> <@cc.vup>1</>점당 오더 수주 효율 <@cc.vup>+1%</>",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -19591,7 +19711,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "무역소에 배치 시, 오더 수주 효율 <@cc.vup>+25%</>, <@cc.kw>울피아누스</>가 기반시설(어시스턴트 및 활동실 사용자 미포함)에 있으면 오더 수주 효율 추가로 <@cc.vup>+5%</>",
+      "description": "무역소에 배치 시, 오더 수주 효율 <@cc.vup>+25%</>, <@cc.kw>울피아누스</>가 기반시설(어시스턴트 및 활동실 사용자 미포함)에 있으면 오더 수주 효율이 추가로 <@cc.vup>+5%</>",
       "efficiency": 25,
       "targetGroupSortId": 0,
       "targets": []
@@ -19606,7 +19726,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "무역소에 배치 시, 오더 수주 효율 <@cc.vup>+30%</>, <@cc.kw>울피아누스</>가 기반시설(어시스턴트 및 활동실 사용자 미포함)에 있으면 오더 수주 효율 추가로 <@cc.vup>+10%</>",
+      "description": "무역소에 배치 시, 오더 수주 효율 <@cc.vup>+30%</>, <@cc.kw>울피아누스</>가 기반시설(어시스턴트 및 활동실 사용자 미포함)에 있으면 오더 수주 효율이 추가로 <@cc.vup>+10%</>",
       "efficiency": 30,
       "targetGroupSortId": 0,
       "targets": []
@@ -19666,7 +19786,7 @@
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "무역소에 배치 시, 오더 수주 효율 <@cc.vup>+25%</>, 기반시설(어시스턴트 및 활동실 사용자 미포함) 내 <$cc.g.elite><@cc.kw>정예 오퍼레이터</></>가 배치된 시설 1개당 오더 수주 효율 추가로 <@cc.vup>+2%</> (최대 <@cc.kw>10</>개)",
+      "description": "무역소에 배치 시, 오더 수주 효율 <@cc.vup>+25%</>, 기반시설(어시스턴트 및 활동실 사용자 미포함) 내 <$cc.g.elite><@cc.kw>정예 오퍼레이터</></>가 배치된 시설 1개당 오더 수주 효율이 추가로 <@cc.vup>+2%</> (최대 <@cc.kw>10</>개)",
       "efficiency": 25,
       "targetGroupSortId": 0,
       "targets": []
@@ -20179,7 +20299,7 @@
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
       "description": "가공소에 배치해 <@cc.kw>정예화 재료</> 가공 시, 부산물 산출 확률 <@cc.vup>40%</> 상승, 컨디션 소모가 <@cc.kw>8</> 이상인 모든 항목의 컨디션 소모 <@cc.vup>-4</>",
-      "efficiency": 0,
+      "efficiency": 40,
       "targetGroupSortId": 2,
       "targets": [
         "F_EVOLVE"
@@ -20298,6 +20418,23 @@
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
       "description": "가공소에 배치해 컨디션 <@cc.kw>2</> 소모하는 <@cc.kw>정예화 재료</> 가공 시, 컨디션 소모 <@cc.vup>-1</>",
+      "efficiency": 0,
+      "targetGroupSortId": 2,
+      "targets": [
+        "F_EVOLVE"
+      ]
+    },
+    "workshop_formula_cost3[600]": {
+      "buffId": "workshop_formula_cost3[600]",
+      "buffName": "역사와의 대화",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve_cost3",
+      "sortId": 7530,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "가공소에 배치해 컨디션 <@cc.kw>8</> 소모하는 <@cc.kw>정예화 재료</> 가공 시, 컨디션 소모 <@cc.vup>-4</>",
       "efficiency": 0,
       "targetGroupSortId": 2,
       "targets": [
@@ -20996,6 +21133,40 @@
       "roomType": "WORKSHOP",
       "description": "가공소에 배치해 <@cc.kw>정예화 재료</> 가공 시, 부산물 산출 확률 <@cc.vup>75%</> 상승",
       "efficiency": 75,
+      "targetGroupSortId": 2,
+      "targets": [
+        "F_EVOLVE"
+      ]
+    },
+    "workshop_formula_probability[118]": {
+      "buffId": "workshop_formula_probability[118]",
+      "buffName": "원형 복원 α",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve2",
+      "sortId": 7526,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "가공소에 배치해 <@cc.kw>정예화 재료</> 가공 시, 부산물 산출 확률 <@cc.vup>75%</> 상승",
+      "efficiency": 75,
+      "targetGroupSortId": 2,
+      "targets": [
+        "F_EVOLVE"
+      ]
+    },
+    "workshop_formula_probability[128]": {
+      "buffId": "workshop_formula_probability[128]",
+      "buffName": "원형 복원 β",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve3",
+      "sortId": 7536,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "가공소에 배치해 <@cc.kw>정예화 재료</> 가공 시, 부산물 산출 확률 <@cc.vup>80%</> 상승",
+      "efficiency": 80,
       "targetGroupSortId": 2,
       "targets": [
         "F_EVOLVE"
@@ -24333,6 +24504,21 @@
       "targetGroupSortId": 0,
       "targets": []
     },
+    "dorm_rec_all[029]": {
+      "buffId": "dorm_rec_all[029]",
+      "buffName": "차분한 마음",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_all2",
+      "sortId": 5426,
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "숙소에 배치 시, 해당 숙소 안에 배치된 모든 오퍼레이터의 시간당 컨디션 회복 <@cc.vup>+0.15</> (동종 효과 중 가장 높은 수치만 적용)",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
     "dorm_bd_num[000]": {
       "buffId": "dorm_bd_num[000]",
       "buffName": "무성의 공명",
@@ -24374,6 +24560,21 @@
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
       "description": "숙소에 배치 시, 해당 숙소 내 모든 오퍼레이터의 시간당 컨디션 회복 속도 <@cc.vup>+0.15</>, 해당 숙소 내 컨디션이 <@cc.vup>18</> 이하인 오퍼레이터의 회복 효과가 추가로 <@cc.vup>+0.1</> (동종 효과 중 가장 높은 수치만 적용)",
+      "efficiency": 0,
+      "targetGroupSortId": 0,
+      "targets": []
+    },
+    "dorm_rec_all&tired[100]": {
+      "buffId": "dorm_rec_all&tired[100]",
+      "buffName": "호흡 정화",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_all_tired2",
+      "sortId": 5337,
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "숙소에 배치 시, 해당 숙소 내 컨디션이 <@cc.vup>20</> 이하인 오퍼레이터의 회복 효과가 추가로 <@cc.vup>+0.1</> (동종 효과 중 가장 높은 수치만 적용)",
       "efficiency": 0,
       "targetGroupSortId": 0,
       "targets": []
@@ -94668,6 +94869,550 @@
         "enableRoomType": 4112,
         "quantity": 1
       },
+      "furni_minosMed_column_01": {
+        "id": "furni_minosMed_column_01",
+        "sortId": 2149,
+        "name": "돌기둥 파티션",
+        "iconId": "furni_minosMed_column_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "PARTITION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_1",
+        "width": 8,
+        "depth": 2,
+        "height": 10,
+        "comfort": 390,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "튼튼한 대리석 파티션, 미노스 신전의 클래식한 스타일을 채택하였다.\n몇 년 전 리디아가 화원 밖 담장 뒤에서 얼굴을 반만 내민 채 자신을 쳐다보던 모습을 레나는 아직 기억하고 있다. 물론, 이제는 더 이상 그 표정을 찾을 수 없겠지만.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_ceilingLight_01": {
+        "id": "furni_minosMed_ceilingLight_01",
+        "sortId": 2150,
+        "name": "'피어나는 빛'",
+        "iconId": "furni_minosMed_ceilingLight_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILINGLAMP",
+        "subType": "LIGHT",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_2",
+        "width": 3,
+        "depth": 1,
+        "height": 5,
+        "comfort": 65,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "미노스에서 흔히 볼 수 있는 하얀 꽃을 주제로 한 소형 천장 조명.\n치료를 받으러 온 아이들이 호기심에 꽃 이름을 물어보면, 레나가 부드러운 목소리로 답을 알려주곤 한다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_ceilingBell_01": {
+        "id": "furni_minosMed_ceilingBell_01",
+        "sortId": 2151,
+        "name": "헌사의 종",
+        "iconId": "furni_minosMed_ceilingBell_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILING",
+        "subType": "DEVICE_C",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_2",
+        "width": 7,
+        "depth": 3,
+        "height": 5,
+        "comfort": 175,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "천장 중앙에는 장식용 구리종, 추가 연결된 긴 끈에는 별 모양 장식이 있다.\n과거에는 사람의 마음을 격려하는 전설을 위해 울리던 종이었지만, 지금은 조용히 아테누스의 아침 햇살을 지켜보고 있다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_desk_01": {
+        "id": "furni_minosMed_desk_01",
+        "sortId": 2152,
+        "name": "숭배의 단",
+        "iconId": "furni_minosMed_desk_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ORTHER_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_1",
+        "width": 2,
+        "depth": 2,
+        "height": 4,
+        "comfort": 140,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "영웅을 기리는 시가 놓인 돌 받침대, 미노스인에겐 생활필수품이라고 할 수 있다.\n누군가 그녀를 과거의 이름으로 불렀다. 하지만, 그녀의 대답은 “나는 로도스 아일랜드의 레나야”이었다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_sculpture_01": {
+        "id": "furni_minosMed_sculpture_01",
+        "sortId": 2153,
+        "name": "물 속 동물 조각상 화단",
+        "iconId": "furni_minosMed_sculpture_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ART_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_1",
+        "width": 6,
+        "depth": 5,
+        "height": 7,
+        "comfort": 425,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "수조가 딸린 소형 화단, 원목 동물 조각상의 내부에 배수구가 설치되어 있다.\n전설 속 영웅인 플로라가 물가의 화원에 심은 수많은 화초는 모든 상처를 치료하고, 모든 미노스인의 영혼을 위로할 수 있었다고 한다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_shelf_01": {
+        "id": "furni_minosMed_shelf_01",
+        "sortId": 2154,
+        "name": "'순결한 지혜' 책장",
+        "iconId": "furni_minosMed_shelf_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CABINET",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_1",
+        "width": 5,
+        "depth": 7,
+        "height": 8,
+        "comfort": 515,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "대리석을 조각해 만든 책장, 사용자가 높은 곳에 있는 물건을 쉽게 가져가기 위한 계단이 탑재되어 있다.\n사무소가 설립된 이래 이곳에는 수많은 새로운 식물 연구 자료와 진료 기록이 추가되었다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_plant_01": {
+        "id": "furni_minosMed_plant_01",
+        "sortId": 2155,
+        "name": "'명예의 기록' 화단",
+        "iconId": "furni_minosMed_plant_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "PLANT",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_3",
+        "width": 7,
+        "depth": 2,
+        "height": 2,
+        "comfort": 185,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "미노스의 경기 시상대 모습을 참고해 만든 화단, 화분은 특별히 전통적인 도자기 모양으로 디자인되었다.\n영웅 플로라는 도자기에 보관해 놓은 씨앗으로 재앙이 지난 후의 황폐해진 계곡을 되살려냈다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_carpet_01": {
+        "id": "furni_minosMed_carpet_01",
+        "sortId": 2156,
+        "name": "'서사시의 흔적' 카펫",
+        "iconId": "furni_minosMed_carpet_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CARPET",
+        "subType": "NONE",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_2",
+        "width": 19,
+        "depth": 7,
+        "height": 1,
+        "comfort": 160,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "석재 질감의 긴 카펫, 마치 침식된 듯한 무늬가 인쇄되어 있다.\n침략받은 흔적은 아직도 여전히 뚜렷하게 남아있으나, 아테누스는 사람들에게 보여줄 새로운 이야기를 품고 있다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_table_01": {
+        "id": "furni_minosMed_table_01",
+        "sortId": 2157,
+        "name": "석재 진료 탁자",
+        "iconId": "furni_minosMed_table_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "TABLE",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_2",
+        "width": 9,
+        "depth": 3,
+        "height": 5,
+        "comfort": 85,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "하얀 석재를 조합해 만든 긴 탁자, 간결하고 실용적이다.\n사무소가 설립된 지 얼마 되지도 않은 데다, 레나는 항상 끝나지 않는 임무에 시달리고 있지만, 앞으로 나아가는 것을 절대 멈추지 않을 것이다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_tree_01": {
+        "id": "furni_minosMed_tree_01",
+        "sortId": 2158,
+        "name": "'신념과 생기'",
+        "iconId": "furni_minosMed_tree_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "DEVICE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_3",
+        "width": 5,
+        "depth": 3,
+        "height": 10,
+        "comfort": 340,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "치유 효과가 있는 수액을 만들 수 있는 나무, 정원에 정성껏 심어져 있다.\n플로라는 나무 수액 1병으로 죽어가는 전사들을 수없이 구해냈다. 그리고 그날의 전투는 지금까지도 미노스인의 입을 통해 전해 내려오고 있다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_ceilingLight_02": {
+        "id": "furni_minosMed_ceilingLight_02",
+        "sortId": 2159,
+        "name": "커튼 초롱",
+        "iconId": "furni_minosMed_ceilingLight_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "CEILINGLAMP",
+        "subType": "NONE",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_4",
+        "width": 6,
+        "depth": 3,
+        "height": 6,
+        "comfort": 195,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "종이 재질의 등갓이 달린 천장등, 얇은 천을 통과해 방을 비추는 빛이 부드럽기 그지없다.\n“긴장 푸시고, 눈을 감고 편히 쉬세요. 내일은 분명 더 나아질 테니.”",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_bed_01": {
+        "id": "furni_minosMed_bed_01",
+        "sortId": 2160,
+        "name": "정양 침대",
+        "iconId": "furni_minosMed_bed_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "BEDDING",
+        "subType": "NONE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_4",
+        "width": 7,
+        "depth": 3,
+        "height": 4,
+        "comfort": 265,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "진료받으러 온 환자를 위해 준비한 간이 요양 침대, 매트리스가 부드럽고 편안하다.\n질병 때문에 사람은 미래에 대한 기대를 잃는다. 그렇기에 레나가 하는 모든 것은 사람들이 삶을 마주할 용기를 되찾게 하기 위한 것이다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_stool_01": {
+        "id": "furni_minosMed_stool_01",
+        "sortId": 2161,
+        "name": "'살아 숨 쉬는 시간' 의자",
+        "iconId": "furni_minosMed_stool_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "SEATING",
+        "subType": "CHAIR",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_2",
+        "width": 3,
+        "depth": 2,
+        "height": 2,
+        "comfort": 135,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "모래시계 형태의 작은 의자. 방석 없이, 그저 의자 위에 하얀 천이 깔려 있을 뿐이다.\n언젠가는 눈이 녹아 강을 이루고 나무가 새싹을 틔우듯, 사람들도 자신의 희망을 찾게 될 것이다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_chair_01": {
+        "id": "furni_minosMed_chair_01",
+        "sortId": 2162,
+        "name": "치료 휠체어",
+        "iconId": "furni_minosMed_chair_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "SEATING",
+        "subType": "CHAIR",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_3",
+        "width": 4,
+        "depth": 3,
+        "height": 5,
+        "comfort": 215,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "거동이 불편한 환자를 위해 제공되는 나무 휠체어, 수액걸이가 딸려있다.\n노인들은 여전히 과거를 이야기하고 있지만, 이제는 미래에 관한 이야기가 조금씩이지만 점점 등장하기 시작했다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_sculpture_02": {
+        "id": "furni_minosMed_sculpture_02",
+        "sortId": 2163,
+        "name": "물이 흐르는 돌기둥 연못",
+        "iconId": "furni_minosMed_sculpture_02",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ART_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_4",
+        "width": 4,
+        "depth": 3,
+        "height": 8,
+        "comfort": 275,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "대리석 기둥을 주체로 하는 연못 장식, 정교한 내부 구조를 통해 물이 연못과 돌기둥 사이를 순환한다.\n화원에서 처음으로 리디아에게 화초를 알려주던 그날 아침, 그리고 그 회색 꼬리의 냄새를 레나는 결코 잊지 못할 것이다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_wallpaper_01": {
+        "id": "furni_minosMed_wallpaper_01",
+        "sortId": 2164,
+        "name": "'새로운 탄생의 모습'",
+        "iconId": "furni_minosMed_wallpaper_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLPAPER",
+        "subType": "NONE",
+        "location": "NONE",
+        "category": "WALL",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_4",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "아테누스의 풍경을 담은 파노라마 디스플레이. 도시를 둘러싼 산의 경치가 마치 손에 닿을 듯 생생하다.\n그녀는 창가에 서서 신전을 바라보았다. 바람이 따스한 느낌을 싣고 녹색 빛이 충만한 계곡을 스쳐 지나갔다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
+      "furni_minosMed_floor_01": {
+        "id": "furni_minosMed_floor_01",
+        "sortId": 2165,
+        "name": "미노스 돌바닥",
+        "iconId": "furni_minosMed_floor_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "FLOOR",
+        "subType": "NONE",
+        "location": "NONE",
+        "category": "FLOOR",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "furni_set_minosMed",
+        "groupId": "furni_set_minosMed_3",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "아토스 산의 주요 봉우리에 있는 석재로 만든 바닥, 차분한 기분이 들게 한다.\n아토풀루 가문 역시 과거에 비슷한 디자인을 채용한 적이 있었다. 그리고 레나는 지금, 새로운 이상을 품고 이 바닥 위에 서 있다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 1
+      },
       "furni_oct1st_deckChair_01": {
         "id": "furni_oct1st_deckChair_01",
         "sortId": 9998,
@@ -96705,7 +97450,7 @@
         "height": 3,
         "comfort": 180,
         "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
-        "description": "대리석 재질의 바둑판. 산수풍경을 조각했고, 측면에는 석재 자체의 무늬에 따라 구름을 조각했다.\n구름 밖 산에서 담소를 나누며, 바둑알이 그사이를 종횡무진한다.",
+        "description": "대리석 재질의 바둑판. 산수풍경을 조각했고, 측면에는 석재 자체의 무늬에 따라 구름을 조각했다.\n구름 밖 산에서 담소를 나누며, 바둑돌이 그사이를 종횡무진한다.",
         "obtainApproach": "이벤트 보상",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -98572,9 +99317,41 @@
         "enableRoomType": 4112,
         "quantity": 0
       },
+      "furni_act68d4_mailbox_01": {
+        "id": "furni_act68d4_mailbox_01",
+        "sortId": 10255,
+        "name": "'희망 전달' 우편함",
+        "iconId": "furni_act68d4_mailbox_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "DECORATION",
+        "subType": "ORTHER_D",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": true,
+        "rarity": 2,
+        "themeId": "",
+        "groupId": "",
+        "width": 4,
+        "depth": 3,
+        "height": 5,
+        "comfort": 140,
+        "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "아미야갸 엔지니어링부에 특별히 의뢰해 만든 작은 우편함, 위에는 아미야가 직접 만든 봉제 인형이 놓여 있다.\n얼마 지나지 않아 우편함은 새해를 축하하는 편지로 가득 찼다. 함께 앉아 친구들이 어떤 따뜻한 말을 보냈는지 살펴보도록 하자!",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4112,
+        "quantity": 0
+      },
       "furni_act73d0_rabbits_01": {
         "id": "furni_act73d0_rabbits_01",
-        "sortId": 10256,
+        "sortId": 10257,
         "name": "'함께 하는 축제'",
         "iconId": "furni_act73d0_rabbits_01",
         "interactType": "NONE",
@@ -101964,6 +102741,38 @@
         "enableRoomType": 4144,
         "quantity": 0
       },
+      "furni_hardNoggin_01": {
+        "id": "furni_hardNoggin_01",
+        "sortId": 11107,
+        "name": "플레이트 《굳건함》",
+        "iconId": "furni_hardNoggin_01",
+        "interactType": "NONE",
+        "musicId": "",
+        "type": "WALLDECO",
+        "subType": "PLAQUE",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "validOnRotate": false,
+        "enableRotate": false,
+        "rarity": 2,
+        "themeId": "",
+        "groupId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "숙소와 활동실, 응접실을 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "머리를 지키는 것은 물리적인 보호에서부터 시작된다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1,
+        "enableRoomType": 4144,
+        "quantity": 0
+      },
       "furni_contract_s0_01": {
         "id": "furni_contract_s0_01",
         "sortId": 12001,
@@ -103745,7 +104554,7 @@
         "height": 4,
         "comfort": 140,
         "usage": "숙소와 활동실을 꾸며 분위기 수치를 높일 수 있다.",
-        "description": "우르수스 학생 자치단의 배트 거치대. 가끔 모여서 같이 야구를 한다.",
+        "description": "우르수스 학생자치단의 배트 거치대. 가끔 모여서 같이 야구를 한다.",
         "obtainApproach": "우르수스 학생자치단 신뢰도 수집",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -125374,6 +126183,143 @@
           "furni_cloudRestaurant_floor_01"
         ]
       },
+      "furni_set_minosMed": {
+        "id": "furni_set_minosMed",
+        "enableRoomType": 4112,
+        "sortId": 122,
+        "name": "아테누스의 부활 서사시",
+        "themeType": "EVENT",
+        "desc": "퍼퓨머가 아테누스에 세운 로도스 아일랜드 사무소를 참고하여 재현한 방. 푸른 산으로 둘러싸인 이 도시에서, 레나는 과거의 혼란을 몰아내고 회복과 새로운 탄생의 여정을 써 내려갈 것이다.",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_minosMed_column_01",
+            "pos0": 0,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_ceilingLight_01",
+            "pos0": 12,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_ceilingBell_01",
+            "pos0": 14,
+            "pos1": 4,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_desk_01",
+            "pos0": 3,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_sculpture_01",
+            "pos0": 2,
+            "pos1": 2,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_shelf_01",
+            "pos0": 8,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_plant_01",
+            "pos0": 11,
+            "pos1": 7,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_carpet_01",
+            "pos0": 8,
+            "pos1": 1,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_table_01",
+            "pos0": 13,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_tree_01",
+            "pos0": 22,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_ceilingLight_02",
+            "pos0": 28,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_bed_01",
+            "pos0": 27,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_stool_01",
+            "pos0": 18,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_chair_01",
+            "pos0": 23,
+            "pos1": 6,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_sculpture_02",
+            "pos0": 30,
+            "pos1": 3,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0,
+            "dir": 0
+          },
+          {
+            "furnitureId": "furni_minosMed_floor_01",
+            "pos0": 0,
+            "pos1": 10,
+            "dir": 0
+          }
+        ],
+        "groups": [
+          "furni_set_minosMed_1",
+          "furni_set_minosMed_2",
+          "furni_set_minosMed_3",
+          "furni_set_minosMed_4"
+        ],
+        "furnitures": [
+          "furni_minosMed_column_01",
+          "furni_minosMed_ceilingLight_01",
+          "furni_minosMed_ceilingBell_01",
+          "furni_minosMed_desk_01",
+          "furni_minosMed_sculpture_01",
+          "furni_minosMed_shelf_01",
+          "furni_minosMed_plant_01",
+          "furni_minosMed_carpet_01",
+          "furni_minosMed_table_01",
+          "furni_minosMed_tree_01",
+          "furni_minosMed_ceilingLight_02",
+          "furni_minosMed_bed_01",
+          "furni_minosMed_stool_01",
+          "furni_minosMed_chair_01",
+          "furni_minosMed_sculpture_02",
+          "furni_minosMed_wallpaper_01",
+          "furni_minosMed_floor_01"
+        ]
+      },
       "furniM_set_basicRoom": {
         "id": "furniM_set_basicRoom",
         "enableRoomType": 32,
@@ -132998,6 +133944,63 @@
           "furniM_amiya_stoneChair_01",
           "furniM_amiya_giftTable_01",
           "furniM_amiya_carpet_02"
+        ]
+      },
+      "furni_set_minosMed_1": {
+        "id": "furni_set_minosMed_1",
+        "sortId": 1,
+        "name": "'되찾은 신념'",
+        "themeId": "furni_set_minosMed",
+        "comfort": 375,
+        "count": 4,
+        "furniture": [
+          "furni_minosMed_column_01",
+          "furni_minosMed_desk_01",
+          "furni_minosMed_sculpture_01",
+          "furni_minosMed_shelf_01"
+        ]
+      },
+      "furni_set_minosMed_2": {
+        "id": "furni_set_minosMed_2",
+        "sortId": 2,
+        "name": "'추억의 서사시'",
+        "themeId": "furni_set_minosMed",
+        "comfort": 130,
+        "count": 5,
+        "furniture": [
+          "furni_minosMed_ceilingLight_01",
+          "furni_minosMed_ceilingBell_01",
+          "furni_minosMed_table_01",
+          "furni_minosMed_stool_01",
+          "furni_minosMed_carpet_01"
+        ]
+      },
+      "furni_set_minosMed_3": {
+        "id": "furni_set_minosMed_3",
+        "sortId": 3,
+        "name": "'회복의 노래'",
+        "themeId": "furni_set_minosMed",
+        "comfort": 230,
+        "count": 4,
+        "furniture": [
+          "furni_minosMed_tree_01",
+          "furni_minosMed_chair_01",
+          "furni_minosMed_plant_01",
+          "furni_minosMed_floor_01"
+        ]
+      },
+      "furni_set_minosMed_4": {
+        "id": "furni_set_minosMed_4",
+        "sortId": 4,
+        "name": "'다시 태어나는 미래'",
+        "themeId": "furni_set_minosMed",
+        "comfort": 220,
+        "count": 4,
+        "furniture": [
+          "furni_minosMed_ceilingLight_02",
+          "furni_minosMed_bed_01",
+          "furni_minosMed_sculpture_02",
+          "furni_minosMed_wallpaper_01"
         ]
       }
     },
@@ -140881,7 +141884,7 @@
         "bgmStartTime": 1667449800,
         "bgmName": "바다 - Undertide",
         "gameMusicId": "music_bg_iberia",
-        "obtainApproach": "3★ 평가로 언더 타이즈 SV-9 클리어",
+        "obtainApproach": "3★ 평가로 '언더 타이즈' SV-9, '스툴티페라 나비스' SN-10 클리어",
         "bgmDescUnlocked": "배경에 동봉된 음원",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -140946,7 +141949,7 @@
         "bgmStartTime": 1699340400,
         "bgmName": "수풀 - Journey",
         "gameMusicId": "music_bg_rhine",
-        "obtainApproach": "3★ 평가로 도로시의 비전 DV-8 클리어",
+        "obtainApproach": "3★ 평가로 '도로시의 비전' DV-8, '론 트레일' CW-10 클리어",
         "bgmDescUnlocked": "배경에 동봉된 음원",
         "unlockType": "MainBG",
         "unlockParams": [
@@ -141120,6 +142123,19 @@
         "unlockType": "MainBG",
         "unlockParams": [
           "bg_avemujica_1"
+        ]
+      },
+      "bgm_bg_adastra": {
+        "bgmId": "bgm_bg_adastra",
+        "bgmSortId": 28,
+        "bgmStartTime": 1782831600,
+        "bgmName": "별자취 - Ad astra",
+        "gameMusicId": "music_bg_adastra",
+        "obtainApproach": "[구매센터]에서 하늘 꿈 별자취 팩 구매 시 획득",
+        "bgmDescUnlocked": "배경에 동봉된 음원",
+        "unlockType": "MainBG",
+        "unlockParams": [
+          "bg_lonetrail_1"
         ]
       },
       "bgm_bg_rogue_5": {
