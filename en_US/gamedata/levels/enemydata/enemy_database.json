@@ -333454,6 +333454,1559 @@
       ]
     },
     {
+      "Key": "enemy_2126_dycyue",
+      "Value": [
+        {
+          "level": 0,
+          "enemyData": {
+            "name": {
+              "m_defined": true,
+              "m_value": "Vessel of Shuo"
+            },
+            "description": {
+              "m_defined": true,
+              "m_value": "A vessel that has been annexed, containing all malice and wrath. Its original owner slumbers eternal, replaced by—"
+            },
+            "prefabKey": {
+              "m_defined": true,
+              "m_value": "enemy_2126_dycyue"
+            },
+            "attributes": {
+              "maxHp": {
+                "m_defined": true,
+                "m_value": 500000
+              },
+              "atk": {
+                "m_defined": true,
+                "m_value": 1800
+              },
+              "def": {
+                "m_defined": true,
+                "m_value": 2500
+              },
+              "magicResistance": {
+                "m_defined": true,
+                "m_value": 60.0
+              },
+              "cost": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "blockCnt": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "moveSpeed": {
+                "m_defined": true,
+                "m_value": 0.6
+              },
+              "attackSpeed": {
+                "m_defined": true,
+                "m_value": 100.0
+              },
+              "baseAttackTime": {
+                "m_defined": true,
+                "m_value": 4.5
+              },
+              "respawnTime": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "hpRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "spRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "maxDeployCount": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "massLevel": {
+                "m_defined": true,
+                "m_value": 9
+              },
+              "baseForceLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "tauntLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "epDamageResistance": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "epResistance": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "damageHitratePhysical": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "damageHitrateMagical": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "epBreakRecoverSpeed": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "stunImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "silenceImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "sleepImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "frozenImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "levitateImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "disarmedCombatImmune": {
+                "m_defined": false,
+                "m_value": false
+              },
+              "fearedImmune": {
+                "m_defined": false,
+                "m_value": false
+              },
+              "palsyImmune": {
+                "m_defined": false,
+                "m_value": false
+              },
+              "attractImmune": {
+                "m_defined": false,
+                "m_value": false
+              }
+            },
+            "applyWay": {
+              "m_defined": true,
+              "m_value": "RANGED"
+            },
+            "motion": {
+              "m_defined": true,
+              "m_value": "WALK"
+            },
+            "enemyTags": {
+              "m_defined": true,
+              "m_value": [
+                "animated"
+              ]
+            },
+            "lifePointReduce": {
+              "m_defined": true,
+              "m_value": 50
+            },
+            "levelType": {
+              "m_defined": true,
+              "m_value": "BOSS"
+            },
+            "rangeRadius": {
+              "m_defined": true,
+              "m_value": 2.5
+            },
+            "numOfExtraDrops": {
+              "m_defined": false,
+              "m_value": 0
+            },
+            "viewRadius": {
+              "m_defined": false,
+              "m_value": 0.0
+            },
+            "notCountInTotal": {
+              "m_defined": false,
+              "m_value": false
+            },
+            "talentBlackboard": [
+              {
+                "key": "MasterBlcok.base_atk",
+                "value": 0.3,
+                "valueStr": null
+              },
+              {
+                "key": "MasterBlcok.prob",
+                "value": 0.5,
+                "valueStr": null
+              },
+              {
+                "key": "MasterBlcok.branch_id",
+                "value": 0.0,
+                "valueStr": "summon_dysuih"
+              },
+              {
+                "key": "BranchData.max_index",
+                "value": 5.0,
+                "valueStr": null
+              },
+              {
+                "key": "MasterBlcok.action_index",
+                "value": 2.0,
+                "valueStr": null
+              }
+            ],
+            "skills": [
+              {
+                "prefabKey": "Punch",
+                "priority": 0,
+                "cooldown": 30.0,
+                "initCooldown": 10.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "range_radius",
+                    "value": 13.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "SendPunchCard",
+                "priority": 1,
+                "cooldown": 36.0,
+                "initCooldown": 5.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "cnt",
+                    "value": 1.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "max_cards",
+                    "value": 8.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "SummonBody",
+                "priority": 2,
+                "cooldown": 54.0,
+                "initCooldown": 20.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "branch_id",
+                    "value": 0.0,
+                    "valueStr": "dycyue_body"
+                  }
+                ]
+              }
+            ],
+            "spData": null
+          }
+        }
+      ]
+    },
+    {
+      "Key": "enemy_2127_dysuih",
+      "Value": [
+        {
+          "level": 0,
+          "enemyData": {
+            "name": {
+              "m_defined": true,
+              "m_value": "Arrogance Embodied"
+            },
+            "description": {
+              "m_defined": true,
+              "m_value": "—It, awakened."
+            },
+            "prefabKey": {
+              "m_defined": true,
+              "m_value": "enemy_2127_dysuih"
+            },
+            "attributes": {
+              "maxHp": {
+                "m_defined": true,
+                "m_value": 500000
+              },
+              "atk": {
+                "m_defined": true,
+                "m_value": 2400
+              },
+              "def": {
+                "m_defined": true,
+                "m_value": 3000
+              },
+              "magicResistance": {
+                "m_defined": true,
+                "m_value": 60.0
+              },
+              "cost": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "blockCnt": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "moveSpeed": {
+                "m_defined": true,
+                "m_value": 0.75
+              },
+              "attackSpeed": {
+                "m_defined": true,
+                "m_value": 100.0
+              },
+              "baseAttackTime": {
+                "m_defined": true,
+                "m_value": 5.0
+              },
+              "respawnTime": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "hpRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "spRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "maxDeployCount": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "massLevel": {
+                "m_defined": true,
+                "m_value": 13
+              },
+              "baseForceLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "tauntLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "epDamageResistance": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "epResistance": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "damageHitratePhysical": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "damageHitrateMagical": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "epBreakRecoverSpeed": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "stunImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "silenceImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "sleepImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "frozenImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "levitateImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "disarmedCombatImmune": {
+                "m_defined": false,
+                "m_value": false
+              },
+              "fearedImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "palsyImmune": {
+                "m_defined": false,
+                "m_value": false
+              },
+              "attractImmune": {
+                "m_defined": true,
+                "m_value": true
+              }
+            },
+            "applyWay": {
+              "m_defined": true,
+              "m_value": "RANGED"
+            },
+            "motion": {
+              "m_defined": true,
+              "m_value": "WALK"
+            },
+            "enemyTags": {
+              "m_defined": true,
+              "m_value": [
+                "animated"
+              ]
+            },
+            "lifePointReduce": {
+              "m_defined": true,
+              "m_value": 50
+            },
+            "levelType": {
+              "m_defined": true,
+              "m_value": "BOSS"
+            },
+            "rangeRadius": {
+              "m_defined": true,
+              "m_value": 2.5
+            },
+            "numOfExtraDrops": {
+              "m_defined": false,
+              "m_value": 0
+            },
+            "viewRadius": {
+              "m_defined": false,
+              "m_value": 0.0
+            },
+            "notCountInTotal": {
+              "m_defined": false,
+              "m_value": false
+            },
+            "talentBlackboard": [
+              {
+                "key": "BornSummon.branch_id",
+                "value": 0.0,
+                "valueStr": "dysuih_body"
+              },
+              {
+                "key": "BornSummon.action_index",
+                "value": 2.0,
+                "valueStr": null
+              },
+              {
+                "key": "HpTriggerSummon.hp_ratio",
+                "value": 0.3,
+                "valueStr": null
+              },
+              {
+                "key": "BranchData.max_index",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "skills": [
+              {
+                "prefabKey": "SendFireCard",
+                "priority": 3,
+                "cooldown": 30.0,
+                "initCooldown": 15.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "cnt",
+                    "value": 1.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "max_cards",
+                    "value": 8.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "SummonFire",
+                "priority": 1,
+                "cooldown": 12.0,
+                "initCooldown": 5.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "range_radius",
+                    "value": 15.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "max_target",
+                    "value": 15.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "FireToFarthestTile",
+                "priority": 2,
+                "cooldown": 40.0,
+                "initCooldown": 40.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "duration",
+                    "value": 10.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "enemy_dysuih_summon_fire_to_farthest.interval",
+                    "value": 0.49,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "GiantTailStrike",
+                "priority": 5,
+                "cooldown": 9999.0,
+                "initCooldown": 3000.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "value",
+                    "value": -50.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "StunAnimation",
+                "priority": 0,
+                "cooldown": 0.0,
+                "initCooldown": 0.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "duration",
+                    "value": 15.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "SummonBody",
+                "priority": 4,
+                "cooldown": 60.0,
+                "initCooldown": 20.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "Branch_id",
+                    "value": 0.0,
+                    "valueStr": "dysuih_s_body"
+                  }
+                ]
+              }
+            ],
+            "spData": null
+          }
+        }
+      ]
+    },
+    {
+      "Key": "enemy_2128_dysuib",
+      "Value": [
+        {
+          "level": 0,
+          "enemyData": {
+            "name": {
+              "m_defined": true,
+              "m_value": "Body"
+            },
+            "description": {
+              "m_defined": true,
+              "m_value": "Its least human feature."
+            },
+            "prefabKey": {
+              "m_defined": true,
+              "m_value": "enemy_2128_dysuib"
+            },
+            "attributes": {
+              "maxHp": {
+                "m_defined": true,
+                "m_value": 80000
+              },
+              "atk": {
+                "m_defined": true,
+                "m_value": 200
+              },
+              "def": {
+                "m_defined": true,
+                "m_value": 1000
+              },
+              "magicResistance": {
+                "m_defined": true,
+                "m_value": 30.0
+              },
+              "cost": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "blockCnt": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "moveSpeed": {
+                "m_defined": true,
+                "m_value": 0.6
+              },
+              "attackSpeed": {
+                "m_defined": true,
+                "m_value": 100.0
+              },
+              "baseAttackTime": {
+                "m_defined": true,
+                "m_value": 5.0
+              },
+              "respawnTime": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "hpRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "spRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "maxDeployCount": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "massLevel": {
+                "m_defined": true,
+                "m_value": 13
+              },
+              "baseForceLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "tauntLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "epDamageResistance": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "epResistance": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "damageHitratePhysical": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "damageHitrateMagical": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "epBreakRecoverSpeed": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "stunImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "silenceImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "sleepImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "frozenImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "levitateImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "disarmedCombatImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "fearedImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "palsyImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "attractImmune": {
+                "m_defined": true,
+                "m_value": true
+              }
+            },
+            "applyWay": {
+              "m_defined": true,
+              "m_value": "NONE"
+            },
+            "motion": {
+              "m_defined": true,
+              "m_value": "WALK"
+            },
+            "enemyTags": {
+              "m_defined": true,
+              "m_value": [
+                "animated"
+              ]
+            },
+            "lifePointReduce": {
+              "m_defined": true,
+              "m_value": 1
+            },
+            "levelType": {
+              "m_defined": true,
+              "m_value": "BOSS"
+            },
+            "rangeRadius": {
+              "m_defined": true,
+              "m_value": 2.5
+            },
+            "numOfExtraDrops": {
+              "m_defined": false,
+              "m_value": 0
+            },
+            "viewRadius": {
+              "m_defined": false,
+              "m_value": 0.0
+            },
+            "notCountInTotal": {
+              "m_defined": false,
+              "m_value": false
+            },
+            "talentBlackboard": [
+              {
+                "key": "WithdrawAlly.attack@respawn_time",
+                "value": 0.15,
+                "valueStr": null
+              },
+              {
+                "key": "DysuihAura.damage_resistance",
+                "value": 0.5,
+                "valueStr": null
+              },
+              {
+                "key": "DysuihAura.stun",
+                "value": 15.0,
+                "valueStr": null
+              },
+              {
+                "key": "SecondRelicTalent.def",
+                "value": 1500.0,
+                "valueStr": null
+              },
+              {
+                "key": "SecondRelicTalent.enemy_dysuib_second_relic_t[summon_enemy].interval",
+                "value": 30.0,
+                "valueStr": null
+              },
+              {
+                "key": "SecondRelicTalent.active_relic_a",
+                "value": 0.0,
+                "valueStr": null
+              },
+              {
+                "key": "SecondRelicTalent.active_relic_b",
+                "value": 0.0,
+                "valueStr": null
+              },
+              {
+                "key": "SecondRelicTalent.enemy_dysuib_second_relic_t[summon_enemy].branch_id",
+                "value": 0.0,
+                "valueStr": "dysuib_relic_branch"
+              },
+              {
+                "key": "inverseDamage.atk_scale",
+                "value": 0.0,
+                "valueStr": null
+              }
+            ],
+            "skills": null,
+            "spData": null
+          }
+        }
+      ]
+    },
+    {
+      "Key": "enemy_2129_dylong",
+      "Value": [
+        {
+          "level": 0,
+          "enemyData": {
+            "name": {
+              "m_defined": true,
+              "m_value": "Hateful Carrion"
+            },
+            "description": {
+              "m_defined": true,
+              "m_value": "Under the influence of the tomb's host, these inanimate objects have gained vessels just like It, and a life of their own. The Sui Regulator has termed such changes 'geistification'."
+            },
+            "prefabKey": {
+              "m_defined": true,
+              "m_value": "enemy_2129_dylong"
+            },
+            "attributes": {
+              "maxHp": {
+                "m_defined": true,
+                "m_value": 40000
+              },
+              "atk": {
+                "m_defined": true,
+                "m_value": 600
+              },
+              "def": {
+                "m_defined": true,
+                "m_value": 500
+              },
+              "magicResistance": {
+                "m_defined": true,
+                "m_value": 20.0
+              },
+              "cost": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "blockCnt": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "moveSpeed": {
+                "m_defined": true,
+                "m_value": 0.6
+              },
+              "attackSpeed": {
+                "m_defined": true,
+                "m_value": 100.0
+              },
+              "baseAttackTime": {
+                "m_defined": true,
+                "m_value": 5.0
+              },
+              "respawnTime": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "hpRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "spRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "maxDeployCount": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "massLevel": {
+                "m_defined": true,
+                "m_value": 5
+              },
+              "baseForceLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "tauntLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "epDamageResistance": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "epResistance": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "damageHitratePhysical": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "damageHitrateMagical": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "epBreakRecoverSpeed": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "stunImmune": {
+                "m_defined": false,
+                "m_value": true
+              },
+              "silenceImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "sleepImmune": {
+                "m_defined": false,
+                "m_value": true
+              },
+              "frozenImmune": {
+                "m_defined": false,
+                "m_value": true
+              },
+              "levitateImmune": {
+                "m_defined": false,
+                "m_value": true
+              },
+              "disarmedCombatImmune": {
+                "m_defined": false,
+                "m_value": false
+              },
+              "fearedImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "palsyImmune": {
+                "m_defined": false,
+                "m_value": false
+              },
+              "attractImmune": {
+                "m_defined": true,
+                "m_value": true
+              }
+            },
+            "applyWay": {
+              "m_defined": true,
+              "m_value": "RANGED"
+            },
+            "motion": {
+              "m_defined": true,
+              "m_value": "WALK"
+            },
+            "enemyTags": {
+              "m_defined": true,
+              "m_value": [
+                "animated"
+              ]
+            },
+            "lifePointReduce": {
+              "m_defined": true,
+              "m_value": 1
+            },
+            "levelType": {
+              "m_defined": true,
+              "m_value": "ELITE"
+            },
+            "rangeRadius": {
+              "m_defined": true,
+              "m_value": 2.5
+            },
+            "numOfExtraDrops": {
+              "m_defined": false,
+              "m_value": 0
+            },
+            "viewRadius": {
+              "m_defined": false,
+              "m_value": 0.0
+            },
+            "notCountInTotal": {
+              "m_defined": false,
+              "m_value": false
+            },
+            "talentBlackboard": null,
+            "skills": null,
+            "spData": null
+          }
+        }
+      ]
+    },
+    {
+      "Key": "enemy_2130_dyswrd",
+      "Value": [
+        {
+          "level": 0,
+          "enemyData": {
+            "name": {
+              "m_defined": true,
+              "m_value": "Restrained Pride"
+            },
+            "description": {
+              "m_defined": true,
+              "m_value": "The tail was born to be a blade, which men take to be a sword. Once, It let Its arrogance run unchecked. Now, It knows to conceal the blade."
+            },
+            "prefabKey": {
+              "m_defined": true,
+              "m_value": "enemy_2130_dyswrd"
+            },
+            "attributes": {
+              "maxHp": {
+                "m_defined": true,
+                "m_value": 20000
+              },
+              "atk": {
+                "m_defined": true,
+                "m_value": 1800
+              },
+              "def": {
+                "m_defined": true,
+                "m_value": 500
+              },
+              "magicResistance": {
+                "m_defined": true,
+                "m_value": 20.0
+              },
+              "cost": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "blockCnt": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "moveSpeed": {
+                "m_defined": true,
+                "m_value": 1.0
+              },
+              "attackSpeed": {
+                "m_defined": true,
+                "m_value": 100.0
+              },
+              "baseAttackTime": {
+                "m_defined": true,
+                "m_value": 5.0
+              },
+              "respawnTime": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "hpRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "spRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "maxDeployCount": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "massLevel": {
+                "m_defined": true,
+                "m_value": 3
+              },
+              "baseForceLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "tauntLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "epDamageResistance": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "epResistance": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "damageHitratePhysical": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "damageHitrateMagical": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "epBreakRecoverSpeed": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "stunImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "silenceImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "sleepImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "frozenImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "levitateImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "disarmedCombatImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "fearedImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "palsyImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "attractImmune": {
+                "m_defined": true,
+                "m_value": true
+              }
+            },
+            "applyWay": {
+              "m_defined": true,
+              "m_value": "RANGED"
+            },
+            "motion": {
+              "m_defined": true,
+              "m_value": "FLY"
+            },
+            "enemyTags": {
+              "m_defined": true,
+              "m_value": [
+                "animated"
+              ]
+            },
+            "lifePointReduce": {
+              "m_defined": true,
+              "m_value": 1
+            },
+            "levelType": {
+              "m_defined": true,
+              "m_value": "ELITE"
+            },
+            "rangeRadius": {
+              "m_defined": true,
+              "m_value": 1.3
+            },
+            "numOfExtraDrops": {
+              "m_defined": false,
+              "m_value": 0
+            },
+            "viewRadius": {
+              "m_defined": false,
+              "m_value": 0.0
+            },
+            "notCountInTotal": {
+              "m_defined": false,
+              "m_value": false
+            },
+            "talentBlackboard": [
+              {
+                "key": "\nBoom.attack@atk_scale",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "skills": null,
+            "spData": null
+          }
+        }
+      ]
+    },
+    {
+      "Key": "enemy_2131_dyfire",
+      "Value": [
+        {
+          "level": 0,
+          "enemyData": {
+            "name": {
+              "m_defined": true,
+              "m_value": "Fume of Anger"
+            },
+            "description": {
+              "m_defined": true,
+              "m_value": "All that came to be because It saw the fire must end in fire."
+            },
+            "prefabKey": {
+              "m_defined": true,
+              "m_value": "enemy_2131_dyfire"
+            },
+            "attributes": {
+              "maxHp": {
+                "m_defined": true,
+                "m_value": 20000
+              },
+              "atk": {
+                "m_defined": true,
+                "m_value": 1800
+              },
+              "def": {
+                "m_defined": true,
+                "m_value": 500
+              },
+              "magicResistance": {
+                "m_defined": true,
+                "m_value": 20.0
+              },
+              "cost": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "blockCnt": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "moveSpeed": {
+                "m_defined": true,
+                "m_value": 1.0
+              },
+              "attackSpeed": {
+                "m_defined": true,
+                "m_value": 100.0
+              },
+              "baseAttackTime": {
+                "m_defined": true,
+                "m_value": 5.0
+              },
+              "respawnTime": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "hpRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "spRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "maxDeployCount": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "massLevel": {
+                "m_defined": true,
+                "m_value": 3
+              },
+              "baseForceLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "tauntLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "epDamageResistance": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "epResistance": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "damageHitratePhysical": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "damageHitrateMagical": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "epBreakRecoverSpeed": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "stunImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "silenceImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "sleepImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "frozenImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "levitateImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "disarmedCombatImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "fearedImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "palsyImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "attractImmune": {
+                "m_defined": true,
+                "m_value": true
+              }
+            },
+            "applyWay": {
+              "m_defined": true,
+              "m_value": "RANGED"
+            },
+            "motion": {
+              "m_defined": true,
+              "m_value": "FLY"
+            },
+            "enemyTags": {
+              "m_defined": true,
+              "m_value": [
+                "animated"
+              ]
+            },
+            "lifePointReduce": {
+              "m_defined": true,
+              "m_value": 1
+            },
+            "levelType": {
+              "m_defined": true,
+              "m_value": "ELITE"
+            },
+            "rangeRadius": {
+              "m_defined": true,
+              "m_value": 1.3
+            },
+            "numOfExtraDrops": {
+              "m_defined": false,
+              "m_value": 0
+            },
+            "viewRadius": {
+              "m_defined": false,
+              "m_value": 0.0
+            },
+            "notCountInTotal": {
+              "m_defined": false,
+              "m_value": false
+            },
+            "talentBlackboard": [
+              {
+                "key": "Boom.attack@atk_scale",
+                "value": 1.0,
+                "valueStr": null
+              },
+              {
+                "key": "Boom.attack@ep_damage_ratio",
+                "value": 0.25,
+                "valueStr": null
+              }
+            ],
+            "skills": null,
+            "spData": null
+          }
+        }
+      ]
+    },
+    {
+      "Key": "enemy_2132_dyfake",
+      "Value": [
+        {
+          "level": 0,
+          "enemyData": {
+            "name": {
+              "m_defined": true,
+              "m_value": "Blank"
+            },
+            "description": {
+              "m_defined": true,
+              "m_value": ""
+            },
+            "prefabKey": {
+              "m_defined": true,
+              "m_value": "enemy_2132_dyfake"
+            },
+            "attributes": {
+              "maxHp": {
+                "m_defined": true,
+                "m_value": 30000
+              },
+              "atk": {
+                "m_defined": true,
+                "m_value": 3000
+              },
+              "def": {
+                "m_defined": true,
+                "m_value": 100
+              },
+              "magicResistance": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "cost": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "blockCnt": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "moveSpeed": {
+                "m_defined": true,
+                "m_value": 0.6
+              },
+              "attackSpeed": {
+                "m_defined": true,
+                "m_value": 100.0
+              },
+              "baseAttackTime": {
+                "m_defined": true,
+                "m_value": 5.0
+              },
+              "respawnTime": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "hpRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "spRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "maxDeployCount": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "massLevel": {
+                "m_defined": true,
+                "m_value": 3
+              },
+              "baseForceLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "tauntLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "epDamageResistance": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "epResistance": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "damageHitratePhysical": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "damageHitrateMagical": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "epBreakRecoverSpeed": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "stunImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "silenceImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "sleepImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "frozenImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "levitateImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "disarmedCombatImmune": {
+                "m_defined": false,
+                "m_value": false
+              },
+              "fearedImmune": {
+                "m_defined": false,
+                "m_value": false
+              },
+              "palsyImmune": {
+                "m_defined": false,
+                "m_value": false
+              },
+              "attractImmune": {
+                "m_defined": false,
+                "m_value": false
+              }
+            },
+            "applyWay": {
+              "m_defined": true,
+              "m_value": "RANGED"
+            },
+            "motion": {
+              "m_defined": true,
+              "m_value": "WALK"
+            },
+            "enemyTags": {
+              "m_defined": true,
+              "m_value": [
+                "animated"
+              ]
+            },
+            "lifePointReduce": {
+              "m_defined": true,
+              "m_value": 1
+            },
+            "levelType": {
+              "m_defined": true,
+              "m_value": "NORMAL"
+            },
+            "rangeRadius": {
+              "m_defined": true,
+              "m_value": 2.5
+            },
+            "numOfExtraDrops": {
+              "m_defined": false,
+              "m_value": 0
+            },
+            "viewRadius": {
+              "m_defined": false,
+              "m_value": 0.0
+            },
+            "notCountInTotal": {
+              "m_defined": false,
+              "m_value": false
+            },
+            "talentBlackboard": null,
+            "skills": null,
+            "spData": null
+          }
+        }
+      ]
+    },
+    {
       "Key": "enemy_3001_upeopl",
       "Value": [
         {
