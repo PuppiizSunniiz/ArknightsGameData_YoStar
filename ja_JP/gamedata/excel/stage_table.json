@@ -149724,7 +149724,7 @@
       ],
       "stageId": "act40side_st01",
       "levelId": null,
-      "zoneId": "act40side_zone1",
+      "zoneId": "act40sre_zone1",
       "code": "OR-ST-1",
       "name": "陳皮菊花茶",
       "description": "柑橘の皮を四十年ほど寝かせた陳皮と、今秋に摘んだばかりの菊花を一つの茶杯で楽しむ。歳月の経た代物は、なお繊細な味わいを残しているのだろうか？",
@@ -149812,7 +149812,7 @@
       ],
       "stageId": "act40side_tr01",
       "levelId": "Activities/act40side/level_act40side_tr01",
-      "zoneId": "act40side_zone1",
+      "zoneId": "act40sre_zone1",
       "code": "OR-TR-1",
       "name": "翡翠墨玉",
       "description": "さっぱりとした前菜。苦瓜と木耳を醤油、砂糖、熟成させた黒酢で味付けし、最後に唐辛子を一握り振りかける。酸、甘、苦、辣の滋味を堪能できる一品だ。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方ユニット全員に確定ダメージを与える。",
@@ -149900,7 +149900,7 @@
       ],
       "stageId": "act40side_01",
       "levelId": "Activities/act40side/level_act40side_01",
-      "zoneId": "act40side_zone1",
+      "zoneId": "act40sre_zone1",
       "code": "OR-1",
       "name": "一清二白",
       "description": "青葱と豆腐の和え物を「潔白」な味わいに仕上げるには、相当な経験と技術が必要となる。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方ユニット全員に確定ダメージを与える。",
@@ -149912,7 +149912,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 9,
-      "apFailReturn": 8,
+      "apFailReturn": 9,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -149926,7 +149926,7 @@
       "goldGain": 90,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 8,
+      "passFavor": 9,
       "completeFavor": 9,
       "slProgress": 0,
       "displayMainItem": null,
@@ -149945,12 +149945,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -149993,13 +149993,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -150076,7 +150076,7 @@
       ],
       "stageId": "act40side_02",
       "levelId": "Activities/act40side/level_act40side_02",
-      "zoneId": "act40side_zone1",
+      "zoneId": "act40sre_zone1",
       "code": "OR-2",
       "name": "糖瓜粘",
       "description": "「二十三日、糖瓜粘。竈の神である灶王爺が天に昇る日。良きを知らせ、悪きは口を閉ざして語らず。」\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方ユニット全員に確定ダメージを与える。",
@@ -150088,7 +150088,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 9,
-      "apFailReturn": 8,
+      "apFailReturn": 9,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -150102,7 +150102,7 @@
       "goldGain": 90,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 8,
+      "passFavor": 9,
       "completeFavor": 9,
       "slProgress": 0,
       "displayMainItem": null,
@@ -150121,12 +150121,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -150169,13 +150169,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -150252,7 +150252,7 @@
       ],
       "stageId": "act40side_03",
       "levelId": "Activities/act40side/level_act40side_03",
-      "zoneId": "act40side_zone1",
+      "zoneId": "act40sre_zone1",
       "code": "OR-3",
       "name": "油潑撦麺",
       "description": "捏ねれば捏ねるほどコシが生まれ、叩けば叩くほど反発したがる生地もある。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -150264,7 +150264,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 9,
-      "apFailReturn": 8,
+      "apFailReturn": 9,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -150278,7 +150278,7 @@
       "goldGain": 90,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 8,
+      "passFavor": 9,
       "completeFavor": 9,
       "slProgress": 0,
       "displayMainItem": null,
@@ -150297,12 +150297,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -150345,13 +150345,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -150428,7 +150428,7 @@
       ],
       "stageId": "act40side_04",
       "levelId": "Activities/act40side/level_act40side_04",
-      "zoneId": "act40side_zone1",
+      "zoneId": "act40sre_zone1",
       "code": "OR-4",
       "name": "雪裡蕻",
       "description": "新鮮な野菜を甕に隙間なく詰め込み密封する。その時が訪れると、蓋では抑えきれないほどの香りが漂い、甕の封も自ずと開かれる。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -150440,7 +150440,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 12,
-      "apFailReturn": 11,
+      "apFailReturn": 12,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -150454,7 +150454,7 @@
       "goldGain": 120,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 11,
+      "passFavor": 12,
       "completeFavor": 12,
       "slProgress": 0,
       "displayMainItem": null,
@@ -150473,12 +150473,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -150501,13 +150501,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -150560,7 +150560,7 @@
       ],
       "stageId": "act40side_05",
       "levelId": "Activities/act40side/level_act40side_05",
-      "zoneId": "act40side_zone1",
+      "zoneId": "act40sre_zone1",
       "code": "OR-5",
       "name": "醍醐湯",
       "description": "食後に茶を嗜む。脂のしつこさを和らげることはできるが、積年の憂いと無念を晴らすことはない。口に含めばほのかに甘いが、後味は苦みの余韻が長く続く。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -150572,7 +150572,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 12,
-      "apFailReturn": 11,
+      "apFailReturn": 12,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -150586,7 +150586,7 @@
       "goldGain": 120,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 11,
+      "passFavor": 12,
       "completeFavor": 12,
       "slProgress": 0,
       "displayMainItem": null,
@@ -150605,12 +150605,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -150633,13 +150633,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -150692,7 +150692,7 @@
       ],
       "stageId": "act40side_st02",
       "levelId": null,
-      "zoneId": "act40side_zone1",
+      "zoneId": "act40sre_zone1",
       "code": "OR-ST-2",
       "name": "雷公栗",
       "description": "栗を剥くには、力ずくが最も難しく怪我をしやすい。栗を二つとり、一つを油につけ、もう一つを水につける。それを鍋に入れて、残りの栗で蓋をし、火にかけて雷の音が鳴るのを待てばいい。",
@@ -150780,7 +150780,7 @@
       ],
       "stageId": "act40side_06",
       "levelId": "Activities/act40side/level_act40side_06",
-      "zoneId": "act40side_zone1",
+      "zoneId": "act40sre_zone1",
       "code": "OR-6",
       "name": "勝肉火方",
       "description": "冬瓜を肉の形にくり抜き、素火腿を中に詰め込んで葛餡をかける――出来上がった甘じょっぱくてこってりとした「紅焼肉」は眼を欺くことはできても、舌を騙すことはできない。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -150792,7 +150792,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 12,
-      "apFailReturn": 11,
+      "apFailReturn": 12,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -150806,7 +150806,7 @@
       "goldGain": 120,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 11,
+      "passFavor": 12,
       "completeFavor": 12,
       "slProgress": 0,
       "displayMainItem": null,
@@ -150825,12 +150825,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -150853,13 +150853,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -150912,7 +150912,7 @@
       ],
       "stageId": "act40side_07",
       "levelId": "Activities/act40side/level_act40side_07",
-      "zoneId": "act40side_zone1",
+      "zoneId": "act40sre_zone1",
       "code": "OR-7",
       "name": "五省盤",
       "description": "五種類の獣肉で作った料理。「省」には省察するという意味が含まれており、かつて官吏が百珍宴で真龍へ諫言した際にこの料理を献上した。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -150924,7 +150924,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 21,
-      "apFailReturn": 20,
+      "apFailReturn": 21,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -150938,7 +150938,7 @@
       "goldGain": 210,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 20,
+      "passFavor": 21,
       "completeFavor": 21,
       "slProgress": 0,
       "displayMainItem": null,
@@ -150957,12 +150957,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -150980,13 +150980,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -151033,7 +151033,7 @@
       ],
       "stageId": "act40side_08",
       "levelId": "Activities/act40side/level_act40side_08",
-      "zoneId": "act40side_zone1",
+      "zoneId": "act40sre_zone1",
       "code": "OR-8",
       "name": "黄玉蔵心",
       "description": "カラっと揚げられた黄金のお焦げが、まるで鍋蓋のように皿を覆っている。食卓の上でお焦げを割ると、その中に隠されていた料理がようやく姿を現し、正体が明らかとなる。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -151045,7 +151045,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 21,
-      "apFailReturn": 20,
+      "apFailReturn": 21,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -151059,7 +151059,7 @@
       "goldGain": 210,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 20,
+      "passFavor": 21,
       "completeFavor": 21,
       "slProgress": 0,
       "displayMainItem": null,
@@ -151078,12 +151078,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -151101,13 +151101,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -151154,7 +151154,7 @@
       ],
       "stageId": "act40side_09",
       "levelId": "Activities/act40side/level_act40side_09",
-      "zoneId": "act40side_zone1",
+      "zoneId": "act40sre_zone1",
       "code": "OR-9",
       "name": "長寿麺",
       "description": "長寿麺の良し悪しはその味ではなく、誰が作ったものであるのか、それを食するものに対してどのような願い込めて作ったのかにある。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -151166,7 +151166,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 21,
-      "apFailReturn": 20,
+      "apFailReturn": 21,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -151180,7 +151180,7 @@
       "goldGain": 210,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 20,
+      "passFavor": 21,
       "completeFavor": 21,
       "slProgress": 0,
       "displayMainItem": null,
@@ -151199,12 +151199,12 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -151222,13 +151222,13 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "NORMAL"
           },
           {
@@ -151275,7 +151275,7 @@
       ],
       "stageId": "act40side_st03",
       "levelId": null,
-      "zoneId": "act40side_zone1",
+      "zoneId": "act40sre_zone1",
       "code": "OR-ST-3",
       "name": "須問湯",
       "description": "鍋になみなみとした濁ったスープに、一点の澄み。他者に道を尋ねるくらいであれば、自ら求めた方がよい。",
@@ -151363,7 +151363,7 @@
       ],
       "stageId": "act40side_ex01",
       "levelId": "Activities/act40side/level_act40side_ex01",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-1",
       "name": "酸",
       "description": "団欒の夜の宴席用に仕込まれた黒酢。時を置くほど熟成し、熟成するほど香りが増すが、最後まで開封の機会は訪れなかった。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -151375,7 +151375,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -151389,7 +151389,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -151408,7 +151408,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -151421,7 +151421,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -151466,7 +151466,7 @@
       ],
       "stageId": "act40side_ex01#f#",
       "levelId": "Activities/act40side/level_act40side_ex01",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-1",
       "name": "酸",
       "description": "<@lv.fs>制限：</>\n追加の<@lv.item><「飽食」></>が出現",
@@ -151478,7 +151478,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -151492,7 +151492,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -151554,7 +151554,7 @@
       ],
       "stageId": "act40side_ex02",
       "levelId": "Activities/act40side/level_act40side_ex02",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-2",
       "name": "甘",
       "description": "炎国から送られてきたお菓子。多層からなるサクサクとした生地の表面には光る砂糖の結晶がまぶされている。お菓子を食べながら、母親が読んでくれる手紙の内容を聞くことが当時の彼女にとって一番の楽しみだった。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -151566,7 +151566,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -151580,7 +151580,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -151599,7 +151599,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -151612,7 +151612,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -151657,7 +151657,7 @@
       ],
       "stageId": "act40side_ex02#f#",
       "levelId": "Activities/act40side/level_act40side_ex02",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-2",
       "name": "甘",
       "description": "<@lv.fs>制限：</>\n追加の<@lv.item><漂香></>が出現",
@@ -151669,7 +151669,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -151683,7 +151683,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -151745,7 +151745,7 @@
       ],
       "stageId": "act40side_ex03",
       "levelId": "Activities/act40side/level_act40side_ex03",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-3",
       "name": "苦",
       "description": "質の悪い濃いお茶をかけた飯だけがその食事である。彼はうつむきながら飯をかき込み、これまで一度も娘の書斎の方を向こうとはしなかった。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -151757,7 +151757,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -151771,7 +151771,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -151790,7 +151790,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -151803,7 +151803,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -151848,7 +151848,7 @@
       ],
       "stageId": "act40side_ex03#f#",
       "levelId": "Activities/act40side/level_act40side_ex03",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-3",
       "name": "苦",
       "description": "<@lv.fs>制限：</>\n<障害物>の配置可能数が大幅に減少",
@@ -151860,7 +151860,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -151874,7 +151874,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -151936,7 +151936,7 @@
       ],
       "stageId": "act40side_ex04",
       "levelId": "Activities/act40side/level_act40side_ex04",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-4",
       "name": "辣",
       "description": "冬が訪れるたびに、火鍋屋は大繁盛となる。スープの辛くて香ばしい香りが目に染み、鼻を刺激する。屋外で寒風が吹き荒れる中、屋内の客は汗だくになりながら火鍋をほおばり、場は熱気に包まれている。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -151948,7 +151948,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -151962,7 +151962,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -151981,7 +151981,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -151994,7 +151994,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -152039,7 +152039,7 @@
       ],
       "stageId": "act40side_ex04#f#",
       "levelId": "Activities/act40side/level_act40side_ex04",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-4",
       "name": "辣",
       "description": "<@lv.fs>制限：</>\n戦場中の3つのマスが配置不可になる",
@@ -152051,7 +152051,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -152065,7 +152065,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -152127,7 +152127,7 @@
       ],
       "stageId": "act40side_ex05",
       "levelId": "Activities/act40side/level_act40side_ex05",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-5",
       "name": "鹹",
       "description": "日々変わりゆく街には、彼らが働く姿があるものだ。肉の塩漬けに漬物、塩辛い味付けは汗を流したあとには悪くない選択である。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -152139,7 +152139,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -152153,7 +152153,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -152172,7 +152172,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -152185,7 +152185,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -152230,7 +152230,7 @@
       ],
       "stageId": "act40side_ex05#f#",
       "levelId": "Activities/act40side/level_act40side_ex05",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-5",
       "name": "鹹",
       "description": "<@lv.fs>制限：</>\n追加の<@lv.item><「本音」></>が出現",
@@ -152242,7 +152242,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -152256,7 +152256,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -152318,7 +152318,7 @@
       ],
       "stageId": "act40side_ex06",
       "levelId": "Activities/act40side/level_act40side_ex06",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-6",
       "name": "鮮",
       "description": "料理人の子供にとって、弁当の蓋を開けるのは最も誇らしい瞬間である。弁当箱に入った目にも楽しく腹の虫を刺激する料理を惜しげもなく同級生たちに分け与えたせいで、自身は空腹で腹を鳴らしている。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -152330,7 +152330,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -152344,7 +152344,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -152363,7 +152363,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -152376,7 +152376,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -152421,7 +152421,7 @@
       ],
       "stageId": "act40side_ex06#f#",
       "levelId": "Activities/act40side/level_act40side_ex06",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-6",
       "name": "鮮",
       "description": "<@lv.fs>制限：</>\n追加の<@lv.item><招財></>が出現",
@@ -152433,7 +152433,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -152447,7 +152447,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -152509,7 +152509,7 @@
       ],
       "stageId": "act40side_ex07",
       "levelId": "Activities/act40side/level_act40side_ex07",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-7",
       "name": "渋",
       "description": "庭の柿は姿こそ良いが、味は渋い。味見さえしなければ、甘い幻想を抱くことができるだろう。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -152521,7 +152521,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -152535,7 +152535,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -152554,7 +152554,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -152567,7 +152567,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -152612,7 +152612,7 @@
       ],
       "stageId": "act40side_ex07#f#",
       "levelId": "Activities/act40side/level_act40side_ex07",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-7",
       "name": "渋",
       "description": "<@lv.fs>制限：</>\n<@lv.item><竈台></>と<@lv.item><破棄された竈台></>の位置が変更、一部の敵が変更",
@@ -152624,7 +152624,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -152638,7 +152638,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -152700,7 +152700,7 @@
       ],
       "stageId": "act40side_ex08",
       "levelId": "Activities/act40side/level_act40side_ex08",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-8",
       "name": "百味霊明",
       "description": "火は百味を生み、竈の内には乾坤がある。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -152712,7 +152712,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -152726,7 +152726,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -152745,7 +152745,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -152758,7 +152758,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -152803,7 +152803,7 @@
       ],
       "stageId": "act40side_ex08#f#",
       "levelId": "Activities/act40side/level_act40side_ex08",
-      "zoneId": "act40side_zone2",
+      "zoneId": "act40sre_zone2",
       "code": "OR-EX-8",
       "name": "百味霊明",
       "description": "<@lv.fs>制限：</>\n<@lv.item><竈台></>の起動に必要なSPが増加",
@@ -152815,7 +152815,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -152829,7 +152829,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -152891,7 +152891,7 @@
       ],
       "stageId": "act40side_s01",
       "levelId": "Activities/act40side/level_act40side_sub-1-1",
-      "zoneId": "act40side_zone3",
+      "zoneId": "act40sre_zone3",
       "code": "OR-S-1",
       "name": "周歳宴",
       "description": "抓周の儀式では、子は何も知らずにただ手を伸ばし、大人は首を長くして、その子が何を掴むかを待つ。小さな手が右に伸びると笑みがこぼれ、左に伸びると焦りが募る。何を選ぶかによって子供の未来が占える。これは非常に重要なことだ！\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -152903,7 +152903,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -152917,7 +152917,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -152936,7 +152936,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -152949,7 +152949,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -152994,7 +152994,7 @@
       ],
       "stageId": "act40side_s01#f#",
       "levelId": "Activities/act40side/level_act40side_sub-1-1",
-      "zoneId": "act40side_zone3",
+      "zoneId": "act40sre_zone3",
       "code": "OR-S-1",
       "name": "周歳宴",
       "description": "<@lv.fs>制限：</>\n<@lv.item><「廃食」></>の召喚スキルのクールタイムが減少",
@@ -153006,7 +153006,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -153020,7 +153020,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -153082,7 +153082,7 @@
       ],
       "stageId": "act40side_s02",
       "levelId": "Activities/act40side/level_act40side_sub-1-2",
-      "zoneId": "act40side_zone3",
+      "zoneId": "act40sre_zone3",
       "code": "OR-S-2",
       "name": "新婚宴",
       "description": "ご祝儀に不満げな両親をなだめ、長々と説教をする遠縁の親戚の相手をし、年若い夫婦が誰もいない隅へと姿を消したあと、すでに冷めきった料理を口へと運ぶ。まるで重圧から解放されたように、二人は顔を見合わせて安堵の笑みを浮かべる。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -153094,7 +153094,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -153108,7 +153108,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -153127,7 +153127,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -153140,7 +153140,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -153185,7 +153185,7 @@
       ],
       "stageId": "act40side_s02#f#",
       "levelId": "Activities/act40side/level_act40side_sub-1-2",
-      "zoneId": "act40side_zone3",
+      "zoneId": "act40sre_zone3",
       "code": "OR-S-2",
       "name": "新婚宴",
       "description": "<@lv.fs>制限：</>\n【補助】・【特殊】の配置コストが3倍",
@@ -153197,7 +153197,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -153211,7 +153211,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -153273,7 +153273,7 @@
       ],
       "stageId": "act40side_s03",
       "levelId": "Activities/act40side/level_act40side_sub-1-3",
-      "zoneId": "act40side_zone3",
+      "zoneId": "act40sre_zone3",
       "code": "OR-S-3",
       "name": "寿辰宴",
       "description": "一年に一度ほどしかない皆が集まる機会だというのに、俗気に染まった贈り物で誰がより親孝行かを競い合っている。会わない間は懐かしさを感じるが、顔を合わせるとついやかましく言ってしまう。しかし、みんなが小さい頃に好きだった料理が運ばれてくると、食卓の緊張した雰囲気も自然と和らぎ始める。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -153285,7 +153285,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -153299,7 +153299,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -153318,7 +153318,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -153331,7 +153331,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -153376,7 +153376,7 @@
       ],
       "stageId": "act40side_s03#f#",
       "levelId": "Activities/act40side/level_act40side_sub-1-3",
-      "zoneId": "act40side_zone3",
+      "zoneId": "act40sre_zone3",
       "code": "OR-S-3",
       "name": "寿辰宴",
       "description": "<@lv.fs>制限：</>\n<@lv.item><「飲露餐風」></>の与ダメージが上昇",
@@ -153388,7 +153388,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -153402,7 +153402,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -153464,7 +153464,7 @@
       ],
       "stageId": "act40side_s04",
       "levelId": "Activities/act40side/level_act40side_sub-1-4",
-      "zoneId": "act40side_zone3",
+      "zoneId": "act40sre_zone3",
       "code": "OR-S-4",
       "name": "白事宴",
       "description": "思い切りよく飄然と飛び上がって儚くなり、心乱れるのは残された者ばかり。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -153476,7 +153476,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -153490,7 +153490,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -153509,7 +153509,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -153522,7 +153522,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -153567,7 +153567,7 @@
       ],
       "stageId": "act40side_s04#f#",
       "levelId": "Activities/act40side/level_act40side_sub-1-4",
-      "zoneId": "act40side_zone3",
+      "zoneId": "act40sre_zone3",
       "code": "OR-S-4",
       "name": "白事宴",
       "description": "<@lv.fs>制限：</>\n<@lv.item><無謂></>の最大HPが上昇",
@@ -153579,7 +153579,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -153593,7 +153593,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -153655,7 +153655,7 @@
       ],
       "stageId": "act40side_mo01",
       "levelId": "Activities/act40side/level_act40side_mo01",
-      "zoneId": "act40side_zone3",
+      "zoneId": "act40sre_zone3",
       "code": "OR-MO-1",
       "name": "一日三食",
       "description": "他者に見せるために食べるものに求めるのは華やかさのみ。己の腹に入れた食事の味を知るのもまた己だけだ。\n<@lv.item><竈台></>「人間煙火」を召喚し、接触した敵全員に確定ダメージを与える。\n<@lv.item><破棄された竈台></>「飲露餐風」を召喚し、接触した味方全員に確定ダメージを与える。",
@@ -153700,7 +153700,7 @@
         "displayRewards": [
           {
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -153713,7 +153713,7 @@
           {
             "occPercent": "ALWAYS",
             "type": "ACTIVITY_ITEM",
-            "id": "act40side_token_yumyum",
+            "id": "act40side_token_yumyum_rep_1",
             "dropType": "COMPLETE"
           },
           {
@@ -564902,156 +564902,156 @@
       "endTs": 1757530799
     },
     "act40side_st01": {
-      "startTs": 1752735600,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_tr01": {
-      "startTs": 1752735600,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_01": {
-      "startTs": 1752735600,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_02": {
-      "startTs": 1752735600,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_03": {
-      "startTs": 1752735600,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_04": {
-      "startTs": 1752735600,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_05": {
-      "startTs": 1752735600,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_st02": {
-      "startTs": 1752735600,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_06": {
-      "startTs": 1752735600,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_07": {
-      "startTs": 1752735600,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_08": {
-      "startTs": 1752735600,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_09": {
-      "startTs": 1752735600,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_st03": {
-      "startTs": 1752735600,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex01": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex01#f#": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex02": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex02#f#": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex03": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex03#f#": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex04": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex04#f#": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex05": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex05#f#": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex06": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex06#f#": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex07": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex07#f#": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex08": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_ex08#f#": {
-      "startTs": 1753340400,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_s01": {
-      "startTs": 1753945200,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_s01#f#": {
-      "startTs": 1753945200,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_s02": {
-      "startTs": 1753945200,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_s02#f#": {
-      "startTs": 1753945200,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_s03": {
-      "startTs": 1753945200,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_s03#f#": {
-      "startTs": 1753945200,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_s04": {
-      "startTs": 1753945200,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_s04#f#": {
-      "startTs": 1753945200,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act40side_mo01": {
-      "startTs": 1753945200,
-      "endTs": 1754506799
+      "startTs": 1783321200,
+      "endTs": 1784141999
     },
     "act18mini_01": {
       "startTs": 1754550000,
@@ -575754,8 +575754,8 @@
           "tag_13",
           "tag_15"
         ],
-        "reopenActivityId": null,
-        "retroActivityId": null,
+        "reopenActivityId": "act40sre",
+        "retroActivityId": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
         "isRecommended": false,
         "recommendHideStageId": null,
         "overrideStageList": null
