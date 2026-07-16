@@ -1,5 +1,93 @@
 {
   "basicInfo": {
+    "act3blessing": {
+      "id": "act3blessing",
+      "type": "BLESS_ONLY",
+      "displayType": "NONE",
+      "name": "6.5周年スタンプラリー",
+      "startTime": 1784185200,
+      "endTime": 1785351599,
+      "rewardEndTime": 1785351599,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act49side": {
+      "id": "act49side",
+      "type": "TYPE_ACT9D0",
+      "displayType": "SIDESTORY",
+      "name": "辞歳行",
+      "startTime": 1784185200,
+      "endTime": 1785956399,
+      "rewardEndTime": 1786561199,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act49side",
+      "medalGroupId": "medalGroupActivity49side",
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act27login": {
+      "id": "act27login",
+      "type": "LOGIN_ONLY",
+      "displayType": "NONE",
+      "name": "ログイン報酬",
+      "startTime": 1784185200,
+      "endTime": 1785351599,
+      "rewardEndTime": 1785351599,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act14pray": {
+      "id": "act14pray",
+      "type": "PRAY_ONLY",
+      "displayType": "NONE",
+      "name": "龍門おみくじ",
+      "startTime": 1784185200,
+      "endTime": 1785351599,
+      "rewardEndTime": 1785351599,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CANNOT_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act40sre": {
       "id": "act40sre",
       "type": "TYPE_ACT9D0",
@@ -6163,6 +6251,27 @@
     }
   },
   "homeActConfig": {
+    "act3blessing": {
+      "actId": "act3blessing",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "ff6810",
+      "actTopBarText": "6.5周年\nスタンプ"
+    },
+    "act27login": {
+      "actId": "act27login",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "f79900",
+      "actTopBarText": "6.5周年ログイン"
+    },
+    "act14pray": {
+      "actId": "act14pray",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "df462d",
+      "actTopBarText": "龍門開運\nおみくじ"
+    },
     "act7collection": {
       "actId": "act7collection",
       "isPopupAfterCheckin": false,
@@ -7131,6 +7240,9 @@
     }
   },
   "zoneToActivity": {
+    "act49side_zone1": "act49side",
+    "act49side_zone2": "act49side",
+    "act49side_zone3": "act49side",
     "act40sre_zone1": "act40sre",
     "act40sre_zone2": "act40sre",
     "act40sre_zone3": "act40sre",
@@ -7397,6 +7509,1064 @@
   },
   "actTimeTrackPoint": {},
   "missionData": [
+    {
+      "id": "49sideActivity_1",
+      "sortId": 1,
+      "description": "TA-1をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_2",
+      "sortId": 2,
+      "description": "TA-2をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_3",
+      "sortId": 3,
+      "description": "TA-3をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_4",
+      "sortId": 4,
+      "description": "TA-4をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 50
+        },
+        {
+          "type": "FURN",
+          "id": "furni_receptionRoom_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_5",
+      "sortId": 5,
+      "description": "TA-5をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 50
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4221_ju",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_6",
+      "sortId": 6,
+      "description": "TA-6をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 50
+        },
+        {
+          "type": "FURN",
+          "id": "furni_receptionRoom_longTable_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_7",
+      "sortId": 7,
+      "description": "★3評価でTA-6をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_06",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_8",
+      "sortId": 8,
+      "description": "TA-7をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 80
+        },
+        {
+          "type": "FURN",
+          "id": "furni_receptionRoom_lanternStand_01",
+          "count": 2
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_9",
+      "sortId": 9,
+      "description": "★3評価でTA-7をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_07",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_receptionRoom_censer_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_10",
+      "sortId": 10,
+      "description": "TA-8をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 80
+        },
+        {
+          "type": "FURN",
+          "id": "furni_receptionRoom_screen_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_11",
+      "sortId": 11,
+      "description": "★3評価でTA-8をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_08",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_receptionRoom_jade_01",
+          "count": 2
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_12",
+      "sortId": 12,
+      "description": "TA-9をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_09",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 80
+        },
+        {
+          "type": "FURN",
+          "id": "furni_receptionRoom_tightCurtains_01",
+          "count": 2
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_13",
+      "sortId": 13,
+      "description": "★3評価でTA-9をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_09",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_receptionRoom_lightPillar_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_14",
+      "sortId": 14,
+      "description": "TA-10をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_10",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_receptionRoom_wallpaper_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_15",
+      "sortId": 15,
+      "description": "★3評価でTA-10をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_10",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_16",
+      "sortId": 16,
+      "description": "TA-11をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_11",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_17",
+      "sortId": 17,
+      "description": "TA-EX-1をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_ex01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_18",
+      "sortId": 18,
+      "description": "TA-EX-2をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_ex02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_19",
+      "sortId": 19,
+      "description": "TA-EX-3をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_ex03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_20",
+      "sortId": 20,
+      "description": "TA-EX-4をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_ex04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_21",
+      "sortId": 21,
+      "description": "TA-EX-5をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_ex05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_22",
+      "sortId": 22,
+      "description": "TA-EX-6をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_ex06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_23",
+      "sortId": 23,
+      "description": "TA-EX-7をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_ex07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_24",
+      "sortId": 24,
+      "description": "TA-EX-8をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_ex08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_25",
+      "sortId": 25,
+      "description": "TA-EX-8の強襲作戦をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_ex08#f#",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_terratimes_LGD_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_26",
+      "sortId": 26,
+      "description": "★3評価でTA-S-1をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_s01",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_27",
+      "sortId": 27,
+      "description": "★3評価でTA-S-2をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_s02",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_28",
+      "sortId": 28,
+      "description": "★3評価でTA-S-3をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_s03",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_29",
+      "sortId": 29,
+      "description": "★3評価でTA-S-4をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_s04",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_30",
+      "sortId": 30,
+      "description": "★3評価でTA-MO-1をクリア",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_mo01",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_31",
+      "sortId": 31,
+      "description": "イベントステージを15回クリア（チュートリアルを除く）",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_01^act49side_02^act49side_03^act49side_04^act49side_05^act49side_06^act49side_07^act49side_08^act49side_09^act49side_10^act49side_11^act49side_ex01^act49side_ex01#f#^act49side_ex02^act49side_ex02#f#^act49side_ex03^act49side_ex03#f#^act49side_ex04^act49side_ex04#f#^act49side_ex05^act49side_ex05#f#^act49side_ex06^act49side_ex06#f#^act49side_ex07^act49side_ex07#f#^act49side_ex08^act49side_ex08#f#^act49side_s01^act49side_s01#f#^act49side_s02^act49side_s02#f#^act49side_s03^act49side_s03#f#^act49side_s04^act49side_s04#f#^act49side_mo01",
+        "15"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_32",
+      "sortId": 32,
+      "description": "イベントステージを45回クリア（チュートリアルを除く）",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_01^act49side_02^act49side_03^act49side_04^act49side_05^act49side_06^act49side_07^act49side_08^act49side_09^act49side_10^act49side_11^act49side_ex01^act49side_ex01#f#^act49side_ex02^act49side_ex02#f#^act49side_ex03^act49side_ex03#f#^act49side_ex04^act49side_ex04#f#^act49side_ex05^act49side_ex05#f#^act49side_ex06^act49side_ex06#f#^act49side_ex07^act49side_ex07#f#^act49side_ex08^act49side_ex08#f#^act49side_s01^act49side_s01#f#^act49side_s02^act49side_s02#f#^act49side_s03^act49side_s03#f#^act49side_s04^act49side_s04#f#^act49side_mo01",
+        "45"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "49sideActivity_33",
+      "sortId": 33,
+      "description": "イベントステージを85回クリア（チュートリアルを除く）",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act49side_01^act49side_02^act49side_03^act49side_04^act49side_05^act49side_06^act49side_07^act49side_08^act49side_09^act49side_10^act49side_11^act49side_ex01^act49side_ex01#f#^act49side_ex02^act49side_ex02#f#^act49side_ex03^act49side_ex03#f#^act49side_ex04^act49side_ex04#f#^act49side_ex05^act49side_ex05#f#^act49side_ex06^act49side_ex06#f#^act49side_ex07^act49side_ex07#f#^act49side_ex08^act49side_ex08#f#^act49side_s01^act49side_s01#f#^act49side_s02^act49side_s02#f#^act49side_s03^act49side_s03#f#^act49side_s04^act49side_s04#f#^act49side_mo01",
+        "85"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act49side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act49side_token_draft",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
     {
       "id": "40sreActivity_1",
       "sortId": 1,
@@ -113603,6 +114773,51 @@
   ],
   "missionGroup": [
     {
+      "id": "act49side",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "49sideActivity_1",
+        "49sideActivity_2",
+        "49sideActivity_3",
+        "49sideActivity_4",
+        "49sideActivity_5",
+        "49sideActivity_6",
+        "49sideActivity_7",
+        "49sideActivity_8",
+        "49sideActivity_9",
+        "49sideActivity_10",
+        "49sideActivity_11",
+        "49sideActivity_12",
+        "49sideActivity_13",
+        "49sideActivity_14",
+        "49sideActivity_15",
+        "49sideActivity_16",
+        "49sideActivity_17",
+        "49sideActivity_18",
+        "49sideActivity_19",
+        "49sideActivity_20",
+        "49sideActivity_21",
+        "49sideActivity_22",
+        "49sideActivity_23",
+        "49sideActivity_24",
+        "49sideActivity_25",
+        "49sideActivity_26",
+        "49sideActivity_27",
+        "49sideActivity_28",
+        "49sideActivity_29",
+        "49sideActivity_30",
+        "49sideActivity_31",
+        "49sideActivity_32",
+        "49sideActivity_33"
+      ],
+      "startTs": 1784185200,
+      "endTs": 1786561199
+    },
+    {
       "id": "act40sre",
       "title": null,
       "type": "ACTIVITY",
@@ -145020,6 +146235,37 @@
       }
     },
     "TYPE_ACT9D0": {
+      "act49side": {
+        "tokenItemId": "act49side_token_draft",
+        "zoneDescList": {
+          "act49side_zone1": {
+            "zoneId": "act49side_zone1",
+            "unlockText": "未開放",
+            "displayStartTime": 1784185200
+          },
+          "act49side_zone2": {
+            "zoneId": "act49side_zone2",
+            "unlockText": "「霜秋写録」クリア後解放",
+            "displayStartTime": 1784185200
+          },
+          "act49side_zone3": {
+            "zoneId": "act49side_zone3",
+            "unlockText": "「霜秋写録」クリア後解放",
+            "displayStartTime": 1784185200
+          }
+        },
+        "favorUpList": {},
+        "subMissionInfo": null,
+        "hasSubMission": false,
+        "apSupplyOutOfDateDict": {},
+        "newsInfoList": null,
+        "newsServerInfoList": null,
+        "miscHub": {},
+        "constData": {
+          "campaignEnemyCnt": 201,
+          "campaignStageId": "act49side_mo01"
+        }
+      },
       "act40sre": {
         "tokenItemId": "act40side_token_yumyum_rep_1",
         "zoneDescList": {
@@ -178698,6 +179944,17 @@
       }
     },
     "LOGIN_ONLY": {
+      "act27login": {
+        "description": "<color value=#bfbfbf>使用期限</color>\n<color value=#ff9e00>2026/07/30 03:59まで</color>",
+        "itemList": [
+          {
+            "id": "LIMITED_TKT_GACHA_10_7001",
+            "count": 1,
+            "type": "LIMITED_TKT_GACHA_10"
+          }
+        ],
+        "apSupplyOutOfDateDict": {}
+      },
       "act26login": {
         "description": "<color value=#bfbfbf>使用期限</color>\n<color value=#ffffff>2026/04/28 03:59まで</color>",
         "itemList": [
@@ -319594,6 +320851,9 @@
     }
   },
   "activityItems": {
+    "act49side": [
+      "act49side_token_draft"
+    ],
     "act40sre": [
       "act40side_token_yumyum_rep_1"
     ],
@@ -320127,6 +321387,10 @@
       1611118800,
       1611946799
     ],
+    "act49side": [
+      1784185200,
+      1785956399
+    ],
     "act40sre": [
       1783321200,
       1784141999
@@ -320411,6 +321675,11 @@
     ]
   },
   "dynActs": {
+    "act14pray": {
+      "rule1": "一日に引けるおみくじを全て引いた後、合成玉が一番多かった一枚が当日のボーナスとして受領できます",
+      "rule2": "おみくじで獲得できる合成玉が400に満たなかった場合、翌日はおみくじを三枚引けます",
+      "slotCount": 12
+    },
     "act13pray": {
       "rule1": "一日に引けるスクラッチを全て引いた後、合成玉が一番多かった一枚が当日のボーナスとして受領できます",
       "rule2": "スクラッチで獲得できる合成玉が400に満たなかった場合、翌日はスクラッチを三枚引けます",
@@ -321576,6 +322845,385 @@
             "type": "VOUCHER_MGACHA"
           },
           "sortId": 2
+        }
+      ]
+    },
+    "act3blessing": {
+      "apSupplyOutOfDateDict": {
+        "ap_supply_lt_120": 1785697199
+      },
+      "checkInInfos": {
+        "0": {
+          "itemList": [
+            {
+              "count": 1,
+              "id": "ap_supply_lt_120",
+              "type": "AP_SUPPLY"
+            },
+            {
+              "count": 30000,
+              "id": "4001",
+              "type": "GOLD"
+            }
+          ],
+          "keyItem": true,
+          "order": 1
+        },
+        "1": {
+          "itemList": [
+            {
+              "count": 20,
+              "id": "2003",
+              "type": "CARD_EXP"
+            },
+            {
+              "count": 5,
+              "id": "7001",
+              "type": "TKT_RECRUIT"
+            }
+          ],
+          "keyItem": false,
+          "order": 2
+        },
+        "2": {
+          "itemList": [
+            {
+              "count": 1,
+              "id": "32001",
+              "type": "MATERIAL"
+            },
+            {
+              "count": 20,
+              "id": "3302",
+              "type": "MATERIAL"
+            }
+          ],
+          "keyItem": true,
+          "order": 3
+        },
+        "3": {
+          "itemList": [
+            {
+              "count": 10,
+              "id": "2004",
+              "type": "CARD_EXP"
+            },
+            {
+              "count": 3,
+              "id": "30023",
+              "type": "MATERIAL"
+            }
+          ],
+          "keyItem": false,
+          "order": 4
+        },
+        "4": {
+          "itemList": [
+            {
+              "count": 30000,
+              "id": "4001",
+              "type": "GOLD"
+            },
+            {
+              "count": 5,
+              "id": "7002",
+              "type": "TKT_INST_FIN"
+            }
+          ],
+          "keyItem": false,
+          "order": 5
+        },
+        "5": {
+          "itemList": [
+            {
+              "count": 8,
+              "id": "3303",
+              "type": "MATERIAL"
+            },
+            {
+              "count": 3,
+              "id": "31033",
+              "type": "MATERIAL"
+            }
+          ],
+          "keyItem": false,
+          "order": 6
+        },
+        "6": {
+          "itemList": [
+            {
+              "count": 3,
+              "id": "mod_update_token_2",
+              "type": "MATERIAL"
+            },
+            {
+              "count": 20,
+              "id": "3003",
+              "type": "MATERIAL"
+            }
+          ],
+          "keyItem": false,
+          "order": 7
+        },
+        "7": {
+          "itemList": [
+            {
+              "count": 1,
+              "id": "furni_SF2026_shadowPuppetry_01",
+              "type": "FURN"
+            },
+            {
+              "count": 300,
+              "id": "3401",
+              "type": "MATERIAL"
+            }
+          ],
+          "keyItem": true,
+          "order": 8
+        },
+        "8": {
+          "itemList": [
+            {
+              "count": 10,
+              "id": "mod_update_token_1",
+              "type": "MATERIAL"
+            },
+            {
+              "count": 3,
+              "id": "30013",
+              "type": "MATERIAL"
+            }
+          ],
+          "keyItem": false,
+          "order": 9
+        },
+        "9": {
+          "itemList": [
+            {
+              "count": 1,
+              "id": "mod_unlock_token",
+              "type": "MATERIAL"
+            },
+            {
+              "count": 30,
+              "id": "3301",
+              "type": "MATERIAL"
+            }
+          ],
+          "keyItem": true,
+          "order": 10
+        }
+      },
+      "festivalCharInfos": {
+        "act1blessing_festival_1_1": {
+          "charBlessing": "ドクター、もう少し右です。ええ、そうです、そこで――危ない！ふぅ、転ばずに済んで良かったです。残りは私に任せてください。記念パーティーの用意は済んでいるそうですよ、あなたが先程から心ここに在らずなのは知っていますからね、どうぞ会場に向かってください。お待ちを……この紙飾りは、私のようですが、ドクターがこの形に切ったのですか？雷霆は邪祟を退け、豊作を祝うから私の姿の飾りは非常に理に適っていると言うのですか？……こほん、本日は特別な日ですので、お好きになさって結構です。",
+          "charId": "char_1043_leizi2",
+          "charName": "司霆レイズ",
+          "charSkinId": "char_1043_leizi2#1",
+          "festivalCharId": "act1blessing_festival_1_1",
+          "festivalId": "act1blessing_festival_1",
+          "sortId": 1
+        },
+        "act1blessing_festival_1_2": {
+          "charBlessing": "ドクター、朝練にいらっしゃらなかったようですが、もう十日も継続されていることですし、今止めてしまうのはもったいなくはないでしょうか？なるほど、今日はご自分に休息を与えるべきだと思われたんですね。はは、小さい頃のズオさんも似たようなことを口にしていました。ただ、実はめでたい日だということで、先生がお祝いのポチ袋を用意されていて朝練で渡す予定だったのです……まだ訓練室にいらっしゃると思いますので、受け取りに行っていただければと。そうだ、こちらもどうぞ。炎国のお菓子です――ドクターが以前美味しいとおっしゃっていたお店のものです。",
+          "charId": "char_4196_reckpr",
+          "charName": "レコードキーパー",
+          "charSkinId": "char_4196_reckpr#1",
+          "festivalCharId": "act1blessing_festival_1_2",
+          "festivalId": "act1blessing_festival_1",
+          "sortId": 2
+        },
+        "act1blessing_festival_1_3": {
+          "charBlessing": "ロドスのお掃除も水路の清掃とおんなじだよ。何回も繰り返してれば、そのうち慣れちゃうからね！ドクターもみんなと一緒に大掃除したいの？いいよ、それじゃあ――え？なんでマイほうきを持参してるの！？「エンジニア部特製・パーティー用全自動ほうき！ひと掃きでピカピカ、ふた掃きで福を呼び込み、あらゆる不運をぜーんぶ外へ掃き出します！」――って、ええ！これ、ほんとにほうきなの！？",
+          "charId": "char_385_finlpp",
+          "charName": "セイリュウ",
+          "charSkinId": "char_385_finlpp#1",
+          "festivalCharId": "act1blessing_festival_1_3",
+          "festivalId": "act1blessing_festival_1",
+          "sortId": 3
+        },
+        "act1blessing_festival_2_1": {
+          "charBlessing": "ひととせが過ぎ、また節目たる日を迎えたか。人というものは、こうした折々に新たな息吹を待ち望む。だが、世の万象が一新することなどあるのだろうか？例えば、お前が心に留めているあの者のようにな――ほう？再び彼女を見つけ出せると、そう確信しているのか？ふん……座るがいい。お前の謀を聞いてやろう。……何故机にこれ見よがしに余味居の餃子を並べたのだ。まずは腹ごしらえをしてから話しても遅くはないと？ふん……お前は確かに、ある者とよく似ているな。",
+          "charId": "char_2027_wang",
+          "charName": "ウァン",
+          "charSkinId": "char_2027_wang#1",
+          "festivalCharId": "act1blessing_festival_2_1",
+          "festivalId": "act1blessing_festival_2",
+          "sortId": 1
+        },
+        "act1blessing_festival_2_2": {
+          "charBlessing": "ごきげんよう、ドクター。ちょうど医療部へ様子を見に行こうと思っていたところだ。せっかくの休日だとはいえ、定期巡回を疎かにするわけにはいかない。これも彼女の習慣でもあった。一緒に行く？もちろん構わないよ。毎年この日に皆が一番心待ちにしているのは君と会うことだ。以前は――以前は……私も君と彼女の後ろについて、皆へ挨拶しに行っていたような気がするな。",
+          "charId": "char_4179_monstr",
+          "charName": "Mon3tr",
+          "charSkinId": "char_4179_monstr#1",
+          "festivalCharId": "act1blessing_festival_2_2",
+          "festivalId": "act1blessing_festival_2",
+          "sortId": 2
+        },
+        "act1blessing_festival_2_3": {
+          "charBlessing": "ドクター、いらっしゃいますか？入りますよ。ダウンタウンで灯篭祭りをやっているんです。リーおじさんがみんなで見に行こうって、ドクターも誘おうと――って、アさん！？なんでここにいるんですか！？あなたたち、いったい何を……って、この鍋！どうしてこんなに真っ黒に！？皆のための、お祝いの料理……ですか。ドクター、お気持ちはありがたいですが、料理はやっぱりリーおじさんとウンさんに任せましょう。",
+          "charId": "char_243_waaifu",
+          "charName": "ワイフー",
+          "charSkinId": "char_243_waaifu#1",
+          "festivalCharId": "act1blessing_festival_2_3",
+          "festivalId": "act1blessing_festival_2",
+          "sortId": 3
+        },
+        "act1blessing_festival_3_1": {
+          "charBlessing": "ドクター、これ見て、みんなで餃子と湯圓を作ったんだ！なんで二種類作ったのかって？だって、すっごくめでたい日でしょ！パーティーで食べるんだし、いろいろあった方が楽しいと思ってさ。あれ、固まってどうかした？あ、コインだ！すごい、大当たりだよ！妹が湯圓でこういう運試しすることもあるって言ってたから入れてみたんだ。こっそり全部に入れようとしたら止められちゃったんだけどね。あはは。",
+          "charId": "char_1040_blaze2",
+          "charName": "熾炎ブレイズ",
+          "charSkinId": "char_1040_blaze2#1",
+          "festivalCharId": "act1blessing_festival_3_1",
+          "festivalId": "act1blessing_festival_3",
+          "sortId": 1
+        },
+        "act1blessing_festival_3_2": {
+          "charBlessing": "手出して！はいっ――大荒城のみんなと一緒に作った麦芽糖だよ、すっごく美味しいんだから！でか角くんとシュウ姉ちゃんだって、我慢できなくて何個も食べちゃったんだよ！あとでアーミヤ姉ちゃんにも分けてあげるの忘れないでね！えっ？あたしにも何かくれるの？――わぁ、ヴィクトリアのフルーツグミに、溶岩ケーキだ！へへっ、ありがとう、キレキレフードさん！これからぜーったい大金持ちになれるよ！",
+          "charId": "char_4122_grabds",
+          "charName": "グレインバッズ",
+          "charSkinId": "char_4122_grabds#1",
+          "festivalCharId": "act1blessing_festival_3_2",
+          "festivalId": "act1blessing_festival_3",
+          "sortId": 2
+        },
+        "act1blessing_festival_3_3": {
+          "charBlessing": "ひどく急いでいるようだが、何かあったのか。天灯を上げに行くだと？待て、戻れ！これを持っていけ。何を呆気にとられている？この造形、この細工を見て、なお不満か――私がなぜこの天灯を用意したのかだと？コホン。こうした賑わいに乗じることは、元より私の好むところではない。だが、長きにわたり共に時を重ねてくれば、あの者たちの期待に……いくらかほだされるのも避けられんのでな。案ずるな。品質は極上だ。他のどれよりも明るく、頑丈であることを保証しよう！",
+          "charId": "char_4221_ju",
+          "charName": "ジュー",
+          "charSkinId": "char_4221_ju#1",
+          "festivalCharId": "act1blessing_festival_3_3",
+          "festivalId": "act1blessing_festival_3",
+          "sortId": 3
+        },
+        "act1blessing_festival_4_1": {
+          "charBlessing": "カレンダーもここまでページをめくれば、また出発の時だな。皆との別れが名残惜しいか？それとも、休暇が終わるのが名残惜しいか？……冗談だ、ドクター。「団欒」……昔の人はその二文字の距離を、自らの足で量っていた。やがて道が整備され、皆で集まることは容易になったように思える。だが実際には私たちがかつて切望していた「成長」が、かえってそれを遠ざけてしまうんだ。だが、キミが必要とするなら、たとえどれほど遠くからでも、私は必ず戻ってくる。",
+          "charId": "char_1050_chen3",
+          "charName": "赤刃明霄チェン",
+          "charSkinId": "char_1050_chen3#1",
+          "festivalCharId": "act1blessing_festival_4_1",
+          "festivalId": "act1blessing_festival_4",
+          "sortId": 1
+        },
+        "act1blessing_festival_4_2": {
+          "charBlessing": "ドクター、パーティーで何かごちそうを食べましたか？紅焼鱗（ホンシャオリン）に、炖羽湯（ドゥンユータン）……ええっ？一つも間違えずに全部覚えてるんですか？なるほど、炎国では料理のメニューを全部暗唱する芸があるって聞いたんですね。あはは、どうりで！でも、料理の名前よりも、食卓での温もりを覚えておくことの方が大切ですよ。来年も一緒に、団欒のご飯を食べましょうね！その時は僕、絶対に先生も呼んできますから！",
+          "charId": "char_4222_taraxa",
+          "charName": "タラクサカム",
+          "charSkinId": "char_4222_taraxa#1",
+          "festivalCharId": "act1blessing_festival_4_2",
+          "festivalId": "act1blessing_festival_4",
+          "sortId": 2
+        },
+        "act1blessing_festival_4_3": {
+          "charBlessing": "運試しにくじを引いたんだけど、一番いいやつだった！一発で出たんだ、絶対縁起いいぜ！ドクター、あんたの未来は絶好調だ。そうそう、こないだ帰郷した時に、鏢局のみんなからこの「出入平安」のお守りを渡してくれって頼まれたんだ。桃の木でできてて、尚蜀で一番有名な占い師に開眼してもらった代物だ。その職人ってのがすんげえ神出鬼没で、滅多にお目にかかれないんだってさ。……待てよ、あそこにいるグラサンかけた旦那は……",
+          "charId": "char_445_wscoot",
+          "charName": "ウィンドスクート",
+          "charSkinId": "char_445_wscoot#1",
+          "festivalCharId": "act1blessing_festival_4_3",
+          "festivalId": "act1blessing_festival_4",
+          "sortId": 3
+        }
+      },
+      "festivalInfoList": [
+        {
+          "absoluteTime": 1784142000,
+          "adTips": "一日目から受取可能",
+          "charList": [
+            "act1blessing_festival_1_1",
+            "act1blessing_festival_1_2",
+            "act1blessing_festival_1_3"
+          ],
+          "fesBlessingGroup": "img_bless_1",
+          "fesBlessingText1": "img_bless_text_1_1",
+          "fesBlessingText2": "img_bless_text_1_2",
+          "fesTitleText": "img_fes_text_1",
+          "festivalId": "act1blessing_festival_1",
+          "festivalTitle": "一日目",
+          "itemList": [
+            {
+              "count": 500,
+              "id": "4003",
+              "type": "DIAMOND_SHD"
+            }
+          ],
+          "order": 1,
+          "relativeDate": 1,
+          "rewardCnt": 500
+        },
+        {
+          "absoluteTime": 1784401200,
+          "adTips": "四日目から受取可能",
+          "charList": [
+            "act1blessing_festival_2_1",
+            "act1blessing_festival_2_2",
+            "act1blessing_festival_2_3"
+          ],
+          "fesBlessingGroup": "img_bless_2",
+          "fesBlessingText1": "img_bless_text_2_1",
+          "fesBlessingText2": "img_bless_text_2_2",
+          "fesTitleText": "img_fes_text_2",
+          "festivalId": "act1blessing_festival_2",
+          "festivalTitle": "四日目",
+          "itemList": [
+            {
+              "count": 500,
+              "id": "4003",
+              "type": "DIAMOND_SHD"
+            }
+          ],
+          "order": 2,
+          "relativeDate": 4,
+          "rewardCnt": 500
+        },
+        {
+          "absoluteTime": 1784660400,
+          "adTips": "七日目から受取可能",
+          "charList": [
+            "act1blessing_festival_3_1",
+            "act1blessing_festival_3_2",
+            "act1blessing_festival_3_3"
+          ],
+          "fesBlessingGroup": "img_bless_3",
+          "fesBlessingText1": "img_bless_text_3_1",
+          "fesBlessingText2": "img_bless_text_3_2",
+          "fesTitleText": "img_fes_text_3",
+          "festivalId": "act1blessing_festival_3",
+          "festivalTitle": "七日目",
+          "itemList": [
+            {
+              "count": 500,
+              "id": "4003",
+              "type": "DIAMOND_SHD"
+            }
+          ],
+          "order": 3,
+          "relativeDate": 7,
+          "rewardCnt": 500
+        },
+        {
+          "absoluteTime": 1784919600,
+          "adTips": "十日目から受取可能",
+          "charList": [
+            "act1blessing_festival_4_1",
+            "act1blessing_festival_4_2",
+            "act1blessing_festival_4_3"
+          ],
+          "fesBlessingGroup": "img_bless_4",
+          "fesBlessingText1": "img_bless_text_4_1",
+          "fesBlessingText2": "img_bless_text_4_2",
+          "fesTitleText": "img_fes_text_4",
+          "festivalId": "act1blessing_festival_4",
+          "festivalTitle": "十日目",
+          "itemList": [
+            {
+              "count": 500,
+              "id": "4003",
+              "type": "DIAMOND_SHD"
+            }
+          ],
+          "order": 4,
+          "relativeDate": 10,
+          "rewardCnt": 500
         }
       ]
     },
@@ -327644,6 +329292,30 @@
       ],
       "picGroups": [],
       "startTs": 1783321200
+    },
+    {
+      "id": "dis_side_49",
+      "type": "ACTIVITY",
+      "funcId": "act49side",
+      "endTs": 1785956399,
+      "sortId": 140,
+      "itemId": "act49side_token_draft",
+      "timeNodes": [
+        {
+          "title": "<辞歳行>イベント開催中",
+          "ts": 1784185200
+        },
+        {
+          "title": "「望春拾遺」ステージ開放中",
+          "ts": 1784790000
+        },
+        {
+          "title": "「待筆新編」ステージ開放中",
+          "ts": 1785394800
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1784185200
     }
   ],
   "actFunData": {
@@ -360332,6 +362004,27 @@
     }
   },
   "activityTemplateMissionStyles": {
+    "act49side": {
+      "bigRewardType": "ILLUST_CHAR_REWARD",
+      "bigRewardParamList": [
+        "char_4221_ju",
+        "AT-5クリア後に招集可能",
+        "0d3330",
+        "266,-28"
+      ],
+      "isMissionListCommonType": true,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": null,
+      "isMissionItemCompleteUseMainColor": false,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": null,
+      "claimAllBtnTips": null,
+      "titleType": "COMMON",
+      "coinType": "COMMON",
+      "coinBackColor": "0d3330"
+    },
     "act40sre": {
       "bigRewardType": "ILLUST_CHAR_REWARD",
       "bigRewardParamList": [
@@ -361477,5 +363170,16 @@
       "act38side_cross_day_track_1"
     ]
   },
-  "activityStoryReadTipsDatas": {}
+  "activityStoryReadTipsDatas": {
+    "act49side": {
+      "key": "act49side",
+      "picId": "act49side",
+      "mainText": "物語をより楽しむために、「楽譜-歳歳成就」を順を追って閲覧することを推奨いたします。",
+      "confirmText": "進む",
+      "isAll": false,
+      "stageIdList": [
+        "act40side_st03"
+      ]
+    }
+  }
 }
