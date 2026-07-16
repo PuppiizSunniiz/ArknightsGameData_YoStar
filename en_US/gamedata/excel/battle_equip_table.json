@@ -159919,5 +159919,3270 @@
         "tokenAttributeBlackboard": {}
       }
     ]
+  },
+  "uniequip_002_ju": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "When attacking a heavy enemy (weight 3 or greater), ATK increased to <@ba.kw>115%</>",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "ju_equip_1_1_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk_scale",
+                      "value": 1.15,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "value",
+                      "value": 3.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 90.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 45.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "When attacking a heavy enemy (weight 3 or greater), ATK increased to <@ba.kw>115%</>",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "ju_equip_1_2_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk_scale",
+                      "value": 1.15,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "value",
+                      "value": 3.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "ju_equip_1_2_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Increases damage dealt to enemies below half HP by 8%; when dealing lethal damage, leaves the target with 1 HP and inflicts <$ba.dying>Critically Wounded</> (gives +2 SP to the attacker when killed); Ju will not attack <$ba.dying>Critically Wounded</> targets",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "11_root",
+                  "name": "Dogmatist",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "hp_ratio",
+                      "value": 0.5,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "damage_scale",
+                      "value": 1.08,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 115.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 55.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "When attacking a heavy enemy (weight 3 or greater), ATK increased to <@ba.kw>115%</>",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "ju_equip_1_3_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk_scale",
+                      "value": 1.15,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "value",
+                      "value": 3.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "ju_equip_1_3_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Increases damage dealt to enemies below half HP by 12%; when dealing lethal damage, leaves the target with 1 HP and inflicts <$ba.dying>Critically Wounded</> (gives +2 SP to the attacker when killed); Ju will not attack <$ba.dying>Critically Wounded</> targets",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "11_root",
+                  "name": "Dogmatist",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "hp_ratio",
+                      "value": 0.5,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "damage_scale",
+                      "value": 1.12,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 130.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 70.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_wang": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": "Can use traps <@ba.kw>with a lower DP cost</> to assist in combat, but traps cannot be placed on tiles already occupied by an enemy; trap Deployment Limit increases",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 100.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 36.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {
+          "token_10064_wang_stone1": [
+            {
+              "key": "cost",
+              "value": -1.0,
+              "valueStr": null
+            },
+            {
+              "key": "max_deploy_count",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        }
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": "Can use traps <@ba.kw>with a lower DP cost</> to assist in combat, but traps cannot be placed on tiles already occupied by an enemy; trap Deployment Limit increases",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When a stone is activated, for every stone in the same straight chain, all stones within that chain deal an additional 12% damage and ignore 11 RES (stacks up to 3 times)",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "Every Move Anticipated",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "attack@per_atk_scale",
+                      "value": 0.12,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "attack@per_magic_resist_penetrate_fixed",
+                      "value": 11.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "attack@max_trigger_cnt",
+                      "value": 3.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When a stone is activated, for every stone in the same straight chain, all stones within that chain deal an additional 14% <@ba.talpu>(+2%)</> damage and ignore 12 <@ba.talpu>(+1)</> RES (stacks up to 3 times)",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "2",
+                  "name": "Every Move Anticipated",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "attack@per_atk_scale",
+                      "value": 0.14,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "attack@per_magic_resist_penetrate_fixed",
+                      "value": 12.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "attack@max_trigger_cnt",
+                      "value": 3.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 130.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 50.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {
+          "token_10064_wang_stone1": [
+            {
+              "key": "cost",
+              "value": -1.0,
+              "valueStr": null
+            },
+            {
+              "key": "max_deploy_count",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        }
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": "Can use traps <@ba.kw>with a lower DP cost</> to assist in combat, but traps cannot be placed on tiles already occupied by an enemy; trap Deployment Limit increases",
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When a stone is activated, for every stone in the same straight chain, all stones within that chain deal an additional 13% damage and ignore 12 RES (stacks up to 3 times)",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "Every Move Anticipated",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "attack@per_atk_scale",
+                      "value": 0.13,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "attack@per_magic_resist_penetrate_fixed",
+                      "value": 12.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "attack@max_trigger_cnt",
+                      "value": 3.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When a stone is activated, for every stone in the same straight chain, all stones within that chain deal an additional 15% <@ba.talpu>(+2%)</> damage and ignore 13 <@ba.talpu>(+1)</> RES (stacks up to 3 times)",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "2",
+                  "name": "Every Move Anticipated",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "attack@per_atk_scale",
+                      "value": 0.15,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "attack@per_magic_resist_penetrate_fixed",
+                      "value": 13.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "attack@max_trigger_cnt",
+                      "value": 3.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 150.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 60.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {
+          "token_10064_wang_stone1": [
+            {
+              "key": "cost",
+              "value": -1.0,
+              "valueStr": null
+            },
+            {
+              "key": "max_deploy_count",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "uniequip_002_chen3": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "chen3_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "ASPD <@ba.kw>+{attack_speed}</> when not blocking an enemy",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "attack_speed",
+                      "value": 8.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 240.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 30.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "chen3_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "ASPD <@ba.kw>+{attack_speed}</> when not blocking an enemy",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "attack_speed",
+                      "value": 8.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When not taking damage, every 6s restores a random amount of HP equal to 40% to 180% of ATK and dodges the next Physical or Arts attack received",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "To Know Time's Flow",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "stack_time",
+                      "value": 6.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "heal_atk_scale_min",
+                      "value": 40.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "heal_atk_scale_max",
+                      "value": 181.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When not taking damage, every 6s restores a random amount of HP equal to 45% <@ba.talpu>(+5%)</> to 185% <@ba.talpu>(+5%)</> of ATK and dodges the next Physical or Arts attack received",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 2,
+                  "prefabKey": "2",
+                  "name": "To Know Time's Flow",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "stack_time",
+                      "value": 6.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "heal_atk_scale_min",
+                      "value": 45.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "heal_atk_scale_max",
+                      "value": 186.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 340.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 48.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "chen3_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "ASPD <@ba.kw>+{attack_speed}</> when not blocking an enemy",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "attack_speed",
+                      "value": 8.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When not taking damage, every 6s restores a random amount of HP equal to 50% to 200% of ATK and dodges the next Physical or Arts attack received",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "To Know Time's Flow",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "stack_time",
+                      "value": 6.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "heal_atk_scale_min",
+                      "value": 50.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "heal_atk_scale_max",
+                      "value": 201.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When not taking damage, every 6s restores a random amount of HP equal to 55% <@ba.talpu>(+5%)</> to 205% <@ba.talpu>(+5%)</> of ATK and Dodges the next Physical or Arts attack received",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 2,
+                  "prefabKey": "2",
+                  "name": "To Know Time's Flow",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "stack_time",
+                      "value": 6.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "heal_atk_scale_min",
+                      "value": 55.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "heal_atk_scale_max",
+                      "value": 206.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 420.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 60.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_004_irene": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "In <@ba.kw>Integrated Strategies</>, Redeployment Time -60%, and immediately gains 8 SP after deployment",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "irene_equip_3_1_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": "roguelike",
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "sp",
+                      "value": 8.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "respawn_time",
+                      "value": 0.4,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "skill@talent_range_flag",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 240.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 40.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "In <@ba.kw>Integrated Strategies</>, Redeployment Time -60%, and immediately gains 8 SP after deployment",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Physical damage has a 50% chance to ignore 50% DEF, chance increases to 100% against aerial units;\nIn <@ba.kw>Integrated Strategies</>, aerial enemies within skill range receive 100% more Physical damage; when deploying other Operators within this range, ground enemies within skill range are Levitated for 3s; this range persists after Irene retreats",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "#",
+                  "name": "Flames of Castigation",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "irene_equip_3_2_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": "roguelike",
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "sp",
+                      "value": 8.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "respawn_time",
+                      "value": 0.4,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "skill@talent_range_flag",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.5,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "def_penetrate",
+                      "value": 0.5,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "irene_equip_3_2_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": "roguelike",
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "11_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "skill@talent_range_flag",
+                      "value": 1.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "damage_scale",
+                      "value": 2.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "levitate_duration",
+                      "value": 3.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 260.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 50.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "In <@ba.kw>Integrated Strategies</>, Redeployment Time -60%, and immediately gains 8 SP after deployment",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Physical damage has a 50% chance to ignore 50% DEF, chance increases to 100% against aerial units;\nIn <@ba.kw>Integrated Strategies</>, aerial enemies within skill range receive 140% more Physical damage; when deploying other Operators within this range, ground enemies within skill range are Levitated for 3s; this range persists after Irene retreats; when enemies within this range lose Levitation, Irene in the Deployment Waiting Zone will immediately be deployed at her former position and activate her skill, if deployment conditions allow (costs no DP)",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "#",
+                  "name": "Flames of Castigation",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.5,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "def_penetrate",
+                      "value": 0.5,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "irene_equip_3_3_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": "roguelike",
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "sp",
+                      "value": 8.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "respawn_time",
+                      "value": 0.4,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "skill@talent_range_flag",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.5,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "def_penetrate",
+                      "value": 0.5,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "irene_equip_3_3_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": "roguelike",
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "11_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "skill@talent_range_flag",
+                      "value": 1.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "damage_scale",
+                      "value": 2.4,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "levitate_duration",
+                      "value": 3.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 300.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 65.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_004_pasngr": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "In <@ba.kw>Reclamation Algorithm</>, allies take -100% damage from environmental effects; Passenger gains ATK +60% and obtains 1 SP per second",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "pasngr_equip_3_1_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": "sandbox",
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.6,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "sp",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 100.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 70.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "In <@ba.kw>Reclamation Algorithm</>, allies take -100% damage from environmental effects; Passenger gains ATK +60% and obtains 1 SP per second",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "pasngr_equip_3_2_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": "sandbox",
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.6,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "sp",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "hp_ratio",
+                      "value": 0.8,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "pasngr_t_1[enhance].damage_scale",
+                      "value": 1.2,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "pasngr_t_1[enhance].duration",
+                      "value": 3.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "pasngr_equip_3_2_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": "sandbox",
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "11_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "interval",
+                      "value": 12.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "pasngr_equip_3_2_p3",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": "sandbox",
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "12_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "max_cnt",
+                      "value": 4.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "atk_scale",
+                      "value": 4.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "root_weight",
+                      "value": 200.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "surround_weight",
+                      "value": 20.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "times",
+                      "value": 12.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When attacking enemies with more than 80% HP, Passenger will deal 20% increased damage to them for 3 seconds; <@ba.kw>in Reclamation Algorithm</>, 4 targets are chosen every 12s to be struck by lightning (clustered targets are more likely to be chosen), dealing 400% of Passenger's ATK as Arts damage to all units within range; strikes grant visibility within that range for 12s",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "#",
+                  "name": "Mechanism Analysis",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 130.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 80.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "In <@ba.kw>Reclamation Algorithm</>, allies take -100% damage from environmental effects; Passenger gains ATK +60% and obtains 1 SP per second",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "pasngr_equip_3_3_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": "sandbox",
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.6,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "sp",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "hp_ratio",
+                      "value": 0.8,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "pasngr_t_1[enhance].damage_scale",
+                      "value": 1.2,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "pasngr_t_1[enhance].duration",
+                      "value": 3.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "pasngr_equip_3_3_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": "sandbox",
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "11_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "interval",
+                      "value": 10.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "pasngr_equip_3_3_p3",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": "sandbox",
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "12_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "max_cnt",
+                      "value": 5.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "atk_scale",
+                      "value": 5.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "sp",
+                      "value": 2.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "root_weight",
+                      "value": 200.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "surround_weight",
+                      "value": 20.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "times",
+                      "value": 12.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When attacking enemies with more than 80% HP, Passenger will deal 20% increased damage to them for 3s; <@ba.kw>in Reclamation Algorithm</>, 5 targets are chosen every 10s to be struck by lightning (clustered targets are more likely to be chosen), dealing 500% of Passenger's ATK as Arts damage to all units within range; strikes grant visibility within that range for 12s and give friendly units hit 2 SP",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "#",
+                  "name": "Mechanism Analysis",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 150.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 90.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_yu": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "yu_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Deals <@ba.kw>15%</> more Elemental Injury when blocking enemies",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.15,
+                      "valueStr": null
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 200.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 55.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "yu_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Deals <@ba.kw>15%</> more Elemental Injury when blocking enemies",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.15,
+                      "valueStr": null
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When there are at least 3 Operators on the field, recovers 1.5% Max HP as both HP and <$ba.dt.element>Elemental Injury</> per second; when there are at least 5, Arts damage dealt by this unit against targets under the burst effect of <$ba.dt.burning2>Burn</> increases by 9%",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "Midst Markets, Dragons Dwell",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "cnt",
+                      "value": 3.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "ep_heal_ratio",
+                      "value": 0.015,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.015,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "interval",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When there are at least 3 Operators on the field, recovers 2% <@ba.talpu>(+0.5%)</> Max HP as both HP and <$ba.dt.element>Elemental Injury</> per second; when there are at least 5, Arts damage dealt by this unit against targets under the burst effect of <$ba.dt.burning2>Burn</> increases by 9%",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "2",
+                  "name": "Midst Markets, Dragons Dwell",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "cnt",
+                      "value": 3.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "ep_heal_ratio",
+                      "value": 0.02,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.02,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "interval",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "yu_equip_1_2_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": [
+                    3
+                  ],
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "20",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "cnt",
+                      "value": 5.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "damage_scale",
+                      "value": 1.09,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "yu_equip_1_2_p3",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "21",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "cnt",
+                      "value": 5.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "damage_scale",
+                      "value": 1.09,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 300.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 70.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "yu_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Deals <@ba.kw>15%</> more Elemental Injury when blocking enemies",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.15,
+                      "valueStr": null
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When there are at least 2 Operators on the field, recovers 1.5% Max HP as both HP and <$ba.dt.element>Elemental Injury</> per second; when there are at least 4, Arts damage dealt by this unit against targets under the burst effect of <$ba.dt.burning2>Burn</> increases by 14%",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "2",
+                  "name": "Midst Markets, Dragons Dwell",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "cnt",
+                      "value": 2.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "ep_heal_ratio",
+                      "value": 0.015,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.015,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "interval",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "When there are at least 2 Operators on the field, recovers 2% <@ba.talpu>(+0.5%)</> Max HP as both HP and <$ba.dt.element>Elemental Injury</> per second; when there are at least 4, Arts damage dealt by this unit against targets under the burst effect of <$ba.dt.burning2>Burn</> increases by 14%",
+                  "talentIndex": 1,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "2",
+                  "name": "Midst Markets, Dragons Dwell",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "cnt",
+                      "value": 2.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "ep_heal_ratio",
+                      "value": 0.02,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.02,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "interval",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "yu_equip_1_3_p2",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": [
+                    3
+                  ],
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "20",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "cnt",
+                      "value": 4.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "damage_scale",
+                      "value": 1.14,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "yu_equip_1_3_p3",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "validModeIndices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "21",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "cnt",
+                      "value": 4.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "damage_scale",
+                      "value": 1.14,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 400.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 85.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_philae": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "philae_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Deals <@ba.kw>15%</> more Elemental Injury when blocking enemies",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.15,
+                      "valueStr": null
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 150.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 45.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "philae_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Deals <@ba.kw>15%</> more Elemental Injury when blocking enemies",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.15,
+                      "valueStr": null
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Receives -16% Elemental Injury, and recovers 2 SP when receiving Necrosis",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Herald of the Divine River",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_resistance",
+                      "value": 0.16,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "sp",
+                      "value": 2.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Receives -18% <@ba.talpu>(+2%)</> Elemental Injury, and recovers 2 SP when receiving Necrosis",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Herald of the Divine River",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_resistance",
+                      "value": 0.18,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "sp",
+                      "value": 2.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 230.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 57.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "philae_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Deals <@ba.kw>15%</> more Elemental Injury when blocking enemies",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.15,
+                      "valueStr": null
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Receives -20% Elemental Injury, and recovers 2 SP when receiving Necrosis",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Herald of the Divine River",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_resistance",
+                      "value": 0.2,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "sp",
+                      "value": 2.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Receives -22% <@ba.talpu>(+2%)</> Elemental Injury, and recovers 2 SP when receiving Necrosis",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Herald of the Divine River",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "damage_resistance",
+                      "value": 0.22,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "sp",
+                      "value": 2.0,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 300.0,
+            "valueStr": null
+          },
+          {
+            "key": "atk",
+            "value": 70.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_cairn": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": "cairn_equip_1_1_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Deals <@ba.kw>15%</> more Elemental Injury when blocking enemies",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.15,
+                      "valueStr": null
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 200.0,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 40.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": "cairn_equip_1_2_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Deals <@ba.kw>15%</> more Elemental Injury when blocking enemies",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.15,
+                      "valueStr": null
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Deals 10% ATK as <$ba.dt.neural2>Nervous Impairment</> every second to enemies blocked by self",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Explanation Saturation",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_ratio",
+                      "value": 0.1,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Deals 11% <@ba.talpu>(+1%)</> ATK as <$ba.dt.neural2>Nervous Impairment</> every second to enemies blocked by self",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Explanation Saturation",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_ratio",
+                      "value": 0.11,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 270.0,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 55.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": "cairn_equip_1_3_p1",
+            "target": "TRAIT",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "Deals <@ba.kw>15%</> more Elemental Injury when blocking enemies",
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_scale",
+                      "value": 1.15,
+                      "valueStr": null
+                    }
+                  ],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "validInMapTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Deals 11% ATK as <$ba.dt.neural2>Nervous Impairment</> every second to enemies blocked by self",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "Explanation Saturation",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_ratio",
+                      "value": 0.11,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                },
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "Deals 12% <@ba.talpu>(+1%)</> ATK as <$ba.dt.neural2>Nervous Impairment</> every second to enemies blocked by self",
+                  "talentIndex": 0,
+                  "validModeIndices": null,
+                  "unlockCondition": {
+                    "phase": "PHASE_2",
+                    "level": 50
+                  },
+                  "requiredPotentialRank": 4,
+                  "prefabKey": "1",
+                  "name": "Explanation Saturation",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "ep_damage_ratio",
+                      "value": 0.12,
+                      "valueStr": null
+                    }
+                  ],
+                  "tokenKey": null,
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 350.0,
+            "valueStr": null
+          },
+          {
+            "key": "def",
+            "value": 70.0,
+            "valueStr": null
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
   }
 }
