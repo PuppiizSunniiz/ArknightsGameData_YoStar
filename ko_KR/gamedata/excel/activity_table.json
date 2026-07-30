@@ -22,6 +22,28 @@
       "picGroup": [],
       "usePicGroup": false
     },
+    "act2break": {
+      "id": "act2break",
+      "type": "VEC_BREAK_V2",
+      "displayType": "NONE",
+      "name": "벡터 돌파#2 주술의 밤",
+      "startTime": 1785394800,
+      "endTime": 1787165999,
+      "rewardEndTime": 1787425199,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": null,
+      "medalGroupId": "medalGroupActivityAct2break",
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": true,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act49side": {
       "id": "act49side",
       "type": "TYPE_ACT9D0",
@@ -83,6 +105,28 @@
       "needFixedSync": false,
       "trapDomainId": null,
       "recType": "CANNOT_COMPLETE",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act3unique": {
+      "id": "act3unique",
+      "type": "UNIQUE_ONLY",
+      "displayType": "NONE",
+      "name": "부활의 찬가 출석 이벤트",
+      "startTime": 1785394800,
+      "endTime": 1788116399,
+      "rewardEndTime": 1788116399,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "CAN_COMPLETE",
       "isPageEntry": false,
       "isMagnify": false,
       "picGroup": [],
@@ -6250,6 +6294,13 @@
       "actTopBarColor": "df462d",
       "actTopBarText": "용문 복권방 로그인 이벤트"
     },
+    "act3unique": {
+      "actId": "act3unique",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "2241e8",
+      "actTopBarText": "부활의 찬가 출석 이벤트"
+    },
     "act7collection": {
       "actId": "act7collection",
       "isPopupAfterCheckin": false,
@@ -7211,6 +7262,9 @@
     }
   },
   "zoneToActivity": {
+    "act2break_zone1": "act2break",
+    "act2break_zone2": "act2break",
+    "act2break_zone3": "act2break",
     "act49side_zone1": "act49side",
     "act49side_zone2": "act49side",
     "act49side_zone3": "act49side",
@@ -222883,6 +222937,2582 @@
       }
     },
     "VEC_BREAK_V2": {
+      "act2break": {
+        "offenseStageDict": {
+          "act2break_01": {
+            "stageId": "act2break_01",
+            "level": 1,
+            "levelLayout": "vecbv2_normal_1",
+            "storyDesc": "보물을 도난당하는 것보다, 도적들이 수집품의 가치와 특질을 무시하고 난폭하게 수집품을 훼손하는 것이야말로 수집가들이 두려워하는 일이다.",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act2break_02": {
+            "stageId": "act2break_02",
+            "level": 2,
+            "levelLayout": "vecbv2_normal_2",
+            "storyDesc": "이번 전투에서 참전자가 어느 진영에 속해 있든, 한 치의 앞도 보이지 않는 칠흑 같은 어둠은 신경을 곤두서게 하여 잔뜩 긴장하게 한다.",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act2break_03": {
+            "stageId": "act2break_03",
+            "level": 3,
+            "levelLayout": "vecbv2_normal_3",
+            "storyDesc": "이 길에 있는 다음 모퉁이를 돌았을 때, 사각지대에서 무엇이 모습을 드러낼지 그 누구도 예측할 수 없다.",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act2break_04": {
+            "stageId": "act2break_04",
+            "level": 4,
+            "levelLayout": "vecbv2_boss_1",
+            "storyDesc": "“지나친 집중이 때로는 독이 되기도 한다. 특히 시야가 제한된 상황에서, 보이는 곳에 몰두할수록 더 쉽게 약점이 노출되는 법이다.”",
+            "particleType": "NONE",
+            "bossData": {
+              "enemyId": "enemy_8016_misery_1",
+              "name": "'미저리', 침묵의 칼날",
+              "desc": "어둠에 가려진 곳에 있을 시 물리 및 마법 회피 +100%\n[찰나의 상처] 전장의 최대 HP가 가장 낮은 오퍼레이터에게 대량의 물리 대미지를 입히며, 처치된 목표는 재배치 시간 대폭 증가, 동일한 목표에 연속 3회 명중 시 목표는 시야 상실\n[소해성 공간] 기절, 냉기, 빙결, 공포, 유도, 강제 이동 등 상태 이상 효과를 즉시 제거, HP 일정량 회복 및 상기의 상태 이상 효과를 일시적으로 면역",
+              "level": 1,
+              "iconId": "vecbv2_offense_boss_misery",
+              "levelDecoFigureId": "enemy_8016_misery_deco_1",
+              "levelDecoSignId": "enemy_8016_misery_deco_2",
+              "decoId": null
+            }
+          },
+          "act2break_05": {
+            "stageId": "act2break_05",
+            "level": 5,
+            "levelLayout": "vecbv2_normal_4",
+            "storyDesc": "물러설 곳도, 나아갈 곳도 없다. 적도 나와 같기에, 흔들리지 않는다.",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act2break_06": {
+            "stageId": "act2break_06",
+            "level": 6,
+            "levelLayout": "vecbv2_normal_5",
+            "storyDesc": "밤의 장막 아래, 불빛은 유난히 밝아 보인다. 하지만 불빛으로는 어둠을 가를 수 없고, 어둠 속에 숨어있는 위험은 더더욱 비출 수 없다.",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act2break_07": {
+            "stageId": "act2break_07",
+            "level": 7,
+            "levelLayout": "vecbv2_normal_6",
+            "storyDesc": "본능은 증식하고, 사명은 전파된다. 빛이 닿는 곳에서 그 갈망은 모든 이성을 집어삼킨다.",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act2break_08": {
+            "stageId": "act2break_08",
+            "level": 8,
+            "levelLayout": "vecbv2_boss_2",
+            "storyDesc": "“명심해. 감각이 무뎌졌을 때, 잠깐 전장이 고요해졌다고 경계를 늦춰서는 안 돼. 주술이 빚어낸 착각은 대다수 사람에게 치명적이니까.”",
+            "particleType": "HARD",
+            "bossData": {
+              "enemyId": "enemy_8016_misery_2",
+              "name": "'미저리', 침묵의 칼날",
+              "desc": "최초로 쓰러진 후 전장에 복귀 시 행동 방식 변경: 아군의 시야에 있을 경우 즉시 어둠 속으로 이동한 뒤 정지(이동 경로에 아군이 없는 경우), [찰나의 상처]를 시전하여 목표를 찾지 못하면 계속해서 이동",
+              "level": 2,
+              "iconId": "vecbv2_offense_boss_misery",
+              "levelDecoFigureId": "enemy_8016_misery_deco_1",
+              "levelDecoSignId": "enemy_8016_misery_deco_2",
+              "decoId": null
+            }
+          },
+          "act2break_09": {
+            "stageId": "act2break_09",
+            "level": 9,
+            "levelLayout": "vecbv2_normal_7",
+            "storyDesc": "출구로 가는 길을 아는 것만으론 이번 훈련을 감당할 수 없다. 좁은 통로로 떼 지어 쇄도하는 적들을 똑똑히 보고, 대책을 다시 강구해야 한다.",
+            "particleType": "HARD",
+            "bossData": null
+          },
+          "act2break_10": {
+            "stageId": "act2break_10",
+            "level": 10,
+            "levelLayout": "vecbv2_normal_8",
+            "storyDesc": "제아무리 음험하게 기습한다 한들, 미세한 파동은 남기는 법이다. 다만, 대부분의 경우 주변의 환경 탓에 목표물이 경고를 알아차리지 못할 뿐.",
+            "particleType": "HARD",
+            "bossData": null
+          },
+          "act2break_11": {
+            "stageId": "act2break_11",
+            "level": 11,
+            "levelLayout": "vecbv2_normal_9",
+            "storyDesc": "누구에게나 혼자 있고 싶을 때가 있다.",
+            "particleType": "HARD",
+            "bossData": null
+          },
+          "act2break_12": {
+            "stageId": "act2break_12",
+            "level": 12,
+            "levelLayout": "vecbv2_boss_3",
+            "storyDesc": "“아무리 좁은 틈새라도 벌어지고, 찢기는 법. 결국 절망적인 공간으로 변하는 법이다. 어둠 속에 발을 들였다면, 자신의 행동 하나하나에 각별히 유의하도록.”",
+            "particleType": "HARD",
+            "bossData": {
+              "enemyId": "enemy_8016_misery_3",
+              "name": "'미저리', 침묵의 칼날",
+              "desc": "[확산성 분열] 공격 및 [찰나의 상처]가 지속 마법 대미지를 입히며, 지속 시간 동안에 퇴각한 목표의 재배치 시간 대폭 증가",
+              "level": 3,
+              "iconId": "vecbv2_offense_boss_misery",
+              "levelDecoFigureId": "enemy_8016_misery_deco_1",
+              "levelDecoSignId": "enemy_8016_misery_deco_2",
+              "decoId": null
+            }
+          }
+        },
+        "hardStageDict": {
+          "act2break_h01": {
+            "stageId": "act2break_h01",
+            "orderType": "A",
+            "storyDesc": "미리 말해두는데, 앞서 제시한 수학 문제의 해답은 하나가 아니다. 하나에만 얽매여 다른 가능성을 놓치는 실수를 범하지 말도록.",
+            "bossData": null
+          },
+          "act2break_h02": {
+            "stageId": "act2break_h02",
+            "orderType": "B",
+            "storyDesc": "이 구간은 높은 사고율로 유명하다. 굳이 이유를 묻는다면, 형편없는 조명과 예상을 웃도는 통행량, 그리고 일부 운전기사의 운전 실력, 이 모든 게 주된 원인이라 할 수 있다.",
+            "bossData": null
+          },
+          "act2break_h03": {
+            "stageId": "act2break_h03",
+            "orderType": "C",
+            "storyDesc": "아무리 완벽한 구조라고 한들, 하나만 건드려도 전체가 요동치는 지점은 존재하기 마련이다. 그 약점을 찾아내는 것은 극히 어렵지만, 그는 언제나 당신의 도전을 환영한다.",
+            "bossData": {
+              "enemyId": "enemy_8010_mcnist_3",
+              "name": "'메커니스트', 기계 심장",
+              "desc": null,
+              "level": 3,
+              "iconId": "vecbv2_offense_boss_mcnist",
+              "levelDecoFigureId": null,
+              "levelDecoSignId": null,
+              "decoId": "deco_mcnist"
+            }
+          },
+          "act2break_h04": {
+            "stageId": "act2break_h04",
+            "orderType": "D",
+            "storyDesc": "“목표 달성은 축하할 일이지만, 앞으로의 어둠은 더욱 짙어질 것이다. 어떻게 대응할지 잘 생각해 두도록……”",
+            "bossData": {
+              "enemyId": "enemy_8016_misery_3",
+              "name": "'미저리', 침묵의 칼날",
+              "desc": null,
+              "level": 3,
+              "iconId": "vecbv2_offense_boss_misery",
+              "levelDecoFigureId": null,
+              "levelDecoSignId": null,
+              "decoId": "deco_misery"
+            }
+          }
+        },
+        "defenseBasicDict": {
+          "act2break_sp01": {
+            "stageId": "act2break_sp01",
+            "groupId": null,
+            "sortId": 1,
+            "startTs": 1785394800
+          },
+          "act2break_sp02": {
+            "stageId": "act2break_sp02",
+            "groupId": null,
+            "sortId": 2,
+            "startTs": 1785394800
+          },
+          "act2break_sp03": {
+            "stageId": "act2break_sp03",
+            "groupId": null,
+            "sortId": 3,
+            "startTs": 1785394800
+          },
+          "act2break_sp04": {
+            "stageId": "act2break_sp04",
+            "groupId": null,
+            "sortId": 4,
+            "startTs": 1785394800
+          },
+          "act2break_sp05": {
+            "stageId": "act2break_sp05",
+            "groupId": null,
+            "sortId": 5,
+            "startTs": 1785394800
+          },
+          "act2break_sp06": {
+            "stageId": "act2break_sp06",
+            "groupId": null,
+            "sortId": 6,
+            "startTs": 1785394800
+          },
+          "act2break_sp07": {
+            "stageId": "act2break_sp07",
+            "groupId": null,
+            "sortId": 7,
+            "startTs": 1785697200
+          },
+          "act2break_sp08": {
+            "stageId": "act2break_sp08",
+            "groupId": "spGroup01",
+            "sortId": 13,
+            "startTs": 1785697200
+          },
+          "act2break_sp09": {
+            "stageId": "act2break_sp09",
+            "groupId": "spGroup01",
+            "sortId": 14,
+            "startTs": 1785697200
+          },
+          "act2break_sp10": {
+            "stageId": "act2break_sp10",
+            "groupId": null,
+            "sortId": 8,
+            "startTs": 1785999600
+          },
+          "act2break_sp11": {
+            "stageId": "act2break_sp11",
+            "groupId": null,
+            "sortId": 9,
+            "startTs": 1785999600
+          },
+          "act2break_sp12": {
+            "stageId": "act2break_sp12",
+            "groupId": null,
+            "sortId": 10,
+            "startTs": 1785999600
+          },
+          "act2break_sp13": {
+            "stageId": "act2break_sp13",
+            "groupId": null,
+            "sortId": 11,
+            "startTs": 1785999600
+          },
+          "act2break_sp14": {
+            "stageId": "act2break_sp14",
+            "groupId": null,
+            "sortId": 12,
+            "startTs": 1786215600
+          },
+          "act2break_sp15": {
+            "stageId": "act2break_sp15",
+            "groupId": "spGroup02",
+            "sortId": 15,
+            "startTs": 1786215600
+          },
+          "act2break_sp16": {
+            "stageId": "act2break_sp16",
+            "groupId": "spGroup02",
+            "sortId": 16,
+            "startTs": 1786215600
+          }
+        },
+        "defenseDetailDict": {
+          "act2break_sp01": {
+            "stageId": "act2break_sp01",
+            "buffId": "act2break_rune01",
+            "defenseCharLimit": 1,
+            "bossIconId": "vec_act2break_defense_enemy_1"
+          },
+          "act2break_sp02": {
+            "stageId": "act2break_sp02",
+            "buffId": "act2break_rune02",
+            "defenseCharLimit": 1,
+            "bossIconId": "vec_act2break_defense_enemy_2"
+          },
+          "act2break_sp03": {
+            "stageId": "act2break_sp03",
+            "buffId": "act2break_rune03",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act2break_defense_enemy_3"
+          },
+          "act2break_sp04": {
+            "stageId": "act2break_sp04",
+            "buffId": "act2break_rune04",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act2break_defense_enemy_4"
+          },
+          "act2break_sp05": {
+            "stageId": "act2break_sp05",
+            "buffId": "act2break_rune05",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_5"
+          },
+          "act2break_sp06": {
+            "stageId": "act2break_sp06",
+            "buffId": "act2break_rune06",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_6"
+          },
+          "act2break_sp07": {
+            "stageId": "act2break_sp07",
+            "buffId": "act2break_rune07",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act2break_defense_enemy_7"
+          },
+          "act2break_sp08": {
+            "stageId": "act2break_sp08",
+            "buffId": "act2break_rune08",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_8"
+          },
+          "act2break_sp09": {
+            "stageId": "act2break_sp09",
+            "buffId": "act2break_rune09",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_9"
+          },
+          "act2break_sp10": {
+            "stageId": "act2break_sp10",
+            "buffId": "act2break_rune10",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act2break_defense_enemy_10"
+          },
+          "act2break_sp11": {
+            "stageId": "act2break_sp11",
+            "buffId": "act2break_rune11",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act2break_defense_enemy_11"
+          },
+          "act2break_sp12": {
+            "stageId": "act2break_sp12",
+            "buffId": "act2break_rune12",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_12"
+          },
+          "act2break_sp13": {
+            "stageId": "act2break_sp13",
+            "buffId": "act2break_rune13",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_13"
+          },
+          "act2break_sp14": {
+            "stageId": "act2break_sp14",
+            "buffId": "act2break_rune14",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act2break_defense_enemy_14"
+          },
+          "act2break_sp15": {
+            "stageId": "act2break_sp15",
+            "buffId": "act2break_rune15",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_15"
+          },
+          "act2break_sp16": {
+            "stageId": "act2break_sp16",
+            "buffId": "act2break_rune16",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_16"
+          }
+        },
+        "zoneDict": {
+          "act2break_zone1": {
+            "zoneId": "act2break_zone1",
+            "stageLockHint": null
+          },
+          "act2break_zone2": {
+            "zoneId": "act2break_zone2",
+            "stageLockHint": "커널 돌파 클리어 후 개방"
+          },
+          "act2break_zone3": {
+            "zoneId": "act2break_zone3",
+            "stageLockHint": "1층 돌파 후 개방"
+          }
+        },
+        "defenseGroupDict": {
+          "spGroup01": {
+            "groupId": "spGroup01",
+            "sortId": 1,
+            "orderedStageList": [
+              "act2break_sp08",
+              "act2break_sp09"
+            ]
+          },
+          "spGroup02": {
+            "groupId": "spGroup02",
+            "sortId": 2,
+            "orderedStageList": [
+              "act2break_sp15",
+              "act2break_sp16"
+            ]
+          }
+        },
+        "battleBuffDict": {
+          "act2break_rune01": {
+            "buffId": "act2break_rune01",
+            "name": "광속 프로그램",
+            "desc": "<네온사인>의 SP 소모 및 코스트 소모 -50%",
+            "iconId": "act2break_relic_01",
+            "runeData": {
+              "id": "act2break_relic_01",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "<네온사인>의 SP 소모 및 코스트 소모 -50%",
+              "runes": [
+                {
+                  "key": "char_skill_blackb_mul",
+                  "selector": {
+                    "professionMask": "TRAP",
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "cost",
+                      "value": 0.5,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "char_skill_cd_mul",
+                  "selector": {
+                    "professionMask": "TRAP",
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "scale",
+                      "value": 0.5,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "char",
+                      "value": 0.0,
+                      "valueStr": "trap_048_neonlamp|trap_328_newlamp"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune02": {
+            "buffId": "act2break_rune02",
+            "name": "치료 장비",
+            "desc": "모든 아군 유닛이 초당 HP 50 회복",
+            "iconId": "act2break_relic_02",
+            "runeData": {
+              "id": "act2break_relic_02",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "모든 아군 유닛이 초당 HP 50 회복",
+              "runes": [
+                {
+                  "key": "char_attribute_add",
+                  "selector": {
+                    "professionMask": 767,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "hp_recovery_per_sec",
+                      "value": 50.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune03": {
+            "buffId": "act2break_rune03",
+            "name": "부유 장비",
+            "desc": "모든 적의 무게 등급 -1",
+            "iconId": "act2break_relic_03",
+            "runeData": {
+              "id": "act2break_relic_03",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "모든 적의 무게 등급 -1",
+              "runes": [
+                {
+                  "key": "enemy_attribute_add",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "mass_level",
+                      "value": -1.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune04": {
+            "buffId": "act2break_rune04",
+            "name": "탐조 장비",
+            "desc": "모든 오퍼레이터의 시야 확보에 필요한 시간 감소",
+            "iconId": "act2break_relic_04",
+            "runeData": {
+              "id": "act2break_relic_04",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "모든 오퍼레이터의 시야 확보에 필요한 시간 감소",
+              "runes": [
+                {
+                  "key": "env_gbuff_mul",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "night_map_default_new"
+                    },
+                    {
+                      "key": "night_map_character_ctrl.interval",
+                      "value": 0.5,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune05": {
+            "buffId": "act2break_rune05",
+            "name": "결투 장비",
+            "desc": "기사 적의 HP -30%",
+            "iconId": "act2break_relic_05",
+            "runeData": {
+              "id": "act2break_relic_05",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "기사 적의 HP -30%",
+              "runes": [
+                {
+                  "key": "enemy_attribute_mul",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "NONE"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "max_hp",
+                      "value": 0.7,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "enemy",
+                      "value": 0.0,
+                      "valueStr": "enemy_1099_nbkght|enemy_1099_nbkght_2|enemy_1101_plkght|enemy_1101_plkght_2|enemy_1101_plkght_3|enemy_1102_sdkght|enemy_1102_sdkght_2|enemy_1103_wdkght|enemy_1103_wdkght_2|enemy_1103_wdkght_3|enemy_1104_lfkght|enemy_1104_lfkght_2|enemy_1104_lfkght_3|enemy_1181_napkgt|enemy_1181_napkgt_2|enemy_1184_cadkgt|enemy_1184_cadkgt_2|enemy_1184_cadkgt_3|enemy_1513_dekght|enemy_1513_dekght_2|enemy_1524_bldkgt|enemy_2038_sydonq"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune06": {
+            "buffId": "act2break_rune06",
+            "name": "교란 장비",
+            "desc": "모든 적의 이동 속도 -12%, 공격 속도 -12",
+            "iconId": "act2break_relic_06",
+            "runeData": {
+              "id": "act2break_relic_06",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "모든 적의 이동 속도 -12%, 공격 속도 -12",
+              "runes": [
+                {
+                  "key": "enemy_attribute_mul",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "move_speed",
+                      "value": 0.88,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "enemy_attribute_add",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "attack_speed",
+                      "value": -12.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune07": {
+            "buffId": "act2break_rune07",
+            "name": "기동 장비",
+            "desc": "모든 오퍼레이터의 배치 코스트 -2",
+            "iconId": "act2break_relic_07",
+            "runeData": {
+              "id": "act2break_relic_07",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "모든 오퍼레이터의 배치 코스트 -2",
+              "runes": [
+                {
+                  "key": "char_cost_add",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": -2.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune08": {
+            "buffId": "act2break_rune08",
+            "name": "경화 장비",
+            "desc": "모든 지상 오퍼레이터의 방어력 +30%, 저지 가능 수 +1",
+            "iconId": "act2break_relic_08",
+            "runeData": {
+              "id": "act2break_relic_08",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "모든 지상 오퍼레이터의 방어력 +30%, 저지 가능 수 +1",
+              "runes": [
+                {
+                  "key": "char_attribute_mul",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": "MELEE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 1.3,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "char_blockcnt_add",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": "MELEE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune09": {
+            "buffId": "act2break_rune09",
+            "name": "석화 장비",
+            "desc": "모든 지상 오퍼레이터의 방어력 +60%, 저지 가능 수 +2, 마법 저항 -20 (일반 보급과 동시 장착 불가)",
+            "iconId": "act2break_relic_09",
+            "runeData": {
+              "id": "act2break_relic_09",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "모든 지상 오퍼레이터의 방어력 +60%, 저지 가능 수 +2, 마법 저항 -20 (일반 보급과 동시 장착 불가)",
+              "runes": [
+                {
+                  "key": "char_attribute_mul",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": "MELEE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 1.6,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "char_attribute_add",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": "MELEE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "magic_resistance",
+                      "value": -20.0,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "char_blockcnt_add",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": "MELEE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 2.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune10": {
+            "buffId": "act2break_rune10",
+            "name": "예광 프로그램",
+            "desc": "<네온사인> 가동 후의 시야 범위 변경",
+            "iconId": "act2break_relic_10",
+            "runeData": {
+              "id": "act2break_relic_10",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "<네온사인> 가동 후의 시야 범위 변경",
+              "runes": [
+                {
+                  "key": "level_predefines_enable",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "trap_048_neonlamp",
+                      "value": 0.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "trap_048_neonlamp#1",
+                      "value": 0.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "trap_048_neonlamp#2",
+                      "value": 0.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "trap_328_newlamp",
+                      "value": 1.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "trap_328_newlamp#1",
+                      "value": 1.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "trap_328_newlamp#2",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "level_hidden_group_enable",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "lamp2"
+                    }
+                  ]
+                },
+                {
+                  "key": "level_hidden_group_disable",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "lamp1"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune11": {
+            "buffId": "act2break_rune11",
+            "name": "활성 장비",
+            "desc": "모든 아군 유닛이 받는 치료 및 HP 회복 효과 +30%",
+            "iconId": "act2break_relic_11",
+            "runeData": {
+              "id": "act2break_relic_11",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "모든 아군 유닛이 받는 치료 및 HP 회복 효과 +30%",
+              "runes": [
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 767,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "heal_scale"
+                    },
+                    {
+                      "key": "heal_scale",
+                      "value": 1.3,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 767,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "hp_recovery_per_sec[mul]"
+                    },
+                    {
+                      "key": "hp_recovery_per_sec",
+                      "value": 0.3,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 767,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "hp_recovery_per_sec_by_max_hp_ratio[mul]"
+                    },
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.3,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune12": {
+            "buffId": "act2break_rune12",
+            "name": "실명 장비",
+            "desc": "적이 처음으로 어둠에서 시야 범위에 진입할 시, 6초간 명중률 -100%",
+            "iconId": "act2break_relic_12",
+            "runeData": {
+              "id": "act2break_relic_12",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "적이 처음으로 어둠에서 시야 범위에 진입할 시, 6초간 명중률 -100%",
+              "runes": [
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "act2break_night_hitrate"
+                    },
+                    {
+                      "key": "attr_time",
+                      "value": 6.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "damage_hitrate_physical",
+                      "value": -1.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "damage_hitrate_magical",
+                      "value": -1.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune13": {
+            "buffId": "act2break_rune13",
+            "name": "변이 장비",
+            "desc": "모든 오퍼레이터의 최대 HP +25%, 공격력 +25%, 배치 즉시 HP 25% 감소",
+            "iconId": "act2break_relic_13",
+            "runeData": {
+              "id": "act2break_relic_13",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "모든 오퍼레이터의 최대 HP +25%, 공격력 +25%, 배치 즉시 HP 25% 감소",
+              "runes": [
+                {
+                  "key": "char_attribute_mul",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "max_hp",
+                      "value": 1.25,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "atk",
+                      "value": 1.25,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "deploy_damage"
+                    },
+                    {
+                      "key": "hp_ratio",
+                      "value": 0.25,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune14": {
+            "buffId": "act2break_rune14",
+            "name": "교전 장비",
+            "desc": "모든 지상 오퍼레이터가 4초마다 SP +1",
+            "iconId": "act2break_relic_14",
+            "runeData": {
+              "id": "act2break_relic_14",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "모든 지상 오퍼레이터가 4초마다 SP +1",
+              "runes": [
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": "MELEE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "value": 0.0,
+                      "valueStr": "modify_sp[trigger]"
+                    },
+                    {
+                      "key": "interval",
+                      "value": 4.0,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "sp",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune15": {
+            "buffId": "act2break_rune15",
+            "name": "감합 장비",
+            "desc": "배치 가능 인원수 +1",
+            "iconId": "act2break_relic_15",
+            "runeData": {
+              "id": "act2break_relic_15",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "배치 가능 인원수 +1",
+              "runes": [
+                {
+                  "key": "global_placable_char_num_add",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 1.0,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune16": {
+            "buffId": "act2break_rune16",
+            "name": "중합 장비",
+            "desc": "배치 가능 인원수 +3, 모든 아군 유닛의 최대 HP +35%, 공격력 -20% (일반 보급과 동시 장착 불가)",
+            "iconId": "act2break_relic_16",
+            "runeData": {
+              "id": "act2break_relic_16",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "배치 가능 인원수 +3, 모든 아군 유닛의 최대 HP +35%, 공격력 -20% (일반 보급과 동시 장착 불가)",
+              "runes": [
+                {
+                  "key": "global_placable_char_num_add",
+                  "selector": {
+                    "professionMask": "NONE",
+                    "buildableMask": "NONE",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 3.0,
+                      "valueStr": null
+                    }
+                  ]
+                },
+                {
+                  "key": "char_attribute_mul",
+                  "selector": {
+                    "professionMask": 767,
+                    "buildableMask": "ALL",
+                    "playerSideMask": "ALL",
+                    "sideType": "ALL",
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": "ALL"
+                  },
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.8,
+                      "valueStr": null
+                    },
+                    {
+                      "key": "max_hp",
+                      "value": 1.35,
+                      "valueStr": null
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "milestoneList": [
+          {
+            "milestoneId": "mileStone_1",
+            "orderId": 1,
+            "tokenNum": 40,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_2",
+            "orderId": 2,
+            "tokenNum": 80,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_3",
+            "orderId": 3,
+            "tokenNum": 120,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_4",
+            "orderId": 4,
+            "tokenNum": 160,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_5",
+            "orderId": 5,
+            "tokenNum": 200,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_6",
+            "orderId": 6,
+            "tokenNum": 245,
+            "reward": {
+              "id": "30014",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_7",
+            "orderId": 7,
+            "tokenNum": 290,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_8",
+            "orderId": 8,
+            "tokenNum": 335,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_9",
+            "orderId": 9,
+            "tokenNum": 380,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_10",
+            "orderId": 10,
+            "tokenNum": 425,
+            "reward": {
+              "id": "30115",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_11",
+            "orderId": 11,
+            "tokenNum": 475,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_12",
+            "orderId": 12,
+            "tokenNum": 525,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_13",
+            "orderId": 13,
+            "tokenNum": 575,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_14",
+            "orderId": 14,
+            "tokenNum": 625,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_15",
+            "orderId": 15,
+            "tokenNum": 675,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_16",
+            "orderId": 16,
+            "tokenNum": 730,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_17",
+            "orderId": 17,
+            "tokenNum": 785,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_18",
+            "orderId": 18,
+            "tokenNum": 840,
+            "reward": {
+              "id": "31074",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_19",
+            "orderId": 19,
+            "tokenNum": 895,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_20",
+            "orderId": 20,
+            "tokenNum": 950,
+            "reward": {
+              "id": "mod_unlock_token",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_21",
+            "orderId": 21,
+            "tokenNum": 1005,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_22",
+            "orderId": 22,
+            "tokenNum": 1060,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_23",
+            "orderId": 23,
+            "tokenNum": 1115,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_24",
+            "orderId": 24,
+            "tokenNum": 1170,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_25",
+            "orderId": 25,
+            "tokenNum": 1225,
+            "reward": {
+              "id": "31094",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_26",
+            "orderId": 26,
+            "tokenNum": 1280,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_27",
+            "orderId": 27,
+            "tokenNum": 1335,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_28",
+            "orderId": 28,
+            "tokenNum": 1390,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_29",
+            "orderId": 29,
+            "tokenNum": 1445,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_30",
+            "orderId": 30,
+            "tokenNum": 1500,
+            "reward": {
+              "id": "char_253_greyy@epoque#515",
+              "count": 1,
+              "type": "CHAR_SKIN"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_31",
+            "orderId": 31,
+            "tokenNum": 1560,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_32",
+            "orderId": 32,
+            "tokenNum": 1620,
+            "reward": {
+              "id": "30014",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_33",
+            "orderId": 33,
+            "tokenNum": 1680,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_34",
+            "orderId": 34,
+            "tokenNum": 1740,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_35",
+            "orderId": 35,
+            "tokenNum": 1800,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_36",
+            "orderId": 36,
+            "tokenNum": 1860,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_37",
+            "orderId": 37,
+            "tokenNum": 1920,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_38",
+            "orderId": 38,
+            "tokenNum": 1980,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_39",
+            "orderId": 39,
+            "tokenNum": 2040,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_40",
+            "orderId": 40,
+            "tokenNum": 2100,
+            "reward": {
+              "id": "30115",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785394800
+          },
+          {
+            "milestoneId": "mileStone_41",
+            "orderId": 41,
+            "tokenNum": 2150,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_42",
+            "orderId": 42,
+            "tokenNum": 2200,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_43",
+            "orderId": 43,
+            "tokenNum": 2250,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_44",
+            "orderId": 44,
+            "tokenNum": 2300,
+            "reward": {
+              "id": "31074",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_45",
+            "orderId": 45,
+            "tokenNum": 2350,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_46",
+            "orderId": 46,
+            "tokenNum": 2405,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_47",
+            "orderId": 47,
+            "tokenNum": 2460,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_48",
+            "orderId": 48,
+            "tokenNum": 2515,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_49",
+            "orderId": 49,
+            "tokenNum": 2570,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_50",
+            "orderId": 50,
+            "tokenNum": 2625,
+            "reward": {
+              "id": "furni_vector_S2_misery_01",
+              "count": 1,
+              "type": "FURN"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_51",
+            "orderId": 51,
+            "tokenNum": 2685,
+            "reward": {
+              "id": "furni_vector_S2_mechanist_01",
+              "count": 1,
+              "type": "FURN"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_52",
+            "orderId": 52,
+            "tokenNum": 2745,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_53",
+            "orderId": 53,
+            "tokenNum": 2805,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_54",
+            "orderId": 54,
+            "tokenNum": 2865,
+            "reward": {
+              "id": "31094",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_55",
+            "orderId": 55,
+            "tokenNum": 2925,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_56",
+            "orderId": 56,
+            "tokenNum": 2990,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_57",
+            "orderId": 57,
+            "tokenNum": 3055,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_58",
+            "orderId": 58,
+            "tokenNum": 3120,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_59",
+            "orderId": 59,
+            "tokenNum": 3185,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_60",
+            "orderId": 60,
+            "tokenNum": 3250,
+            "reward": {
+              "id": "30014",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_61",
+            "orderId": 61,
+            "tokenNum": 3320,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_62",
+            "orderId": 62,
+            "tokenNum": 3390,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_63",
+            "orderId": 63,
+            "tokenNum": 3460,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_64",
+            "orderId": 64,
+            "tokenNum": 3530,
+            "reward": {
+              "id": "31074",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1785999600
+          },
+          {
+            "milestoneId": "mileStone_65",
+            "orderId": 65,
+            "tokenNum": 3600,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1785999600
+          }
+        ],
+        "stageRewardDict": {
+          "act2break_01": {
+            "stageId": "act2break_01",
+            "completeRewardCnt": 75,
+            "normalRewardCnt": 25,
+            "limitReward": null
+          },
+          "act2break_02": {
+            "stageId": "act2break_02",
+            "completeRewardCnt": 75,
+            "normalRewardCnt": 25,
+            "limitReward": null
+          },
+          "act2break_03": {
+            "stageId": "act2break_03",
+            "completeRewardCnt": 75,
+            "normalRewardCnt": 25,
+            "limitReward": null
+          },
+          "act2break_04": {
+            "stageId": "act2break_04",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act2break_05": {
+            "stageId": "act2break_05",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act2break_06": {
+            "stageId": "act2break_06",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act2break_07": {
+            "stageId": "act2break_07",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act2break_08": {
+            "stageId": "act2break_08",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act2break_09": {
+            "stageId": "act2break_09",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act2break_10": {
+            "stageId": "act2break_10",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act2break_11": {
+            "stageId": "act2break_11",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act2break_12": {
+            "stageId": "act2break_12",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act2break_h01": {
+            "stageId": "act2break_h01",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act2break_h02": {
+            "stageId": "act2break_h02",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act2break_h03": {
+            "stageId": "act2break_h03",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act2break_h04": {
+            "stageId": "act2break_h04",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act2break_sp01": {
+            "stageId": "act2break_sp01",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1785394800,
+              "endTs": 1785697199,
+              "rewardCnt": 20
+            }
+          },
+          "act2break_sp02": {
+            "stageId": "act2break_sp02",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1785394800,
+              "endTs": 1785697199,
+              "rewardCnt": 20
+            }
+          },
+          "act2break_sp03": {
+            "stageId": "act2break_sp03",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1785394800,
+              "endTs": 1785697199,
+              "rewardCnt": 20
+            }
+          },
+          "act2break_sp04": {
+            "stageId": "act2break_sp04",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1785394800,
+              "endTs": 1785697199,
+              "rewardCnt": 20
+            }
+          },
+          "act2break_sp05": {
+            "stageId": "act2break_sp05",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1785394800,
+              "endTs": 1785697199,
+              "rewardCnt": 20
+            }
+          },
+          "act2break_sp06": {
+            "stageId": "act2break_sp06",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1785394800,
+              "endTs": 1785697199,
+              "rewardCnt": 20
+            }
+          },
+          "act2break_sp07": {
+            "stageId": "act2break_sp07",
+            "completeRewardCnt": 30,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1785697200,
+              "endTs": 1785999599,
+              "rewardCnt": 30
+            }
+          },
+          "act2break_sp08": {
+            "stageId": "act2break_sp08",
+            "completeRewardCnt": 30,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1785697200,
+              "endTs": 1785999599,
+              "rewardCnt": 30
+            }
+          },
+          "act2break_sp09": {
+            "stageId": "act2break_sp09",
+            "completeRewardCnt": 40,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1785697200,
+              "endTs": 1785999599,
+              "rewardCnt": 40
+            }
+          },
+          "act2break_sp10": {
+            "stageId": "act2break_sp10",
+            "completeRewardCnt": 35,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1785999600,
+              "endTs": 1786215599,
+              "rewardCnt": 35
+            }
+          },
+          "act2break_sp11": {
+            "stageId": "act2break_sp11",
+            "completeRewardCnt": 35,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1785999600,
+              "endTs": 1786215599,
+              "rewardCnt": 35
+            }
+          },
+          "act2break_sp12": {
+            "stageId": "act2break_sp12",
+            "completeRewardCnt": 35,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1785999600,
+              "endTs": 1786215599,
+              "rewardCnt": 35
+            }
+          },
+          "act2break_sp13": {
+            "stageId": "act2break_sp13",
+            "completeRewardCnt": 35,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1785999600,
+              "endTs": 1786215599,
+              "rewardCnt": 35
+            }
+          },
+          "act2break_sp14": {
+            "stageId": "act2break_sp14",
+            "completeRewardCnt": 40,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1786215600,
+              "endTs": 1786561199,
+              "rewardCnt": 40
+            }
+          },
+          "act2break_sp15": {
+            "stageId": "act2break_sp15",
+            "completeRewardCnt": 40,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1786215600,
+              "endTs": 1786561199,
+              "rewardCnt": 40
+            }
+          },
+          "act2break_sp16": {
+            "stageId": "act2break_sp16",
+            "completeRewardCnt": 50,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1786215600,
+              "endTs": 1786561199,
+              "rewardCnt": 50
+            }
+          }
+        },
+        "constData": {
+          "defenseDesc": "최대 6개 보급 장착 가능",
+          "defenseOverviewName": null,
+          "milestoneName": "돌파 마일스톤",
+          "milestoneItemId": "act2break_milestone_point",
+          "bossDescTitle": "교관 강화",
+          "defenseUnlockRequireStageId": "act2break_sp01",
+          "offenseNavLockToastStageId": "act2break_01",
+          "offenseNavLockToastStr": "해당 스테이지 클리어 후 개방",
+          "offenseHardUnlockToast": "총력전 개방 완료",
+          "hardUnlockStageId": "act2break_h01",
+          "defenseRetreatSingleText": "철수할 경우, 해당 보급이 비활성화됩니다. 철수하시겠습니까?",
+          "defenseRetreatMultipleText": "철수할 경우, 상위 보급 '{0}'도 비활성화됩니다. 철수하시겠습니까?",
+          "defenseReplaceText": "해당 오퍼레이터로 주둔 오퍼레이터를 교체하시겠습니까?",
+          "defenseEquipBuffLimit": 6,
+          "displayMedalId": "medal_activity_act2break_01",
+          "defenseAddBuffToast": "전투 보급 장착 완료",
+          "defenseRemoveBuffToast": "전투 보급 종료",
+          "defenseReplaceBuffToast": "전투 보급 변경 완료",
+          "defenseBuffExceedToast": "전투 보급 장착 제한 초과",
+          "defendSameGroupHint": "같은 스테이지 주둔 중",
+          "defendOtherHint": "특별 전선 주둔 중",
+          "defenseBuffLockToast": "특별 전선에서 개방 필요",
+          "offenseBuffSelectUnsaveHint": "변경 사항이 저장되지 않았습니다. 이대로 나가시겠습니까?",
+          "defenceBattleFinishEquipText": "{0} 장착 완료",
+          "defenceBattleFinishActivateText": "{0} 활성화",
+          "defenceBattleFinishSquadText": "주둔 오퍼레이터 교체 완료",
+          "milestoneTrackId": "milestone_expand",
+          "themeColor": "#7E34F0",
+          "subTitleName": "주술의 밤"
+        },
+        "squadBuffAvailStageList": [
+          "act2break_01",
+          "act2break_02",
+          "act2break_03",
+          "act2break_04",
+          "act2break_05",
+          "act2break_06",
+          "act2break_07",
+          "act2break_08",
+          "act2break_09",
+          "act2break_10",
+          "act2break_11",
+          "act2break_12",
+          "act2break_h01",
+          "act2break_h02",
+          "act2break_h03",
+          "act2break_h04"
+        ],
+        "scheduleBlockList": [
+          {
+            "startTs": 1785394800,
+            "endTs": 1785697199
+          },
+          {
+            "startTs": 1785697200,
+            "endTs": 1785999599
+          },
+          {
+            "startTs": 1785999600,
+            "endTs": 1786215599
+          },
+          {
+            "startTs": 1786215600,
+            "endTs": 1786561199
+          }
+        ],
+        "defenseZoneId": "act2break_zone3",
+        "offenseZoneId": "act2break_zone1",
+        "hardZoneId": "act2break_zone2",
+        "firstDefenseStageId": "act2break_sp01"
+      },
       "act1break": {
         "offenseStageDict": {
           "act1break_01": {
@@ -319079,6 +321709,9 @@
     }
   },
   "activityItems": {
+    "act2break": [
+      "act2break_milestone_point"
+    ],
     "act49side": [
       "act49side_token_draft"
     ],
@@ -320048,6 +322681,30 @@
       "showPrizeId": [
         "prize_16",
         "prize_15"
+      ]
+    },
+    "act3unique": {
+      "itemList": [
+        {
+          "itemNameIconId": null,
+          "needStorageCheck": false,
+          "rewardItem": {
+            "count": 1,
+            "id": "7003",
+            "type": "TKT_GACHA"
+          },
+          "useItemNameIcon": false
+        },
+        {
+          "itemNameIconId": null,
+          "needStorageCheck": false,
+          "rewardItem": {
+            "count": 1,
+            "id": "avatar_activity_pcAct",
+            "type": "PLAYER_AVATAR"
+          },
+          "useItemNameIcon": false
+        }
       ]
     },
     "act2unique": {
@@ -327541,6 +330198,34 @@
       ],
       "picGroups": [],
       "startTs": 1784185200
+    },
+    {
+      "id": "dis_break_2",
+      "type": "ACTIVITY",
+      "funcId": "act2break",
+      "endTs": 1787165999,
+      "sortId": 141,
+      "itemId": null,
+      "timeNodes": [
+        {
+          "title": "<벡터 돌파#2 주술의 밤> 이벤트 개방 중",
+          "ts": 1785394800
+        },
+        {
+          "title": "'특별 전선'의 신규 스테이지 개방 중",
+          "ts": 1785697200
+        },
+        {
+          "title": "'총력전' 및 ' 특별 전선'의 신규 스테이지\n개방 중",
+          "ts": 1785999600
+        },
+        {
+          "title": "'특별 전선'의 신규 스테이지 개방 중",
+          "ts": 1786215600
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1785394800
     }
   ],
   "actFunData": {
@@ -360916,6 +363601,17 @@
     }
   },
   "activityCrossDayTrackTypeDataDict": {
+    "act2break_milestone_expand": {
+      "type": "act2break_milestone_expand",
+      "startTs": 1785999599,
+      "expireTs": 1787425199,
+      "dataDict": {
+        "milestone_expand": {
+          "updateEndTs": 1786042799,
+          "id": "milestone_expand"
+        }
+      }
+    },
     "act1autochess_milestone_expand": {
       "type": "act1autochess_milestone_expand",
       "startTs": 1778223600,
@@ -361358,6 +364054,9 @@
     }
   },
   "activityCrossDayTrackTypeMap": {
+    "act2break": [
+      "act2break_milestone_expand"
+    ],
     "act1autochess": [
       "act1autochess_milestone_expand"
     ],
