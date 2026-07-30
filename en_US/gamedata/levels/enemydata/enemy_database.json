@@ -419922,6 +419922,1559 @@
       ]
     },
     {
+      "Key": "enemy_8016_misery",
+      "Value": [
+        {
+          "level": 0,
+          "enemyData": {
+            "name": {
+              "m_defined": true,
+              "m_value": "'Misery', Blade of Silence"
+            },
+            "description": {
+              "m_defined": true,
+              "m_value": "A Breakthrough Trainer simulating Misery at the peak of his combat prowess."
+            },
+            "prefabKey": {
+              "m_defined": true,
+              "m_value": "enemy_8016_misery"
+            },
+            "attributes": {
+              "maxHp": {
+                "m_defined": true,
+                "m_value": 60000
+              },
+              "atk": {
+                "m_defined": true,
+                "m_value": 1500
+              },
+              "def": {
+                "m_defined": true,
+                "m_value": 700
+              },
+              "magicResistance": {
+                "m_defined": true,
+                "m_value": 20.0
+              },
+              "cost": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "blockCnt": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "moveSpeed": {
+                "m_defined": true,
+                "m_value": 1.5
+              },
+              "attackSpeed": {
+                "m_defined": true,
+                "m_value": 100.0
+              },
+              "baseAttackTime": {
+                "m_defined": true,
+                "m_value": 2.0
+              },
+              "respawnTime": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "hpRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "spRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "maxDeployCount": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "massLevel": {
+                "m_defined": true,
+                "m_value": 2
+              },
+              "baseForceLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "tauntLevel": {
+                "m_defined": true,
+                "m_value": 0
+              },
+              "epDamageResistance": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "epResistance": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "damageHitratePhysical": {
+                "m_defined": true,
+                "m_value": 1.0
+              },
+              "damageHitrateMagical": {
+                "m_defined": true,
+                "m_value": 1.0
+              },
+              "epBreakRecoverSpeed": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "stunImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "silenceImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "sleepImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "frozenImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "levitateImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "disarmedCombatImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "fearedImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "palsyImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "attractImmune": {
+                "m_defined": true,
+                "m_value": false
+              }
+            },
+            "applyWay": {
+              "m_defined": true,
+              "m_value": "ALL"
+            },
+            "motion": {
+              "m_defined": true,
+              "m_value": "WALK"
+            },
+            "enemyTags": {
+              "m_defined": true,
+              "m_value": [
+                "sarkaz"
+              ]
+            },
+            "lifePointReduce": {
+              "m_defined": true,
+              "m_value": 5
+            },
+            "levelType": {
+              "m_defined": true,
+              "m_value": "BOSS"
+            },
+            "rangeRadius": {
+              "m_defined": true,
+              "m_value": -1.0
+            },
+            "numOfExtraDrops": {
+              "m_defined": true,
+              "m_value": 0
+            },
+            "viewRadius": {
+              "m_defined": false,
+              "m_value": 0.0
+            },
+            "notCountInTotal": {
+              "m_defined": false,
+              "m_value": false
+            },
+            "talentBlackboard": [
+              {
+                "key": "heal_data.attack@heal_duration",
+                "value": 5.0,
+                "valueStr": null
+              },
+              {
+                "key": "heal_data.attack@hp_ratio",
+                "value": 0.1,
+                "valueStr": null
+              },
+              {
+                "key": "l2.active",
+                "value": 0.0,
+                "valueStr": null
+              },
+              {
+                "key": "l3.active",
+                "value": 0.0,
+                "valueStr": null
+              },
+              {
+                "key": "Reborn.duration",
+                "value": 10.0,
+                "valueStr": null
+              },
+              {
+                "key": "Reborn.location",
+                "value": 0.0,
+                "valueStr": "(3,3)"
+              },
+              {
+                "key": "night_trigger.prob",
+                "value": 1.0,
+                "valueStr": null
+              },
+              {
+                "key": "poison.poison_duration",
+                "value": 10.0,
+                "valueStr": null
+              },
+              {
+                "key": "poison.interval",
+                "value": 1.0,
+                "valueStr": null
+              },
+              {
+                "key": "poison.atk_scale_poison",
+                "value": 0.2,
+                "valueStr": null
+              },
+              {
+                "key": "poison.respawn_time",
+                "value": 2.5,
+                "valueStr": null
+              },
+              {
+                "key": "heal_trigger.heal_cd",
+                "value": 10.0,
+                "valueStr": null
+              }
+            ],
+            "skills": [
+              {
+                "prefabKey": "assassinate",
+                "priority": 0,
+                "cooldown": 0.0,
+                "initCooldown": 15.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "assassinate_duration",
+                    "value": 3.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "atk_scale_assassinate",
+                    "value": 2.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "respawn_time",
+                    "value": 2.5,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "max_stack_cnt",
+                    "value": 3.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "assassinate_cd",
+                    "value": 15.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "assassinate_2",
+                "priority": 0,
+                "cooldown": 0.0,
+                "initCooldown": 5.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "assassinate_duration",
+                    "value": 3.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "atk_scale_assassinate",
+                    "value": 2.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "assassinate_cd",
+                    "value": 15.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "respawn_time",
+                    "value": 2.5,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "max_stack_cnt",
+                    "value": 3.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "retreat",
+                "priority": 0,
+                "cooldown": 0.0,
+                "initCooldown": 0.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "retreat_cd_succeed",
+                    "value": 1.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "retreat_cd_fail",
+                    "value": 10.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "mark",
+                "priority": 1,
+                "cooldown": 999999.0,
+                "initCooldown": 1.0,
+                "spCost": 0,
+                "blackboard": null
+              }
+            ],
+            "spData": null
+          }
+        }
+      ]
+    },
+    {
+      "Key": "enemy_8016_misery_1",
+      "Value": [
+        {
+          "level": 0,
+          "enemyData": {
+            "name": {
+              "m_defined": true,
+              "m_value": "'Misery', Blade of Silence"
+            },
+            "description": {
+              "m_defined": true,
+              "m_value": "A Breakthrough Trainer simulating Misery at the peak of his combat prowess."
+            },
+            "prefabKey": {
+              "m_defined": true,
+              "m_value": "enemy_8016_misery"
+            },
+            "attributes": {
+              "maxHp": {
+                "m_defined": true,
+                "m_value": 60000
+              },
+              "atk": {
+                "m_defined": true,
+                "m_value": 1500
+              },
+              "def": {
+                "m_defined": true,
+                "m_value": 700
+              },
+              "magicResistance": {
+                "m_defined": true,
+                "m_value": 20.0
+              },
+              "cost": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "blockCnt": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "moveSpeed": {
+                "m_defined": true,
+                "m_value": 1.5
+              },
+              "attackSpeed": {
+                "m_defined": true,
+                "m_value": 100.0
+              },
+              "baseAttackTime": {
+                "m_defined": true,
+                "m_value": 2.0
+              },
+              "respawnTime": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "hpRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "spRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "maxDeployCount": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "massLevel": {
+                "m_defined": true,
+                "m_value": 2
+              },
+              "baseForceLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "tauntLevel": {
+                "m_defined": true,
+                "m_value": 0
+              },
+              "epDamageResistance": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "epResistance": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "damageHitratePhysical": {
+                "m_defined": true,
+                "m_value": 1.0
+              },
+              "damageHitrateMagical": {
+                "m_defined": true,
+                "m_value": 1.0
+              },
+              "epBreakRecoverSpeed": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "stunImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "silenceImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "sleepImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "frozenImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "levitateImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "disarmedCombatImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "fearedImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "palsyImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "attractImmune": {
+                "m_defined": true,
+                "m_value": false
+              }
+            },
+            "applyWay": {
+              "m_defined": true,
+              "m_value": "ALL"
+            },
+            "motion": {
+              "m_defined": true,
+              "m_value": "WALK"
+            },
+            "enemyTags": {
+              "m_defined": true,
+              "m_value": [
+                "sarkaz"
+              ]
+            },
+            "lifePointReduce": {
+              "m_defined": true,
+              "m_value": 5
+            },
+            "levelType": {
+              "m_defined": true,
+              "m_value": "BOSS"
+            },
+            "rangeRadius": {
+              "m_defined": true,
+              "m_value": -1.0
+            },
+            "numOfExtraDrops": {
+              "m_defined": true,
+              "m_value": 0
+            },
+            "viewRadius": {
+              "m_defined": false,
+              "m_value": 0.0
+            },
+            "notCountInTotal": {
+              "m_defined": false,
+              "m_value": false
+            },
+            "talentBlackboard": [
+              {
+                "key": "heal_data.attack@heal_duration",
+                "value": 5.0,
+                "valueStr": null
+              },
+              {
+                "key": "heal_data.attack@hp_ratio",
+                "value": 0.1,
+                "valueStr": null
+              },
+              {
+                "key": "l2.active",
+                "value": 0.0,
+                "valueStr": null
+              },
+              {
+                "key": "l3.active",
+                "value": 0.0,
+                "valueStr": null
+              },
+              {
+                "key": "Reborn.duration",
+                "value": 10.0,
+                "valueStr": null
+              },
+              {
+                "key": "Reborn.location",
+                "value": 0.0,
+                "valueStr": "(3,3)"
+              },
+              {
+                "key": "night_trigger.prob",
+                "value": 1.0,
+                "valueStr": null
+              },
+              {
+                "key": "poison.poison_duration",
+                "value": 10.0,
+                "valueStr": null
+              },
+              {
+                "key": "poison.interval",
+                "value": 1.0,
+                "valueStr": null
+              },
+              {
+                "key": "poison.atk_scale_poison",
+                "value": 0.2,
+                "valueStr": null
+              },
+              {
+                "key": "poison.respawn_time",
+                "value": 2.5,
+                "valueStr": null
+              },
+              {
+                "key": "heal_trigger.heal_cd",
+                "value": 10.0,
+                "valueStr": null
+              }
+            ],
+            "skills": [
+              {
+                "prefabKey": "assassinate",
+                "priority": 0,
+                "cooldown": 0.0,
+                "initCooldown": 15.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "assassinate_duration",
+                    "value": 3.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "atk_scale_assassinate",
+                    "value": 2.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "respawn_time",
+                    "value": 2.5,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "max_stack_cnt",
+                    "value": 3.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "assassinate_cd",
+                    "value": 15.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "assassinate_2",
+                "priority": 0,
+                "cooldown": 0.0,
+                "initCooldown": 5.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "assassinate_duration",
+                    "value": 3.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "atk_scale_assassinate",
+                    "value": 2.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "assassinate_cd",
+                    "value": 15.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "respawn_time",
+                    "value": 2.5,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "max_stack_cnt",
+                    "value": 3.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "retreat",
+                "priority": 0,
+                "cooldown": 0.0,
+                "initCooldown": 0.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "retreat_cd_succeed",
+                    "value": 1.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "retreat_cd_fail",
+                    "value": 10.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "mark",
+                "priority": 1,
+                "cooldown": 999999.0,
+                "initCooldown": 1.0,
+                "spCost": 0,
+                "blackboard": null
+              }
+            ],
+            "spData": null
+          }
+        }
+      ]
+    },
+    {
+      "Key": "enemy_8016_misery_2",
+      "Value": [
+        {
+          "level": 0,
+          "enemyData": {
+            "name": {
+              "m_defined": true,
+              "m_value": "'Misery', Blade of Silence"
+            },
+            "description": {
+              "m_defined": true,
+              "m_value": "A Breakthrough Trainer simulating Misery at the peak of his combat prowess."
+            },
+            "prefabKey": {
+              "m_defined": true,
+              "m_value": "enemy_8016_misery"
+            },
+            "attributes": {
+              "maxHp": {
+                "m_defined": true,
+                "m_value": 70000
+              },
+              "atk": {
+                "m_defined": true,
+                "m_value": 1750
+              },
+              "def": {
+                "m_defined": true,
+                "m_value": 700
+              },
+              "magicResistance": {
+                "m_defined": true,
+                "m_value": 20.0
+              },
+              "cost": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "blockCnt": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "moveSpeed": {
+                "m_defined": true,
+                "m_value": 1.5
+              },
+              "attackSpeed": {
+                "m_defined": true,
+                "m_value": 100.0
+              },
+              "baseAttackTime": {
+                "m_defined": true,
+                "m_value": 2.0
+              },
+              "respawnTime": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "hpRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "spRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "maxDeployCount": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "massLevel": {
+                "m_defined": true,
+                "m_value": 2
+              },
+              "baseForceLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "tauntLevel": {
+                "m_defined": true,
+                "m_value": 0
+              },
+              "epDamageResistance": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "epResistance": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "damageHitratePhysical": {
+                "m_defined": true,
+                "m_value": 1.0
+              },
+              "damageHitrateMagical": {
+                "m_defined": true,
+                "m_value": 1.0
+              },
+              "epBreakRecoverSpeed": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "stunImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "silenceImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "sleepImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "frozenImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "levitateImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "disarmedCombatImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "fearedImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "palsyImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "attractImmune": {
+                "m_defined": true,
+                "m_value": false
+              }
+            },
+            "applyWay": {
+              "m_defined": true,
+              "m_value": "ALL"
+            },
+            "motion": {
+              "m_defined": true,
+              "m_value": "WALK"
+            },
+            "enemyTags": {
+              "m_defined": true,
+              "m_value": [
+                "sarkaz"
+              ]
+            },
+            "lifePointReduce": {
+              "m_defined": true,
+              "m_value": 5
+            },
+            "levelType": {
+              "m_defined": true,
+              "m_value": "BOSS"
+            },
+            "rangeRadius": {
+              "m_defined": true,
+              "m_value": -1.0
+            },
+            "numOfExtraDrops": {
+              "m_defined": true,
+              "m_value": 0
+            },
+            "viewRadius": {
+              "m_defined": false,
+              "m_value": 0.0
+            },
+            "notCountInTotal": {
+              "m_defined": false,
+              "m_value": false
+            },
+            "talentBlackboard": [
+              {
+                "key": "heal_data.attack@heal_duration",
+                "value": 5.0,
+                "valueStr": null
+              },
+              {
+                "key": "heal_data.attack@hp_ratio",
+                "value": 0.1,
+                "valueStr": null
+              },
+              {
+                "key": "l2.active",
+                "value": 1.0,
+                "valueStr": null
+              },
+              {
+                "key": "l3.active",
+                "value": 0.0,
+                "valueStr": null
+              },
+              {
+                "key": "Reborn.duration",
+                "value": 10.0,
+                "valueStr": null
+              },
+              {
+                "key": "Reborn.location",
+                "value": 0.0,
+                "valueStr": "(3,3)"
+              },
+              {
+                "key": "night_trigger.prob",
+                "value": 1.0,
+                "valueStr": null
+              },
+              {
+                "key": "poison.poison_duration",
+                "value": 10.0,
+                "valueStr": null
+              },
+              {
+                "key": "poison.interval",
+                "value": 1.0,
+                "valueStr": null
+              },
+              {
+                "key": "poison.atk_scale_poison",
+                "value": 0.2,
+                "valueStr": null
+              },
+              {
+                "key": "poison.respawn_time",
+                "value": 2.5,
+                "valueStr": null
+              },
+              {
+                "key": "heal_trigger.heal_cd",
+                "value": 10.0,
+                "valueStr": null
+              }
+            ],
+            "skills": [
+              {
+                "prefabKey": "assassinate",
+                "priority": 0,
+                "cooldown": 0.0,
+                "initCooldown": 15.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "assassinate_duration",
+                    "value": 3.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "atk_scale_assassinate",
+                    "value": 2.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "respawn_time",
+                    "value": 2.5,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "max_stack_cnt",
+                    "value": 3.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "assassinate_cd",
+                    "value": 15.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "assassinate_2",
+                "priority": 0,
+                "cooldown": 0.0,
+                "initCooldown": 5.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "assassinate_duration",
+                    "value": 3.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "atk_scale_assassinate",
+                    "value": 2.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "assassinate_cd",
+                    "value": 15.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "respawn_time",
+                    "value": 2.5,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "max_stack_cnt",
+                    "value": 3.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "retreat",
+                "priority": 0,
+                "cooldown": 0.0,
+                "initCooldown": 0.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "retreat_cd_succeed",
+                    "value": 1.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "retreat_cd_fail",
+                    "value": 10.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "mark",
+                "priority": 1,
+                "cooldown": 999999.0,
+                "initCooldown": 1.0,
+                "spCost": 0,
+                "blackboard": null
+              }
+            ],
+            "spData": null
+          }
+        }
+      ]
+    },
+    {
+      "Key": "enemy_8016_misery_3",
+      "Value": [
+        {
+          "level": 0,
+          "enemyData": {
+            "name": {
+              "m_defined": true,
+              "m_value": "'Misery', Blade of Silence"
+            },
+            "description": {
+              "m_defined": true,
+              "m_value": "A Breakthrough Trainer simulating Misery at the peak of his combat prowess."
+            },
+            "prefabKey": {
+              "m_defined": true,
+              "m_value": "enemy_8016_misery"
+            },
+            "attributes": {
+              "maxHp": {
+                "m_defined": true,
+                "m_value": 80000
+              },
+              "atk": {
+                "m_defined": true,
+                "m_value": 2000
+              },
+              "def": {
+                "m_defined": true,
+                "m_value": 700
+              },
+              "magicResistance": {
+                "m_defined": true,
+                "m_value": 20.0
+              },
+              "cost": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "blockCnt": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "moveSpeed": {
+                "m_defined": true,
+                "m_value": 1.5
+              },
+              "attackSpeed": {
+                "m_defined": true,
+                "m_value": 100.0
+              },
+              "baseAttackTime": {
+                "m_defined": true,
+                "m_value": 2.0
+              },
+              "respawnTime": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "hpRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "spRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "maxDeployCount": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "massLevel": {
+                "m_defined": true,
+                "m_value": 2
+              },
+              "baseForceLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "tauntLevel": {
+                "m_defined": true,
+                "m_value": 0
+              },
+              "epDamageResistance": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "epResistance": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "damageHitratePhysical": {
+                "m_defined": true,
+                "m_value": 1.0
+              },
+              "damageHitrateMagical": {
+                "m_defined": true,
+                "m_value": 1.0
+              },
+              "epBreakRecoverSpeed": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "stunImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "silenceImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "sleepImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "frozenImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "levitateImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "disarmedCombatImmune": {
+                "m_defined": true,
+                "m_value": true
+              },
+              "fearedImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "palsyImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "attractImmune": {
+                "m_defined": true,
+                "m_value": false
+              }
+            },
+            "applyWay": {
+              "m_defined": true,
+              "m_value": "ALL"
+            },
+            "motion": {
+              "m_defined": true,
+              "m_value": "WALK"
+            },
+            "enemyTags": {
+              "m_defined": true,
+              "m_value": [
+                "sarkaz"
+              ]
+            },
+            "lifePointReduce": {
+              "m_defined": true,
+              "m_value": 5
+            },
+            "levelType": {
+              "m_defined": true,
+              "m_value": "BOSS"
+            },
+            "rangeRadius": {
+              "m_defined": true,
+              "m_value": -1.0
+            },
+            "numOfExtraDrops": {
+              "m_defined": true,
+              "m_value": 0
+            },
+            "viewRadius": {
+              "m_defined": false,
+              "m_value": 0.0
+            },
+            "notCountInTotal": {
+              "m_defined": false,
+              "m_value": false
+            },
+            "talentBlackboard": [
+              {
+                "key": "heal_data.attack@heal_duration",
+                "value": 5.0,
+                "valueStr": null
+              },
+              {
+                "key": "heal_data.attack@hp_ratio",
+                "value": 0.1,
+                "valueStr": null
+              },
+              {
+                "key": "l2.active",
+                "value": 1.0,
+                "valueStr": null
+              },
+              {
+                "key": "l3.active",
+                "value": 1.0,
+                "valueStr": null
+              },
+              {
+                "key": "Reborn.duration",
+                "value": 10.0,
+                "valueStr": null
+              },
+              {
+                "key": "Reborn.location",
+                "value": 0.0,
+                "valueStr": "(3,3)"
+              },
+              {
+                "key": "night_trigger.prob",
+                "value": 1.0,
+                "valueStr": null
+              },
+              {
+                "key": "poison.poison_duration",
+                "value": 10.0,
+                "valueStr": null
+              },
+              {
+                "key": "poison.interval",
+                "value": 1.0,
+                "valueStr": null
+              },
+              {
+                "key": "poison.atk_scale_poison",
+                "value": 0.2,
+                "valueStr": null
+              },
+              {
+                "key": "poison.respawn_time",
+                "value": 2.5,
+                "valueStr": null
+              },
+              {
+                "key": "heal_trigger.heal_cd",
+                "value": 10.0,
+                "valueStr": null
+              }
+            ],
+            "skills": [
+              {
+                "prefabKey": "assassinate",
+                "priority": 0,
+                "cooldown": 0.0,
+                "initCooldown": 15.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "assassinate_duration",
+                    "value": 3.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "atk_scale_assassinate",
+                    "value": 2.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "respawn_time",
+                    "value": 2.5,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "max_stack_cnt",
+                    "value": 3.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "assassinate_cd",
+                    "value": 15.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "assassinate_2",
+                "priority": 0,
+                "cooldown": 0.0,
+                "initCooldown": 5.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "assassinate_duration",
+                    "value": 3.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "atk_scale_assassinate",
+                    "value": 2.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "assassinate_cd",
+                    "value": 15.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "respawn_time",
+                    "value": 2.5,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "max_stack_cnt",
+                    "value": 3.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "retreat",
+                "priority": 0,
+                "cooldown": 0.0,
+                "initCooldown": 0.0,
+                "spCost": 0,
+                "blackboard": [
+                  {
+                    "key": "retreat_cd_succeed",
+                    "value": 1.0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "retreat_cd_fail",
+                    "value": 10.0,
+                    "valueStr": null
+                  }
+                ]
+              },
+              {
+                "prefabKey": "mark",
+                "priority": 1,
+                "cooldown": 999999.0,
+                "initCooldown": 1.0,
+                "spCost": 0,
+                "blackboard": null
+              }
+            ],
+            "spData": null
+          }
+        }
+      ]
+    },
+    {
+      "Key": "enemy_8017_vcblva",
+      "Value": [
+        {
+          "level": 0,
+          "enemyData": {
+            "name": {
+              "m_defined": true,
+              "m_value": "Lava, Flame of Resistance"
+            },
+            "description": {
+              "m_defined": true,
+              "m_value": "Your units cannot be deployed on her tile or the 8 surrounding tiles"
+            },
+            "prefabKey": {
+              "m_defined": true,
+              "m_value": "enemy_8017_vcblva"
+            },
+            "attributes": {
+              "maxHp": {
+                "m_defined": true,
+                "m_value": 70000
+              },
+              "atk": {
+                "m_defined": true,
+                "m_value": 700
+              },
+              "def": {
+                "m_defined": true,
+                "m_value": 800
+              },
+              "magicResistance": {
+                "m_defined": true,
+                "m_value": 60.0
+              },
+              "cost": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "blockCnt": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "moveSpeed": {
+                "m_defined": true,
+                "m_value": 1.2
+              },
+              "attackSpeed": {
+                "m_defined": true,
+                "m_value": 100.0
+              },
+              "baseAttackTime": {
+                "m_defined": true,
+                "m_value": 2.5
+              },
+              "respawnTime": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "hpRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "spRecoveryPerSec": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "maxDeployCount": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "massLevel": {
+                "m_defined": true,
+                "m_value": 1
+              },
+              "baseForceLevel": {
+                "m_defined": false,
+                "m_value": 0
+              },
+              "tauntLevel": {
+                "m_defined": true,
+                "m_value": 0
+              },
+              "epDamageResistance": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "epResistance": {
+                "m_defined": true,
+                "m_value": 0.0
+              },
+              "damageHitratePhysical": {
+                "m_defined": true,
+                "m_value": 1.0
+              },
+              "damageHitrateMagical": {
+                "m_defined": true,
+                "m_value": 1.0
+              },
+              "epBreakRecoverSpeed": {
+                "m_defined": false,
+                "m_value": 0.0
+              },
+              "stunImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "silenceImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "sleepImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "frozenImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "levitateImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "disarmedCombatImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "fearedImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "palsyImmune": {
+                "m_defined": true,
+                "m_value": false
+              },
+              "attractImmune": {
+                "m_defined": false,
+                "m_value": false
+              }
+            },
+            "applyWay": {
+              "m_defined": true,
+              "m_value": "MELEE"
+            },
+            "motion": {
+              "m_defined": true,
+              "m_value": "WALK"
+            },
+            "enemyTags": {
+              "m_defined": true,
+              "m_value": [
+                "sarkaz"
+              ]
+            },
+            "lifePointReduce": {
+              "m_defined": true,
+              "m_value": 1
+            },
+            "levelType": {
+              "m_defined": true,
+              "m_value": "ELITE"
+            },
+            "rangeRadius": {
+              "m_defined": true,
+              "m_value": -1.0
+            },
+            "numOfExtraDrops": {
+              "m_defined": true,
+              "m_value": 0
+            },
+            "viewRadius": {
+              "m_defined": false,
+              "m_value": 0.0
+            },
+            "notCountInTotal": {
+              "m_defined": false,
+              "m_value": false
+            },
+            "talentBlackboard": null,
+            "skills": null,
+            "spData": null
+          }
+        }
+      ]
+    },
+    {
       "Key": "enemy_9001_ayokai",
       "Value": [
         {
