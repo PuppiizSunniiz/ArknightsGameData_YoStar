@@ -1,5 +1,30 @@
 {
   "basicInfo": {
+    "act20mini": {
+      "id": "act20mini",
+      "type": "MINISTORY",
+      "displayType": "MINISTORY",
+      "name": "十字路",
+      "startTime": 1786586400,
+      "endTime": 1787165999,
+      "rewardEndTime": 1787425199,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act20mini",
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_activity_20mini_01",
+        "medal_activity_20mini_02"
+      ],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": "SPECIAL",
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act3blessing": {
       "id": "act3blessing",
       "type": "BLESS_ONLY",
@@ -114,7 +139,7 @@
       "id": "act3unique",
       "type": "UNIQUE_ONLY",
       "displayType": "NONE",
-      "name": "翼の賛歌ログインイベント",
+      "name": "翼の賛歌ログイン",
       "startTime": 1785394800,
       "endTime": 1788116399,
       "rewardEndTime": 1788116399,
@@ -6321,7 +6346,7 @@
       "isPopupAfterCheckin": false,
       "showTopBarMenu": true,
       "actTopBarColor": "2241e8",
-      "actTopBarText": "翼の賛歌ログインイベント"
+      "actTopBarText": "翼の賛歌ログイン"
     },
     "act7collection": {
       "actId": "act7collection",
@@ -7291,6 +7316,7 @@
     }
   },
   "zoneToActivity": {
+    "act20mini_zone1": "act20mini",
     "act2break_zone1": "act2break",
     "act2break_zone2": "act2break",
     "act2break_zone3": "act2break",
@@ -180795,6 +180821,46 @@
       }
     },
     "MINISTORY": {
+      "act20mini": {
+        "tokenItemId": "act20mini_token_cork",
+        "zoneDescList": {
+          "act20mini_zone1": {
+            "zoneId": "act20mini_zone1",
+            "unlockText": "メインテーマ1‐10クリアで解放"
+          }
+        },
+        "favorUpList": {},
+        "extraDropZoneList": [
+          "main_0",
+          "main_1",
+          "main_2",
+          "main_3",
+          "main_4",
+          "main_5",
+          "main_6",
+          "main_7",
+          "main_8",
+          "main_9",
+          "main_10",
+          "main_11",
+          "main_12",
+          "main_13",
+          "main_14",
+          "act2mainss_zone1",
+          "act3mainss_zone1",
+          "weekly_1",
+          "weekly_2",
+          "weekly_3",
+          "weekly_4",
+          "weekly_5",
+          "weekly_6",
+          "weekly_7",
+          "weekly_8",
+          "weekly_9",
+          "weekly_10",
+          "act20mini_zone1"
+        ]
+      },
       "act19mini": {
         "tokenItemId": "act19mini_token_sweetie",
         "zoneDescList": {
@@ -202115,36 +202181,42 @@
         "meldingDict": {
           "act24side_melding_1": {
             "meldingId": "act24side_melding_1",
+            "bgId": "act24side_melding_1_bg",
             "sortId": 1,
             "meldingPrice": 2,
             "rarity": "RARITY_1"
           },
           "act24side_melding_2": {
             "meldingId": "act24side_melding_2",
+            "bgId": "act24side_melding_2_bg",
             "sortId": 2,
             "meldingPrice": 3,
             "rarity": "RARITY_2"
           },
           "act24side_melding_3": {
             "meldingId": "act24side_melding_3",
+            "bgId": "act24side_melding_3_bg",
             "sortId": 3,
             "meldingPrice": 5,
             "rarity": "RARITY_3"
           },
           "act24side_melding_4": {
             "meldingId": "act24side_melding_4",
+            "bgId": "act24side_melding_4_bg",
             "sortId": 4,
             "meldingPrice": 10,
             "rarity": "RARITY_4"
           },
           "act24side_melding_5": {
             "meldingId": "act24side_melding_5",
+            "bgId": "act24side_melding_5_bg",
             "sortId": 5,
             "meldingPrice": 20,
             "rarity": "RARITY_5"
           },
           "act24side_melding_6": {
             "meldingId": "act24side_melding_6",
+            "bgId": "act24side_melding_6_bg",
             "sortId": 6,
             "meldingPrice": 200,
             "rarity": "RARITY_6"
@@ -203864,6 +203936,8 @@
             "act24side_s01_2"
           ]
         },
+        "huntDatabaseDict": null,
+        "stageIdToUnlockItemIdDict": {},
         "constData": {
           "stageUnlockToolDesc": "道具解放",
           "mealLackMoney": "龍門幣が足りません",
@@ -203872,6 +203946,13 @@
           "stageCanNotUseToTool": [
             "act24side_tr01"
           ],
+          "hunterGuideRewardItemId": "",
+          "hunterGuideRewardItemType": "NONE",
+          "hunterGuideRewardItemCount": 0,
+          "hunterGuideDetailTabPosition": 0,
+          "taskRewardItemNoIconDisplayId": "",
+          "specialLevelUnlockTaskId": "",
+          "missionProgressFormat": "(<color=#cb4d27>{0}</color>/{1})",
           "gachaDefaultProb": 0.0,
           "gachaExtraProb": -1.0
         }
@@ -247814,6 +247895,7 @@
           "minBetCd": 0.2,
           "defaultEmoticonItemId": "emticon_duel_basic",
           "defaultEmoticonPicId": "pic_hello",
+          "defaultEnemyTag": "tag_single",
           "modeOperationRoundNumber": 10,
           "modeOperationInitialScore": 10000,
           "modeOperationMaxScore": 999999999,
@@ -252730,6 +252812,7 @@
           "minBetCd": 0.2,
           "defaultEmoticonItemId": "emticon_duel_basic",
           "defaultEmoticonPicId": "pic_hello",
+          "defaultEnemyTag": "tag_single",
           "modeOperationRoundNumber": 10,
           "modeOperationInitialScore": 10000,
           "modeOperationMaxScore": 999999999,
@@ -292787,7 +292870,8 @@
               "emptyShip"
             ],
             "inactiveBondIdList": [],
-            "inactiveEnemyKey": []
+            "inactiveEnemyKey": [],
+            "startTime": 1777359600
           },
           "mode_single_funny": {
             "modeId": "mode_single_funny",
@@ -292851,7 +292935,8 @@
               "enemy_1254_lypa_2",
               "enemy_1425_lrcmra_2",
               "enemy_1329_cbshld_2"
-            ]
+            ],
+            "startTime": 1777359600
           },
           "mode_single_normal": {
             "modeId": "mode_single_normal",
@@ -292912,7 +292997,8 @@
               "enemy_1254_lypa_2",
               "enemy_1425_lrcmra_2",
               "enemy_1329_cbshld_2"
-            ]
+            ],
+            "startTime": 1777359600
           },
           "mode_single_hard": {
             "modeId": "mode_single_hard",
@@ -292954,7 +293040,8 @@
               "emptyShip"
             ],
             "inactiveBondIdList": [],
-            "inactiveEnemyKey": []
+            "inactiveEnemyKey": [],
+            "startTime": 1777359600
           },
           "mode_multi_funny": {
             "modeId": "mode_multi_funny",
@@ -293018,7 +293105,8 @@
               "enemy_1254_lypa_2",
               "enemy_1425_lrcmra_2",
               "enemy_1329_cbshld_2"
-            ]
+            ],
+            "startTime": 1777359600
           },
           "mode_multi_normal": {
             "modeId": "mode_multi_normal",
@@ -293079,7 +293167,8 @@
               "enemy_1254_lypa_2",
               "enemy_1425_lrcmra_2",
               "enemy_1329_cbshld_2"
-            ]
+            ],
+            "startTime": 1777359600
           },
           "mode_multi_hard": {
             "modeId": "mode_multi_hard",
@@ -293121,7 +293210,8 @@
               "emptyShip"
             ],
             "inactiveBondIdList": [],
-            "inactiveEnemyKey": []
+            "inactiveEnemyKey": [],
+            "startTime": 1777359600
           }
         },
         "baseRewardDataList": [
@@ -293265,7 +293355,8 @@
             "totalHp": 27,
             "effectId": "aceffect_band_21",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_amiya": {
             "bandId": "band_amiya",
@@ -293279,7 +293370,8 @@
             "totalHp": 30,
             "effectId": "aceffect_band_22",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_duyaoy": {
             "bandId": "band_duyaoy",
@@ -293293,7 +293385,8 @@
             "totalHp": 26,
             "effectId": "aceffect_band_28",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_sarkazb": {
             "bandId": "band_sarkazb",
@@ -293307,7 +293400,8 @@
             "totalHp": 45,
             "effectId": "aceffect_band_44",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_orchid": {
             "bandId": "band_orchid",
@@ -293320,7 +293414,8 @@
             "totalHp": 27,
             "effectId": "aceffect_band_23",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_justin": {
             "bandId": "band_justin",
@@ -293333,7 +293428,8 @@
             "totalHp": 23,
             "effectId": "aceffect_band_47",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_ermengard": {
             "bandId": "band_ermengard",
@@ -293346,7 +293442,8 @@
             "totalHp": 27,
             "effectId": "aceffect_band_48",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_lmlee": {
             "bandId": "band_lmlee",
@@ -293359,7 +293456,8 @@
             "totalHp": 27,
             "effectId": "aceffect_band_46",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_kirara": {
             "bandId": "band_kirara",
@@ -293372,7 +293470,8 @@
             "totalHp": 26,
             "effectId": "aceffect_band_24",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_pepe": {
             "bandId": "band_pepe",
@@ -293385,7 +293484,8 @@
             "totalHp": 23,
             "effectId": "aceffect_band_29",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_harold": {
             "bandId": "band_harold",
@@ -293398,7 +293498,8 @@
             "totalHp": 23,
             "effectId": "aceffect_band_30",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_sciurus": {
             "bandId": "band_sciurus",
@@ -293411,7 +293512,8 @@
             "totalHp": 24,
             "effectId": "aceffect_band_31",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_paganini": {
             "bandId": "band_paganini",
@@ -293424,7 +293526,8 @@
             "totalHp": 24,
             "effectId": "aceffect_band_32",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_clementia": {
             "bandId": "band_clementia",
@@ -293437,7 +293540,8 @@
             "totalHp": 26,
             "effectId": "aceffect_band_33",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_emperor": {
             "bandId": "band_emperor",
@@ -293450,7 +293554,8 @@
             "totalHp": 26,
             "effectId": "aceffect_band_36",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_mberry": {
             "bandId": "band_mberry",
@@ -293463,7 +293568,8 @@
             "totalHp": 22,
             "effectId": "aceffect_band_37",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_humus": {
             "bandId": "band_humus",
@@ -293477,7 +293583,8 @@
             "totalHp": 24,
             "effectId": "aceffect_band_38",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_quintus": {
             "bandId": "band_quintus",
@@ -293490,7 +293597,8 @@
             "totalHp": 31,
             "effectId": "aceffect_band_41",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_zumama": {
             "bandId": "band_zumama",
@@ -293503,7 +293611,8 @@
             "totalHp": 38,
             "effectId": "aceffect_band_43",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_yu": {
             "bandId": "band_yu",
@@ -293516,7 +293625,8 @@
             "totalHp": 32,
             "effectId": "aceffect_band_50",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_doberm": {
             "bandId": "band_doberm",
@@ -293529,7 +293639,8 @@
             "totalHp": 30,
             "effectId": "aceffect_band_25",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_cathy": {
             "bandId": "band_cathy",
@@ -293542,7 +293653,8 @@
             "totalHp": 26,
             "effectId": "aceffect_band_26",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_malkie": {
             "bandId": "band_malkie",
@@ -293555,7 +293667,8 @@
             "totalHp": 30,
             "effectId": "aceffect_band_27",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_qalaisa": {
             "bandId": "band_qalaisa",
@@ -293568,7 +293681,8 @@
             "totalHp": 26,
             "effectId": "aceffect_band_35",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_chen": {
             "bandId": "band_chen",
@@ -293581,7 +293695,8 @@
             "totalHp": 22,
             "effectId": "aceffect_band_39",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_damaztic": {
             "bandId": "band_damaztic",
@@ -293594,7 +293709,8 @@
             "totalHp": 29,
             "effectId": "aceffect_band_40",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_pith": {
             "bandId": "band_pith",
@@ -293607,7 +293723,8 @@
             "totalHp": 24,
             "effectId": "aceffect_band_42",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_dusk": {
             "bandId": "band_dusk",
@@ -293620,7 +293737,8 @@
             "totalHp": 28,
             "effectId": "aceffect_band_45",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_cannot": {
             "bandId": "band_cannot",
@@ -293633,7 +293751,8 @@
             "totalHp": 27,
             "effectId": "aceffect_band_34",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           },
           "band_ducklord": {
             "bandId": "band_ducklord",
@@ -293646,7 +293765,8 @@
             "totalHp": 29,
             "effectId": "aceffect_band_49",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1777359600
           }
         },
         "charChessDataDict": {
@@ -302596,41 +302716,6 @@
             ],
             "9": [
               {
-                "bossId": null,
-                "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h02",
-                "isSpPrepare": true
-              }
-            ],
-            "10": [
-              {
-                "bossId": null,
-                "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h03",
-                "isSpPrepare": false
-              }
-            ],
-            "11": [
-              {
-                "bossId": null,
-                "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h04",
-                "isSpPrepare": false
-              }
-            ],
-            "12": [
-              {
-                "bossId": null,
-                "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h05",
-                "isSpPrepare": false
-              }
-            ],
-            "13": [
-              {
-                "bossId": null,
-                "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h06",
-                "isSpPrepare": false
-              }
-            ],
-            "14": [
-              {
                 "bossId": "boss_1",
                 "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h07_01_S",
                 "isSpPrepare": false
@@ -303363,11 +303448,15 @@
             "desc": "【炎】所属者の<@ba.vup>攻撃力</>が上昇<@autochess.gray>（上昇値は盟約加算数に応じる）</>\n<戦場に異なる【炎】所属者<@autochess.dgreen>6</>名配置>戦闘開始時に自動的に戦う<@ba.vup>「炎祐」</>を召喚する（攻撃力・最大HPは、戦闘開始時の【炎】所属者の攻撃力・最大HPそれぞれの合計値の30%）。「炎祐」はスキル<@ba.vup>「破邪の炎」</>を使用でき、攻撃時にダメージの一定割合の灼熱損傷を与え、自身の周囲の敵に一定割合の対元素脆弱を付与",
             "iconId": "icon_yanShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_yan",
             "activeType": "BATTLE",
             "identifier": 1,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_atk"
             ],
@@ -303404,11 +303493,15 @@
             "desc": "【サルゴン】所属者のスキル発動時、一定時間全ての【サルゴン】所属者の<@ba.vup>攻撃速度</>が上昇（上限あり）する<@autochess.gray>（持続時間は盟約加算数に応じ、効果重複時は個別に計算される）</>\n<戦場に異なる【サルゴン】所属者<@autochess.dgreen>6</>名配置>上述の効果持続中、全ての【サルゴン】所属者の<@ba.vup>攻撃力</>が上昇（上限あり）",
             "iconId": "icon_sargonShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_sargon",
             "activeType": "BATTLE",
             "identifier": 2,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_time"
             ],
@@ -303443,11 +303536,15 @@
             "desc": "装備品を装備している【ヴィクトリア】の<@ba.vup>与ダメージが上昇</><@autochess.gray>（上昇値は盟約加算数に応じる）</>\n<加算数<@autochess.dgreen>25</>ごと>ランダムな効果を持つ<@ba.vup><ヴィクトリアの鉄鎚></>を1つ獲得\n<戦場に異なる【ヴィクトリア】所属者<@autochess.dgreen>6</>名配置>装備品を装備している【ヴィクトリア】の<@ba.vup>攻撃力</>が上昇",
             "iconId": "icon_victoriaShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_victoria",
             "activeType": "BATTLE",
             "identifier": 3,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_damage_scale"
             ],
@@ -303484,11 +303581,15 @@
             "desc": "【イェラグ】所属者の<@ba.vup>与ダメージが上昇</>。<@ba.vup>寒冷・凍結</>状態の敵に対してはさらに追加で上昇<@autochess.gray>（上昇値は盟約加算数に応じる）</>\n<戦場に異なる【イェラグ】所属者<@autochess.dgreen>6</>名配置>25秒ごとに吹雪を発生させ、戦場の敵に一定時間寒冷状態を付与（持続時間は盟約加算数に応じる）",
             "iconId": "icon_kjeragShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_kjerag",
             "activeType": "BATTLE",
             "identifier": 4,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_ex_damage_scale",
               "bond_eff_kjerag[storm].base_time"
@@ -303527,11 +303628,15 @@
             "desc": "【ラテラーノ】所属者の弾薬消費系スキルの<@ba.vup>弾薬数</>が上昇<@autochess.gray>（上昇値は盟約加算数に応じる）</>\n<戦場に異なる【ラテラーノ】所属者<@autochess.dgreen>6</>名配置>【ラテラーノ】所属者が弾薬を1発消費するたびに、全ての【ラテラーノ】所属者の<@ba.vup>攻撃力</>が上昇",
             "iconId": "icon_lateranoShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_laterano",
             "activeType": "BATTLE",
             "identifier": 5,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_ammo_percent"
             ],
@@ -303568,11 +303673,15 @@
             "desc": "オペレーターの<獲得時>堅守特性が<@ba.vup>2回発動</>\n<加算数<@autochess.dgreen>70</>到達><獲得時>堅守特性が<@ba.vup>3回発動</>（整備エリアの【投資家】所属者も盟約の有効化人数にカウントされる）",
             "iconId": "icon_investShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_invest",
             "activeType": "ALL",
             "identifier": 6,
             "weight": 10,
             "isActiveInDeck": true,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [],
             "descParamPerStackList": [],
             "noStack": false,
@@ -303593,11 +303702,15 @@
             "desc": "【エーギル】所属者の<@ba.vup>最大HP</>上昇<@autochess.gray>（上昇値は盟約加算数に応じる）</>\n戦闘開始時、【エーギル】所属者は前方1マスのオペレーターを<@ba.vup>捕食</>し<@ba.vdown>6000</>の物理ダメージを与え、対象の<@ba.vup>基礎攻撃力</>と<@ba.vup>ブロック数</>を獲得。さらに捕食した対象の等級数を【エーギル】の<@ba.vup>盟約</>に加算\n<戦場に異なる【エーギル】所属者<@autochess.dgreen>5</>名配置>最初に倒された【エーギル】所属者2名が即座に復活",
             "iconId": "icon_egirShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_egir",
             "activeType": "BATTLE",
             "identifier": 7,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_max_hp"
             ],
@@ -303632,11 +303745,15 @@
             "desc": "核心盟約（【炎】【サルゴン】【ヴィクトリア】【イェラグ】【ラテラーノ】【エーギル】）の<@ba.vup>有効化人数を+1</>し、【調和】所属者は有効化中の上記盟約の効果も受ける",
             "iconId": "icon_maniShip",
             "activeCount": 1,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_mani",
             "activeType": "MANI",
             "identifier": 8,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [],
             "descParamPerStackList": [],
             "noStack": true,
@@ -303653,11 +303770,15 @@
             "desc": "<加算数<@autochess.dgreen>10</>ごと>資金<@ba.vup>+2</>\n<加算数<@autochess.dgreen>100</>到達後>管理センターのオペレーター購入価格が<@ba.vup>永続的に-1</>（整備エリアの【先見】所属者も盟約の有効化人数にカウントされる）",
             "iconId": "icon_visiShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_visi",
             "activeType": "ALL",
             "identifier": 9,
             "weight": 0,
             "isActiveInDeck": true,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [],
             "descParamPerStackList": [],
             "noStack": false,
@@ -303682,11 +303803,15 @@
             "desc": "遠距離オペレーターの<@ba.vup>攻撃力</>が上昇<@autochess.gray>（上昇値は盟約加算数に応じる）</>\n<戦場に異なる【精密】所属者<@autochess.dgreen>3</>名配置>遠距離オペレーターの攻撃が一定割合の<@ba.vup>防御力</>・<@ba.vup>術耐性</>を無視し、敵の特殊能力を2秒間無効化する",
             "iconId": "icon_preciShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_preci",
             "activeType": "BATTLE",
             "identifier": 10,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_atk"
             ],
@@ -303725,11 +303850,15 @@
             "desc": "全てのオペレーターの<@ba.vup>最大HP</>が上昇<@autochess.gray>（上昇値は盟約加算数に応じる）</>\n<戦場に異なる【堅守】所属者<@autochess.dgreen>3</>名配置>【堅守】以外のオペレーターがダメージを受けると、その被ダメージの<@ba.vup>40%</>を全ての【堅守】所属者で<@ba.vup>均等に肩代わりする</>",
             "iconId": "icon_steadShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_stead",
             "activeType": "BATTLE",
             "identifier": 11,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_max_hp"
             ],
@@ -303762,11 +303891,15 @@
             "desc": "【強襲】所属者のスキルが発動可能となった際、攻撃範囲内に敵がいない場合、即座に<@ba.vup>地上の敵1体の周囲に再配置</>され、スキルを発動する。スキル発動中、<@ba.vup>攻撃力</>・<@ba.vup>最大HP</>が上昇<@autochess.gray>（上昇値は盟約加算数に応じる）</>\n<加算数<@autochess.dgreen>30</>到達>全てのオペレーターの配置コスト<@ba.vup>-50%</>",
             "iconId": "icon_raidShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_raid",
             "activeType": "BATTLE",
             "identifier": 12,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_atk"
             ],
@@ -303799,11 +303932,15 @@
             "desc": "管理センター更新時、一定確率で次回の更新が<@ba.vup>無料になる</><@autochess.gray>（確率は盟約加算数に応じる）</>\n<加算数<@autochess.dgreen>50</>ごと>資金<@ba.vup>+10</>（整備エリアの【奇跡】所属者も盟約の有効化人数にカウントされる）",
             "iconId": "icon_miraShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_mira",
             "activeType": "ALL",
             "identifier": 13,
             "weight": 10,
             "isActiveInDeck": true,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "baseprob"
             ],
@@ -303838,11 +303975,15 @@
             "desc": "近距離オペレーターが倒された際、一定確率で即座に<@ba.vup>再配置される</><@autochess.gray>（確率は盟約加算数に応じる）</>\n<戦場に異なる【不屈】所属者<@autochess.dgreen>3</>名配置>近距離オペレーターが倒された際、全てのオペレーターのSPが<@ba.vup>5</>回復",
             "iconId": "icon_indomShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_indom",
             "activeType": "BATTLE",
             "identifier": 14,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_prob"
             ],
@@ -303877,11 +304018,15 @@
             "desc": "【俊敏】所属者のスキル終了時、一定確率でSPが<@ba.vup>10</>回復<@autochess.gray>（確率は盟約加算数に応じる）</>\n<加算数<@autochess.dgreen>40</>到達>全てのオペレーターがスキル終了時、同確率でさらにSPが<@ba.vup>15</>回復",
             "iconId": "icon_swiftShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_swift",
             "activeType": "BATTLE",
             "identifier": 15,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_prob"
             ],
@@ -303916,11 +304061,15 @@
             "desc": "全てのオペレーターの<@ba.vup>防御力</>が上昇<@autochess.gray>（上昇値は盟約加算数に応じる）</>、<@ba.vup>再配置時間</>短縮\n整備フェーズ終了時、全ての有効化中の盟約の加算数<@ba.vup>+2</>\n<戦場に異なる【助力】所属者<@autochess.dgreen>3</>名配置>上記加算数加算効果が<@ba.vup>+4</>になる",
             "iconId": "icon_deputShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_deput",
             "activeType": "BATTLE",
             "identifier": 16,
             "weight": 0,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_def"
             ],
@@ -303955,11 +304104,15 @@
             "desc": "【器用】所属者とその周囲8マスにいるオペレーターの<@ba.vup>攻撃速度</>が上昇<@autochess.gray>（上昇値は盟約加算数に応じる）</>\n<加算数<@autochess.dgreen>20</>到達>各整備フェーズの最初の手動更新で出現した装備品の購入価格が<@ba.vup>1</>になる",
             "iconId": "icon_skillfulShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_skillful",
             "activeType": "BATTLE",
             "identifier": 17,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_attack_speed"
             ],
@@ -303996,11 +304149,15 @@
             "desc": "全てのオペレーターの物理・術の被ダメージ<@ba.vup>-20%</>、与ダメージが<@ba.vup>120%</>まで上昇。精鋭オペレーターに対する与ダメージの上昇効果が<@ba.vup>140%</>までになる",
             "iconId": "icon_emptyShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_empty",
             "activeType": "BATTLE",
             "identifier": 18,
             "weight": 0,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [],
             "descParamPerStackList": [],
             "noStack": true,
@@ -305558,7 +305715,7 @@
             "description": "<整備フェーズ終了時>戦場に配置されている等級の違う【ヴィクトリア】所属者1名につき、有効化中の【ヴィクトリア】の加算数<@ba.vup>+2</>"
           },
           "garrison_49_a": {
-            "garrisonDesc": "<獲得時><「速攻用レーション」>を1つ獲得する",
+            "garrisonDesc": "<獲得時><速攻用レーション>を1つ獲得",
             "eventType": "SERVER_GAIN",
             "eventTypeDesc": "整備能力",
             "eventTypeIcon": "icon_gold",
@@ -305578,7 +305735,7 @@
                 "valueStr": null
               }
             ],
-            "description": "<獲得時><「速攻用レーション」>を1つ獲得する"
+            "description": "<獲得時><速攻用レーション>を1つ獲得"
           },
           "garrison_50_a": {
             "garrisonDesc": "<戦闘中>敵を2体撃破するたびに、有効化中の【ヴィクトリア】・【先見】・【不屈】の加算数<@ba.vup>+1</>",
@@ -306560,7 +306717,7 @@
             "description": "<売却時>戦場に配置されているオペレーター1名が持つ<整備フェーズ終了時>堅守特性を発動させる（配置位置が戦場の右上に近いオペレーターを優先）"
           },
           "garrison_83_a": {
-            "garrisonDesc": "<整備フェーズ終了時>自身と前方1マスのオペレーターが所属する有効化中の盟約の加算数<@ba.vup>+2</>",
+            "garrisonDesc": "<整備フェーズ終了時>自身の前方直線上の全てのオペレーターが所属する有効化中の盟約の加算数<@ba.vup>+2</>",
             "eventType": "SERVER_PREP_FIN",
             "eventTypeDesc": "持続加算",
             "eventTypeIcon": "icon_bond",
@@ -306580,7 +306737,7 @@
                 "valueStr": "character_target_inboard"
               }
             ],
-            "description": "<整備フェーズ終了時>自身と前方1マスのオペレーターが所属する有効化中の盟約の加算数<@ba.vup>+2</>"
+            "description": "<整備フェーズ終了時>自身の前方直線上の全てのオペレーターが所属する有効化中の盟約の加算数<@ba.vup>+2</>"
           },
           "garrison_84_a": {
             "garrisonDesc": "【エーギル】の加算数10ごとに、1秒ごとにHPを50回復、SP自然回復速度+0.15sp/秒",
@@ -309571,7 +309728,7 @@
             "description": "<売却時>戦場に配置されているオペレーター1名が持つ<整備フェーズ終了時>堅守特性を発動させる（配置位置が戦場の右上に近いオペレーターを優先）"
           },
           "garrison_83_b": {
-            "garrisonDesc": "<整備フェーズ終了時>自身と前方1マスのオペレーターが所属する有効化中の盟約の加算数<@ba.vup>+4</>",
+            "garrisonDesc": "<整備フェーズ終了時>自身の前方直線上の全てのオペレーターが所属する有効化中の盟約の加算数<@ba.vup>+4</>",
             "eventType": "SERVER_PREP_FIN",
             "eventTypeDesc": "持続加算",
             "eventTypeIcon": "icon_bond",
@@ -309591,7 +309748,7 @@
                 "valueStr": "character_target_inboard"
               }
             ],
-            "description": "<整備フェーズ終了時>自身と前方1マスのオペレーターが所属する有効化中の盟約の加算数<@ba.vup>+4</>"
+            "description": "<整備フェーズ終了時>自身の前方直線上の全てのオペレーターが所属する有効化中の盟約の加算数<@ba.vup>+4</>"
           },
           "garrison_84_b": {
             "garrisonDesc": "【エーギル】の加算数10ごとに、1秒ごとにHPを100回復、SP自然回復速度+0.3sp/秒",
@@ -310690,7 +310847,7 @@
             "effectCounterType": "NONE",
             "continuedRound": -1,
             "effectName": "ヴィクトリアの鉄鎚・戦慄",
-            "effectDesc": "攻撃力+25%。装備者が近距離オペレーターの場合、攻撃時、8%の確率で対象に2秒間の<$ba.tremble>戦慄</>を付与する",
+            "effectDesc": "攻撃力+25%。装備者が近距離オペレーターの場合、攻撃時、8%の確率で対象に2秒間の<$ba.tremble>戦慄</>状態を付与",
             "effectDecoIconId": null,
             "enemyPrice": 0
           },
@@ -310700,7 +310857,7 @@
             "effectCounterType": "NONE",
             "continuedRound": -1,
             "effectName": "ヴィクトリアの鉄鎚・戦慄",
-            "effectDesc": "攻撃力+40%。装備者が近距離オペレーターの場合、攻撃時、8%の確率で対象に2秒間の<$ba.tremble>戦慄</>を付与する",
+            "effectDesc": "攻撃力+40%。装備者が近距離オペレーターの場合、攻撃時、8%の確率で対象に2秒間の<$ba.tremble>戦慄</>状態を付与",
             "effectDecoIconId": null,
             "enemyPrice": 0
           },
@@ -311090,7 +311247,7 @@
             "effectCounterType": "NONE",
             "continuedRound": -1,
             "effectName": "眠れる眷属",
-            "effectDesc": "攻撃時、攻撃対象1体につき、自身のHPを最大値の2%回復",
+            "effectDesc": "ダメージを与える際に、対象1体につき、自身のHPを最大値の2%回復",
             "effectDecoIconId": null,
             "enemyPrice": 0
           },
@@ -311100,7 +311257,7 @@
             "effectCounterType": "NONE",
             "continuedRound": -1,
             "effectName": "眠れる眷属",
-            "effectDesc": "攻撃時、攻撃対象1体につき、自身のHPを最大値の4%回復",
+            "effectDesc": "ダメージを与える際に、対象1体につき、自身のHPを最大値の4%回復",
             "effectDecoIconId": null,
             "enemyPrice": 0
           },
@@ -321575,6 +321732,7 @@
             "bloodPoint": 247500,
             "bloodPointNormal": 675000,
             "bloodPointHard": 1800000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": false
           },
           "boss_2": {
@@ -321584,6 +321742,7 @@
             "bloodPoint": 225000,
             "bloodPointNormal": 450000,
             "bloodPointHard": 870000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": false
           },
           "boss_3": {
@@ -321593,6 +321752,7 @@
             "bloodPoint": 285000,
             "bloodPointNormal": 708750,
             "bloodPointHard": 2000000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": false
           },
           "boss_4": {
@@ -321602,6 +321762,7 @@
             "bloodPoint": 307500,
             "bloodPointNormal": 708750,
             "bloodPointHard": 2100000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": false
           },
           "boss_6": {
@@ -321611,6 +321772,7 @@
             "bloodPoint": 285000,
             "bloodPointNormal": 705000,
             "bloodPointHard": 1990000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": false
           },
           "boss_7": {
@@ -321620,6 +321782,7 @@
             "bloodPoint": 277500,
             "bloodPointNormal": 787500,
             "bloodPointHard": 1800000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": false
           },
           "boss_8": {
@@ -321629,6 +321792,7 @@
             "bloodPoint": 750000,
             "bloodPointNormal": 937500,
             "bloodPointHard": 3600000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": true
           },
           "boss_9": {
@@ -321638,6 +321802,7 @@
             "bloodPoint": 675000,
             "bloodPointNormal": 900000,
             "bloodPointHard": 2800000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": true
           },
           "boss_10": {
@@ -321647,6 +321812,7 @@
             "bloodPoint": 825000,
             "bloodPointNormal": 1012500,
             "bloodPointHard": 3800000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": true
           }
         },
@@ -323454,7 +323620,6 @@
             "visiShip"
           ],
           "milestoneTrackId": "act1autochess_milestone_expand",
-          "bandNextUpdateTs": -1,
           "escapedBattleTemplateMapSinglePlayer": "Activities/ACT1AUTOCHESS/level_act1autochess_escaped_single",
           "escapedBattleTemplateMapMultiPlayer": "Activities/ACT1AUTOCHESS/level_act1autochess_escaped_multi",
           "webBusType": "ak_act1autochess"
@@ -323481,6 +323646,9 @@
     }
   },
   "activityItems": {
+    "act20mini": [
+      "act20mini_token_cork"
+    ],
     "act2break": [
       "act2break_milestone_point"
     ],
@@ -324247,6 +324415,10 @@
     "act11d0": [
       1603861200,
       1605034799
+    ],
+    "act20mini": [
+      1786586400,
+      1787165999
     ],
     "act19mini": [
       1765418400,
@@ -332001,6 +332173,38 @@
       ],
       "picGroups": [],
       "startTs": 1785394800
+    },
+    {
+      "id": "dis_rogue_5_enroll_3",
+      "type": "ROGUELIKE",
+      "funcId": "rogue_5_entry_display_4",
+      "endTs": 1787165999,
+      "sortId": 142,
+      "itemId": null,
+      "timeNodes": [
+        {
+          "title": "統合戦略<歳の界園志異>多面探索モード開放",
+          "ts": 1786586400
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1786586400
+    },
+    {
+      "id": "dis_mini_20",
+      "type": "ACTIVITY",
+      "funcId": "act20mini",
+      "endTs": 1787165999,
+      "sortId": 143,
+      "itemId": "act20mini_token_cork",
+      "timeNodes": [
+        {
+          "title": "<十字路>イベント開催中",
+          "ts": 1786586400
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1786586400
     }
   ],
   "actFunData": {
@@ -339608,6 +339812,17 @@
           "宿営地移転中",
           "倉庫棚卸中"
         ]
+      }
+    },
+    "act7FunData": {
+      "stageAdditionMap": {},
+      "easterEggData": {},
+      "spineGroupData": {},
+      "charAnimData": {},
+      "stageRewardList": [],
+      "constData": {
+        "defaultStage": null,
+        "homepageSwitchStageId": null
       }
     }
   },
@@ -360142,16 +360357,26 @@
       "V1_1": {
         "versionId": null,
         "activityId": "act1autochess",
-        "updateTime": 0,
-        "appearTimeOnMainScreen": 1777359600,
-        "disappearTimeOnMainScreen": 1777921199
+        "seasonName": "盟約",
+        "startTime": 1777359600
       },
       "V1_2": {
         "versionId": null,
         "activityId": "act1autochess",
-        "updateTime": 0,
-        "appearTimeOnMainScreen": 1778223600,
-        "disappearTimeOnMainScreen": 1778785199
+        "seasonName": "盟約",
+        "startTime": 1778223600
+      },
+      "V2_1": {
+        "versionId": null,
+        "activityId": "act2autochess",
+        "seasonName": "盟約",
+        "startTime": 1787209200
+      },
+      "V2_2": {
+        "versionId": null,
+        "activityId": "act2autochess",
+        "seasonName": "盟約",
+        "startTime": 1788332400
       }
     },
     "bandDataDict": {
@@ -360213,19 +360438,19 @@
         "bandId": "band_pepe",
         "bandName": "ペペ",
         "bandIconId": "icon_pepe",
-        "unlockDesc": "【サルゴン】所属者を6名以上所持した状態でクリアすると解放"
+        "unlockDesc": "【サルゴン】所属者を6名以上配置した状態で敵ボスを撃破すると解放"
       },
       "band_harold": {
         "bandId": "band_harold",
         "bandName": "ハロルド",
         "bandIconId": "icon_harold",
-        "unlockDesc": "【ヴィクトリア】所属者を6名以上所持した状態でクリアすると解放"
+        "unlockDesc": "【ヴィクトリア】所属者を6名以上配置した状態で敵ボスを撃破すると解放"
       },
       "band_sciurus": {
         "bandId": "band_sciurus",
         "bandName": "スキウース",
         "bandIconId": "icon_sciurus",
-        "unlockDesc": "【イェラグ】所属者を6名以上所持した状態でクリアすると解放"
+        "unlockDesc": "【イェラグ】所属者を6名以上配置した状態で敵ボスを撃破すると解放"
       },
       "band_paganini": {
         "bandId": "band_paganini",
@@ -360426,7 +360651,8 @@
         "name": "炎",
         "icon": "icon_yanShip",
         "isPower": true,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "sargonShip": {
         "bondId": "sargonShip",
@@ -360437,7 +360663,8 @@
         "name": "サルゴン",
         "icon": "icon_sargonShip",
         "isPower": true,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "victoriaShip": {
         "bondId": "victoriaShip",
@@ -360449,18 +360676,21 @@
         "name": "ヴィクトリア",
         "icon": "icon_victoriaShip",
         "isPower": true,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "kjeragShip": {
         "bondId": "kjeragShip",
         "bondType": "SEASON",
         "powerIdList": [
-          "kjerag"
+          "kjerag",
+          "karlan"
         ],
         "name": "イェラグ",
         "icon": "icon_kjeragShip",
         "isPower": true,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "lateranoShip": {
         "bondId": "lateranoShip",
@@ -360471,16 +360701,8 @@
         "name": "ラテラーノ",
         "icon": "icon_lateranoShip",
         "isPower": true,
-        "bondOrder": 2
-      },
-      "investShip": {
-        "bondId": "investShip",
-        "bondType": "REGULAR",
-        "powerIdList": [],
-        "name": "投資家",
-        "icon": "icon_investShip",
-        "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "egirShip": {
         "bondId": "egirShip",
@@ -360492,7 +360714,44 @@
         "name": "エーギル",
         "icon": "icon_egirShip",
         "isPower": true,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
+      },
+      "siracusaShip": {
+        "bondId": "siracusaShip",
+        "bondType": "SEASON",
+        "powerIdList": [
+          "siracusa",
+          "chiave"
+        ],
+        "name": "シラクーザ",
+        "icon": "icon_siracusaShip",
+        "isPower": true,
+        "bondOrder": 2,
+        "isHiddenCharList": false
+      },
+      "kazimierzShip": {
+        "bondId": "kazimierzShip",
+        "bondType": "SEASON",
+        "powerIdList": [
+          "kazimierz",
+          "pinus"
+        ],
+        "name": "カジミエーシュ",
+        "icon": "icon_kazimierzShip",
+        "isPower": true,
+        "bondOrder": 2,
+        "isHiddenCharList": false
+      },
+      "investShip": {
+        "bondId": "investShip",
+        "bondType": "REGULAR",
+        "powerIdList": [],
+        "name": "投資家",
+        "icon": "icon_investShip",
+        "isPower": false,
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "visiShip": {
         "bondId": "visiShip",
@@ -360501,7 +360760,8 @@
         "name": "先見",
         "icon": "icon_visiShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "maniShip": {
         "bondId": "maniShip",
@@ -360510,7 +360770,8 @@
         "name": "調和",
         "icon": "icon_maniShip",
         "isPower": false,
-        "bondOrder": 1
+        "bondOrder": 1,
+        "isHiddenCharList": false
       },
       "preciShip": {
         "bondId": "preciShip",
@@ -360519,7 +360780,8 @@
         "name": "精密",
         "icon": "icon_preciShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "steadShip": {
         "bondId": "steadShip",
@@ -360528,7 +360790,8 @@
         "name": "堅守",
         "icon": "icon_steadShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "raidShip": {
         "bondId": "raidShip",
@@ -360537,7 +360800,8 @@
         "name": "強襲",
         "icon": "icon_raidShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "miraShip": {
         "bondId": "miraShip",
@@ -360546,7 +360810,8 @@
         "name": "奇跡",
         "icon": "icon_miraShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "indomShip": {
         "bondId": "indomShip",
@@ -360555,7 +360820,8 @@
         "name": "不屈",
         "icon": "icon_indomShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "swiftShip": {
         "bondId": "swiftShip",
@@ -360564,7 +360830,8 @@
         "name": "俊敏",
         "icon": "icon_swiftShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "deputShip": {
         "bondId": "deputShip",
@@ -360573,7 +360840,8 @@
         "name": "助力",
         "icon": "icon_deputShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "skillfulShip": {
         "bondId": "skillfulShip",
@@ -360582,7 +360850,8 @@
         "name": "器用",
         "icon": "icon_skillfulShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "emptyShip": {
         "bondId": "emptyShip",
@@ -360591,7 +360860,38 @@
         "name": "共同防衛陣営",
         "icon": "icon_emptyShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
+      },
+      "soloShip": {
+        "bondId": "soloShip",
+        "bondType": "REGULAR",
+        "powerIdList": [],
+        "name": "孤高",
+        "icon": "icon_soloShip",
+        "isPower": false,
+        "bondOrder": 2,
+        "isHiddenCharList": false
+      },
+      "suntShip": {
+        "bondId": "suntShip",
+        "bondType": "REGULAR",
+        "powerIdList": [],
+        "name": "秘技",
+        "icon": "icon_suntShip",
+        "isPower": false,
+        "bondOrder": 2,
+        "isHiddenCharList": true
+      },
+      "arcaneShip": {
+        "bondId": "arcaneShip",
+        "bondType": "REGULAR",
+        "powerIdList": [],
+        "name": "秘術",
+        "icon": "icon_arcaneShip",
+        "isPower": false,
+        "bondOrder": 2,
+        "isHiddenCharList": false
       }
     },
     "bossInfoDict": {
@@ -360614,6 +360914,11 @@
         "bossId": "boss_4",
         "enemyId": "enemy_1521_dslily",
         "handbookEnemyId": "enemy_1521_dslily"
+      },
+      "boss_5": {
+        "bossId": "boss_5",
+        "enemyId": "enemy_2016_csphtm",
+        "handbookEnemyId": "enemy_2016_csphtm"
       },
       "boss_6": {
         "bossId": "boss_6",
@@ -360948,12 +361253,30 @@
       "token_10057_svash2_eagle3": {
         "tokenId": "token_10057_svash2_eagle3",
         "tokenDisplayType": "HIDDEN"
+      },
+      "token_10065_demetr_dmtpos": {
+        "tokenId": "token_10065_demetr_dmtpos",
+        "tokenDisplayType": "HIDDEN"
       }
     },
     "skillTriggerDataList": [
       {
-        "profession": "PIONEER",
+        "profession": "TANK",
         "subProfessionId": null,
+        "charId": null,
+        "skillIndex": 0,
+        "skillTriggerType": "TAKE_DAMAGE"
+      },
+      {
+        "profession": "NONE",
+        "subProfessionId": "bearer",
+        "charId": null,
+        "skillIndex": 0,
+        "skillTriggerType": "ALWAYS"
+      },
+      {
+        "profession": "NONE",
+        "subProfessionId": "tactician",
         "charId": null,
         "skillIndex": 0,
         "skillTriggerType": "ALWAYS"
@@ -361038,13 +361361,6 @@
       {
         "profession": "NONE",
         "subProfessionId": null,
-        "charId": "char_1044_hsgma2",
-        "skillIndex": 2,
-        "skillTriggerType": "AUTO_STOP"
-      },
-      {
-        "profession": "NONE",
-        "subProfessionId": null,
         "charId": "char_4145_ulpia",
         "skillIndex": 2,
         "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
@@ -361055,11 +361371,82 @@
         "charId": "char_1019_siege2",
         "skillIndex": 2,
         "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": "NONE",
+        "subProfessionId": null,
+        "charId": "char_2026_yu",
+        "skillIndex": 2,
+        "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": "NONE",
+        "subProfessionId": null,
+        "charId": "char_430_fartth",
+        "skillIndex": 2,
+        "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": "NONE",
+        "subProfessionId": null,
+        "charId": "char_4037_demetr",
+        "skillIndex": 2,
+        "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": "NONE",
+        "subProfessionId": null,
+        "charId": "char_4064_mlynar",
+        "skillIndex": 2,
+        "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": "NONE",
+        "subProfessionId": null,
+        "charId": "char_1043_leizi2",
+        "skillIndex": 2,
+        "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": "NONE",
+        "subProfessionId": null,
+        "charId": "char_1046_sbell2",
+        "skillIndex": 2,
+        "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": "NONE",
+        "subProfessionId": null,
+        "charId": "char_4080_lin",
+        "skillIndex": 2,
+        "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": "NONE",
+        "subProfessionId": null,
+        "charId": "char_1051_headb2",
+        "skillIndex": 2,
+        "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": "NONE",
+        "subProfessionId": null,
+        "charId": "char_2025_shu",
+        "skillIndex": 2,
+        "skillTriggerType": "TRY_SEARCH_ALLY_SKILL"
       }
     ],
     "skillRangeDict": {
       "skchr_ulpia_3": "6-1",
-      "skchr_siege2_3": "x-4"
+      "skchr_siege2_3": "x-4",
+      "skchr_yu_3": "3-15",
+      "skchr_fartth_3": "6-1",
+      "skchr_demetr_3": "x-2",
+      "skchr_mlynar_3": "3-18",
+      "skchr_leizi2_3": "2-1",
+      "skchr_sbell2_3": "x-2",
+      "skchr_lin_3": "x-2",
+      "skchr_headb2_3": "2-4"
     },
     "prepareStateDict": {
       "aceffect_char_1": {
@@ -362478,6 +362865,22 @@
         "isFlyEnemy": true,
         "enemyBattleEffectivenessFactor": 0.4
       },
+      "enemy_1401_pogpro": {
+        "enemyKey": "enemy_1401_pogpro",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": true,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_1401_pogpro_2": {
+        "enemyKey": "enemy_1401_pogpro_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": true,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
       "enemy_1402_tgshd": {
         "enemyKey": "enemy_1402_tgshd",
         "level": 0,
@@ -362648,6 +363051,14 @@
       },
       "enemy_2002_bearmi_2": {
         "enemyKey": "enemy_2002_bearmi_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_2021_syfish": {
+        "enemyKey": "enemy_2021_syfish",
         "level": 0,
         "extraEnemyIdentifier": 0,
         "extraEnemyKeyList": null,
@@ -363066,6 +363477,54 @@
         "isFlyEnemy": false,
         "enemyBattleEffectivenessFactor": 1.0
       },
+      "enemy_10118_ymgprc": {
+        "enemyKey": "enemy_10118_ymgprc",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_1512_mcmstr": {
+        "enemyKey": "enemy_1512_mcmstr",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_1539_reid": {
+        "enemyKey": "enemy_1539_reid",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_2048_smgrd": {
+        "enemyKey": "enemy_2048_smgrd",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_2050_smsha": {
+        "enemyKey": "enemy_2050_smsha",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_2052_smgia": {
+        "enemyKey": "enemy_2052_smgia",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
       "enemy_1302_ymtro_2": {
         "enemyKey": "enemy_1302_ymtro_2",
         "level": 0,
@@ -363110,14 +363569,6 @@
       },
       "enemy_1283_sgkill_2": {
         "enemyKey": "enemy_1283_sgkill_2",
-        "level": 0,
-        "extraEnemyIdentifier": 0,
-        "extraEnemyKeyList": null,
-        "isFlyEnemy": false,
-        "enemyBattleEffectivenessFactor": 0.3
-      },
-      "enemy_1172_dugago_2": {
-        "enemyKey": "enemy_1172_dugago_2",
         "level": 0,
         "extraEnemyIdentifier": 0,
         "extraEnemyKeyList": null,
@@ -363239,6 +363690,494 @@
         "extraEnemyKeyList": null,
         "isFlyEnemy": false,
         "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10078_mprein": {
+        "enemyKey": "enemy_10078_mprein",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_10078_mprein_2": {
+        "enemyKey": "enemy_10078_mprein_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_10094_crstf": {
+        "enemyKey": "enemy_10094_crstf",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10094_crstf_2": {
+        "enemyKey": "enemy_10094_crstf_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10099_crvln": {
+        "enemyKey": "enemy_10099_crvln",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_10099_crvln_2": {
+        "enemyKey": "enemy_10099_crvln_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_10122_uacann": {
+        "enemyKey": "enemy_10122_uacann",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_10122_uacann_2": {
+        "enemyKey": "enemy_10122_uacann_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_10124_uashld": {
+        "enemyKey": "enemy_10124_uashld",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_10124_uashld_2": {
+        "enemyKey": "enemy_10124_uashld_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_1328_cbjedi": {
+        "enemyKey": "enemy_1328_cbjedi",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_1328_cbjedi_2": {
+        "enemyKey": "enemy_1328_cbjedi_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_1320_wdrrl": {
+        "enemyKey": "enemy_1320_wdrrl",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_1320_wdrrl_2": {
+        "enemyKey": "enemy_1320_wdrrl_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_1172_dugago": {
+        "enemyKey": "enemy_1172_dugago",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.3
+      },
+      "enemy_1172_dugago_2": {
+        "enemyKey": "enemy_1172_dugago_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.3
+      },
+      "enemy_1406_chghmr": {
+        "enemyKey": "enemy_1406_chghmr",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.4
+      },
+      "enemy_1406_chghmr_2": {
+        "enemyKey": "enemy_1406_chghmr_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.4
+      },
+      "enemy_1407_hummbd": {
+        "enemyKey": "enemy_1407_hummbd",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": true,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1407_hummbd_2": {
+        "enemyKey": "enemy_1407_hummbd_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": true,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1288_duskls": {
+        "enemyKey": "enemy_1288_duskls",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1288_duskls_2": {
+        "enemyKey": "enemy_1288_duskls_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1292_duskld": {
+        "enemyKey": "enemy_1292_duskld",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1292_duskld_2": {
+        "enemyKey": "enemy_1292_duskld_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1389_winbab": {
+        "enemyKey": "enemy_1389_winbab",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_1389_winbab_2": {
+        "enemyKey": "enemy_1389_winbab_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_1381_winman": {
+        "enemyKey": "enemy_1381_winman",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1381_winman_2": {
+        "enemyKey": "enemy_1381_winman_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1387_winshd": {
+        "enemyKey": "enemy_1387_winshd",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1387_winshd_2": {
+        "enemyKey": "enemy_1387_winshd_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1325_cbgpro": {
+        "enemyKey": "enemy_1325_cbgpro",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1325_cbgpro_2": {
+        "enemyKey": "enemy_1325_cbgpro_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_10138_xdsnow": {
+        "enemyKey": "enemy_10138_xdsnow",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10156_mncrer": {
+        "enemyKey": "enemy_10156_mncrer",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10112_ymgds": {
+        "enemyKey": "enemy_10112_ymgds",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10159_mntrjn": {
+        "enemyKey": "enemy_10159_mntrjn",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10162_mnctpt": {
+        "enemyKey": "enemy_10162_mnctpt",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10116_ymgtop": {
+        "enemyKey": "enemy_10116_ymgtop",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10073_mpcar": {
+        "enemyKey": "enemy_10073_mpcar",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10087_hlchgr": {
+        "enemyKey": "enemy_10087_hlchgr",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10070_ftkbtt": {
+        "enemyKey": "enemy_10070_ftkbtt",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10098_crhro": {
+        "enemyKey": "enemy_10098_crhro",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10040_cnvbln": {
+        "enemyKey": "enemy_10040_cnvbln",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": true,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10001_trslim": {
+        "enemyKey": "enemy_10001_trslim",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_1165_duhond_2": {
+        "enemyKey": "enemy_1165_duhond_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10045_parrot": {
+        "enemyKey": "enemy_10045_parrot",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10044_wintun": {
+        "enemyKey": "enemy_10044_wintun",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10018_sgrobh": {
+        "enemyKey": "enemy_10018_sgrobh",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_1183_mlasrt": {
+        "enemyKey": "enemy_1183_mlasrt",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10054_cjhot": {
+        "enemyKey": "enemy_10054_cjhot",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_1021_bslime": {
+        "enemyKey": "enemy_1021_bslime",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_2009_csaudc": {
+        "enemyKey": "enemy_2009_csaudc",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_2010_csdcr": {
+        "enemyKey": "enemy_2010_csdcr",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_2011_csppt": {
+        "enemyKey": "enemy_2011_csppt",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_1072_dlancer": {
+        "enemyKey": "enemy_1072_dlancer",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10144_xdelk_2": {
+        "enemyKey": "enemy_10144_xdelk_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10151_nspace_2": {
+        "enemyKey": "enemy_10151_nspace_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": true,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10141_xdpeng_2": {
+        "enemyKey": "enemy_10141_xdpeng_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10127_rkmbst_2": {
+        "enemyKey": "enemy_10127_rkmbst_2",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10097_crshd": {
+        "enemyKey": "enemy_10097_crshd",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10081_mpplai": {
+        "enemyKey": "enemy_10081_mpplai",
+        "level": 0,
+        "extraEnemyIdentifier": 0,
+        "extraEnemyKeyList": null,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
       }
     },
     "enabledEmoticonThemeIdList": [
@@ -363272,10 +364211,6 @@
       },
       {
         "tip": "一部の特殊な盟約はオペレーターを配置せずとも効果を発揮します",
-        "weight": 50
-      },
-      {
-        "tip": "管理センターがレベル5になると装備品の販売が開始されます",
         "weight": 50
       },
       {
@@ -363435,36 +364370,6 @@
         },
         "9": {
           "round": 9,
-          "normalPhaseTime": 300,
-          "isBossTurn": false,
-          "bossTurnHpReduceTime": 0
-        },
-        "10": {
-          "round": 10,
-          "normalPhaseTime": 300,
-          "isBossTurn": false,
-          "bossTurnHpReduceTime": 0
-        },
-        "11": {
-          "round": 11,
-          "normalPhaseTime": 300,
-          "isBossTurn": false,
-          "bossTurnHpReduceTime": 0
-        },
-        "12": {
-          "round": 12,
-          "normalPhaseTime": 300,
-          "isBossTurn": false,
-          "bossTurnHpReduceTime": 0
-        },
-        "13": {
-          "round": 13,
-          "normalPhaseTime": 300,
-          "isBossTurn": false,
-          "bossTurnHpReduceTime": 0
-        },
-        "14": {
-          "round": 14,
           "normalPhaseTime": 300,
           "isBossTurn": true,
           "bossTurnHpReduceTime": 150
@@ -363654,34 +364559,126 @@
           "bossTurnHpReduceTime": 150
         }
       },
-      "mode_multi_funny": {
+      "mode_single_abyss": {
         "1": {
           "round": 1,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 300,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "2": {
           "round": 2,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 300,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "3": {
           "round": 3,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 300,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "4": {
           "round": 4,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 300,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "5": {
           "round": 5,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "6": {
+          "round": 6,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "7": {
+          "round": 7,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "8": {
+          "round": 8,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "9": {
+          "round": 9,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "10": {
+          "round": 10,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "11": {
+          "round": 11,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "12": {
+          "round": 12,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "13": {
+          "round": 13,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "14": {
+          "round": 14,
+          "normalPhaseTime": 300,
+          "isBossTurn": true,
+          "bossTurnHpReduceTime": 150
+        },
+        "15": {
+          "round": 15,
+          "normalPhaseTime": 300,
+          "isBossTurn": true,
+          "bossTurnHpReduceTime": 150
+        }
+      },
+      "mode_multi_funny": {
+        "1": {
+          "round": 1,
+          "normalPhaseTime": 65,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "2": {
+          "round": 2,
+          "normalPhaseTime": 65,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "3": {
+          "round": 3,
+          "normalPhaseTime": 65,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "4": {
+          "round": 4,
+          "normalPhaseTime": 95,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "5": {
+          "round": 5,
+          "normalPhaseTime": 95,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
@@ -363693,49 +364690,49 @@
         },
         "7": {
           "round": 7,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 105,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "8": {
           "round": 8,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 105,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "9": {
           "round": 9,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "10": {
           "round": 10,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "11": {
           "round": 11,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "12": {
           "round": 12,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "13": {
           "round": 13,
-          "normalPhaseTime": 140,
+          "normalPhaseTime": 150,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "14": {
           "round": 14,
-          "normalPhaseTime": 210,
+          "normalPhaseTime": 195,
           "isBossTurn": true,
           "bossTurnHpReduceTime": 150
         }
@@ -363743,31 +364740,31 @@
       "mode_multi_normal": {
         "1": {
           "round": 1,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 65,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "2": {
           "round": 2,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 65,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "3": {
           "round": 3,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 65,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "4": {
           "round": 4,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 95,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "5": {
           "round": 5,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 95,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
@@ -363779,55 +364776,55 @@
         },
         "7": {
           "round": 7,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 105,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "8": {
           "round": 8,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 105,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "9": {
           "round": 9,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "10": {
           "round": 10,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "11": {
           "round": 11,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "12": {
           "round": 12,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "13": {
           "round": 13,
-          "normalPhaseTime": 140,
+          "normalPhaseTime": 150,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "14": {
           "round": 14,
-          "normalPhaseTime": 190,
+          "normalPhaseTime": 195,
           "isBossTurn": true,
           "bossTurnHpReduceTime": 150
         },
         "15": {
           "round": 15,
-          "normalPhaseTime": 210,
+          "normalPhaseTime": 195,
           "isBossTurn": true,
           "bossTurnHpReduceTime": 150
         }
@@ -363835,31 +364832,31 @@
       "mode_multi_hard": {
         "1": {
           "round": 1,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 65,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "2": {
           "round": 2,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 65,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "3": {
           "round": 3,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 65,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "4": {
           "round": 4,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 95,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "5": {
           "round": 5,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 95,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
@@ -363871,55 +364868,147 @@
         },
         "7": {
           "round": 7,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 105,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "8": {
           "round": 8,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 105,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "9": {
           "round": 9,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "10": {
           "round": 10,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "11": {
           "round": 11,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "12": {
           "round": 12,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "13": {
           "round": 13,
-          "normalPhaseTime": 140,
+          "normalPhaseTime": 150,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "14": {
           "round": 14,
-          "normalPhaseTime": 190,
+          "normalPhaseTime": 195,
           "isBossTurn": true,
           "bossTurnHpReduceTime": 150
         },
         "15": {
           "round": 15,
-          "normalPhaseTime": 210,
+          "normalPhaseTime": 215,
+          "isBossTurn": true,
+          "bossTurnHpReduceTime": 150
+        }
+      },
+      "mode_multi_abyss": {
+        "1": {
+          "round": 1,
+          "normalPhaseTime": 65,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "2": {
+          "round": 2,
+          "normalPhaseTime": 65,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "3": {
+          "round": 3,
+          "normalPhaseTime": 65,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "4": {
+          "round": 4,
+          "normalPhaseTime": 95,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "5": {
+          "round": 5,
+          "normalPhaseTime": 95,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "6": {
+          "round": 6,
+          "normalPhaseTime": 100,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "7": {
+          "round": 7,
+          "normalPhaseTime": 105,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "8": {
+          "round": 8,
+          "normalPhaseTime": 105,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "9": {
+          "round": 9,
+          "normalPhaseTime": 125,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "10": {
+          "round": 10,
+          "normalPhaseTime": 125,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "11": {
+          "round": 11,
+          "normalPhaseTime": 125,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "12": {
+          "round": 12,
+          "normalPhaseTime": 125,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "13": {
+          "round": 13,
+          "normalPhaseTime": 150,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "14": {
+          "round": 14,
+          "normalPhaseTime": 195,
+          "isBossTurn": true,
+          "bossTurnHpReduceTime": 150
+        },
+        "15": {
+          "round": 15,
+          "normalPhaseTime": 215,
           "isBossTurn": true,
           "bossTurnHpReduceTime": 150
         }
@@ -364192,6 +365281,7 @@
       "enemyAtkFactor": 5.0,
       "enemyDefFactor": 3.0,
       "enemyMagicResistanceFactor": 3.0,
+      "singleReconnectTime": 86400,
       "specialPhaseStayTime": 1,
       "hintTimeSpecialPhase": 10,
       "hintTimeNormalPhase": 10,
@@ -364210,7 +365300,8 @@
       ],
       "bossTrailerStartRound": 3,
       "singleClosureStayTime": 15.0,
-      "matchTimeMax": 120.0
+      "matchTimeMax": 120.0,
+      "enemyDataLevelId": "Activities/ACT1AUTOCHESS/level_autochess_enemy_data"
     }
   },
   "stringRes": {
